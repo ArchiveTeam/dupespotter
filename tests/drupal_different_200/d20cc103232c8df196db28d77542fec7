@@ -1,0 +1,1739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<head profile="http://www.w3.org/1999/xhtml/vocab"><!--start head section-->
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.museodelvideojuego.com/files/favicon_mdv.gif" type="image/gif" />
+<meta name="generator" content="KaTaLa" />
+<link rel="canonical" href="http://www.museodelvideojuego.com/listado-de-juegos/modules/sites/all/modules/sites/all" />
+<link rel="shortlink" href="http://www.museodelvideojuego.com/listado-de-juegos/modules/sites/all/modules/sites/all" />
+	  <title>Listado de juegos | Museo Del Videojuego</title>
+	  <style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/reset/reset.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/modules/system/system.base.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/system/system.menus.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/system/system.messages.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/system/system.theme.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/modules/aggregator/aggregator.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/calendar/css/calendar_multiday.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/comment/comment.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/date/date_api/date.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/date/date_repeat_field/date_repeat_field.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/field/theme/field.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/search/search.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/user/user.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/views/css/views.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/libraries/colorbox/example1/colorbox.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/ctools/css/ctools.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/panels/css/panels.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/addtoany/addtoany.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/ctools/css/d9c99d3ac96e525a8378d162685ecaff.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/panels/plugins/layouts/flexible/flexible.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/grid/grid_1000.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/common.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/links.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/typography.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/forms.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/drupal.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/layout.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/primary-links.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/slideshow.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/secondary-links.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/blocks.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/node.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/comments.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/mystyle.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/pages/maintenance-page.css?nan4c3");</style>
+<style type="text/css" media="print">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/print/print.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_1.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_3.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_4.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_6.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_7.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_8.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_9.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_10.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_11.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_12.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_13.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_14.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/css3/css3.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/css3/css3_graphics.css?nan4c3");</style>
+	  <script type="text/javascript" src="http://www.museodelvideojuego.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/drupal.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/modules/admin_menu/admin_devel/admin_devel.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/libraries/colorbox/jquery.colorbox-min.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/modules/colorbox/js/colorbox.js?nan4c3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var a2a_config=a2a_config||{},da2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);da2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){da2a.script_ready=true;if(da2a.html_done)da2a.init();}},init:function(){for(var i=0,el,target,targets=da2a.targets,length=targets.length;i<length;i++){el=document.getElementById('da2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}da2a.done=true;}da2a.targets=[];}};a2a_config.tracking_callback=['ready',da2a.script_onready];
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/themes/marinelli/js/modernizer/modernizr.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/themes/marinelli/js/marinelli_marinelli.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/themes/marinelli/js/topregion/marinelli_topregion.js?nan4c3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"marinelli","theme_token":"3K2kXfQygjQ7CZGti1Fr239ZEp7FQYAgg_ne9ap09gk","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"1":1,"sites\/all\/themes\/marinelli\/js\/modernizer\/modernizr.js":1,"sites\/all\/themes\/marinelli\/js\/marinelli_marinelli.js":1,"sites\/all\/themes\/marinelli\/js\/topregion\/marinelli_topregion.js":1},"css":{"sites\/all\/themes\/marinelli\/css\/reset\/reset.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"public:\/\/ctools\/css\/d9c99d3ac96e525a8378d162685ecaff.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/all\/themes\/marinelli\/css\/grid\/grid_1000.css":1,"sites\/all\/themes\/marinelli\/css\/common.css":1,"sites\/all\/themes\/marinelli\/css\/links.css":1,"sites\/all\/themes\/marinelli\/css\/typography.css":1,"sites\/all\/themes\/marinelli\/css\/forms.css":1,"sites\/all\/themes\/marinelli\/css\/drupal.css":1,"sites\/all\/themes\/marinelli\/css\/layout.css":1,"sites\/all\/themes\/marinelli\/css\/primary-links.css":1,"sites\/all\/themes\/marinelli\/css\/slideshow.css":1,"sites\/all\/themes\/marinelli\/css\/secondary-links.css":1,"sites\/all\/themes\/marinelli\/css\/blocks.css":1,"sites\/all\/themes\/marinelli\/css\/node.css":1,"sites\/all\/themes\/marinelli\/css\/comments.css":1,"sites\/all\/themes\/marinelli\/css\/mystyle.css":1,"sites\/all\/themes\/marinelli\/css\/pages\/maintenance-page.css":1,"sites\/all\/themes\/marinelli\/css\/print\/print.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_4.css":1,"public:\/\/css_injector\/css_injector_6.css":1,"public:\/\/css_injector\/css_injector_7.css":1,"public:\/\/css_injector\/css_injector_8.css":1,"public:\/\/css_injector\/css_injector_9.css":1,"public:\/\/css_injector\/css_injector_10.css":1,"public:\/\/css_injector\/css_injector_11.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_13.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3_graphics.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"marinelli":{"bartext":"Slide Down","bartext2":"Slide Up"}});
+//--><!]]>
+</script>
+      
+      <Meta Name="Keywords" Content="consolas retro, consolas, museo, clasicas, lista neogeo aes, sega dreamcast, lista playstation, lista super nintendo, lista megadrive, turbografx, moodchip, retro informatica, fichas tecnicas, atari2600, neogeo pocket, juegos virtual boy, sega genesis game list, neogeo, videopac, atari 5200, manuales consolas, manuales juegos, caratulas juegos, combos king fighters, galerias imagenes juegos, retro wallpapers, retro publicidad">
+   
+      <meta name="msvalidate.01" content="89FD65B5FD64B1EDC7A98403538F9021" />
+		<title>Your SEO optimized title</title>
+        	</head>
+	<!--[if lt IE 7 ]> <body class="marinelli ie6 html not-front not-logged-in one-sidebar sidebar-first page-listado-de-juegos page-listado-de-juegos-modules page-listado-de-juegos-modules-sites page-listado-de-juegos-modules-sites-all page-listado-de-juegos-modules-sites-all-modules page-listado-de-juegos-modules-sites-all-modules-sites page-listado-de-juegos-modules-sites-all-modules-sites-all"> <![endif]-->
+    <!--[if IE 7 ]>    <body class="marinelli ie7 html not-front not-logged-in one-sidebar sidebar-first page-listado-de-juegos page-listado-de-juegos-modules page-listado-de-juegos-modules-sites page-listado-de-juegos-modules-sites-all page-listado-de-juegos-modules-sites-all-modules page-listado-de-juegos-modules-sites-all-modules-sites page-listado-de-juegos-modules-sites-all-modules-sites-all"> <![endif]-->
+    <!--[if IE 8 ]>    <body class="marinelli ie8 html not-front not-logged-in one-sidebar sidebar-first page-listado-de-juegos page-listado-de-juegos-modules page-listado-de-juegos-modules-sites page-listado-de-juegos-modules-sites-all page-listado-de-juegos-modules-sites-all-modules page-listado-de-juegos-modules-sites-all-modules-sites page-listado-de-juegos-modules-sites-all-modules-sites-all"> <![endif]-->
+    <!--[if IE 9 ]>    <body class="marinelli ie9 html not-front not-logged-in one-sidebar sidebar-first page-listado-de-juegos page-listado-de-juegos-modules page-listado-de-juegos-modules-sites page-listado-de-juegos-modules-sites-all page-listado-de-juegos-modules-sites-all-modules page-listado-de-juegos-modules-sites-all-modules-sites page-listado-de-juegos-modules-sites-all-modules-sites-all"> <![endif]-->
+    <!--[if gt IE 9]>  <body class="marinelli html not-front not-logged-in one-sidebar sidebar-first page-listado-de-juegos page-listado-de-juegos-modules page-listado-de-juegos-modules-sites page-listado-de-juegos-modules-sites-all page-listado-de-juegos-modules-sites-all-modules page-listado-de-juegos-modules-sites-all-modules-sites page-listado-de-juegos-modules-sites-all-modules-sites-all"> <![endif]-->
+    <!--[if !IE]><!--> <body class="marinelli html not-front not-logged-in one-sidebar sidebar-first page-listado-de-juegos page-listado-de-juegos-modules page-listado-de-juegos-modules-sites page-listado-de-juegos-modules-sites-all page-listado-de-juegos-modules-sites-all-modules page-listado-de-juegos-modules-sites-all-modules-sites page-listado-de-juegos-modules-sites-all-modules-sites-all"> <!--<![endif]-->
+	  <div id="skip-link">
+	    <a href="#content" title="Saltar al contenido principal de esta pagina" class="element-invisible">Saltar al contenido</a>
+	  </div>
+	  	  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4093524-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--start framework container-->
+<div class="container_12 width_1" id="totalContainer">
+      <!--start top section-->
+    <div id="top" class="outsidecontent">
+
+              
+      <!--start branding-->
+      <div id="branding">
+
+                  <div id="logo-container">
+            <a href="/" title="Back to homepage"><img id="logo" typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/logo_mdv.gif" alt="" /></a>          </div>
+        
+                  <!--start title and slogan-->
+          <div id="title-slogan">
+            
+                      </div>
+          <!--end title and slogan-->
+        
+      </div>
+      <!--end branding-->
+
+      
+    </div>
+    <!--end top section-->
+  
+      <!--start main menu-->
+    <div id="navigation-primary" class="sitemenu">
+      <ul id="primary" class="links clearfix main-menu"><li class="menu-218 first"><a href="/">Home</a></li>
+<li class="menu-848"><a href="/articulos" title="">Artículos</a></li>
+<li class="menu-922"><a href="/blog">Blog</a></li>
+<li class="menu-551"><a href="http://www.museodelvideojuego.com/listado-de-consolas" title="">Consolas</a></li>
+<li class="menu-578"><a href="/material">Descargas</a></li>
+<li class="menu-456"><a href="/directorio-galerias" title="">Galerías</a></li>
+<li class="menu-434"><a href="http://www.museodelvideojuego.com/listado-de-juegos" title="">Juegos</a></li>
+<li class="menu-777"><a href="/museo-de-consolas">Museo</a></li>
+<li class="menu-761"><a href="/galeria-cajas-consolas">Museo de cajas</a></li>
+<li class="menu-850 last"><a href="/retropublicidad">Retropublicidad</a></li>
+</ul>    </div>
+    <!--end main menu-->
+  
+  <!--border start-->
+  <div id="pageBorder" class="noborder">
+    		
+		
+    <!-- start contentWrapper-->
+    <div id="contentWrapper">
+      <!--start breadcrumb -->
+              <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> &raquo; Listado de juegos</div></div>
+            <!-- end breadcrumb -->
+		
+			
+      <!--start innercontent-->
+			<div id="innerContent">
+
+        <!--start main content-->
+				<div class="grid_8" id="siteContent">
+						   				
+	   					           	
+		      
+                      <h1 id="page-title">Listado de juegos</h1>
+          
+                    
+                      <div class="tab-container">
+                          </div>
+          
+          
+          
+          <!--start drupal content-->
+          <div id="content">
+            <!-- start region -->
+<div class="region region region-content">
+  <div id="block-system-main" class="block block-system">
+        <div class="content">
+    <div class="view view-listado-de-juegos view-id-listado_de_juegos view-display-id-page view-dom-id-67115ded47faa02cac6e7a42c8288fe2">
+            <div class="view-header">
+      Mostrando 1 - 40 de 4116 juegos    </div>
+  
+      <div class="view-filters">
+      <form action="/listado-de-juegos/modules/sites/all/modules/sites/all" method="get" id="views-exposed-form-listado-de-juegos-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-plataforma-tid-wrapper" class="views-exposed-widget views-widget-filter-field_plataforma_tid">
+                  <label for="edit-field-plataforma-tid">
+            Plataforma          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-plataforma-tid">
+ <select id="edit-field-plataforma-tid" name="field_plataforma_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="60">32X</option><option value="107">3Do</option><option value="59">Adventurevision</option><option value="61">Amstrad GX4000</option><option value="32">Atari 2600</option><option value="62">Atari 5200</option><option value="63">Atari 7800</option><option value="64">Atari Jaguar</option><option value="65">Atari Lynx</option><option value="66">Colecovision</option><option value="8">Creativision</option><option value="67">Dreamcast</option><option value="68">Emerson Arcadia 2001</option><option value="69">Fairchild Channel F</option><option value="952">Game Boy</option><option value="70">Game Gear</option><option value="71">Game.Com</option><option value="72">Gamecube</option><option value="73">Gizmondo</option><option value="74">Intellivision</option><option value="75">Intellivision II</option><option value="76">Interton VC4000</option><option value="77">Jaguar CD</option><option value="78">Magnavox Odyssey 2</option><option value="79">Master System</option><option value="21">Mega Drive - Genesis</option><option value="80">Mega-CD</option><option value="81">N-Gage</option><option value="82">Neo Geo Pocket - Pocket Color</option><option value="83">Neo-Geo AES</option><option value="84">Neo-Geo CD</option><option value="31">Nes</option><option value="86">Nintendo DS</option><option value="85">Nintendo_64</option><option value="87">Oric Atmos</option><option value="88">Otras...</option><option value="89">PC</option><option value="90">PC-FX</option><option value="91">Philips CDi</option><option value="92">Playdia</option><option value="93">Playstation</option><option value="94">Playstation 2</option><option value="95">Playstation 3</option><option value="953">Radofin</option><option value="96">RCA Studio II</option><option value="50">Saturn</option><option value="97">Sega Pico</option><option value="98">Super Nintendo</option><option value="99">TurboGrafx</option><option value="100">Vectrex</option><option value="101">Videopac</option><option value="102">Virtual Boy</option><option value="103">Wii</option><option value="104">Xbox</option><option value="105">Xbox 360</option><option value="106">ZX Spectrum</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-soporte-tid-wrapper" class="views-exposed-widget views-widget-filter-field_soporte_tid">
+                  <label for="edit-field-soporte-tid">
+            Soporte          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-soporte-tid">
+ <select id="edit-field-soporte-tid" name="field_soporte_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="114">Blue-Ray</option><option value="9">Cartucho</option><option value="115">Casette</option><option value="116">CD</option><option value="117">Diskette</option><option value="118">DVD</option><option value="119">Floppy Disk</option><option value="120">GD-Rom</option><option value="121">Hu-Card</option><option value="122">SIMM</option><option value="123">UMD</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-genero-tid-wrapper" class="views-exposed-widget views-widget-filter-field_genero_tid">
+                  <label for="edit-field-genero-tid">
+            Genero          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-genero-tid">
+ <select id="edit-field-genero-tid" name="field_genero_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="14">Acción</option><option value="170">Ajedrez</option><option value="171">Ajedrez</option><option value="257">Arcade</option><option value="1411">Artes Marciales</option><option value="253">Aventura</option><option value="1152">Aventura Gráfica</option><option value="1134">Aventuras</option><option value="559">Baile</option><option value="150">Baloncesto</option><option value="298">Baseball</option><option value="311">Beat ´em up</option><option value="222">Beisbol</option><option value="520">Billar</option><option value="1109">Bolos</option><option value="165">Bowling</option><option value="168">Boxeo</option><option value="701">Card Battle</option><option value="167">Casino</option><option value="258">Coin-Op</option><option value="200">Comic digital</option><option value="12">Conducción</option><option value="16">Creador musical</option><option value="1336">Cricket</option><option value="449">Demo</option><option value="11">Deporte</option><option value="1445">Deportes</option><option value="176">Educativo</option><option value="1575">Ejercicio</option><option value="153">Estratégia</option><option value="239">Fantástico</option><option value="1576">Fitness</option><option value="336">FMV Interactive</option><option value="141">FPS</option><option value="17">Fútbol</option><option value="151">Fútbol Americano</option><option value="417">Game Show</option><option value="143">Golf</option><option value="173">Habilidad Mental</option><option value="172">Hípica</option><option value="692">Hockey Hielo</option><option value="1467">Hockey sobre hielo</option><option value="1150">Icom Simulations</option><option value="166">Juego de Mesa</option><option value="307">Juego de Pistóla</option><option value="1141">Juego Interactivo</option><option value="1429">Juegos de verano</option><option value="573">Juegos Olímpicos</option><option value="332">Juegos Olímpicos de Invierno</option><option value="1262">Karate</option><option value="409">Laberinto</option><option value="139">Lucha</option><option value="397">Mini Juegos</option><option value="710">Musical</option><option value="1243">Niños</option><option value="325">Olimpiadas</option><option value="301">Pesca</option><option value="7">Pinball</option><option value="145">Plataformas</option><option value="174">Puzzle</option><option value="175">Puzzle</option><option value="405">Quiz</option><option value="341">Recopilación</option><option value="392">RPG</option><option value="662">Shoot ´em up</option><option value="3">Shooter</option><option value="1200">Shooter Interactivo</option><option value="1485">ShooterKonami</option><option value="256">Simulador</option><option value="1249">Simulador: Vuelo</option><option value="326">Skate</option><option value="178">Sky</option><option value="161">Snowboard</option><option value="291">Squash</option><option value="1489">Submarino</option><option value="477">Surf</option><option value="321">Survival Horror</option><option value="280">Tenis</option><option value="266">Tennis</option><option value="1460">Terror</option><option value="447">Texto</option><option value="236">Track &amp; Field</option><option value="713">Tren</option><option value="1199">Trivia</option><option value="13">Varios</option><option value="693">Voleibol</option><option value="267">Vuelo</option><option value="159">Wrestling</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-region-tid-wrapper" class="views-exposed-widget views-widget-filter-field_region_tid">
+                  <label for="edit-field-region-tid">
+            Region          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-region-tid">
+ <select id="edit-field-region-tid" name="field_region_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="6">Australia</option><option value="111">Brasil</option><option value="112">España</option><option value="113">Francia</option><option value="108">Japon</option><option value="22">Pal</option><option value="110">Reino Unido</option><option value="109">Usa</option></select>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-listado-de-juegos" name="" value="Buscar" class="form-submit" />    </div>
+          <div class="views-exposed-widget views-reset-button">
+        <input type="submit" id="edit-reset" name="op" value="Reset" class="form-submit" />      </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/10-Yard-Fight.jpg?itok=f1onhEba" width="190" height="258" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_nes/pal/10-yard-fight">10-Yard Fight</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/nes" title="Plataforma: Nes"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconones.png?itok=sJZPx5sU" width="32" height="32" alt="Plataforma: Nes" title="Plataforma: Nes" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-2">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/102-dalmatians.jpg?itok=fNL8KwXX" width="190" height="190" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/usa/102-dalmatians-puppies-rescue">102 Dalmatians Puppies to the Rescue</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-3">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/102-Dalmatians.jpg?itok=fJ6EGcMx" width="190" height="175" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/pal/102-dalmatians-disneys-puppies-rescue">102 Dalmatians, Disneys: Puppies to the Rescue</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-4">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/default_images/thumb-sin-screenshot_3.jpg?itok=qvmRP56C" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_nintendo64/pal/1080-teneighty-snowboarding">1080: TenEighty Snowboarding</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/nintendo64" title="Nintendo_64"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_n64.png?itok=kjWk4D9r" width="32" height="32" alt="Nintendo_64" title="Nintendo_64" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-5">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/jap/1080-Snowboarding.jpg?itok=aQ2qlwup" width="190" height="260" alt="" /></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_nintendo64/jap/1080-teneighty-snowboarding">1080: TenEighty Snowboarding</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/nintendo64" title="Nintendo_64"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_n64.png?itok=kjWk4D9r" width="32" height="32" alt="Nintendo_64" title="Nintendo_64" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/japon" title="Regiön: Japon"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/Japan.png?itok=3heGx45G" width="32" height="32" alt="Regiön: Japon" title="Regiön: Japon" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-6">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/1080-teneighty-snowboarding-usa.jpg?itok=V53LAac1" width="190" height="133" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_nintendo-64/usa/1080-teneighty-snowboarding">1080: TenEighty Snowboarding</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/nintendo64" title="Nintendo_64"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_n64.png?itok=kjWk4D9r" width="32" height="32" alt="Nintendo_64" title="Nintendo_64" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-7">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/18-wheeler-final.jpg?itok=pnAVUGOP" width="190" height="190" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/usa/18-wheeler-american-pro-trucker">18 Wheeler American Pro Trucker</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-8">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/18wheeler.jpg?itok=u-UTo6eB" width="190" height="167" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/pal/18-wheeler-american-pro-trucker">18 Wheeler: American Pro Trucker</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-9">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/2010-graphic-action-game.jpg?itok=L9KrtRdc" width="190" height="269" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_/usa/2010-graphic-action-game">2010: The Graphic Action Game</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/colecovision" title="Plataforma: Colecovision"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconocolecovision.png?itok=0O7qu829" width="32" height="32" alt="Plataforma: Colecovision" title="Plataforma: Colecovision" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-10">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/2020baseballcftj.jpg?itok=luz5yVNR" width="190" height="244" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_neo-geo-aes/usa/2020-super-baseball">2020 Super Baseball</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/neo-geo-aes" title="Plataforma: Neo-Geo AES"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_neogeo_AES.png?itok=pzKm3emn" width="32" height="32" alt="Plataforma: Neo-Geo AES" title="Plataforma: Neo-Geo AES" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-11">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/jap/2020-Super-Baseball.jpg?itok=c-DqVwKW" width="190" height="244" alt="" /></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_neo-geo-aes/japon/2020-super-baseball">2020 Super Baseball</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/neo-geo-aes" title="Plataforma: Neo-Geo AES"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_neogeo_AES.png?itok=pzKm3emn" width="32" height="32" alt="Plataforma: Neo-Geo AES" title="Plataforma: Neo-Geo AES" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/japon" title="Regiön: Japon"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/Japan.png?itok=3heGx45G" width="32" height="32" alt="Regiön: Japon" title="Regiön: Japon" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-12">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/2020superbaseball.jpg?itok=x1O8xErK" width="190" height="122" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/usa/2020-super-baseball">2020 Super Baseball</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-13">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/default_images/thumb-sin-screenshot_3_2.jpg?itok=Ph0YWTv-" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_/usa/3-count-bout">3 Count Bout</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/neo-geo-cd" title="Neo-Geo CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icononeogeocd.png?itok=45L-UXmf" width="32" height="32" alt="Neo-Geo CD" title="Neo-Geo CD" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-14">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/3countboutftjus.jpg?itok=-EkPXF6e" width="190" height="244" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_neo-geo-aes/usa/3-count-bout">3 Count Bout</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/neo-geo-aes" title="Plataforma: Neo-Geo AES"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_neogeo_AES.png?itok=pzKm3emn" width="32" height="32" alt="Plataforma: Neo-Geo AES" title="Plataforma: Neo-Geo AES" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-15">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/3-ninjas-hook-cftj.jpg?itok=lo01tgWn" width="190" height="267" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_mega-cd/usa/3-ninjas-hook">3 Ninjas / Hook</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/mega-cd" title="Plataforma: Mega-CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_megacd.png?itok=t39bfWEW" width="32" height="32" alt="Plataforma: Mega-CD" title="Plataforma: Mega-CD" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-16">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/3ninjasback.jpg?itok=GacHTcFP" width="190" height="125" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/usa/3-ninjas-kick-back">3 Ninjas Kick Back</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-17">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/default_images/thumb-sin-screenshot_3_2.jpg?itok=Ph0YWTv-" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_vectrex/usa/3-d-minestorm">3-D Minestorm</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/vectrex">Vectrex</a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-18">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/3-d-bowling.jpg?itok=iNltKm_S" width="190" height="255" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_emerson-arcadia-2001/usa/3d-bowling">3D Bowling</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/emerson-arcadia-2001" title="Plataforma: Emerson Arcadia 2001"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconoarcadia2001.png?itok=NhPQuHst" width="32" height="32" alt="Plataforma: Emerson Arcadia 2001" title="Plataforma: Emerson Arcadia 2001" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-19">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/3d-tetris.jpg?itok=2JusfrWb" width="190" height="188" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_virtual-boy/usa/3d-tetris">3D Tetris</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/virtual-boy" title="Virtual Boy"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconovirtualboy.png?itok=Sr-5Nshf" width="32" height="32" alt="Virtual Boy" title="Virtual Boy" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-20">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/3rd-degree.jpg?itok=PxsZN7Hz" width="190" height="193" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_philips-cdi/usa/3rd-degree">3rd Degree</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/philips-cdi" title="Philips CDi"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_cdi450.png?itok=Ft8rD14r" width="32" height="32" alt="Philips CDi" title="Philips CDi" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-21">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/Videopac-040-CPL.jpg?itok=ZgZvNmAa" width="190" height="261" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_videopac/pal/4-1-row">4 in 1 Row</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/videopac" title="Videopac"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconovideopac.png?itok=kxulxXuX" width="32" height="32" alt="Videopac" title="Videopac" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-22">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/default_images/thumb-sin-screenshot_3.jpg?itok=qvmRP56C" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/pal/4-wheel-thunder">4 Wheel Thunder</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-23">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/4-wheel-thunder.jpg?itok=l_2SybZv" width="190" height="190" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/usa/4-wheel-thunder">4 Wheel Thunder</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-24">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/4x4-evolution.jpg?itok=5PyyPmBN" width="190" height="190" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/usa/4x4-evolution">4x4 Evolution</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-25">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/default_images/thumb-sin-screenshot_3_2.jpg?itok=Ph0YWTv-" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/usa/7th-saga">7th Saga, The</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-26">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/90-Minutes-European-Prime-Goal.jpg?itok=DekVoKmW" width="190" height="138" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/pal/90-minutes-european-prime-goal">90 Minutes: European Prime Goal </a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-27">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/90minutes.jpg?itok=faweMTp5" width="190" height="167" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_dreamcast/pal/90-minutes-sega-professional-football">90 Minutes: Sega Professional Football</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/dreamcast" title="Plataforma: Dreamcast"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconodreamcast.png?itok=qaabkHZ4" width="32" height="32" alt="Plataforma: Dreamcast" title="Plataforma: Dreamcast" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/gd-rom" title="Soporte: GD-Rom"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_gd_rom.gif?itok=rsTnd1j0" width="32" height="32" alt="Soporte: GD-Rom" title="Soporte: GD-Rom" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-28">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/A-Boy-and-His-Blob-Trouble-on-Blobolonia.jpg?itok=IOqOX5UT" width="190" height="271" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_nes/pal/boy-and-his-blob-trouble-blobolonia">A Boy and His Blob: Trouble on Blobolonia</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/nes" title="Plataforma: Nes"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconones.png?itok=sJZPx5sU" width="32" height="32" alt="Plataforma: Nes" title="Plataforma: Nes" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-29">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/great-day-races.jpg?itok=RGmcsoXX" width="190" height="187" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_philips-cdi/usa/great-day-races">A Great Day at the Races</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/philips-cdi" title="Philips CDi"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_cdi450.png?itok=Ft8rD14r" width="32" height="32" alt="Philips CDi" title="Philips CDi" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-30">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/Videopac-032-CPL.jpg?itok=t2SOnvJN" width="190" height="261" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_videopac/pal/labyrinth-game-supermind">A Labyrinth Game / Supermind </a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/videopac" title="Videopac"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconovideopac.png?itok=kxulxXuX" width="32" height="32" alt="Videopac" title="Videopac" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-31">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/default_images/thumb-sin-screenshot_3_0.jpg?itok=9IVqNUve" alt="" /></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_mega-cd/japon/rank-thunder-tanjou-hen">A Rank Thunder: Tanjou-hen</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/mega-cd" title="Plataforma: Mega-CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_megacd.png?itok=t39bfWEW" width="32" height="32" alt="Plataforma: Mega-CD" title="Plataforma: Mega-CD" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/japon" title="Regiön: Japon"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/Japan.png?itok=3heGx45G" width="32" height="32" alt="Regiön: Japon" title="Regiön: Japon" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-32">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/visit-sesame-street-letters.jpg?itok=F3y9HNTe" width="190" height="172" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_philips-cdi/usa/visit-sesame-street-letters">A Visit to Sesame Street: Letters</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/philips-cdi" title="Philips CDi"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_cdi450.png?itok=Ft8rD14r" width="32" height="32" alt="Philips CDi" title="Philips CDi" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-33">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/visit-sesame-street-numbers.jpg?itok=m3lWO4iW" width="190" height="170" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_philips-cdi/usa/visit-sesame-street-numbers">A Visit to Sesame Street: Numbers</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/philips-cdi" title="Philips CDi"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_cdi450.png?itok=Ft8rD14r" width="32" height="32" alt="Philips CDi" title="Philips CDi" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cd" title="Soporte: CD"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cd.gif?itok=gkNKuhG6" width="32" height="32" alt="Soporte: CD" title="Soporte: CD" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-34">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/a.p.b.jpg?itok=fXHKirUo" width="190" height="228" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_atari-lynx/usa/apb">A.P.B.</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/atari-lynx" title="Plataforma: Atari Lynx"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_atari_lynx.png?itok=g8DpDZXA" width="32" height="32" alt="Plataforma: Atari Lynx" title="Plataforma: Atari Lynx" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-35">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/airstrikepatrol.jpg?itok=6EOPIfPF" width="190" height="129" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/usa/asp-air-strike-patrol">A.S.P.: Air Strike Patrol </a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-36">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-pal">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/pal/AAAHH%21%21%21-Real-Monsters.jpg?itok=iIKfFz4d" width="190" height="134" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/pal/aaahh-real-monsters">AAAHH!!! Real Monsters</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/pal" title="Regiön: Pal"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/European_Union.png?itok=uDUoKmnC" width="32" height="32" alt="Regiön: Pal" title="Regiön: Pal" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-37">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/aaaahrealmonsters.jpg?itok=TX3dUAZ9" width="190" height="133" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/usa/aaahh-real-monsters">AAAHH!!! Real Monsters</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-38">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/abcmondaynightfootball.jpg?itok=Nwl9Pv8V" width="190" height="130" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_super-nintendo/usa/abc-monday-night-football">ABC Monday Night Football</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/super-nintendo" title="Plataforma: Super Nintendo"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/icono_snes.png?itok=_HnRGGzw" width="32" height="32" alt="Plataforma: Super Nintendo" title="Plataforma: Super Nintendo" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-39">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/abpa-backgammon.jpg?itok=qzHMmMsi" width="190" height="267" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_intellivision/usa/abpa-backgammon">ABPA Backgammon</a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/intellivision" title="Plataforma: Intellivision"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconointellivision0.png?itok=egVXIC8p" width="32" height="32" alt="Plataforma: Intellivision" title="Plataforma: Intellivision" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+          <tr class="row-40 row-last">
+                  <td class="col-1 col-first">
+            <div class="panel-flexible cuadro_borde_1px clearfix" >
+<div class="panel-flexible-inside cuadro_borde_1px-inside">
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-nombre_campo panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-nombre_campo-inside panels-flexible-region-inside-first">
+  
+  <div class="views-field views-field-field-thumb-usa">        <div class="field-content"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/thumbs_a_180x/public/thumbs/usa/ace-aces.jpg?itok=bEv25fNk" width="190" height="267" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-thumb-espana">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-thumb-jap">        <div class="field-content"></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-center ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-center-inside">
+  
+  <div class="views-field views-field-title">        <span class="field-content titulo_1a4"><a href="/juegos_atari-7800/usa/ace-aces">Ace of Aces </a></span>  </div>  
+  <div class="views-field views-field-field-plataforma">        <div class="field-content"><a href="/plataformas/atari-7800" title="Plataforma: Atari 7800"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/plataformas/iconoatari-7800.png?itok=xGnTFiah" width="32" height="32" alt="Plataforma: Atari 7800" title="Plataforma: Atari 7800" /></a></div>  </div>  
+  <div class="views-field views-field-field-soporte">        <div class="field-content"><a href="/soportes/cartucho" title="Soporte: Cartucho"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/soportes/icono_cartucho.gif?itok=S1Cabmex" width="32" height="32" alt="Soporte: Cartucho" title="Soporte: Cartucho" /></a></div>  </div>  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-cuadro_borde_1px-region_y_plaataforma panels-flexible-region-last fondo_info_ficha">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-cuadro_borde_1px-region_y_plaataforma-inside panels-flexible-region-inside-last">
+  
+  <div class="views-field views-field-field-region">        <div class="field-content"><a href="/regiones-de-juegos/usa" title="Regiön: Usa"><img typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/styles/iconos_32x32/public/iconos/regiones/United_States.png?itok=Vy2ITQ3g" width="32" height="32" alt="Regiön: Usa" title="Regiön: Usa" /></a></div>  </div>  
+  <div class="views-field views-field-ops">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+</div>
+</div>
+</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=4">5</a></li>
+<li class="pager-item"><a title="Go to page 6" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=5">6</a></li>
+<li class="pager-item"><a title="Go to page 7" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=6">7</a></li>
+<li class="pager-item"><a title="Go to page 8" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=7">8</a></li>
+<li class="pager-item"><a title="Go to page 9" href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=8">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=1">siguiente ›</a></li>
+<li class="pager-last last"><a href="/listado-de-juegos/modules/sites/all/modules/sites/all?field_plataforma_tid=All&amp;field_soporte_tid=All&amp;field_genero_tid=All&amp;field_region_tid=All&amp;page=102">ultima »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+</div> <!-- /block --></div>
+<!-- end region -->          </div>
+          <!--end drupal content-->
+
+          
+          
+        </div>
+        <!--end main content-->
+	 			
+          		    		
+		              <!--start first sidebar-->
+          <div class="grid_4 sidebar" id="sidebar-first">
+						<!-- start region -->
+<div class="region region region-sidebar-first">
+  <div id="block-addtoany-addtoany_button" class="block block-addtoany">
+        <div class="block-title">
+      <h2 class="title">AddToAny</h2>
+    </div>
+      <div class="content">
+    
+		<span class="a2a_kit a2a_target addtoany_list" id="da2a_1">
+			<a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.museodelvideojuego.com%2F&amp;title=Museo%20Del%20Videojuego"><img src="/sites/all/modules/addtoany/images/share_save_171_16.png" width="171" height="16" alt="Share this"/></a>
+		</span>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+da2a.script_load();
+//--><!]]>
+</script>
+		  </div>
+</div> <!-- /block --><div id="block-block-2" class="block block-block">
+        <div class="content">
+    <div align="center"><a href="https://www.facebook.com/Museodelvideojuego"><br /><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_facebook.png" alt="Museo Del Videojuego en Facebook" title="Museo Del Videojuego en Facebook" width="30" height="30" /></a> <a href="http://instagram.com/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_instagram.png" title="Museo Del Videojuego en Instagram" width="30" height="30" style="line-height: 1.538em;" /></a><span style="line-height: 1.538em;"> <a href="http://www.pinterest.com/museovideojuego/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_pinterest.png" alt="Museo Del Videojuego en Pinterest" title="Museo Del Videojuego en Pinterest" width="30" height="30" /></a> </span><a style="line-height: 1.538em; text-decoration: underline;" href="http://museodelvideojuego.tumblr.com/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_tumblr.png" title="Museo Del Videojuego en Tumblr" width="30" height="30" /></a> <a style="line-height: 1.538em;" href="https://twitter.com/KaTaLa"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_twitter.png" alt="Museo Del Videojuego en Twitter" title="Museo Del Videojuego en Twitter" width="30" height="30" /></a><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="http://www.youtube.com/user/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_youtube.png" alt="Museo Del Videojuego en Youtube" title="Museo Del Videojuego en Youtube" width="30" height="30" style="line-height: 1.538em;" /></a><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="http://feeds.feedburner.com/mdv"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_rss.png" alt="Suscríbete" title="Suscríbete" width="30" height="30" style="line-height: 1.538em;" /></a><span style="line-height: 1.538em;"><br /></span></div>
+  </div>
+</div> <!-- /block --><div id="block-search-form" class="block block-search">
+        <div class="content">
+    <form action="/listado-de-juegos/modules/sites/all/modules/sites/all" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-ddmhsyCMnpZsHKCQN-l6R1j9EwMT3lHKDI4xXcyFcBA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+
+</div></form>  </div>
+</div> <!-- /block --><div id="block-block-5" class="block block-block">
+        <div class="content">
+    <p><iframe style="border: none; overflow: hidden; width: 300px; height: 21px;" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMuseo-Del-Videojuego%2F115960935089873%3Fref%3Dhl&amp;send=false&amp;layout=button_count&amp;width=300&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" frameborder="0" scrolling="no" width="320" height="240"></iframe></p>
+  </div>
+</div> <!-- /block --><div id="block-views-novedades-block" class="block block-views">
+        <div class="block-title">
+      <h2 class="title">Destacados</h2>
+    </div>
+      <div class="content">
+    <div class="view view-novedades view-id-novedades view-display-id-block view-dom-id-a0f2fb7bb545c4fb7028fda26de725de">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-0" >
+       <tbody>
+          <tr class="odd views-row-first">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/los-videojuegos-llegaron-formar-parte-de-nuestra-vida">Los videojuegos llegaron a formar parte de nuestra vida</a>          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch">Aquellas maravillosas maquinillas… las Game &amp; Watch</a>          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/golgo-13-top-secret-episode">Golgo 13: Top Secret Episode</a>          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/la-definitiva-historia-de-atari-2%C2%AAparte">La definitiva historia de Atari (2ªParte)</a>          </td>
+              </tr>
+          <tr class="odd views-row-last">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/analisis-laser-scope-de-konami-para-nes">Analisis: Laser Scope de Konami para Nes</a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div> <!-- /block --><div id="block-user-login" class="block block-user">
+        <div class="block-title">
+      <h2 class="title">User login</h2>
+    </div>
+      <div class="content">
+    <form action="/listado-de-juegos/modules/sites/all/modules/sites/all?destination=listado-de-juegos/modules/sites/all/modules/sites/all" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-UIemA5a1c9-R-ET3dMZkexJlHjBoGf5kszOHjY4I9Fk" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div> <!-- /block --><div id="block-block-4" class="block block-block">
+        <div class="content">
+    <p> </p>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+// <![CDATA[
+google_ad_client = "ca-pub-3737854080490097";
+/* 300x250, MDV 2.0 */
+google_ad_slot = "9283042262";
+google_ad_width = 300;
+google_ad_height = 250;
+// ]]]]><![CDATA[>
+//--><!]]>
+</script><script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+<!--//--><![CDATA[// ><!--
+// <![CDATA[
+
+// ]]]]><![CDATA[>
+//--><!]]>
+</script>  </div>
+</div> <!-- /block --></div>
+<!-- end region -->	
+          </div>
+          <!--end first sidebar-->
+        		    
+        						
+						
+				
+      
+      </div>
+      <!--end innerContent-->
+
+
+          </div>
+    <!--end contentWrapper-->
+
+	</div>
+  <!--close page border Wrapper-->
+
+      <!--start footer-->
+    <div id="footer" class="outsidecontent">
+      <!-- start region -->
+<div class="region region region-footer">
+  <div id="block-block-1" class="block block-block">
+        <div class="content">
+    <table class="compact" style="border-style: solid; border-width: 0px; height: 282px; width: 1022px;" dir="ltr" border="0" cellspacing="0" cellpadding="0" align="left"><tbody><tr><td>
+<p><img src="http://www.museodelvideojuego.com/imgs/diseno/logo.png" alt="" style="height: 48px; width: 97px;" /></p>
+<p> </p>
+<p> Enlaces</p>
+<hr /><p> </p>
+</td>
+<td> </td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Museo Del Videojuego</p>
+<hr /><p> </p>
+</td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Síguenos en:</p>
+<hr /><p> </p>
+</td>
+</tr><tr><td>
+<ul><li><a style="line-height: 1.538em;" href="http://beegamer.es/" target="_blank">Beegamer</a></li>
+<li><a href="http://www.briconsola.com/" target="_blank">Briconsola</a></li>
+<li><a href="http://www.dreamcast.es/" target="_blank">Dreamcast.es</a></li>
+<li><a href="http://awetap414.blogspot.com/" target="_blank">El Rincón de Adol</a></li>
+<li><a href="http://www.elpixeblogdepedja.com/" target="_blank">Pixeblog de Pedja</a></li>
+<li><a href="http://jumafas.blogvideojuegos.com/" target="_blank">Er blog der Jumafas</a></li>
+<li><a href="http://www.insertcoinclasicos.com/" target="_blank">Insert Coin</a></li>
+<li><a href="http://www.ionlitio.com/">Ionlitio</a></li>
+<li><a href="http://maquinitas.jimdo.com/" target="_blank">Maquinitas</a></li>
+</ul></td>
+<td>
+<ul><li><a style="font-size: 10px; line-height: 1.538em;" href="http://www.konamito.es/">MSXBlog de Konamito</a></li>
+<li><a href="http://www.paisdelosjuegos.com.mx/" rel="nofollow" target="_blank">Paisdelosjuegos.com.mx</a></li>
+<li><a href="http://programbytes48k.wordpress.com/" target="_blank">Program Bytes: 48K</a></li>
+<li><a href="http://www.retroinvaders.com" target="_blank">Retroinvaders</a></li>
+<li><a href="http://www.tentaculopurpura.com/" target="_blank">Tentáculo Púrpura</a></li>
+<li><a href="http://www.zonadepruebas.com/" target="_blank">Zona de pruebas</a></li>
+<li><a href="http://www.museodelvideojuego.com/content/enlaces">Más enlaces...</a></li>
+</ul></td>
+<td>
+<ul><li><a href="http://www.museodelvideojuego.com/anunciate">Anunciaté</a></li>
+<li><a href="http://www.museodelvideojuego.com/colabora">Colabora</a></li>
+<li><a href="http://www.museodelvideojuego.com/contacto">Contacto</a></li>
+</ul><p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</td>
+<td>
+<p><a style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 20px; text-align: -webkit-center;" href="https://www.facebook.com/Museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_facebook.png" alt="Museo Del Videojuego en Facebook" title="Museo Del Videojuego en Facebook" style="height: 30px; width: 30px;" /></a><span style="font-family: lucida grande,lucida sans unicode,sans-serif; font-size: 13px;"> </span><a style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 20px; text-align: -webkit-center;" href="http://instagram.com/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_instagram.png" alt="" title="Museo Del Videojuego en Instagram" style="height: 30px; line-height: 1.538em; width: 30px;" /></a> <a href="http://www.pinterest.com/museovideojuego/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_pinterest.png" alt="Museo Del Videojuego en Pinterest" title="Museo Del Videojuego en Pinterest" style="height: 30px; width: 30px;" /></a> <a style="line-height: 1.538em; text-decoration: underline;" href="http://museodelvideojuego.tumblr.com/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_tumblr.png" alt="" title="Museo Del Videojuego en Tumblr" style="height: 30px; width: 30px;" /></a> <a style="line-height: 1.538em;" href="https://twitter.com/KaTaLa"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_twitter.png" alt="Museo Del Videojuego en Twitter" title="Museo Del Videojuego en Twitter" style="height: 30px; width: 30px;" /></a> <a style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 20px; text-align: -webkit-center;" href="http://www.youtube.com/user/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_youtube.png" alt="Museo Del Videojuego en Youtube" title="Museo Del Videojuego en Youtube" style="height: 30px; line-height: 1.538em; width: 30px;" /></a><span style="font-family: lucida grande,lucida sans unicode,sans-serif; font-size: 13px;"> </span><a style="line-height: 1.538em;" href="http://feeds.feedburner.com/mdv"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_rss.png" alt="Suscríbete" title="Suscríbete" style="height: 30px; line-height: 1.538em; width: 30px;" /></a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p> </p>
+<p class="rtecenter" style="text-align: center;">Todas las marcas, sistemas, logos, etc... son propiedad de su respectivos y legítimos dueños. <br /> Tema diseñado por Jose Miguel Martí para <strong>MDV</strong>. Contenidos por <span style="color: #ffcc00;"><a class="links" href="mailto:katalajm@gmail.com"><span style="color: #ffcc00;">KaTaLa </span></a></span>y  <span style="color: #ffcc00;"><a href="mailto:pmarti1982@gmail.com"><span style="color: #ffcc00;">Marti</span></a></span><br /> 2002-2014.</p>
+<div id="eXTReMe"> </div>
+  </div>
+</div> <!-- /block --></div>
+<!-- end region -->
+          </div>
+    <!--end footer-->
+  
+</div>
+<!--end framework container-->
+	  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+da2a.targets=[
+{title:'Museo Del Videojuego',url:'http://www.museodelvideojuego.com/'}];
+da2a.html_done=true;if(da2a.script_ready&&!da2a.done)da2a.init();da2a.script_load();
+//--><!]]>
+</script>
+        
+
+<div id="eXTReMe">
+  <div align="center"><a href="http://extremetracking.com/open?login=katala01">
+    
+    <img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+
+height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+    
+    <script type="text/javascript"><!--
+
+var EXlogin='katala01' // Login
+
+var EXvsrv='s11' // VServer
+
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+
+EXd.write("<img src=http://e2.extreme-dm.com",
+
+"/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+
+      </script>
+      <noscript>
+        <div id="neXTReMe"><img height="1" width="1" alt=""
+
+src="http://e2.extreme-dm.com/s11.g?login=katala01&amp;j=n&amp;jv=n" />
+          
+        </div>
+    </noscript>
+  </div>
+    </div>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-WskwLhPT_nSmq"
+});
+</script>
+<center>
+<a href=http://www.ademails.com/estadisticas1060024064.htm>
+<script type="text/javascript" language="JavaScript">
+<!--
+document.write("<img src=\"http://www.ademails.com/cgi-bin/contador.cgi?ID=1060024064");
+document.write("&referer=");
+document.write(escape(document.referrer));
+document.write("\" border=0 alt=\"Estadisticas\">");
+// -->
+</script>
+</center>
+<noscript><img src=http://www.ademails.com/cgi-bin/contador.cgi?ID=1060024064 border=0 alt="Estadisticas"></noscript></a>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-WskwLhPT_nSmq.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+	</body><!--end body-->
+</html>

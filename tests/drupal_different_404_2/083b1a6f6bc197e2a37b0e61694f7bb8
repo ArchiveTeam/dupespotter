@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://pdb.homelinux.net/sites/all/themes/bamboo/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="alternate" type="application/rss+xml" title="Recent comments" href="http://pdb.homelinux.net/comments?destination=hello" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Page not found | Some clever name should go here</title>
+  <style type="text/css" media="all">@import url("http://pdb.homelinux.net/modules/system/system.base.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/system/system.menus.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/system/system.messages.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/system/system.theme.css?na82n1");</style>
+<style type="text/css" media="all">@import url("http://pdb.homelinux.net/modules/comment/comment.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/modules/date/date_api/date.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/field/theme/field.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/node/node.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/search/search.css?na82n1");
+@import url("http://pdb.homelinux.net/modules/user/user.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/modules/views/css/views.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/modules/ckeditor/css/ckeditor.css?na82n1");</style>
+<style type="text/css" media="all">@import url("http://pdb.homelinux.net/sites/all/modules/ctools/css/ctools.css?na82n1");</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">@import url("http://pdb.homelinux.net/sites/all/themes/bamboo/css/menu.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/themes/bamboo/css/normalize.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/themes/bamboo/css/style.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/themes/bamboo/css/design.css?na82n1");
+@import url("http://pdb.homelinux.net/sites/all/themes/bamboo/css/responsive.css?na82n1");</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://pdb.homelinux.net/sites/all/themes/bamboo/css/ie8-fixes.css?na82n1" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://pdb.homelinux.net/sites/all/themes/bamboo/css/ie9-fixes.css?na82n1" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://pdb.homelinux.net/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://pdb.homelinux.net/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://pdb.homelinux.net/misc/drupal.js?na82n1"></script>
+<script type="text/javascript" src="http://pdb.homelinux.net/sites/all/modules/google_analytics/googleanalytics.js?na82n1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-3842912-1", "auto");ga("set", "anonymizeIp", true);ga("set", "page", "/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://pdb.homelinux.net/sites/all/themes/bamboo/js/scripts.js?na82n1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"Y9YB3V0ZneV0gMHfvNzxWeED8PhrdLqD7PplKvt7ddU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/bamboo\/js\/scripts.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"sites\/all\/themes\/bamboo\/css\/menu.css":1,"sites\/all\/themes\/bamboo\/css\/normalize.css":1,"sites\/all\/themes\/bamboo\/css\/style.css":1,"sites\/all\/themes\/bamboo\/css\/design.css":1,"sites\/all\/themes\/bamboo\/css\/responsive.css":1,"sites\/all\/themes\/bamboo\/css\/ie8-fixes.css":1,"sites\/all\/themes\/bamboo\/css\/ie9-fixes.css":1}},"googleanalytics":{"trackOutbound":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-hello bg-dark-linen color-palette-green-bamboo header-font-sans-serif body-font-sans-serif sidebar-right imagecaption section-hello not-node theme-logo">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+              <a href="/" title="Some clever name should go here           &nbsp;» Home Page">
+        <img id="logo-img" src="/sites/all/themes/bamboo/images/green_bamboo-logo.png" alt="Some clever name should go here         » Home Page"/></a>
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+       Some clever name should go here        </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      
+      <!-- for third party menu system modules like superfish-->
+          </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="eleven columns">
+            <section id="post-content" role="main">
+
+      
+                  <h1 class="page-title">Page not found</h1>
+                  
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      The requested page "/hello" could not be found.    </div>
+</div>
+</div>
+  </div>
+    </section>
+    <!-- /#main -->
+  </div>
+
+        <aside id="sidebar-first" role="complementary" class="sidebar five columns">
+      <div class="region region-sidebar-first">
+    <div id="block-block-3" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <script type="text/javascript" src="http://www.biblegateway.com/usage/votd/votd2html.php?version=31&amp;jscript=1">
+</script>
+<!-- alternative for no javascript -->
+<noscript>
+<p><a href="http://www.biblegateway.com/usage/votd/votd2html.php?version=31&amp;jscript=0">View Verse of the Day</a></p>
+</noscript>    </div>
+</div>
+</div>
+<div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <a href="http://www.compassion.com/sponsor_a_child/default.htm" rel="external"><img src="/files/compassion-sponsor-a-child_148x57.jpg" alt="Sponsor a child in Jesus' name" /></a>    </div>
+</div>
+</div>
+<div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/hello" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-hVC0PHatmc6bBAQrZFs3C3hYvN58eBjfHSaQF5MN43o" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+<section id="block-views-comments-recent-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Recent comments</h2>
+        <div class="block-content" >
+      <div class="view view-comments-recent view-id-comments_recent view-display-id-block view-dom-id-65384fd39c55e9fb38f02c4c38a21d8f">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field views-field-name">        <span class="field-content"><a href="http://jimazing.com" rel="nofollow" class="username">jimazing</a></span>  </span>      on  
+  <span class="views-field views-field-subject">        <span class="field-content"><a href="/comment/980#comment-980">Tree Advice? (Updated)</a></span>  </span>  
+  <div class="views-field views-field-comment">        <span class="field-content">Not sure what kind of tree it is.  I learned the...</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field views-field-name">        <span class="field-content"><span class="username">Luís Seca</span></span>  </span>      on  
+  <span class="views-field views-field-subject">        <span class="field-content"><a href="/comment/907#comment-907">Everything is Different.  Everything is Wonderful.</a></span>  </span>  
+  <div class="views-field views-field-comment">        <span class="field-content">Estive a ver o teu blog e não posso deixar de te...</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field views-field-name">        <span class="field-content"><span class="username">Kt lee</span></span>  </span>      on  
+  <span class="views-field views-field-subject">        <span class="field-content"><a href="/comment/899#comment-899">Avoid SPAM by not sharing your email address</a></span>  </span>  
+  <div class="views-field views-field-comment">        <span class="field-content">CONGRATS DADDY PAUL!!  We love you guys!
+</span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field views-field-name">        <span class="field-content"><span class="username">Andrew Murray</span></span>  </span>      on  
+  <span class="views-field views-field-subject">        <span class="field-content"><a href="/comment/888#comment-888">Paul Brown, Professional Engineer</a></span>  </span>  
+  <div class="views-field views-field-comment">        <span class="field-content">Congrats Paul!!! Good stuff.
+</span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <span class="views-field views-field-name">        <span class="field-content"><span class="username">Crystal</span></span>  </span>      on  
+  <span class="views-field views-field-subject">        <span class="field-content"><a href="/comment/887#comment-887">Paul Brown, Professional Engineer</a></span>  </span>  
+  <div class="views-field views-field-comment">        <span class="field-content">Congratulations on becoming a Professional...</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+      <div class="feed-icon">
+      <a href="http://pdb.homelinux.net/comments?destination=hello" class="feed-icon" title="Subscribe to Recent comments"><img src="http://pdb.homelinux.net/misc/feed.png" width="16" height="16" alt="Subscribe to Recent comments" /></a>    </div>
+  
+</div>    </div>
+</div>
+</section>
+<section id="block-views-archive-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Archive</h2>
+        <div class="block-content" >
+      <div class="view view-archive view-id-archive view-display-id-block view-dom-id-a7dad58e4e0dbb64d86898333b394475">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+  <ul class="views-summary">
+      <li><a href="/archive/201409">September 2014</a>
+              (1)
+          </li>
+      <li><a href="/archive/201408">August 2014</a>
+              (3)
+          </li>
+      <li><a href="/archive/201404">April 2014</a>
+              (1)
+          </li>
+      <li><a href="/archive/201112">December 2011</a>
+              (2)
+          </li>
+      <li><a href="/archive/201105">May 2011</a>
+              (4)
+          </li>
+      <li><a href="/archive/201007">July 2010</a>
+              (3)
+          </li>
+      <li><a href="/archive/201005">May 2010</a>
+              (4)
+          </li>
+      <li><a href="/archive/201002">February 2010</a>
+              (3)
+          </li>
+      <li><a href="/archive/201001">January 2010</a>
+              (2)
+          </li>
+      <li><a href="/archive/200912">December 2009</a>
+              (3)
+          </li>
+    </ul>
+</div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/archive">
+    more  </a>
+</div>
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+  </div>
+    </aside><!-- /#sidebar-first -->
+
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="eight columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-10" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <p>Built with Drupal 7. Copyright 2011 Paul Brown</p>
+    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  <div class="eight columns footer-area">
+        <div class="region region-footer-second">
+    <div id="block-system-powered-by" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <span>Powered by <a href="http://drupal.org">Drupal</a></span>    </div>
+</div>
+</div>
+  </div>
+      </div>
+            
+
+</footer>
+</body>
+</html>

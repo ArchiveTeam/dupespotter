@@ -3,6 +3,7 @@
 import sys
 import os
 import re
+import json
 import difflib
 
 from hashlib import md5
@@ -31,11 +32,15 @@ def get_body(url):
 				body = o.read()
 				with open(fname, "wb") as f:
 					f.write(body)
+				with open(fname + ".info.json", "w") as f:
+					f.write(json.dumps({"url": url}))
 				return body
 		except HTTPError as e:
 			body = e.fp.read()
 			with open(fname, "wb") as f:
 				f.write(body)
+			with open(fname + ".info.json", "w") as f:
+				f.write(json.dumps({"url": url}))
 			return body
 
 
@@ -77,6 +82,27 @@ def process_body(body, url):
 	return body
 
 
+def compare_bodies(body1, body2, url1, url2):
+	# TODO: handle non-utf-8 bodies
+	for line in difflib.unified_diff(
+		body1.decode("utf-8").splitlines(keepends=True),
+		body2.decode("utf-8").splitlines(keepends=True),
+		fromfile=url1,
+		tofile=url2):
+
+		sys.stdout.write(line)
+
+
+def compare_unprocessed_bodies(up_body1, up_body2, url1, url2):
+	body1 = process_body(up_body1, url1)
+	body2 = process_body(up_body2, url2)
+	print("{} == md5({!r})".format(md5_url(url1), url1))
+	print("{} == md5({!r})".format(md5_url(url2), url2))
+	print("After processing,")
+	print("len(body({!r})) == {}".format(url1, len(body1)))
+	print("len(body({!r})) == {}".format(url2, len(body2)))
+
+
 def main():
 	try:
 		os.makedirs(cache_dir)
@@ -90,21 +116,7 @@ def main():
 		print(get_body(sys.argv[1]))
 	elif len(sys.argv) == 3:
 		url1, url2 = sys.argv[1], sys.argv[2]
-		body1 = process_body(get_body(url1), url1)
-		body2 = process_body(get_body(url2), url2)
-		print("{} == md5({!r})".format(md5_url(url1), url1))
-		print("{} == md5({!r})".format(md5_url(url2), url2))
-		print("After processing,")
-		print("len(body({!r})) == {}".format(url1, len(body1)))
-		print("len(body({!r})) == {}".format(url2, len(body2)))
-		# TODO: handle non-utf-8 bodies
-		for line in difflib.unified_diff(
-			body1.decode("utf-8").splitlines(keepends=True),
-			body2.decode("utf-8").splitlines(keepends=True),
-			fromfile=url1,
-			tofile=url2):
-
-			sys.stdout.write(line)
+		compare_unprocessed_bodies(get_body(url1), get_body(url2), url1, url2)
 	else:
 		assert 0, sys.argv
 
