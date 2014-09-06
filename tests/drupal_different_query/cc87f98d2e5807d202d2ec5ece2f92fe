@@ -1,0 +1,839 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<head profile="http://www.w3.org/1999/xhtml/vocab"><!--start head section-->
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.museodelvideojuego.com/files/favicon_mdv.gif" type="image/gif" />
+<meta name="description" content="Uno de los artículos más buscados, ansiados, coleccionados y que llenan las páginas de Ebay en lo que se refiere a videojuegos y derivados, es sin duda, las Game &amp; Watch." />
+<meta name="generator" content="KaTaLa" />
+<link rel="canonical" href="http://www.museodelvideojuego.com/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch" />
+<link rel="shortlink" href="http://www.museodelvideojuego.com/node/2909" />
+	  <title>Aquellas maravillosas maquinillas… las Game & Watch | Museo Del Videojuego</title>
+	  <style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/reset/reset.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/modules/system/system.base.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/system/system.menus.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/system/system.messages.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/system/system.theme.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/modules/aggregator/aggregator.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/calendar/css/calendar_multiday.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/comment/comment.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/date/date_api/date.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/date/date_repeat_field/date_repeat_field.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/field/theme/field.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/search/search.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/user/user.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/views/css/views.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/libraries/colorbox/example1/colorbox.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/ctools/css/ctools.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/panels/css/panels.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/panels/plugins/layouts/flexible/flexible.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/modules/filter/filter.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/fivestar/css/fivestar.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/ctools/css/93be8c095eca2fd1bc35d4ce5a0fc5b1.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/ctools/css/9c6047c696c8f19e455721cca2945758.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/modules/addtoany/addtoany.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/grid/grid_1000.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/common.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/links.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/typography.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/forms.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/drupal.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/layout.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/primary-links.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/slideshow.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/secondary-links.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/blocks.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/node.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/comments.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/mystyle.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/pages/maintenance-page.css?nan4c3");</style>
+<style type="text/css" media="print">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/print/print.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_1.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_3.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_4.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_6.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_7.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_8.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_9.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_10.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_11.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_12.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_13.css?nan4c3");
+@import url("http://www.museodelvideojuego.com/files/css_injector/css_injector_14.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/css3/css3.css?nan4c3");</style>
+<style type="text/css" media="all">@import url("http://www.museodelvideojuego.com/sites/all/themes/marinelli/css/css3/css3_graphics.css?nan4c3");</style>
+	  <script type="text/javascript" src="http://www.museodelvideojuego.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/drupal.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/jquery.form.js?v=2.52"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/form.js?v=7.31"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/ajax.js?v=7.31"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/modules/admin_menu/admin_devel/admin_devel.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/libraries/colorbox/jquery.colorbox-min.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/modules/colorbox/js/colorbox.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/textarea.js?v=7.31"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/modules/filter/filter.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/misc/progress.js?v=7.31"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/modules/fivestar/js/fivestar.ajax.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/modules/fivestar/js/fivestar.js?nan4c3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var a2a_config=a2a_config||{},da2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);da2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){da2a.script_ready=true;if(da2a.html_done)da2a.init();}},init:function(){for(var i=0,el,target,targets=da2a.targets,length=targets.length;i<length;i++){el=document.getElementById('da2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}da2a.done=true;}da2a.targets=[];}};a2a_config.tracking_callback=['ready',da2a.script_onready];
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/themes/marinelli/js/modernizer/modernizr.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/themes/marinelli/js/marinelli_marinelli.js?nan4c3"></script>
+<script type="text/javascript" src="http://www.museodelvideojuego.com/sites/all/themes/marinelli/js/topregion/marinelli_topregion.js?nan4c3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"marinelli","theme_token":"4E223fh5Ok5FqFZnDMscQKuTnskT4MfTkyKpWZkwC5E","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"misc\/textarea.js":1,"modules\/filter\/filter.js":1,"misc\/progress.js":1,"sites\/all\/modules\/fivestar\/js\/fivestar.ajax.js":1,"sites\/all\/modules\/fivestar\/js\/fivestar.js":1,"1":1,"sites\/all\/themes\/marinelli\/js\/modernizer\/modernizr.js":1,"sites\/all\/themes\/marinelli\/js\/marinelli_marinelli.js":1,"sites\/all\/themes\/marinelli\/js\/topregion\/marinelli_topregion.js":1},"css":{"sites\/all\/themes\/marinelli\/css\/reset\/reset.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"modules\/filter\/filter.css":1,"sites\/all\/modules\/fivestar\/css\/fivestar.css":1,"public:\/\/ctools\/css\/93be8c095eca2fd1bc35d4ce5a0fc5b1.css":1,"public:\/\/ctools\/css\/9c6047c696c8f19e455721cca2945758.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"sites\/all\/themes\/marinelli\/css\/grid\/grid_1000.css":1,"sites\/all\/themes\/marinelli\/css\/common.css":1,"sites\/all\/themes\/marinelli\/css\/links.css":1,"sites\/all\/themes\/marinelli\/css\/typography.css":1,"sites\/all\/themes\/marinelli\/css\/forms.css":1,"sites\/all\/themes\/marinelli\/css\/drupal.css":1,"sites\/all\/themes\/marinelli\/css\/layout.css":1,"sites\/all\/themes\/marinelli\/css\/primary-links.css":1,"sites\/all\/themes\/marinelli\/css\/slideshow.css":1,"sites\/all\/themes\/marinelli\/css\/secondary-links.css":1,"sites\/all\/themes\/marinelli\/css\/blocks.css":1,"sites\/all\/themes\/marinelli\/css\/node.css":1,"sites\/all\/themes\/marinelli\/css\/comments.css":1,"sites\/all\/themes\/marinelli\/css\/mystyle.css":1,"sites\/all\/themes\/marinelli\/css\/pages\/maintenance-page.css":1,"sites\/all\/themes\/marinelli\/css\/print\/print.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_4.css":1,"public:\/\/css_injector\/css_injector_6.css":1,"public:\/\/css_injector\/css_injector_7.css":1,"public:\/\/css_injector\/css_injector_8.css":1,"public:\/\/css_injector\/css_injector_9.css":1,"public:\/\/css_injector\/css_injector_10.css":1,"public:\/\/css_injector\/css_injector_11.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_13.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3_graphics.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"wysiwyg":{"triggers":{"edit-comment-body-und-0-format--2":{"field":"edit-comment-body-und-0-value","formatplain_text":{"editor":"none","status":1,"toggle":1,"resizable":1}}}},"ajax":{"edit-vote--2":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}}},"marinelli":{"bartext":"Slide Down","bartext2":"Slide Up"}});
+//--><!]]>
+</script>
+      
+      <Meta Name="Keywords" Content="consolas retro, consolas, museo, clasicas, lista neogeo aes, sega dreamcast, lista playstation, lista super nintendo, lista megadrive, turbografx, moodchip, retro informatica, fichas tecnicas, atari2600, neogeo pocket, juegos virtual boy, sega genesis game list, neogeo, videopac, atari 5200, manuales consolas, manuales juegos, caratulas juegos, combos king fighters, galerias imagenes juegos, retro wallpapers, retro publicidad">
+   
+      <meta name="msvalidate.01" content="89FD65B5FD64B1EDC7A98403538F9021" />
+		<title>Your SEO optimized title</title>
+        	</head>
+	<!--[if lt IE 7 ]> <body class="marinelli ie6 html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2909 node-type-article"> <![endif]-->
+    <!--[if IE 7 ]>    <body class="marinelli ie7 html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2909 node-type-article"> <![endif]-->
+    <!--[if IE 8 ]>    <body class="marinelli ie8 html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2909 node-type-article"> <![endif]-->
+    <!--[if IE 9 ]>    <body class="marinelli ie9 html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2909 node-type-article"> <![endif]-->
+    <!--[if gt IE 9]>  <body class="marinelli html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2909 node-type-article"> <![endif]-->
+    <!--[if !IE]><!--> <body class="marinelli html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2909 node-type-article"> <!--<![endif]-->
+	  <div id="skip-link">
+	    <a href="#content" title="Saltar al contenido principal de esta pagina" class="element-invisible">Saltar al contenido</a>
+	  </div>
+	  	  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4093524-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--start framework container-->
+<div class="container_12 width_1" id="totalContainer">
+      <!--start top section-->
+    <div id="top" class="outsidecontent">
+
+              
+      <!--start branding-->
+      <div id="branding">
+
+                  <div id="logo-container">
+            <a href="/" title="Back to homepage"><img id="logo" typeof="foaf:Image" src="http://www.museodelvideojuego.com/files/logo_mdv.gif" alt="" /></a>          </div>
+        
+                  <!--start title and slogan-->
+          <div id="title-slogan">
+            
+                      </div>
+          <!--end title and slogan-->
+        
+      </div>
+      <!--end branding-->
+
+      
+    </div>
+    <!--end top section-->
+  
+      <!--start main menu-->
+    <div id="navigation-primary" class="sitemenu">
+      <ul id="primary" class="links clearfix main-menu"><li class="menu-218 first"><a href="/">Home</a></li>
+<li class="menu-848"><a href="/articulos" title="">Artículos</a></li>
+<li class="menu-922"><a href="/blog">Blog</a></li>
+<li class="menu-551"><a href="http://www.museodelvideojuego.com/listado-de-consolas" title="">Consolas</a></li>
+<li class="menu-578"><a href="/material">Descargas</a></li>
+<li class="menu-456"><a href="/directorio-galerias" title="">Galerías</a></li>
+<li class="menu-434"><a href="http://www.museodelvideojuego.com/listado-de-juegos" title="">Juegos</a></li>
+<li class="menu-777"><a href="/museo-de-consolas">Museo</a></li>
+<li class="menu-761"><a href="/galeria-cajas-consolas">Museo de cajas</a></li>
+<li class="menu-850 last"><a href="/retropublicidad">Retropublicidad</a></li>
+</ul>    </div>
+    <!--end main menu-->
+  
+  <!--border start-->
+  <div id="pageBorder" class="noborder">
+    		
+		
+    <!-- start contentWrapper-->
+    <div id="contentWrapper">
+      <!--start breadcrumb -->
+              <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> &raquo; </div></div>
+            <!-- end breadcrumb -->
+		
+			
+      <!--start innercontent-->
+			<div id="innerContent">
+
+        <!--start main content-->
+				<div class="grid_8" id="siteContent">
+						   				
+	   					           	
+		      
+          
+                    
+                      <div class="tab-container">
+                          </div>
+          
+          
+          
+          <!--start drupal content-->
+          <div id="content">
+            <!-- start region -->
+<div class="region region region-content">
+  <div id="block-system-main" class="block block-system">
+        <div class="content">
+    <div class="panel-flexible panels-flexible-panel_entrada_blog clearfix" >
+<div class="panel-flexible-inside panels-flexible-panel_entrada_blog-inside">
+<div class="panels-flexible-row panels-flexible-row-panel_entrada_blog-4 panels-flexible-row-first clearfix titulo retroanalisis">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-panel_entrada_blog-4-inside panels-flexible-row-inside-first clearfix">
+<div class="panels-flexible-region panels-flexible-region-panel_entrada_blog-titulo panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-panel_entrada_blog-titulo-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="rounded-shadow region-plain-box-vinetas-cuadradas">
+  <div class="rounded-shadow-background">
+    <div class="rounded-shadow-wrap-corner">
+      <div class="rounded-shadow-top-edge">
+        <div class="rounded-shadow-left"></div>
+        <div class="rounded-shadow-right"></div>
+      </div>
+      <div class="rounded-shadow-left-edge">
+        <div class="rounded-shadow-right-edge clearfix">
+          <div class="panel-pane pane-node-title titulo_nodo"  >
+  
+      
+  
+  <div class="pane-content">
+    <h6>Aquellas maravillosas maquinillas… las Game &amp; Watch</h6>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-valoracion"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-valoracion field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><form class="fivestar-widget" action="/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch?blah=x" method="post" id="fivestar-custom-widget" accept-charset="UTF-8"><div><div  class="clearfix fivestar-average-text fivestar-average-stars fivestar-form-item fivestar-default"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--2" name="vote" class="form-select"><option value="-">Select rating</option><option value="10">Give it 1/10</option><option value="20">Give it 2/10</option><option value="30">Give it 3/10</option><option value="40">Give it 4/10</option><option value="50">Give it 5/10</option><option value="60">Give it 6/10</option><option value="70">Give it 7/10</option><option value="80">Give it 8/10</option><option value="90" selected="selected">Give it 9/10</option><option value="100">Give it 10/10</option><option value="0">Cancel rating</option></select>
+<div class="description"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >9</span></span> <span class="total-votes">(<span >2</span> votes)</span></div></div>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-R1tYrfoHay61T26XF6MQyXWiHf9o2EIMoMEnJiBuZdc" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+</div></form></div></div></div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+      <div class="rounded-shadow-bottom-edge">
+      <div class="rounded-shadow-left"></div><div class="rounded-shadow-right"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-panel_entrada_blog-3 clearfix body retroanalisis">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-panel_entrada_blog-3-inside clearfix">
+<div class="panels-flexible-region panels-flexible-region-panel_entrada_blog-body panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-panel_entrada_blog-body-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="rounded-shadow region-plain-box-vinetas-cuadradas">
+  <div class="rounded-shadow-background">
+    <div class="rounded-shadow-wrap-corner">
+      <div class="rounded-shadow-top-edge">
+        <div class="rounded-shadow-left"></div>
+        <div class="rounded-shadow-right"></div>
+      </div>
+      <div class="rounded-shadow-left-edge">
+        <div class="rounded-shadow-right-edge clearfix">
+          <div class="panel-pane pane-node-body"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div style="text-align: center;"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/gw-logo.gif" alt="gw-logo.gif" /></div>
+<p>Uno de los artículos más buscados, ansiados, coleccionados y que llenan las páginas de Ebay en lo que se refiere a videojuegos y derivados, es sin duda, las <strong>Game &amp; Watch.</strong></p>
+<p>A pesar de que cada dia se vendan grandes cantidades de ellas a precios cada dia mas altos, estas maquinillas son la delicia de muchisimos coleccionistas, no en vano, su "etiqueta" de fabricación (<strong>Nintendo</strong>) entre otras cosas, es sin duda lo que las ha hecho llegar a ser tan buscadas por coleccionistas de cualquier parte del mundo, ya sea de Estados Unidos, Japón, Alemania o España. El creador de las <strong>Game &amp; Watch</strong> fue <strong>Gunpei Yokio</strong>, lo que marcó un antes y un despues en este tipo de maquinitas, y que al poco tiempo muchas compañías no se quedarían de brazos cruzados, y empezarían a desarrollar sus propias "handheld". Las G&amp;W fueron lanzadas al mercado entre los años 1980 y 1991.<br />La primera de ellas fue Ball, mientras que la última de ellas fue Mario the Juggle, en 1991. Faciles de manejar y rapidamente cualquier persona se hace con el control de una de ellas. Las G&amp;W, presentaban sus juegos en una pantalla LCD, que medía 5,5cm x 3,5 cm. mientras que las de doble pantalla hacían un poco menos cada una de ellas. La pantalla de los modelos "<strong>Micro Vs</strong>", medían 3 cm. x 9 cm. Las "<strong>Super Color</strong>", 4 cm. x 7 cm. Los modelos "<strong>Table Top</strong>", dado el tamaño de estos modelos, poseían su propio mini Joystick, para dirigir al personaje del juego. Las <strong>G&amp;W</strong>, estan divididas en 10 categorias debido a su arquitectura, chapa color "plata" u "oro", o tambien las hay con pantalla doble "<strong>Multi Screen</strong>", e incluso hay cuatro modelos que imitan la arquitectura de una máquina arcade, las "Table Top". En total son 49 maquinitas las que componen la colección. La lista completa de todas ellas, junto con sus fechas y referencias, las tenéis aquí...</p>
+<!--more--><p><strong>Silver<br /></strong>Ball (AC-01, 28 Abril 1980)<br />Flagman (FL-02, 5 Junio 1980)<br />Vermin (MT-03, 10 Julio 1980)<br />Fire (RC-04, 31 Julio 1980)<br />Judge (en versiones verde y púrpura) (IP-05, 4 Octubre 1980)</p>
+<p><strong>Gold<br /></strong>Manhole (MH-06, 29 Enero 1981)<br />Helmet (CN-07, 21 Febrero 1981)<br />Lion (LN-08, 29 Abril 1981)</p>
+<p><strong>Wide Screen<br /></strong>Parachute (PR-21, 19 Junio 1981)<br />Octopus (OC-22, 16 Julio 1981)<br />Popeye (PP-23, 5 Agosto 1981)<br />Chef (FP-24, 8 Septiembre 1981)<br />Mickey Mouse (MC-25, 9 de Octubre 1981)<br />Egg (EG-26, 9 Octubre 1981)<br />Fire (FR-27, 4 Diciembre 1981)<br />Turtle Bridge (TL-28, 1 Febrero 1982)<br />Fire Attack (ID-29, 26 Marzo 1982)<br />Snoopy Tennis (SP-30, 28 Abril 1982)</p>
+<p><strong>New Wide Screen<br /></strong>Donkey Kong Jr. (DJ-101, 26 Octubre 1982)<br />Mario's Cement Factory (ML-102, 16 Junio 1983)<br />Manhole (NH-103, 24 Agosto 1983)<br />Tropical Fish (TF-104, Julio 1985)<br />Super Mario Bros. (YM-105, Marzo de 1988)<br />Climber (DR-106, Marzo de 1988)<br />Balloon Fight (BF-107, Marzo de 1988)<br />Mario the Juggler (MJ-108, Octubre 1991)</p>
+<p><strong>Multi Screen<br /></strong>Oil Panic (OP-51, 1982)<br />Donkey Kong (DK-52, 3 Junio de 1982)<br />Mickey &amp; Donald' (DM-53, 12 de Noviembre de 1982)<br />Greenhouse (GH-54, 6 de Diciembre 1982)<br />Donkey Kong II (JR-55, 7 de Marzo de 1983)<br />Mario Bros. (MW-56, 14 Marzo 1983)<br />Rain Shower (LP-57, Agosto 1983)<br />Life Boat (TC-58, Octubre 1983)<br />Pinball (PB-59, 5 Diciembre 1983)<br />Black Jack (BJ-60, 15 de Febrero de 1985)<br />Squish (MH-61, Abril 1986)<br />Bombsweeper (BD-62, Junio 1987)<br />Safebuster (JB-63, Enero de 1988)<br />Goldcliff (MV-64, Octubre 1988)<br />Zelda (ZL-65, Agosto de 1989)</p>
+<p><strong>Tabletop<br /></strong>Donkey Kong Jr. (CJ-71, 28 Abril 1983)<br />Mario's Cement Factory (CM-72, 28 Abril 1983)<br />Snoopy (SM-73, 5 Junio 1983)<br />Popeye (PG-74, Agosto 1983)</p>
+<p><strong>Panorama</strong> Snoopy (SM-91, 30 Agosto 1983)<br />Popeye (PG-92, 30 Agosto 1983)<br />Donkey Kong Jr. (CJ-93, 7 Octubre 1983)<br />Mario's Bombs Away (PB-94, 10 Noviembre 1983)<br />Mickey Mouse (DC-95, Febrero 1984)<br />Donkey Kong Circus (MK-96, Septiembre 1984)</p>
+<p><strong>SuperColor<br /></strong>Spitball Sparky (BU-201, 7 Febrero 1984)<br />Crab Grab (UD-202, 21 Febrero 1984)</p>
+<p><strong>Micro VS.<br /></strong>Boxing (BX-301, 31st Julio 1984<br /> Donkey Kong 3 (AK-302, 20th Agosto 1984)<br />Donkey Kong Hockey (HK-303, 13th Noviembre 1984)</p>
+<p><strong>Crystal Screen<br /></strong>Super Mario Bros. (YM-801, Junio 1986)<br />Climber (DR-802, Julio 1986)<br />Balloon Fight (BF-803, Noviembre 1986)</p>
+<p>Entre otras cosas las G&amp;W, fueron pioneras en darnos la posibilidad de jugar de manera "portátil", allí donde ibamos, ya que cabian en un bolsillo. Y por si fuera poco, disponían de reloj y alarma, y tan solo necesitaban dos sencillas pilas de reloj para funcionar. Todas los grandes personajes de Nintendo, al menos de aquella época, tienen su propia versión de Game &amp; Watch, Zelda, Donkey Kong, Mario Bros, e incluso Mickey, Popeye o hasta Snoopy. A menudo se le llama "<strong>Game &amp; Watch</strong>", a cualquier tipo de maquinita pequeña similar a estas, simplemente por ser de alguna forma parecidas a las G&amp;W de Nintendo. Pues bien, esto es un error, ya que, las G&amp;W, son únicas y propias de Nintendo, las demás maquinitas, se les deberia llamar o englobar bajo el nombre "handheld". En la actualidad, Nintendo ha lanzado algúnos títulos commemorativos de estas maquinitas, para sus portátiles como, Game Boy Advance, o el último lanzado hasta la fecha para Nintendo DS, Game &amp; Watch Collection. Los modelos más caros y dificiles de encontrar son todos los "<strong>Crystal Screen</strong>", o las de la serie "<strong>New Wide Screen</strong>", y entre otros modelos muy dificiles de ver se encuentra tambien, "<strong>Vermin</strong>" de las series "<strong>Silver</strong>". Durante estos próximos dias, voy a ir subiendo las fotos de todas las Game &amp; Watch. Como son bastantes fotos, las iré subiendo por categoría, empezando por las "<strong>Silver</strong>".</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/ball.jpg" alt="ball.jpg" /><br />Ball</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/judge.jpg" alt="judge.jpg" /><br />Judge</p>
+<p align="center"> </p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/flagman.gif" alt="flagman.gif" /><br />Flagman</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/fire.jpg" alt="fire.jpg" /></p>
+<p align="center">Fire</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/vermin.jpg" alt="vermin.jpg" /><br />Vermin</p>
+<p> </p>
+<p><strong>2ª Parte</strong></p>
+<p>Siguiendo con <a href="http://museodelvideojuego.wordpress.com/2008/02/15/aquellas-maravillosas-maquinillas-las-game-watch/">el artículo </a>que hace pocs días empecé, hoy voy a seguir posteando fotos de las queridas <strong>Game &amp; Watch. </strong>Las fotos de hoy tratan acerca de dos de las categorías de G&amp;W, que Nintendo llegó a fabricar, las series "<strong>Gold</strong>" y "<strong>Widescreen</strong>". De las series "<strong>Gold</strong>", tan solo se lanzaron 3 modelos, mientras que de la serie "<strong>Widescreen</strong>", se fabricaron 10 de ellas. Estas son las fotos y propiedades de cada maquinilla:</p>
+<p align="left"><strong>Título:</strong> Manhole <strong>Gategoría:</strong> Gold <strong>Fecha de lanzamiento:</strong> 29 de Enero de 1981 <strong>Referencia:</strong> MH-06</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/manholegold.gif" alt="manholegold.gif" /></p>
+<p align="left"><strong>Título:</strong> Helmet <strong>Gategoría:</strong> Gold <strong>Fecha de lanzamiento:</strong> 21 de Febrero de 1981 <strong>Referencia:</strong> CN-07</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/helmet.gif" alt="helmet.gif" /></p>
+<p align="left"><strong>Título:</strong> Lion <strong>Gategoría:</strong> Gold <strong>Fecha de lanzamiento:</strong> 29 de Abril de 1981 <strong>Referencia:</strong> LN-08</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/lion.gif" alt="lion.gif" /></p>
+<!--more--><p align="left"><strong>Título:</strong> Parachute <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 19 de Junio de 1981 <strong>Referencia:</strong> PR-21</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/parachute.gif" alt="parachute.gif" /></p>
+<p align="left"><strong>Título:</strong> Octopuss <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 16 de Julio de 1981 <strong>Referencia:</strong> OC-22</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/octopuss.gif" alt="octopuss.gif" /></p>
+<p align="left"><strong>Título:</strong> Popeye <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 5 de Agosto de 1981 <strong>Referencia:</strong> PP-23</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/popeye.gif" alt="popeye.gif" /></p>
+<p align="left"><strong>Título:</strong> Chef <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 8 de Septiembre de 1981 <strong>Referencia:</strong> FP-24</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/chef.gif" alt="chef.gif" /></p>
+<p align="left"><strong>Título:</strong> Mickey Mouse <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 9 de Octubre de 1981 <strong>Referencia:</strong> MC-25</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/mickey.gif" alt="mickey.gif" /></p>
+<p align="left"><strong>Título:</strong> Egg <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 9 de Octubre de 1981 <strong>Referencia:</strong> EG-26</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/egg.gif" alt="egg.gif" /></p>
+<p align="left"><strong>Título:</strong> Fire <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 4 de Diciembre de 1981 <strong>Referencia:</strong> FR-27</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/fire.gif" alt="fire.gif" /></p>
+<p align="left"><strong>Título:</strong> Turtle Bridge <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 1 de Febrero de 1982 <strong>Referencia:</strong> TL-28</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/turtle_bridge.gif" alt="turtle_bridge.gif" /></p>
+<p align="left"><strong>Título:</strong> Fire Attack <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 26 de Marzo de 1982 <strong>Referencia:</strong> ID-29</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/fireattack.gif" alt="fireattack.gif" /></p>
+<p align="left"><strong>Título:</strong> Snoopy Tennis <strong>Gategoría:</strong> Widescreen <strong>Fecha de lanzamiento:</strong> 28 de Abril de 1982 <strong>Referencia:</strong> SP-30</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/snoopy_tennis.gif" alt="snoopy_tennis.gif" /></p>
+<p align="center"> </p>
+<p style="text-align: left;" align="center"><strong>3ª Parte</strong></p>
+<p>Siguiendo con el artículo en el cual estoy presentando todas las <strong>Game &amp; Watch</strong> que se llegaron a lanzar al mercado por parte de Nintendo, hoy voy a mostraros otro de los modelos/categorias de G&amp;W. Se trata del modelo <strong>Multi Screen</strong>. Tal como su nombre indica, la traducción al español sería Multi Pantalla. Y es que precisamente de eso se trataba este modelo de G&amp;W. La maquinilla en si constaba de dos pequeñas pantallitas de cristal liquido, en la que debiamos, normalmente, ir pasando de una pantalla a otra entre otras misiones. Por ejemplo, en <strong>Mario Bros Multi Screen</strong>, en cada una de las pantallitas controlabamos a un pequeño muñeco, <strong>Luigi</strong> en la pantalla izquierda, y <strong>Mario</strong> en la de la derecha. El juego consistia en ir cogiendo las piezas con Mario que iban apareciendo en la pantalla. Normalmente aparecian por la derecha, y se iban desplazando hacia la izquierda, por una especie de rodillos. Las piezas aparecian en la pantalla de la izquierda, y es aquí cuando con uno de los botones controlabamos a Luigi para que por una planta superior de los rodillos se la devolviera a <strong>Mario</strong>, y así sucesivamente, hasta que en la última cinta de rodillos, Luigi tiraba las piezas encima del camión, el cual teniamos que ir llenando. El juego a medida que ibamos llenando camiones, iba subiendo de velocidad, y cuando se nos escapaba alguna pieza, aparecia el encargado echandonos la bronca jeje. En resumen era un juego sencillo, pero muy aditivo, por que rapidamente te hacías con él, y mas rapidamente aún te solías enganchar al juego. En total aparecieron 15 modelos de Game &amp; Watch Multi Screen, que a continuación paso a describir y a poner su respectiva foto. <strong>Título:</strong> Oil Panic <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 1982 <strong>Referencia:</strong> OP-51</p>
+<div style="text-align: center;"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/oilpanic.jpg" alt="oilpanic.jpg" /></div>
+<p><strong>Título:</strong> Donkey Kong <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 3 de Junio de 1982 <strong>Referencia:</strong> DK-52</p>
+<div style="text-align: center;"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/donkey.jpg" alt="donkey.jpg" /></div>
+<p><strong>Título:</strong> Mickey &amp; Donald <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 12 de Noviembre de 1982 <strong>Referencia:</strong> DM-53</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/mickeydonald.gif" alt="mickeydonald.gif" /></p>
+<p align="center">
+<!--more--></p>
+<p><strong>Título:</strong> Green House <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 6 de Diciembre de 1982 <strong>Referencia:</strong> GH-54</p>
+<div style="text-align: center;"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/greenhouse.jpg" alt="greenhouse.jpg" /></div>
+<p><strong>Título:</strong> Donkey Kong II <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento: 7</strong> de Marzo de 1983 <strong>Referencia:</strong> JR-55</p>
+<p align="center"><strong><img src="http://museodelvideojuego.files.wordpress.com/2008/02/donkey2.gif" alt="donkey2.gif" /></strong></p>
+<p><strong>Título:</strong> Mario Bros <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 14 de Marzo de 1983 <strong>Referencia:</strong> MW-56</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/mariomulti.jpg" alt="mariomulti.jpg" /></p>
+<p><strong>Título:</strong> Rain Shower <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> Agosto de 1983 <strong>Referencia:</strong> LP-57</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/rainshower.jpg" alt="rainshower.jpg" /></p>
+<p><strong>Título:</strong> Life Boat <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> Octubre de 1983 <strong>Referencia:</strong> TC-58</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/lifeboat.gif" alt="lifeboat.gif" /></p>
+<p><strong>Título:</strong> Pinball <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 5 de Diciembre de 1983 <strong>Referencia:</strong> PB-59</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/pinball.gif" alt="pinball.gif" /></p>
+<p><strong>Título:</strong> Black Jack <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> 15 de Febrero de 1985 <strong>Referencia:</strong> BJ-60</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/blackjack.jpg" alt="blackjack.jpg" /></p>
+<p><strong>Título: Squish Categoría: </strong>Multi Screen <strong>Fecha de lanzamiento:</strong> Abril de 1986 <strong>Referencia:</strong> MH-61</p>
+<div style="text-align: center;"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/squish.gif" alt="squish.gif" /></div>
+<p><strong>Título:</strong> Bomb Sweeper <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> Junio de 1987 <strong>Referencia:</strong> BD-62</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/bombsweeper.gif" alt="bombsweeper.gif" /></p>
+<p><strong>Título:</strong> Safebuster <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento: </strong>Enero de 1988 <strong>Referencia:</strong> JB-63</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/safebuster.jpg" alt="safebuster.jpg" /></p>
+<p><strong>Título:</strong> Goldcliff <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> Octubre de 1988 <strong>Referencia:</strong> MV-64</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/goldcliff.jpg" alt="goldcliff.jpg" /></p>
+<p><strong>Título:</strong> Zelda <strong>Categoría:</strong> Multi Screen <strong>Fecha de lanzamiento:</strong> Agosto de 1989 <strong>Referencia:</strong> Zl-65</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/02/zelda.jpg" alt="zelda.jpg" /></p>
+<p style="text-align: left;" align="center"><strong>4ª Parte</strong></p>
+<p>Cuando uno se pone a recordar lo que para la infancia significó el tener una, o algunas <strong>Game &amp; Watch</strong>, se dá uno cuenta que la história de estas maquinillas no se limita simplemente a las partiditas que uno echaba con la maquinilla, sino que tambien supuso una época en la que cuando volvías del colegio ibas rapidamente a echar mano del "juguete", y te tirabas un buen rato a ver si podías superar la puntuación que tu hermano mayor había conseguido.  Ni que decir tiene el disgusto que te llevabas cuando veías que los "<strong>dibujitos digitales</strong>" se estaban apagando por que quedaban pocas pilas. Así que lo que normalmente se hacía en estos casos era presionar la tapa de las pilas, o cambiarlas de posición, por que parecía que así al menos el cristal liquido se veía algo más espeso, o se veía mejor.  Era el principio de los juguetes digitales, y había, o esto, algunas consolas estilo Pong, o los juguetes convencionales. Por que hay que decir que en aquel tiempo, a las <strong>Game &amp; Watch</strong>, no se les llamaba consolas, sino que simplemente se les veía como eso... un juguete algo mas moderno que los demás. Y además eran de la marca <strong>Nintendo....¿Nintendo?</strong> ¿que marca era esa? en 1980 la compañía <strong>Nintendo</strong> era practicamente desconocida en <strong>España</strong>. Aún no se había creado la Nes, y las consolas de las que disponía Nintendo en el mercado, estilo Pong, no habían salido de Japón. Para mi personalmente, una de las mejores series de las G&amp;W, es sin duda las <strong>Tabletop</strong>. Más que nada por su arquitectura, era como una pequeña recreativa que te cabía en las manos, bueno, o casi.</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/tabletop-mario-blog.jpg" alt="tabletop-mario-blog.jpg" width="440" height="415" border="2" /></p>
+<p align="left">Tenía la misma forma que una máquina recreativa, con su palanca de mando, y sus botones puestos casi de la misma manera que esas máquinas grandotas de los bares que te costaban <strong>25 pesetas</strong>, o en algunos sitios <strong>10 pesetas</strong>. Las pilas tambien eran diferentes, no usaban aquellas pilas pequeñas de reloj, como los otros modelos, sino que estas eran mas grandes, del tipo D, medianas, de 1.5 V, y que casi siempre eran de color naranja de la marca <strong>Tximist</strong> jeje...</p>
+<p>Este tipo de G&amp;W eran las únicas que usaban estas pilas, todas las demás series usaban las pequeñas pilas antes mencionadas. Además la pantalla, estaba fabricada al estilo de las <strong>Panorama Screen,</strong> la pantalla se reflejaba a través de un pequeño espejo. Nintendo solo lanzó al mercado 4 modelos de ésta serie. Y por último, los modelos de las series <strong>SuperColor</strong>, de las que <strong>Nintendo</strong> tan solo fabricó 2 de ellas. Se presentaban con una <strong>pantalla LCD de 36 x 66 mm</strong>. y en color.</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/spitbalsparkysupercolor.jpg" alt="spitbalsparkysupercolor.jpg" /></p>
+<p align="left"><strong>Características de cada modelo:</strong></p>
+<p><strong>Tabletop</strong> <strong>Nombre</strong>: Donkey Kong Jr. <strong>Categoría</strong>: Tabletop <strong>Fecha de lanzamiento</strong>: 28 de Abril de 1983 <strong>Referencia</strong>: CJ-71</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/donkey.gif" alt="donkey.gif" /></p>
+<p><strong>Nombre</strong>: Mario’s Cement Factory <strong>Categoría</strong>: Tabletop <strong>Fecha de lanzamiento</strong>: 28 de Abril de 1983 <strong>Referencia</strong>: CM-72</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/mariott.gif" alt="mariott.gif" /></p>
+<p><strong>Nombre</strong>: Snoopy <strong>Categoría</strong>: Tabletop <strong>Fecha de lanzamiento</strong>: 5 de Junio 1983 <strong>Referencia</strong>: SM-73</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/snoopy.gif" alt="snoopy.gif" /></p>
+<p><strong>Nombre</strong>: Popeye <strong>Categoría</strong>: Tabletop <strong>Fecha de lanzamiento</strong>: Agosto de 1983 <strong>Referencia</strong>: PG-74</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/popeyetabletop.gif" alt="popeyetabletop.gif" /></p>
+<p><strong>Nombre</strong>: Spitball Sparky <strong>Categoría</strong>: SuperColor <strong>Fecha de lanzamiento</strong>: 7 de Febrero de 1984 <strong>Referencia</strong>: BU-201</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/spitball.gif" alt="spitball.gif" /></p>
+<p align="left"><strong>Nombre</strong>: Crab Grab <strong>Categoría</strong>: SuperColor <strong>Fecha de lanzamiento</strong>: 21 de Febrero de 1984 <strong>Referencia</strong>: UD-202</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/crabgrab.jpg" alt="crabgrab.jpg" width="137" height="276" style="width: 129px; height: 268px;" /></p>
+<p align="center"> </p>
+<p style="text-align: left;" align="center"><strong>5ª Parte</strong></p>
+<p>Continuando con el artículo de las <strong>Game &amp; Watch</strong>, hoy os hablaré acerca de las series, "<strong>Panorama</strong>" y "<strong>Micro vs</strong>". Puede que estas series, sean los modelos más llamativos, o los que se salen un poco de la estética a la que estamos acostumbrados, una maquinita con forma rectangular, con la pantallita en medio, botones a los lados, etc. Los modelos que os pongo a continuación, no tienen nada que ver con las que hemos visto anteriormente. Si, es cierto que las series "<strong>Multi Screen</strong>", también tenían la característica de tener que abrir la maquinita, tal como las "<strong>Micro vs</strong>", pero estas últimas, el abrirlas no significaba que la pantallita estaba en el interior de la carcasa, sino que dentro de la máquina, se albergaba lo que son los controles para jugar con este tipo de serie de <strong>Game &amp; Watch</strong>. Es decir, la maquinilla nos queda como si se tratara de una consola, pero en miniatura. Los pequeños pads de control, disponen de unos cables en el interior, los cuales se pueden enrrollar interiormente, y al estirarlos, los cables salen hacia fuera, extendiendose unos 40 cm. Con ellos, podíamos jugar contra un amigo en el modo de juego "B", o contra la propia "máquina", en el modo de juego "A".</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/dscn1026peq.jpg" alt="dscn1026peq.jpg" /></p>
+<p align="center">
+<!--more--></p>
+<p>Algo que cuesta un poco de entender, es el mecanismo que Nintendo utilizó para introducir las pilas, ya que van puestas en serie, y requiere algo de practica y habilidad en ponerlas tal como se requiere, algo completamente diferente a los demás modelos de G&amp;W. Los modelos "<strong>Micro vs</strong>", era los únicos que nos permitían compartir la tarde jugando con un amigo, en la misma partida, sin duda era el inicio de una nueva modalidad de juego en las G&amp;W, y que se limitaría solo a esta serie, en 3 modelos diferentes. Otro detalle a tener en cuenta, es que la pantallita se encontraba en el exterior de la carcasa, y era mas alargada que los demás modelos, llegando a medir poco más de 9,5 cm. de ancho, y 2,5 cm. de alto. Al igual que casi todos los modelos de G&amp;W, el fondo de la pantalla era un dibujo, en el que encajaban perfectamente los "muñequitos" de cristal liquido. Por norma general, en la parte superior de la pantalla tenían el marcador para cada jugador. Por otro lado, los modelos "<strong>Panorama</strong>", quizás eran los mas extraños de todos. Para acceder a la pantalla, tenemos que abrir la tapa frontal de la maquinilla unos 8 cm. de tal forma, que cuando damos con el tope del recorrido, la pantalla queda estática, y la maquinilla adopta un forma de "<strong>7</strong>", si la ponemos de pie y de perfil. Los dibujos del display digital, son reflejados a todo color por un pequeño espejo que hay en la superficie de la máquina, al igual que las "<strong>Tabletop</strong>", permitiendonos de esta manera ver con clara nitidez el desarrollo del juego. Para esta serie se crearon 6 modelos diferentes.</p>
+<div style="text-align: center;"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/dscn1028peq.jpg" alt="dscn1028peq.jpg" width="440" height="289" border="0" /></div>
+<p align="left">A continuación pondré los datos de cada uno de los modelos que se crearon para las series anteriormente mencionadas.</p>
+<p><strong>Micro VS</strong> <strong>Nombre</strong>: Boxing <strong>Categoría</strong>: Micro VS <strong>Fecha de lanzamiento</strong>: 31 de Julio 1984 <strong>Referencia</strong>: BX-301</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/boxingvs.gif" alt="boxingvs.gif" /></p>
+<p><strong>Nombre</strong>: Donkey Kong 3 <strong>Categoría</strong>: Micro VS <strong>Fecha de lanzamiento</strong>: 20 de Agosto 1984 <strong>Referencia</strong>: AK-302</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/dk3.gif" alt="dk3.gif" /></p>
+<p><strong>Nombre</strong>: Donkey Kong Hockey <strong>Categoría</strong>: Micro VS <strong>Fecha de lanzamiento</strong>: 13 de Noviembre 1984 <strong>Referencia</strong>: HK-303</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/dkhockey.gif" alt="dkhockey.gif" /></p>
+<p><strong>Panorama</strong> <strong>Nombre</strong>: Snoopy <strong>Categoría</strong>: Panorama <strong>Fecha de lanzamiento</strong>: 30 de Agosto 1983 <strong>Referencia</strong>: SM-91</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/snoopypanorama.gif" alt="snoopypanorama.gif" /></p>
+<p><strong>Nombre</strong>: Popeye <strong>Categoría</strong>: Panorama <strong>Fecha de lanzamiento</strong>: 30 de Agosto 1983<strong> Referencia</strong>: PG-92</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/popeyepanorama.gif" alt="popeyepanorama.gif" /></p>
+<p><strong>Nombre</strong>: Donkey Kong Jr. <strong>Categoría</strong>: Panorama <strong>Fecha de lanzamiento</strong>: 7 Octubre 1983 <strong>Referencia</strong>: CJ-93</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/donkey1.gif" alt="donkey1.gif" /></p>
+<p><strong>Nombre</strong>: Mario’s Bombs Away <strong>Categoría</strong>: Panorama <strong>Fecha de lanzamiento</strong>: 10 de Noviembre 1983 <strong>Referencia</strong>: PB-94</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/mariopanorama.gif" alt="mariopanorama.gif" /></p>
+<p><strong>Nombre</strong>: Mickey Mouse <strong>Categoría</strong>: Panorama <strong>Fecha de lanzamiento</strong>: Febrero 1984 <strong>Referencia</strong>: DC-95</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/mickeypanorama.gif" alt="mickeypanorama.gif" /></p>
+<p><strong>Nombre</strong>: Donkey Kong Circus <strong>Categoría</strong>: Panorama <strong>Fecha de lanzamiento</strong>: Septiembre 1984 <strong>Referencia</strong>: MK-96</p>
+<p align="center"><strong><img src="http://museodelvideojuego.files.wordpress.com/2008/03/donkeykongcircus.gif" alt="donkeykongcircus.gif" /></strong></p>
+<p><strong>6ª y última parte</strong></p>
+<p>Pues este es el último de los análisis de las maravillosas Game &amp; Watch. He analizado sin gran extensión, las principales características de aquellas maquinillas que, aunque existían cosas parecidas en aquel tiempo, y que llegaron de la mano de Coleco, sin duda alguna, Nintendo dió en el clavo cuando le encargó a <strong>Gunpei Yokoi</strong> la creación de tales juegos, y llegó a marcar un antes y un despues en lo que se refiere a la diversión de "bolsillo o portátil". Unas maquinillas que hicieron las delicias de los que ahora son unos treintañeros o incluso de más edad, y que en aquel tiempo tenian en su mano "el juguete más digital" de la época. Una época que estaba dominada por la compáñía estandarte de la industria a finales de los 70, y principios de los 80... Atari., ya que en aquel tiempo, Nintendo aún no había llegado a presentar su NES, y las consolas de cartucho de Atari, 2600, 5200 etc, eran las que en aquel momento acaparaban el mercado junto con Intellivision y Colecovision, entre las más importantes. Así que las primeras Game &amp; Watch, sirvieron como preludio de lo que estaba por venir por parte de Nintendo. Para terminar esta serie de artículos, pondré las características y fotos de los modelos de Game &amp; Watch que me aún no he puesto, las series <strong>New Wide Screen</strong> y <strong>Crystal Screen</strong>. Entre los modelos New Wide Screen, podemos encontrar lo que sería la última G&amp;W que Nintendo lanzó al mercado, "<strong>Mario the Juggler</strong>". Basicamente son iguales a las Wide Screen. Una de las diferencias, es que la pantalla está decorada de diferente manera. Si entre las Wide Screen, casi todos los modelos tenían la parte frontal de color dorado, las New Wide Screen eran todas de diferente color. Eran más llamativas, daban una apariencia más lujosa. En definitiva, eran más bonitas. Pero el detalle más importante es que las NWS, tenían los controles más completos, es decir, algunas de ellas disponían de hasta cuatro botones para controlar el personaje, arriba, abajo, izquierda y derecha. Tal como se puede apreciar en la foto.</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/donkeykongnjrws.jpg" alt="donkeykongnjrws.jpg" /></p>
+<p>Ninguna de las Wide Screen tenían esa característica. Un pequeño detalle es que en el pie de la pantalla, ya no se leía "Wide Screen"... obvio.</p>
+<p align="center">
+<!--more--></p>
+<p>Por otro lado tenemos la serie "<strong>Crystal Screen</strong>", estas ya son otra história, las más lujosas, las menos comúnes y mas difíciles de encontrar, principalmente por que se vendieron pocas unidades, y no solamente por que tan solo se fabricaron tres modelos, sino por que a día de hoy, las subastas que podeis ver por la red, (si es que las veis) comprobaréis lo caro que puede resultar tener uno de estos modelos. Un detalle más, <strong>Nintendo</strong> cuidó mucho la presentación de las G&amp;W, tanto en la máquina como en la apariencia que tenía la caja en la que se presentaban. Pudiendose diferenciar facilmente la serie de cada Game &amp; Watch, con tan solo ver el exterior de la caja. Nintendo aplico a cada caja una decoración y un estilo de dibujo completamente diferentes unas de otras. Tal y como lo muestran las siguientes imágenes.</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/donkeykonggwcaja.jpg" alt="donkeykonggwcaja.jpg" /><br /><strong>Caja de los modelos New Wide Screen</strong></p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/goldcliffcaja.jpg" alt="goldcliffcaja.jpg" /><br /><strong>Caja de los modelos Multi Screen</strong></p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/cajamultiscreen.jpg" alt="cajamultiscreen.jpg" /><br /><strong>Caja de los modelos Micro Vs.</strong></p>
+<p>Antes de finalizar y poner las fotos restantes, quiero decir que esta serie de artículos sobre Game &amp; Watch, estará acompañado de un anexo, en el que explicaré no solo una breve história de <strong>Gunpei Yokoi</strong>, el creador de estas maravillas en miniatura, sino también de como apareció la idea de que fueran lanzadas al mercado, y llegaran a los hogares de medio mundo. <strong>New Wide Screen</strong> <strong>Título:</strong> Donkey Kong Jr. <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> 26 de Octubre de 1982 <strong>Referencia:</strong> DJ-101</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/donkeyjrnws.jpg" alt="donkeyjrnws.jpg" /></p>
+<p><strong>Título:</strong> Mario´s Cement Factory <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> 16 de Junio de 1983 <strong>Referencia:</strong> ML-102</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/marioscementnws.jpg" alt="marioscementnws.jpg" /></p>
+<p><strong>Título:</strong> Manhole <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> 24 de Agosto de 1983 <strong>Referencia:</strong> NH-103</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/manholenws.jpg" alt="manholenws.jpg" /></p>
+<p><strong>Título:</strong> Tropical Fish <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> Julio de 1985 <strong>Referencia:</strong> TF-104</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/tropicalfishnws.jpg" alt="tropicalfishnws.jpg" /></p>
+<p><strong>Título:</strong> Super Mario Bros <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> Marzo de 1988 <strong>Referencia:</strong> YM-105</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/supermariobrossnws.jpg" alt="supermariobrossnws.jpg" /></p>
+<p align="left"><strong>Título:</strong> Climber <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> Marzo de 1988 <strong>Referencia:</strong> DR-106</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/climbernws.jpg" alt="climbernws.jpg" /></p>
+<p><strong>Título:</strong> Balloon Fight <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> Marzo de 1988 <strong>Referencia:</strong> BF-107</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/balloonfightnws.jpg" alt="balloonfightnws.jpg" /></p>
+<p><strong>Título:</strong> Mario the Juggler <strong>Categoría:</strong> New Wide Screen <strong>Fecha de lanzamiento:</strong> Octubre de 1991 <strong>Referencia:</strong> MJ-108</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/mariojugglernws.gif" alt="mariojugglernws.gif" /></p>
+<p align="center"> </p>
+<p><strong>Crystal Screen</strong> <strong>Título:</strong> Super Mario Bros. <strong>Categoría:</strong> Crystal Screen <strong>Fecha de lanzamiento:</strong> Junio de 1986 <strong>Referencia:</strong> YM-801</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/supermariocs.jpg" alt="supermariocs.jpg" /></p>
+<p><strong>Título:</strong> Climber <strong>Categoría:</strong> Crystal Screen <strong>Fecha de lanzamiento:</strong> Julio de 1986 <strong>Referencia:</strong> DR-802</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/climbercs.jpg" alt="climbercs.jpg" /></p>
+<p><strong>Título:</strong> Balloon Fight <strong>Categoría:</strong> Crystal Screen <strong>Fecha de lanzamiento:</strong> Noviembre de 1986 <strong>Referencia:</strong> BF-803</p>
+<p align="center"><img src="http://museodelvideojuego.files.wordpress.com/2008/03/balloonfightcs.jpg" alt="balloonfightcs.jpg" width="280" height="139" style="width: 291px; height: 139px;" /></p>
+</div></div></div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+      <div class="rounded-shadow-bottom-edge">
+      <div class="rounded-shadow-left"></div><div class="rounded-shadow-right"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-panel_entrada_blog-main-row clearfix">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-panel_entrada_blog-main-row-inside clearfix">
+<div class="panels-flexible-region panels-flexible-region-panel_entrada_blog-center panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-panel_entrada_blog-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-panel_entrada_blog-2 clearfix otros articulos del mismo editor">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-panel_entrada_blog-2-inside clearfix">
+<div class="panels-flexible-region panels-flexible-region-panel_entrada_blog-otros_articulos_del_mismo_editor panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-panel_entrada_blog-otros_articulos_del_mismo_editor-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-panel_entrada_blog-5 panels-flexible-row-last clearfix ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-panel_entrada_blog-5-inside panels-flexible-row-inside-last clearfix">
+<div class="panels-flexible-region panels-flexible-region-panel_entrada_blog-comentarios panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-panel_entrada_blog-comentarios-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="rounded-shadow region-plain-box-vinetas-cuadradas">
+  <div class="rounded-shadow-background">
+    <div class="rounded-shadow-wrap-corner">
+      <div class="rounded-shadow-top-edge">
+        <div class="rounded-shadow-left"></div>
+        <div class="rounded-shadow-right"></div>
+      </div>
+      <div class="rounded-shadow-left-edge">
+        <div class="rounded-shadow-right-edge clearfix">
+          <div class="panel-pane pane-node-comment-form"  >
+  
+        <h2 class="pane-title">Añade un comentario</h2>
+    
+  
+  <div class="pane-content">
+    <form class="comment-form" action="/comment/reply/2909" method="post" id="comment-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Your name </label>
+ <input type="text" id="edit-name" name="name" value="" size="30" maxlength="60" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-subject">
+  <label for="edit-subject">Subject </label>
+ <input type="text" id="edit-subject" name="subject" value="" size="60" maxlength="64" class="form-text" />
+</div>
+<div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper" id="edit-comment-body"><div id="comment-body-add-more-wrapper"><div class="text-format-wrapper"><div class="form-item form-type-textarea form-item-comment-body-und-0-value">
+  <label for="edit-comment-body-und-0-value">Comment <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea class="text-full form-textarea required" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+<fieldset class="filter-wrapper form-wrapper" id="edit-comment-body-und-0-format"><div class="fieldset-wrapper"><input id="edit-comment-body-und-0-format--2" class="wysiwyg" type="hidden" name="comment_body[und][0][format]" value="plain_text" />
+<div class="filter-help form-wrapper" id="edit-comment-body-und-0-format-help"><p><a href="/filter/tips" target="_blank">More information about text formats</a></p></div><div class="filter-guidelines form-wrapper" id="edit-comment-body-und-0-format-guidelines"><div class="filter-guidelines-item filter-guidelines-plain_text"><h3>Plain text</h3><ul class="tips"><li>No HTML tags allowed.</li><li>Web page addresses and e-mail addresses turn into links automatically.</li><li>Lines and paragraphs break automatically.</li></ul></div></div></div></fieldset>
+</div>
+</div></div><input type="hidden" name="form_build_id" value="form-T3R7KoNrB990NYHMDSx6X5xmaMfzjLpWCPB2r7niyQY" />
+<input type="hidden" name="form_id" value="comment_node_article_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Save" class="form-submit" /><input type="submit" id="edit-preview" name="op" value="Preview" class="form-submit" /></div></div></form>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+      <div class="rounded-shadow-bottom-edge">
+      <div class="rounded-shadow-left"></div><div class="rounded-shadow-right"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+</div> <!-- /block --></div>
+<!-- end region -->          </div>
+          <!--end drupal content-->
+
+          
+          
+        </div>
+        <!--end main content-->
+	 			
+          		    		
+		              <!--start first sidebar-->
+          <div class="grid_4 sidebar" id="sidebar-first">
+						<!-- start region -->
+<div class="region region region-sidebar-first">
+  <div id="block-addtoany-addtoany_button" class="block block-addtoany">
+        <div class="block-title">
+      <h2 class="title">AddToAny</h2>
+    </div>
+      <div class="content">
+    
+		<span class="a2a_kit a2a_target addtoany_list" id="da2a_1">
+			<a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.museodelvideojuego.com%2Farticulos%2Faquellas-maravillosas-maquinillas%25E2%2580%25A6-las-game-watch&amp;title=Aquellas%20maravillosas%20maquinillas%E2%80%A6%20las%20Game%20%26%20Watch"><img src="/sites/all/modules/addtoany/images/share_save_171_16.png" width="171" height="16" alt="Share this"/></a>
+		</span>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+da2a.script_load();
+//--><!]]>
+</script>
+		  </div>
+</div> <!-- /block --><div id="block-block-2" class="block block-block">
+        <div class="content">
+    <div align="center"><a href="https://www.facebook.com/Museodelvideojuego"><br /><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_facebook.png" alt="Museo Del Videojuego en Facebook" title="Museo Del Videojuego en Facebook" width="30" height="30" /></a> <a href="http://instagram.com/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_instagram.png" title="Museo Del Videojuego en Instagram" width="30" height="30" style="line-height: 1.538em;" /></a><span style="line-height: 1.538em;"> <a href="http://www.pinterest.com/museovideojuego/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_pinterest.png" alt="Museo Del Videojuego en Pinterest" title="Museo Del Videojuego en Pinterest" width="30" height="30" /></a> </span><a style="line-height: 1.538em; text-decoration: underline;" href="http://museodelvideojuego.tumblr.com/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_tumblr.png" title="Museo Del Videojuego en Tumblr" width="30" height="30" /></a> <a style="line-height: 1.538em;" href="https://twitter.com/KaTaLa"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_twitter.png" alt="Museo Del Videojuego en Twitter" title="Museo Del Videojuego en Twitter" width="30" height="30" /></a><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="http://www.youtube.com/user/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_youtube.png" alt="Museo Del Videojuego en Youtube" title="Museo Del Videojuego en Youtube" width="30" height="30" style="line-height: 1.538em;" /></a><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="http://feeds.feedburner.com/mdv"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_rss.png" alt="Suscríbete" title="Suscríbete" width="30" height="30" style="line-height: 1.538em;" /></a><span style="line-height: 1.538em;"><br /></span></div>
+  </div>
+</div> <!-- /block --><div id="block-search-form" class="block block-search">
+        <div class="content">
+    <form action="/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch?blah=x" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-BMkLL4nqjHkjwU1RmxMVW3k9DaSbK4MnpVCRPjtzms8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+
+</div></form>  </div>
+</div> <!-- /block --><div id="block-block-5" class="block block-block">
+        <div class="content">
+    <p><iframe style="border: none; overflow: hidden; width: 300px; height: 21px;" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMuseo-Del-Videojuego%2F115960935089873%3Fref%3Dhl&amp;send=false&amp;layout=button_count&amp;width=300&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" frameborder="0" scrolling="no" width="320" height="240"></iframe></p>
+  </div>
+</div> <!-- /block --><div id="block-views-novedades-block" class="block block-views">
+        <div class="block-title">
+      <h2 class="title">Destacados</h2>
+    </div>
+      <div class="content">
+    <div class="view view-novedades view-id-novedades view-display-id-block view-dom-id-ebee9c63bbc50ddd744a799d45e56f9f">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-0" >
+       <tbody>
+          <tr class="odd views-row-first">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/los-videojuegos-llegaron-formar-parte-de-nuestra-vida">Los videojuegos llegaron a formar parte de nuestra vida</a>          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch" class="active">Aquellas maravillosas maquinillas… las Game &amp; Watch</a>          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/golgo-13-top-secret-episode">Golgo 13: Top Secret Episode</a>          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/la-definitiva-historia-de-atari-2%C2%AAparte">La definitiva historia de Atari (2ªParte)</a>          </td>
+              </tr>
+          <tr class="odd views-row-last">
+                  <td class="views-field views-field-title" >
+            <a href="/articulos/analisis-laser-scope-de-konami-para-nes">Analisis: Laser Scope de Konami para Nes</a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div> <!-- /block --><div id="block-user-login" class="block block-user">
+        <div class="block-title">
+      <h2 class="title">User login</h2>
+    </div>
+      <div class="content">
+    <form action="/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch?destination=node/2909%3Fblah%3Dx" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name--2">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name--2" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-N4EIY_HCLzSNrH8KBPA8P96OWCssA3Zu0RhCZ5HjQ88" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--3"><input type="submit" id="edit-submit--3" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div> <!-- /block --><div id="block-block-4" class="block block-block">
+        <div class="content">
+    <p> </p>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+// <![CDATA[
+google_ad_client = "ca-pub-3737854080490097";
+/* 300x250, MDV 2.0 */
+google_ad_slot = "9283042262";
+google_ad_width = 300;
+google_ad_height = 250;
+// ]]]]><![CDATA[>
+//--><!]]>
+</script><script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+<!--//--><![CDATA[// ><!--
+// <![CDATA[
+
+// ]]]]><![CDATA[>
+//--><!]]>
+</script>  </div>
+</div> <!-- /block --></div>
+<!-- end region -->	
+          </div>
+          <!--end first sidebar-->
+        		    
+        						
+						
+				
+      
+      </div>
+      <!--end innerContent-->
+
+
+          </div>
+    <!--end contentWrapper-->
+
+	</div>
+  <!--close page border Wrapper-->
+
+      <!--start footer-->
+    <div id="footer" class="outsidecontent">
+      <!-- start region -->
+<div class="region region region-footer">
+  <div id="block-block-1" class="block block-block">
+        <div class="content">
+    <table class="compact" style="border-style: solid; border-width: 0px; height: 282px; width: 1022px;" dir="ltr" border="0" cellspacing="0" cellpadding="0" align="left"><tbody><tr><td>
+<p><img src="http://www.museodelvideojuego.com/imgs/diseno/logo.png" alt="" style="height: 48px; width: 97px;" /></p>
+<p> </p>
+<p> Enlaces</p>
+<hr /><p> </p>
+</td>
+<td> </td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Museo Del Videojuego</p>
+<hr /><p> </p>
+</td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Síguenos en:</p>
+<hr /><p> </p>
+</td>
+</tr><tr><td>
+<ul><li><a style="line-height: 1.538em;" href="http://beegamer.es/" target="_blank">Beegamer</a></li>
+<li><a href="http://www.briconsola.com/" target="_blank">Briconsola</a></li>
+<li><a href="http://www.dreamcast.es/" target="_blank">Dreamcast.es</a></li>
+<li><a href="http://awetap414.blogspot.com/" target="_blank">El Rincón de Adol</a></li>
+<li><a href="http://www.elpixeblogdepedja.com/" target="_blank">Pixeblog de Pedja</a></li>
+<li><a href="http://jumafas.blogvideojuegos.com/" target="_blank">Er blog der Jumafas</a></li>
+<li><a href="http://www.insertcoinclasicos.com/" target="_blank">Insert Coin</a></li>
+<li><a href="http://www.ionlitio.com/">Ionlitio</a></li>
+<li><a href="http://maquinitas.jimdo.com/" target="_blank">Maquinitas</a></li>
+</ul></td>
+<td>
+<ul><li><a style="font-size: 10px; line-height: 1.538em;" href="http://www.konamito.es/">MSXBlog de Konamito</a></li>
+<li><a href="http://www.paisdelosjuegos.com.mx/" rel="nofollow" target="_blank">Paisdelosjuegos.com.mx</a></li>
+<li><a href="http://programbytes48k.wordpress.com/" target="_blank">Program Bytes: 48K</a></li>
+<li><a href="http://www.retroinvaders.com" target="_blank">Retroinvaders</a></li>
+<li><a href="http://www.tentaculopurpura.com/" target="_blank">Tentáculo Púrpura</a></li>
+<li><a href="http://www.zonadepruebas.com/" target="_blank">Zona de pruebas</a></li>
+<li><a href="http://www.museodelvideojuego.com/content/enlaces">Más enlaces...</a></li>
+</ul></td>
+<td>
+<ul><li><a href="http://www.museodelvideojuego.com/anunciate">Anunciaté</a></li>
+<li><a href="http://www.museodelvideojuego.com/colabora">Colabora</a></li>
+<li><a href="http://www.museodelvideojuego.com/contacto">Contacto</a></li>
+</ul><p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</td>
+<td>
+<p><a style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 20px; text-align: -webkit-center;" href="https://www.facebook.com/Museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_facebook.png" alt="Museo Del Videojuego en Facebook" title="Museo Del Videojuego en Facebook" style="height: 30px; width: 30px;" /></a><span style="font-family: lucida grande,lucida sans unicode,sans-serif; font-size: 13px;"> </span><a style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 20px; text-align: -webkit-center;" href="http://instagram.com/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_instagram.png" alt="" title="Museo Del Videojuego en Instagram" style="height: 30px; line-height: 1.538em; width: 30px;" /></a> <a href="http://www.pinterest.com/museovideojuego/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_pinterest.png" alt="Museo Del Videojuego en Pinterest" title="Museo Del Videojuego en Pinterest" style="height: 30px; width: 30px;" /></a> <a style="line-height: 1.538em; text-decoration: underline;" href="http://museodelvideojuego.tumblr.com/"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_tumblr.png" alt="" title="Museo Del Videojuego en Tumblr" style="height: 30px; width: 30px;" /></a> <a style="line-height: 1.538em;" href="https://twitter.com/KaTaLa"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_twitter.png" alt="Museo Del Videojuego en Twitter" title="Museo Del Videojuego en Twitter" style="height: 30px; width: 30px;" /></a> <a style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 20px; text-align: -webkit-center;" href="http://www.youtube.com/user/museodelvideojuego"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_youtube.png" alt="Museo Del Videojuego en Youtube" title="Museo Del Videojuego en Youtube" style="height: 30px; line-height: 1.538em; width: 30px;" /></a><span style="font-family: lucida grande,lucida sans unicode,sans-serif; font-size: 13px;"> </span><a style="line-height: 1.538em;" href="http://feeds.feedburner.com/mdv"><img src="http://www.museodelvideojuego.com/imgs/diseno/icono_rss.png" alt="Suscríbete" title="Suscríbete" style="height: 30px; line-height: 1.538em; width: 30px;" /></a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p> </p>
+<p class="rtecenter" style="text-align: center;">Todas las marcas, sistemas, logos, etc... son propiedad de su respectivos y legítimos dueños. <br /> Tema diseñado por Jose Miguel Martí para <strong>MDV</strong>. Contenidos por <span style="color: #ffcc00;"><a class="links" href="mailto:katalajm@gmail.com"><span style="color: #ffcc00;">KaTaLa </span></a></span>y  <span style="color: #ffcc00;"><a href="mailto:pmarti1982@gmail.com"><span style="color: #ffcc00;">Marti</span></a></span><br /> 2002-2014.</p>
+<div id="eXTReMe"> </div>
+  </div>
+</div> <!-- /block --></div>
+<!-- end region -->
+          </div>
+    <!--end footer-->
+  
+</div>
+<!--end framework container-->
+	  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+da2a.targets=[
+{title:'Aquellas maravillosas maquinillas… las Game &amp; Watch',url:'http://www.museodelvideojuego.com/articulos/aquellas-maravillosas-maquinillas%E2%80%A6-las-game-watch'}];
+da2a.html_done=true;if(da2a.script_ready&&!da2a.done)da2a.init();da2a.script_load();
+//--><!]]>
+</script>
+        
+
+<div id="eXTReMe">
+  <div align="center"><a href="http://extremetracking.com/open?login=katala01">
+    
+    <img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+
+height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+    
+    <script type="text/javascript"><!--
+
+var EXlogin='katala01' // Login
+
+var EXvsrv='s11' // VServer
+
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+
+EXd.write("<img src=http://e2.extreme-dm.com",
+
+"/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+
+      </script>
+      <noscript>
+        <div id="neXTReMe"><img height="1" width="1" alt=""
+
+src="http://e2.extreme-dm.com/s11.g?login=katala01&amp;j=n&amp;jv=n" />
+          
+        </div>
+    </noscript>
+  </div>
+    </div>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-WskwLhPT_nSmq"
+});
+</script>
+<center>
+<a href=http://www.ademails.com/estadisticas1060024064.htm>
+<script type="text/javascript" language="JavaScript">
+<!--
+document.write("<img src=\"http://www.ademails.com/cgi-bin/contador.cgi?ID=1060024064");
+document.write("&referer=");
+document.write(escape(document.referrer));
+document.write("\" border=0 alt=\"Estadisticas\">");
+// -->
+</script>
+</center>
+<noscript><img src=http://www.ademails.com/cgi-bin/contador.cgi?ID=1060024064 border=0 alt="Estadisticas"></noscript></a>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-WskwLhPT_nSmq.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+	</body><!--end body-->
+</html>
