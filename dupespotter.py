@@ -103,6 +103,7 @@ def compare_unprocessed_bodies(up_body1, up_body2, url1, url2):
 	print("After processing,")
 	print("len(body({!r})) == {}".format(url1, len(body1)))
 	print("len(body({!r})) == {}".format(url2, len(body2)))
+	compare_bodies(body1, body2, url1, url2)
 
 
 def main():
