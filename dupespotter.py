@@ -7,7 +7,7 @@ import json
 import difflib
 
 from hashlib import md5
-from urllib.parse import urlsplit, quote
+from urllib.parse import urlsplit, quote, quote_plus
 from urllib.request import urlopen, HTTPError
 
 cache_dir = "cache"
@@ -52,11 +52,13 @@ def process_body(body, url):
 	assert isinstance(body, bytes), type(body)
 	u = urlsplit(url)
 	if len(u.path) >= 4:
-		encoded_path = u.path.encode("utf-8")
-		if encoded_path.startswith(b'/'):
-			encoded_path = encoded_path[1:]
-		body = body.replace(encoded_path, b"")
-		body = body.replace(encoded_path.replace(b"/", br"\/"), b"")
+		path = u.path
+		if path.startswith('/'):
+			path = path[1:]
+		body = body.replace(path.encode("utf-8"), b"")
+		body = body.replace(path.encode("utf-8").replace(b"/", br"\/"), b"")
+		body = body.replace(quote_plus(path).encode("utf-8"), b"")
+		body = body.replace(quote_plus(path).encode("utf-8").lower(), b"")
 	if len(u.query) >= 3:
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")

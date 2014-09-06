@@ -4,7 +4,7 @@ import sys
 import os
 import json
 
-from spot import process_body, compare_unprocessed_bodies
+from dupespotter import process_body, compare_unprocessed_bodies
 
 def main():
 	for test_name in os.listdir("tests"):
