@@ -6,14 +6,18 @@ import re
 import difflib
 
 from hashlib import md5
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, quote
 from urllib.request import urlopen, HTTPError
 
 cache_dir = "cache"
 
 
+def md5_url(url):
+	return md5(url.encode("utf-8")).hexdigest()
+
+
 def get_cache_filename(url):
-	return os.path.join(cache_dir, md5(url.encode("utf-8")).hexdigest())
+	return os.path.join(cache_dir, md5_url(url))
 
 
 def get_body(url):
@@ -42,15 +46,28 @@ def process_body(body, url):
 	"""
 	assert isinstance(body, bytes), type(body)
 	u = urlsplit(url)
-	if len(u.path) >= 3:
-		body = body.replace(u.path.encode("utf-8"), b"")
-		body = body.replace(u.path.encode("utf-8").replace(b"/", br"\/"), b"")
-		# Drupal generates this class id
-		body = re.sub(br"\bview-dom-id-[0-9a-f]+\b", b"", body)
-		# Drupal generates <body class="..."> items based on the URL
-		body = re.sub(br'<body class="[^"]+">', b"", body)
-		# Drupal generates a "theme_token":"..." inside a JSON blob
-		body = re.sub(br'_token":"[-_A-Za-z0-9]+"', b"", body)
+	if len(u.path) >= 4:
+		encoded_path = u.path.encode("utf-8")
+		if encoded_path.startswith(b'/'):
+			encoded_path = encoded_path[1:]
+		body = body.replace(encoded_path, b"")
+		body = body.replace(encoded_path.replace(b"/", br"\/"), b"")
+	if len(u.query) >= 3:
+		encoded_query = u.query.encode("utf-8")
+		body = body.replace(('?' + u.query).encode("utf-8"), b"")
+		body = body.replace(quote('?' + u.query).encode("utf-8"), b"")
+	# Drupal puts the current URL here, and the casing doesn't always match
+	body = re.sub(br'<link rel="canonical" href="[^"]+" />', b"", body)
+	# Drupal generates this form id
+	body = re.sub(br'\bvalue="form-[-_A-Za-z0-9]+\b"', b"", body)
+	# Drupal generates this class id
+	body = re.sub(br"\bview-dom-id-[0-9a-f]+\b", b"", body)
+	# Drupal generates <body class="..."> items based on the URL
+	body = re.sub(br'<body class="[^"]+">', b"", body)
+	# Drupal generates a "theme_token":"..." inside a JSON blob
+	body = re.sub(br'_token":"[-_A-Za-z0-9]+"', b"", body)
+	# Drupal sites have randomized sidebar content with these IDs
+	body = re.sub(br'<div class="views-field views-field-[-a-z]+">.*', b"", body)
 	return body
 
 
@@ -69,6 +86,11 @@ def main():
 		url1, url2 = sys.argv[1], sys.argv[2]
 		body1 = process_body(get_body(url1), url1)
 		body2 = process_body(get_body(url2), url2)
+		print("{} == md5({!r})".format(md5_url(url1), url1))
+		print("{} == md5({!r})".format(md5_url(url2), url2))
+		print("After processing,")
+		print("len(body({!r})) == {}".format(url1, len(body1)))
+		print("len(body({!r})) == {}".format(url2, len(body2)))
 		# TODO: handle non-utf-8 bodies
 		for line in difflib.unified_diff(
 			body1.decode("utf-8").splitlines(keepends=True),
