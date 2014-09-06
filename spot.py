@@ -56,16 +56,22 @@ def process_body(body, url):
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
 		body = body.replace(quote('?' + u.query).encode("utf-8"), b"")
+
 	# Drupal puts the current URL here, and the casing doesn't always match
 	body = re.sub(br'<link rel="canonical" href="[^"]+" />', b"", body)
+
 	# Drupal generates this form id
 	body = re.sub(br'\bvalue="form-[-_A-Za-z0-9]+\b"', b"", body)
+
 	# Drupal generates this class id
 	body = re.sub(br"\bview-dom-id-[0-9a-f]+\b", b"", body)
+
 	# Drupal generates <body class="..."> items based on the URL
 	body = re.sub(br'<body class="[^"]+">', b"", body)
+
 	# Drupal generates a "theme_token":"..." inside a JSON blob
 	body = re.sub(br'_token":"[-_A-Za-z0-9]+"', b"", body)
+
 	# Drupal sites have randomized sidebar content with these IDs
 	body = re.sub(br'<div class="views-field views-field-[-a-z]+">.*', b"", body)
 	return body
