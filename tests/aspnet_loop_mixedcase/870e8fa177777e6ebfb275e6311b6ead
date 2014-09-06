@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="ctl00_Head1"><title>
+	Page not Found
+</title><!-- required to be text only for overriding of titles on item detail page and others //-->
+    <script language="javascript" type="text/javascript"> 
+
+//        var message="right click is Disable.";
+       
+        function click(e) 
+        {
+            if (document.all)
+             {
+                if (event.button == 2)
+                {
+                  
+                    return false;
+                }
+            }
+        if (document.layers) {
+        if (e.which == 3) {
+       
+        return false;
+        }
+        }
+        }
+        if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        }
+        document.onmousedown=click;
+    
+    </script>
+    <link id="ctl00_Link1" type="text/css" href="javascript/jqueryui/development-bundle/themes/base/ui.all.css" rel="stylesheet" /><link href="App_Themes/DefaultTheme/master%20-%20Copy.css" type="text/css" rel="stylesheet" /><link href="App_Themes/DefaultTheme/master.css" type="text/css" rel="stylesheet" /><link href="App_Themes/DefaultTheme/menu.css" type="text/css" rel="stylesheet" /></head>
+<body oncontextmenu="return false">
+
+    <form name="aspnetForm" method="post" action="rewrite.aspx?404%3bhttp%3a%2f%2fwww.quail.com%3a80%2fjavascript%2fckeditor%2fimages%2fApp_Themes%2fDefaultTheme%2fjavascript%2fjavascript%2fjqueryui%2fdevelopment-bundle%2fthemes%2fbase%2fjavascript%2fckeditor%2fckeditor.js" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTg5MzI5NTYwMw9kFgJmD2QWAgIBDxYCHgRsYW5nBQJlbhYCAgMPZBYEAgcPZBYGZg9kFhZmDw8WCB4HVG9vbFRpcAUGTG9nb3V0HgRUZXh0BQZMb2dvdXQeC05hdmlnYXRlVXJsBQwvTG9nb3V0LmFzcHgeB1Zpc2libGVoZGQCAQ8PFgYfAQUFTG9naW4fAgUFTG9naW4fAwULL0xvZ2luLmFzcHhkZAICDw8WBh8BBQhSZWdpc3Rlch8CBQhSZWdpc3Rlch8DBQ4vcmVnaXN0ZXIuYXNweGRkAgMPDxYGHwEFCFNpdGUgTWFwHwIFCFNpdGUgTWFwHwMFDS9TaXRlTWFwLmFzcHhkZAIEDw8WCB8BBSBWaWV3IHByZXZpb3VzbHkgb3JkZXJlZCBwcm9kdWN0cx8CBQpNeSBDYXRhbG9nHwMFFS9TZWFyY2hNeUNhdGFsb2cuYXNweB8EaGRkAgUPDxYIHwEFHVZpZXcgeW91ciBhY2NvdW50IGluZm9ybWF0aW9uHwIFCk15IEFjY291bnQfAwUYL0N1cnJlbnRBY2NvdW50SW5mby5hc3B4HwRoZGQCBg8PFggfAQUXVmlldyB5b3VyIG9yZGVyIGhpc3RvcnkfAgUJTXkgT3JkZXJzHwMFEy9vcmRlcl9oaXN0b3J5LmFzcHgfBGhkZAIHDw8WCB8BBQ9DaGFuZ2UgUGFzc3dvcmQfAgUPQ2hhbmdlIFBhc3N3b3JkHwMFFS9jaGFuZ2VfcGFzc3dvcmQuYXNweB8EaGRkAggPDxYIHwEFG09wZW4gdGhlIE9yZGVyIEVudHJ5IHNjcmVlbh8CBQtPcmRlciBFbnRyeR8DBRkvU2FsZXNyZXAvT3JkZXJFbnRyeS5hc3B4HwRoZGQCCQ8PFggfAQUrT3BlbiB0aGUgTmF0aW9uYWwgQWNjb3VudCBjdXN0b21lciBzZWxlY3Rvch8CBQ5OYXQnbCBBY2NvdW50cx8DBR4vTmF0aW9uYWxBY2NvdW50cy9EZWZhdWx0LmFzcHgfBGhkZAIKDw8WAh8EaGQWAmYPFQETTGFuZ3VhZ2UgUHJlZmVyZW5jZWQCAQ88KwANAgAPFgIeC18hRGF0YUJvdW5kZ2QMFCsABgUXMjowLDA6MCwwOjEsMDoyLDA6MywwOjQUKwACFg4fAgUESG9tZR4FVmFsdWUFBGhvbWUfAwULfi9Ib21lLmFzcHgeB0VuYWJsZWRnHgpTZWxlY3RhYmxlZx4IRGF0YVBhdGgFIC8qW3Bvc2l0aW9uKCk9MV0vKltwb3NpdGlvbigpPTFdHglEYXRhQm91bmRnZBQrAAIWDh8CBQhQcm9kdWN0cx8GBQhwcm9kdWN0cx8HZx8IZx8JBSAvKltwb3NpdGlvbigpPTFdLypbcG9zaXRpb24oKT0yXR8KZx8DBREvQy1wcm9kdWN0cy8uYXNweGQUKwACFg4fAgUPUmVjZW50bHkgVmlld2VkHwYFDnJlY2VudGx5dmlld2VkHwMFFX4vUmVjZW50bHlWaWV3ZWQuYXNweB8HZx8IZx8JBSAvKltwb3NpdGlvbigpPTFdLypbcG9zaXRpb24oKT0zXR8KZ2QUKwACFg4fAgUEQ2FydB8GBQRjYXJ0HwMFEH4vdmlld19jYXJ0LmFzcHgfB2cfCGcfCQUgLypbcG9zaXRpb24oKT0xXS8qW3Bvc2l0aW9uKCk9NF0fCmdkFCsAAhYOHwIFCENoZWNrb3V0HwYFCGNoZWNrb3V0HwMFD34vY2hlY2tvdXQuYXNweB8HZx8IZx8JBSAvKltwb3NpdGlvbigpPTFdLypbcG9zaXRpb24oKT01XR8KZ2RkAgIPZBYEZg8VAhpFbnRlciB5b3VyIHNlYXJjaCBjcml0ZXJpYRNQcm9kdWN0IE5hbWUgb3IgUC9OZAICDxUEITAxNDE4NzY4NzY1NjE5OTI0NTQzMzpqbS1jeWt3em92aQhGT1JJRDoxMAZTZWFyY2gJU2VhcmNoaW5nZAIJD2QWBGYPFQEOUGFnZSBub3QgZm91bmRkAgEPZBYCZg8PFgIfAgWNAVRoZSBwYWdlIHlvdSBhcmUgbG9va2luZyBmb3IgaGFzIG1vdmVkIG9yIGhhcyBiZWVuIGRlbGV0ZWQuIFBsZWFzZSByZXR1cm4gdG8gb3VyIDxhIGhyZWY9JzwlPVJlc29sdmVVcmwoIn4vIiklPic+aG9tZSBwYWdlPC9hPiBhbmQgdHJ5IGFnYWluLmRkZA==" />
+
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cscript src='" + gaJsHost + "stats.g.doubleclick.net/dc.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var pageTracker = _gat._getTracker('UA-37904049-1');pageTracker._trackPageview();} catch(err) {}</script>
+<script type="text/javascript" src="/ajaxpro/prototype.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/core.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/converter.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/Iciniti.Store.UserControls.AjaxMethods,Webstore43.ashx"></script>
+
+<script src="/WebResource.axd?d=8lBBiwp21N6hJbOL-hRmAjwpLPHjDETj691yYCoTZ_uL31lvL0NTG6gmN7WdaxVDPGQTKh2nR9Z28aiasYEyLV3iL641&amp;t=635198647129146460" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=h0IW1SFJ1TuvHDsGRM7F_00TDpwnEsSFKaPsFbKX6CSnfedDJJ-BT8TnJq0B5CKHasrb7e97UBJdX7WGMO6MMMaul_kJkaLwkFqo3Ou5irR0wkdQpLS3Ua7X9vRLIMDMh49vsyFuElQaytlPH6puSMjQOQD5hQyKO5lkBfTYXe5efgDO0&amp;t=e5f6129" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
+<script src="javascript/postback-hooks.js" type="text/javascript"></script>
+<script src="javascript/ckeditor/ckeditor.js" type="text/javascript"></script>
+<script src="javascript/ckeditor/adapters/jquery.js" type="text/javascript"></script>
+<script src="javascript/magiczoom.js" type="text/javascript"></script>
+
+    
+ 
+<LINK REL="ICON" HREF="favicon.ico" TYPE="image/x-icon"/>
+        <LINK REL="SHORTCUT ICON" HREF="favicon.ico" TYPE="image/x-icon"/>
+        
+    <div id="Container" >
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td colspan="100%">
+                    
+     <div id="TopNav">
+        <div id="logo" style="float:left" >
+        Company Name
+        </div>
+        <div id="ctl00_Header2_AccountLinksContainer">
+	
+        <div style="position:relative;width:760px;text-align:right;">
+            
+            <div class="MyAccountLinks" style="position:absolute;right:0px;margin-top:5px;">
+                                
+            <a id="ctl00_Header2_HyperLink4" title="Login" href="/Login.aspx">Login</a>                
+            
+            <a id="ctl00_Header2_HyperLink5" title="Register" href="/register.aspx">Register</a>                
+            
+            <a id="ctl00_Header2_HyperLink7" title="Site Map" href="/SiteMap.aspx">Site Map</a>                
+            
+            
+            <br /> 
+        
+        <div class="MyAccountLinks2" style="margin-left:200px;left:5px;width:760px;margin-top:10px;display:none">
+            
+                
+            
+                
+                            
+                
+                             
+               
+                            
+                
+                            
+                
+                               
+            </div>
+        <br />  
+        
+               <br /><br /> 
+            
+
+            </div>
+          </div>
+        
+</div>
+        <br />
+         <div id="menusearchbar" >
+            
+                <div id="dropdownmenu">
+
+                         <a href="#ctl00_Header2_Menu1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=COrRIAt2tknWswT43DuGwNeEQnprtnhxeUHFPDgMlY9Xg9sPcpC4KSy9kCc-qK9WlPfbk2BoJN6NOimC6ZuHciZPyg01&amp;t=635198647129146460" width="0" height="0" border="0" /></a><table id="ctl00_Header2_Menu1" class="pulldownmenu" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Header2_Menu1n0"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td nowrap="nowrap"><a href="Home.aspx">Home</a></td>
+			</tr>
+		</table></td><td width="3"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Header2_Menu1n1"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td nowrap="nowrap"><a href="/C-products/.aspx">Products</a></td>
+			</tr>
+		</table></td><td width="3"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Header2_Menu1n2"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td nowrap="nowrap"><a href="RecentlyViewed.aspx">Recently Viewed</a></td>
+			</tr>
+		</table></td><td width="3"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Header2_Menu1n3"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td nowrap="nowrap"><a href="view_cart.aspx">Cart</a></td>
+			</tr>
+		</table></td><td width="3"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Header2_Menu1n4"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td nowrap="nowrap"><a href="checkout.aspx">Checkout</a></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Header2_Menu1_SkipLink"></a>
+                </div>
+                 <div id="search">
+                    
+<input style="width:150px; height:17px;" title='Enter your search criteria' type="TEXT" id="SearchWord" onkeypress="return checkEnterKey(event)" name="word" value='Product Name or P/N' onfocus="this.select()" />&nbsp;<div id="go_btn" style="display:inline;" onclick="startSearch()"><img src='/images/header_search_icon.png' align="absBottom" style="margin-left:0px; padding:0px; border-style:none; position:relative; left:-04px; top:0;"/></div>
+<div id="ctl00_Header2_GWordSearch1_gsitescript">
+	
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+
+</div>
+<script language="javascript" type="text/javascript">
+    function startSearch() {
+        var valToPass = AjaxMethods.GetParam(document.getElementById("SearchWord").value).value;
+
+        var url = '/SearchByKeyword.aspx?word=' + valToPass + '&cx=014187687656199245433:jm-cykwzovi&cof=FORID:10&ie=UTF-8&q=' + valToPass + '&sa=Search';
+        var span = document.getElementById("pleaseWait");
+        if (span != null) {
+            span.innerHTML = 'Searching';
+        }
+        window.location.href = url
+    }
+
+    function checkEnterKey(e) {
+        var key = window.event ? e.keyCode : e.which;
+        if (key == 13) {
+            startSearch();
+            return false;
+        }
+
+        return true;
+    }
+</script>
+
+
+                </div>
+         </div>
+    </div>
+
+                </td>
+            </tr>
+        
+        <tr>
+            <td valign="top" id="ContentAreaAll">
+                 <div id="padding">
+                
+    <div>
+    <h1>Page not found</h1>
+    <span id="ctl00_MainContent_MultiLanguageInclude1_multi">The page you are looking for has moved or has been deleted. Please return to our <a href='<%=ResolveUrl("~/")%>'>home page</a> and try again.</span>
+
+    </div>
+    
+            </div>
+            </td>
+        </tr>
+        </table>
+    
+         
+    </div>
+
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_Header2_Menu1_Data = new Object();
+ctl00_Header2_Menu1_Data.disappearAfter = 500;
+ctl00_Header2_Menu1_Data.horizontalOffset = 4;
+ctl00_Header2_Menu1_Data.verticalOffset = 0;
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>

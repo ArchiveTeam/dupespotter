@@ -7,7 +7,7 @@ import json
 import difflib
 
 from hashlib import md5
-from urllib.parse import urlsplit, quote, quote_plus
+from urllib.parse import urlsplit, quote, quote_plus, unquote
 from urllib.request import urlopen, HTTPError
 
 cache_dir = "cache"
@@ -46,6 +46,8 @@ def get_body(url):
 
 def lower_escapes(url):
 	assert isinstance(url, bytes), type(url)
+	if b'%' not in url:
+		return url
 	return re.sub(b'(%[a-fA-F0-9]{2})', lambda m: m.group(1).lower(), url)
 
 
@@ -56,7 +58,7 @@ def process_body(body, url):
 	"""
 	assert isinstance(body, bytes), type(body)
 	u = urlsplit(url)
-	if len(u.path) >= 4:
+	if len(u.path) >= 5:
 		path = u.path
 		if path.startswith('/'):
 			path = path[1:]
@@ -64,6 +66,11 @@ def process_body(body, url):
 		body = body.replace(path.encode("utf-8").replace(b"/", br"\/"), b"")
 		body = body.replace(quote_plus(path).encode("utf-8"), b"")
 		body = body.replace(lower_escapes(quote_plus(path).encode("utf-8")), b"")
+		if '%' in path:
+			unquoted_path = unquote(path)
+			if len(unquoted_path) >= 4:
+				body = body.replace(quote_plus(unquoted_path).encode("utf-8"), b"")
+				body = body.replace(lower_escapes(quote_plus(unquoted_path).encode("utf-8")), b"")
 	if len(u.query) >= 3:
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
