@@ -44,6 +44,11 @@ def get_body(url):
 			return body
 
 
+def lower_escapes(url):
+	assert isinstance(url, bytes), type(url)
+	return re.sub(b'(%[a-fA-F0-9]{2})', lambda m: m.group(1).lower(), url)
+
+
 def process_body(body, url):
 	"""
 	Return a post-processed page body that excludes irrelevant content
@@ -58,7 +63,7 @@ def process_body(body, url):
 		body = body.replace(path.encode("utf-8"), b"")
 		body = body.replace(path.encode("utf-8").replace(b"/", br"\/"), b"")
 		body = body.replace(quote_plus(path).encode("utf-8"), b"")
-		body = body.replace(quote_plus(path).encode("utf-8").lower(), b"")
+		body = body.replace(lower_escapes(quote_plus(path).encode("utf-8")), b"")
 	if len(u.query) >= 3:
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
