@@ -79,6 +79,9 @@ def process_body(body, url):
 	# Drupal generates a "theme_token":"..." inside a JSON blob
 	body = re.sub(br'_token":"[-_A-Za-z0-9]+"', b"", body)
 
+	# Handle any 32-64 characters of hex
+	body = re.sub(br'\b[A-Fa-f0-9]{32,64}\b', b"", body)
+
 	if b"drupal" in body:
 		# Drupal puts the current URL here, and the casing doesn't always match
 		body = re.sub(br'<link rel="canonical" href="[^"]+" />', b"", body)
