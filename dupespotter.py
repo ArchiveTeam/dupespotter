@@ -69,6 +69,9 @@ def process_body(body, url):
 		path_without_slashes = path.replace("/", "")
 		if len(path_without_slashes) >= 5:
 			body = body.replace(path_without_slashes.encode("utf-8"), b"")
+		# For Dokuwiki
+		path_underscored = path.replace("/", "_")
+		body = body.replace(path_underscored.encode("utf-8"), b"")
 		if '%' in path:
 			unquoted_path = unquote(path)
 			if len(unquoted_path) >= 4:
@@ -78,6 +81,9 @@ def process_body(body, url):
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
 		body = body.replace(quote('?' + u.query).encode("utf-8"), b"")
+
+	# Dokuwiki
+	body = re.sub(br'/lib/exe/indexer.php\?id=&amp;\d{10}', b"", body)
 
 	# Drupal generates a "theme_token":"..." inside a JSON blob
 	body = re.sub(br'_token":"[-_A-Za-z0-9]+"', b"", body)
