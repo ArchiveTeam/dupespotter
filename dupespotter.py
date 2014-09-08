@@ -88,7 +88,7 @@ def process_body(body, url):
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
 		body = body.replace(quote('?' + u.query).encode("utf-8"), b"")
 
-	# Dokuwiki
+	# Dokuwiki includes the current Unix time
 	body = re.sub(br'/lib/exe/indexer.php\?id=&amp;\d{10}', b"", body)
 
 	# Drupal generates a "theme_token":"..." inside a JSON blob
