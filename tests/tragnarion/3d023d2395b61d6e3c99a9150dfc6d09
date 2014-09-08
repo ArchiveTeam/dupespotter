@@ -1,0 +1,577 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-US" class="ie6 oldie no-js"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" class="ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" class="ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-US" class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US" class="no-js"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>(EN) Junior C/C++/C# and Scripting Languages Programmer  
+</title>
+
+<link rel="stylesheet" href="http://www.tragnarion.com/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.5" type="text/css" media="all" />
+    <link rel="stylesheet" href="http://www.tragnarion.com/wp-content/themes/tragnarion2/style.css" type="text/css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="http://www.tragnarion.com/wp-content/themes/tragnarion2/images/pagethumb.jpg" />     
+
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="http://www.tragnarion.com/wp-content/themes/tragnarion2/css/fixes.css" />
+    <![endif]-->
+    
+<link rel="alternate" type="application/rss+xml" title="Tragnarion Studios &raquo; Feed" href="http://www.tragnarion.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tragnarion Studios &raquo; Comments Feed" href="http://www.tragnarion.com/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.tragnarion.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='base-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/base.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/skeleton.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='template-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/template.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/custom.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shadows-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/shadows.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='social_icons-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/social_icons.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/superfish.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/prettyPhoto.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tipsy-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/tipsy.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/responsive.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-tables-css'  href='http://www.tragnarion.com/wp-content/themes/ekho/css/responsive-tables.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpjb-css-css'  href='http://www.tragnarion.com/wp-content/plugins/wpjobboard/templates/style.css?ver=4.0.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.tragnarion.com/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/modernizr.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WpjbData = {"AjaxRequest":"http:\/\/www.tragnarion.com\/jobs\/offers\/plain\/discount","Protection":"pr0t3ct1on"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/wpjobboard/templates/js.js?ver=4.0.6'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.tragnarion.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.tragnarion.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://www.tragnarion.com/?p=610' />
+<meta name="generator" content="WPML ver:3.1.5 stt:1,2;0" />
+<link rel="alternate" hreflang="en-US" href="http://www.tragnarion.com/jobs/offers/" />
+<link rel="alternate" hreflang="es-ES" href="http://www.tragnarion.com/es/empleo/ofertas/" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+    <script type="text/javascript">
+    var templateDir = "http://www.tragnarion.com/wp-content/themes/ekho";
+    </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43775808-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="page page-id-610 page-child parent-pageid-705 page-template-default dark header-vertical">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId="; 
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        
+    <div id="page_wrapper">
+    
+        <div id="gradient"></div><!-- gradient background -->
+        
+        <div id="background">
+            
+        </div><!-- end background -->
+        
+        <div id="header" class="vertical" data-type="vertical">
+        
+            <!-- logo -->
+            <a href="http://www.tragnarion.com/" title="Tragnarion Studios" id="logo"></a>
+            
+            <!-- menu -->
+            <div id="menu">
+                <ul id="menu-main-menu" class="jt-menu"><li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="http://www.tragnarion.com/sample-page/">NEWS</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42"><a href="http://www.tragnarion.com/games/">GAMES</a>
+<ul class="sub-menu">
+	<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="http://www.tragnarion.com/games/scourge-outbreak/">SCOURGE: OUTBREAK</a></li>
+	<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="http://www.tragnarion.com/games/doodle-hex/">DOODLE HEX</a></li>
+	<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="http://www.tragnarion.com/games/map-my-mind/">MAP MY MIND</a></li>
+</ul>
+</li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-44"><a href="http://www.tragnarion.com/company/">COMPANY</a>
+<ul class="sub-menu">
+	<li id="menu-item-457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-457"><a href="http://www.tragnarion.com/company/about/">ABOUT</a></li>
+	<li id="menu-item-458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-458"><a href="http://www.tragnarion.com/company/team/">TEAM</a></li>
+</ul>
+</li>
+<li id="menu-item-851" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-851"><a href="http://www.tragnarion.com/jobs/">JOBS</a>
+<ul class="sub-menu">
+	<li id="menu-item-853" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-610 current_page_item menu-item-853"><a href="http://www.tragnarion.com/jobs/offers/">OFFERS</a></li>
+	<li id="menu-item-852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852"><a href="http://www.tragnarion.com/jobs/cv/">CV</a></li>
+</ul>
+</li>
+<li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-859"><a href="http://www.tragnarion.com/contact/">CONTACT</a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="http://www.tragnarion.com/blog/">BLOG</a></li>
+<li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1028"><a href="http://www.tragnarion.com/store/">STORE</a></li>
+<li id="menu-item-929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a href="http://www.tragnarion.com/forum/">FORUM</a></li>
+<li class="menu-item menu-item-language menu-item-language-current"><a href="#" onclick="return false"><img class="iclflag" src="http://www.tragnarion.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" width="18" height="12" alt="English" title="English" />English</a><ul class="sub-menu submenu-languages"><li class="menu-item menu-item-language menu-item-language-current"><a href="http://www.tragnarion.com/es/empleo/ofertas/"><img class="iclflag" src="http://www.tragnarion.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" width="18" height="12" alt="Español" title="Español" />Español</a></li></ul></li></ul>            </div><!--end menu -->
+            <div class="clear"></div>
+            
+            <!-- search -->
+            <div id="search">
+                <form action="http://www.tragnarion.com/" method="get">
+                    <div class="search">
+                        <input name="s" maxlength="20" class="inputbox" type="text" size="20" value="SEARCH ..." onblur="if (this.value=='') this.value='SEARCH ...';" onfocus="if (this.value=='SEARCH ...') this.value='';" />
+                        <input id="searchsubmit" type="submit" value="go" class="button"/>
+                    </div>
+                </form>
+            </div><!-- end search -->
+                        
+            <!-- social icons -->
+            <div id="social_icons">
+                <ul class="social_icons colorWhite">
+                                            <li><a href="https://www.facebook.com/TragnarionStudios" target="_blank" rel="nofollow" title="Facebook" class="social_iconF">F</a></li>
+                    
+                                            <li><a href="https://twitter.com/Tragnarion" target="_blank" rel="nofollow" title="Twitter" class="social_iconL">L</a></li>
+                    
+                    
+                    
+                                            <li><a href="https://plus.google.com/111359909013045681896/about" target="_blank" rel="nofollow" title="Google Plus" class="social_iconGpl">}</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                            <li><a href="http://www.linkedin.com/company/35488?trk=tyah" target="_blank" rel="nofollow" title="Linkedin" class="social_iconI">I</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                            <li><a href="http://www.youtube.com/user/TragnarionStudios" target="_blank" rel="nofollow" title="Youtube" class="social_iconX">X</a></li>
+                    
+                                    </ul>
+            </div><!-- end social_icons -->
+            <div class="clear"></div>
+
+            
+        </div><!-- end header --><div id="main" class="container">
+            <a href="#" id="mainClose" class="maximized" data-rel="tipsye" title="Minimize"></a>
+            <div class="inner-container">
+            <div id="breadcrumbs" class="row">
+    <div class="breadcrumb ten columns omega">
+        <div class="breadcrumbs">
+												<a class="pathway isHome " href="http://www.tragnarion.com">
+					Home					</a>
+					<span class="brd_separator">/</span>
+					  (EN) Junior C/C++/C# and Scripting Languages Programmer   					</div>
+    </div> <!--end breadcrumbs -->
+    <!--<div class="thedate six columns alpha">
+        <span id="current-date">Monday May 06th, 2013</span>
+    </div>
+    <div class="clear"></div> -->
+</div><!-- end breadcrumbs -->                <div class="row">
+                
+                    <div class="sixteen noSidebars columns">
+                        <div id="mainbody">
+                            <div class="item-page ">
+                            
+                                <h2 class="page-title">  (EN) Junior C/C++/C# and Scripting Languages Programmer   </h2>
+
+                                <div id="wpjb-main" class="wpjb-job wpjb-page-single">
+
+        
+        <table class="wpjb-info">
+        <tbody>
+                                    <tr>
+                <td class="wpjb-info-label">Date Posted</td>
+                <td>May 16, 2014</td>
+            </tr>
+                        <tr>
+                <td class="wpjb-info-label">Category</td>
+                <td>
+                                        <a href="http://www.tragnarion.com/jobs/offers/category/default/">Default</a><br/>
+                                    </td>
+            </tr>
+                                    <tr>
+                <td class="wpjb-info-label">Job Type</td>
+                <td>
+                                        <a href="http://www.tragnarion.com/jobs/offers/type/full-time/">Full-time</a><br/>
+                                    </td>
+            </tr>
+                                                                                                
+                    </tbody>
+    </table>
+
+
+
+    <div class="wpjb-job-content">
+
+        <h3>Description</h3>
+        <div class="wpjb-job-text">
+
+            
+            <p>We offer the exciting opportunity to take on the challenge of developing interactive 3D, Enterprise and Mobile products.</p>
+<p>The ideal candidate would be an individual with intellect, a strong creative drive, a passion for programming, and the patience for careful analysis and documentation.</p>
+<p><strong>Duties include:</strong></p>
+<ul>
+<li>Create support tools for 3DS MAX, Unity Engine and/or Unreal Engine 3 and/or 4 (ie. Exporters, system integration, etc).</li>
+<li>Develop 2D/3D UI’s.</li>
+<li>Be capable of learning new frameworks, API’s, and programming languages depending on the needs of the project.</li>
+<li>Be capable of maintaining a broad logical and architectural vision of the project, the development strategy and the related research where necessary.</li>
+<li>Be capable of pro-actively assuming responsibility for resolving technical challenges that present themselves during the project.</li>
+<li>Progress professionally and contribute pro-actively to the technical and architectural solutions in various parts of the project.</li>
+<li>Follow-through with the full software development life cycle, promote processes for improving analysis, design, programming, reviews, tests, reports, deployment, and management of configuration and support.</li>
+</ul>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Bachelor’s degree (or higher) in Computer Science or related field, or equivalent training and professional experience.</li>
+<li>Knowledge and proven experience in object-oriented design.</li>
+<li>Good mathematical base.</li>
+<li>Good verbal and written communication skills.</li>
+<li>Experience with C++/C or C#.</li>
+<li>Working knowledge of English.</li>
+</ul>
+<p><strong>Desirable attributes:</strong></p>
+<ul>
+<li>High creativity</li>
+<li>Proven knowledge/experience in 3D projects.</li>
+<li>Ability to resolve a problem, such as code structure.</li>
+<li>Knowledge/experience of a scripting languages such as LUA, Python, etc.</li>
+<li>Knowledge/experience of preparing tests.</li>
+<li>Knowledge/experience with a shading language (ie. HSLS, CG or CLSL)</li>
+<li>Knowledge/experience with a game engine.</li>
+<li>Prior professional experience</li>
+<li>Good/Excellent level of spanish</li>
+</ul>
+            
+        </div>
+
+                                                
+            </div>
+
+        
+        
+    <div class="wpjb-job-apply" id="wpjb-scroll">
+        <div>
+                        <a class="wpjb-button wpjb-form-toggle wpjb-form-job-apply" href="http://www.tragnarion.com/jobs/offers/view/en-junior-ccc-and-scripting-languages-programmer/form/apply/#wpjb-scroll" rel="nofollow" data-wpjb-form="wpjb-form-job-apply">Apply online <span class="wpjb-slide-icon wpjb-none">&nbsp;</span></a>
+                    </div>
+        
+        <div id="wpjb-form-job-apply" class="wpjb-form-slider wpjb-none">
+            
+                        
+            <form id="wpjb-apply-form" action="http://www.tragnarion.com/jobs/offers/view/en-junior-ccc-and-scripting-languages-programmer/form/apply/#wpjb-scroll" method="post" enctype="multipart/form-data" class="wpjb-form wpjb-form-nolines">
+                <input id="protection" name="protection" type="hidden"  />                                 
+                <fieldset class="wpjb-fieldset-apply">
+                    
+                                        <legend>Apply</legend>
+                                        
+                                                            <div class="wpjb-element-input-text wpjb-element-name-applicant_name">
+
+                        <label class="wpjb-label">
+                            Your name ( Tu nombre )                            <span class="wpjb-required">*</span>                        </label>
+
+                        <div class="wpjb-field">
+                            <input id="applicant_name" name="applicant_name" type="text"  />                                                                                </div>
+
+                    </div>
+                                                            <div class="wpjb-element-input-text wpjb-element-name-email">
+
+                        <label class="wpjb-label">
+                            Your e-mail address ( Tu correo electrónico )                            <span class="wpjb-required">*</span>                        </label>
+
+                        <div class="wpjb-field">
+                            <input id="email" name="email" type="text"  />                                                                                </div>
+
+                    </div>
+                                                            <div class="wpjb-element-input-textarea wpjb-element-name-message">
+
+                        <label class="wpjb-label">
+                            Message ( Mensaje)                                                    </label>
+
+                        <div class="wpjb-field">
+                            <textarea id="message" name="message" ></textarea>                                                                                </div>
+
+                    </div>
+                                                            <div class="wpjb-element-input-file wpjb-element-name-file">
+
+                        <label class="wpjb-label">
+                            ONLY ( .pdf, .doc, .docx, .txt, .odt, .zip, .rar, .jpg ). files accepted                                                    </label>
+
+                        <div class="wpjb-field">
+                            
+    <div id="file" class="wpjb-upload-list wpjb-none">
+    <div class="wpjb-upload-actions">
+        
+        <a href="#10" id="wpjb-upload-file" class="button">
+            <img style="vertical-align:middle" src="http://www.tragnarion.com/wp-content/plugins/wpjobboard/public/images/12-em-plus.png" alt="" />
+            <span class="wpjb-upload-empty">upload file &#8230;</span>
+            
+        </a>
+        
+        <span id="wpjb-upload-limit-file" style="opacity:0.5">
+            <span class="limit-reached">Limit reached, delete at least one file above to add more.</span>
+            &nbsp;<span class="limit"></span>
+        </span>
+    </div>
+    </div>
+
+    <div class="wpjb-upload-default">
+                    <input type="file" name="file[]" class="" /><br/>
+                    <input type="file" name="file[]" class="" /><br/>
+                    <input type="file" name="file[]" class="" /><br/>
+                    <input type="file" name="file[]" class="" /><br/>
+                    <input type="file" name="file[]" class="" /><br/>
+                    <input type="file" name="file[]" class="" /><br/>
+            </div>
+
+        
+    <script type="text/javascript">
+    if (typeof ajaxurl === 'undefined') {
+        ajaxurl = "http://www.tragnarion.com/wp-admin/admin-ajax.php";
+    }
+    if (typeof wpjb_plupload_icons == 'undefined') {
+        wpjb_plupload_icons = "http://www.tragnarion.com/wp-content/plugins/wpjobboard/public/images";
+    }
+    
+    jQuery(function($) {
+        wpjb_plupload({
+            runtimes : 'gears,html5,flash,silverlight,browserplus',
+            browse_button : "wpjb-upload-file",
+            container : 'file',
+            max_file_size : '10mb',
+            url : "http://www.tragnarion.com/wp-admin/admin-ajax.php",
+            flash_swf_url : 'http://www.tragnarion.com/wp-content/plugins/wpjobboard/application/vendor/plupload/plupload.flash.swf',
+            silverlight_xap_url : 'http://www.tragnarion.com/wp-content/plugins/wpjobboard/application/vendor/plupload/plupload.silverlight.xap',
+            //filters : [{title : "Filter", extensions : "jpg,gif,png"}],
+            multipart_params: {
+                action: "wpjb_main_upload",
+                form: "Wpjb_Form_Apply",
+                field: "file",
+                id: null            }
+        });
+        
+                wpjb_plupload_handle_limit(jQuery("#wpjb-upload-file"));   
+        $(".wpjb-upload-list, .wpjb-upload-actions").removeClass("wpjb-none");
+        $(".wpjb-upload-default").remove();
+        wpjb_plupload_refresh();
+    });
+    </script>
+    
+    
+                                <small class="wpjb-hint">20 MB max.</small>                                                    </div>
+
+                    </div>
+                                    </fieldset>
+                                <fieldset>
+                    <legend class="wpjb-empty"></legend>
+                    <input type="submit" class="wpjb-submit" id="wpjb_submit" value="Send Application" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+        
+            <div class="wpjb-job-content">
+    <h3>Related Jobs</h3>
+    <ul>
+                <li class=" wpjb-free wpjb-type- wpjb-category-">
+
+                        <a href="http://www.tragnarion.com/jobs/offers/view/programador-junior-ccc-y-lenguajes-de-script-2/">(ES) Programador Junior C/C++/C# y lenguajes de script</a>
+            posted 4 months ago.         </li>
+        </ul>
+    </div>
+        
+    
+    </div>                                                            
+                            </div><!-- end item-page-->
+                        </div><!-- end mainbody -->
+                    </div>
+                
+                </div><!-- end row -->
+            </div>
+        </div><!-- end main -->
+        <div class="footerFix"></div><!-- FooterFix (needed for properly rendering the #main div) -->
+
+
+<!-- social sharing -->
+        <div id="social_sharing">
+            <ul class="social-connect clearfix">
+                <li class="fb_like_button">
+                    <div class="bg_over"></div>
+                    <div class="inner">
+                        <div class="fb-like" data-href="http://www.tragnarion.com/jobs/offers/view/en-junior-ccc-and-scripting-languages-programmer/spark6.png/spark6.png/spark4.png/spark2.png?page_id=610&job_board=view%2Fen-junior-ccc-and-scripting-languages-programmer%2Fspark6.png%2Fspark6.png%2Fspark4.png%2Fspark2.png" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false" data-font="arial"></div>
+                    </div>    
+                </li><!-- end FB Like button  -->
+            
+                <li class="tweetme">
+                    <div class="bg_over"></div>
+                    <div class="inner">
+                        <a href="http://twitter.com/share" class="twitter-share-button" data-text="Check out this great website: http://www.tragnarion.com/jobs/offers/view/en-junior-ccc-and-scripting-languages-programmer/spark6.png/spark6.png/spark4.png/spark2.png?page_id=610&job_board=view%2Fen-junior-ccc-and-scripting-languages-programmer%2Fspark6.png%2Fspark6.png%2Fspark4.png%2Fspark2.png" data-url="http://www.tragnarion.com/jobs/offers/view/en-junior-ccc-and-scripting-languages-programmer/spark6.png/spark6.png/spark4.png/spark2.png?page_id=610&job_board=view%2Fen-junior-ccc-and-scripting-languages-programmer%2Fspark6.png%2Fspark6.png%2Fspark4.png%2Fspark2.png" data-count="horizontal" >Tweet</a>
+                        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                    </div>
+                </li><!-- end tweet button -->
+            
+                <li class="gplus">
+                    <div class="bg_over"></div>
+                    <div class="inner">
+                        <script type="text/javascript">
+                        (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                        })();
+                        </script>
+                        <div class="g-plusone" data-size="medium"></div>
+                    </div>
+                </li><!-- end gplus -->
+            </ul>
+            <div class="clear"></div>
+        </div>
+        
+<!-- footer -->
+        <div id="footer">
+            <div id="footer1" style="" data-align="left">
+                <div class="inner">
+                    <div class="mod-languages">
+                        <ul class="lang-inline">
+                            <li>
+                                <a href="#" title="German (Fake Flag link for demo purposes)" data-rel="tipsy">
+                                    <img src="http://www.tragnarion.com/wp-content/themes/ekho/images/language_flags/de.gif" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-rel="tipsy" title="French (Fake Flag link for demo purposes)">
+                                    <img src="http://www.tragnarion.com/wp-content/themes/ekho/images/language_flags/fr.gif" alt="" /> 
+                                </a>
+                            </li>
+                            <li class="lang-active">
+                                <a href="#" data-rel="tipsy" title="English (Fake Flag link for demo purposes)">
+                                    <img src="http://www.tragnarion.com/wp-content/themes/ekho/images/language_flags/en.gif" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- end @footer1 -->
+            
+            <div id="footer2" style="" data-align="left">
+                <div class="inner">
+                    <div class="bghelper">
+                        <div class="modulecontent copyright">
+                            <div class="custom"  >
+                                <p>
+                                    Copyright &copy; Tragnarion Studios 2014. All rights reserved. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end #footer2 -->
+
+                                    
+            <div id="footer4" style="" data-align="right">
+                <div class="inner">
+                    <div id="contact_details" class="iconWidget">
+                        <a href="#" class="iconWidgetIcon" style="">GET IN TOUCH</a>
+                        <div class="iconWidgetContainer">
+                            <a href="#" class="closeIconWidget"></a>
+                            <h4 class="title"><span>GET IN TOUCH</span></h4>
+                            <div class="contact_details">
+                                                                <p>
+                                                                            Email:&nbsp;
+                                        <a href="mailto:contact@tragnarion.com">&#99;&#x6f;&#110;&#116;&#x61;&#99;&#x74;&#x40;&#116;&#x72;&#x61;&#x67;&#x6e;&#97;&#x72;&#105;&#111;&#110;&#46;&#x63;&#111;&#109;</a>
+                                        <br />
+                                                                        
+                                </p>
+                                                            </div><!-- end contact_details -->
+                        </div><!-- end iconWidgetContainer -->
+                    </div><!-- end contact_details // newsletter_form -->
+                </div>
+            </div><!-- end #footer4 -->
+        </div>
+
+         <!-- live comments panel -->
+        <div id="live_comments">
+            <div id="livesocial" class="livesocial">
+                <ul class="triggers">
+                    <li class="facebook">Facebook Live Comments</li>
+                    <li class="separator"></li>
+                    <li class="tweets">Tweets</li>
+                </ul><!-- end triggers buttons -->
+                
+                <div class="liveSocialContainer">
+                    <a href="#" class="closeIconWidget"></a>
+                    
+                    <div class="facebook_comments both">
+                        <div class="fb-comments" data-href="http://www.tragnarion.com" data-num-posts="2" data-width="400" data-colorscheme="dark"></div>
+                    </div><!-- fb comments -->
+                
+                                    </div><!-- end liveSocialContainer -->
+            </div><!-- end livesocial -->
+        </div><!-- end live comments --> 
+        
+        
+    </div><!-- end page_wrapper -->
+    <!-- Load JS Files -->
+    <div id="demo"></div>
+    
+    <script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/wpjobboard/application/vendor/plupload/plupload.full.js'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/wpjobboard/public/js/wpjb-plupload.js'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.tragnarion.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var daq_selectlist_lang = {"hint":"Select options ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/wpjobboard/application/vendor/select-list/jquery.selectlist.pack.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/www.tragnarion.com\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/ekho_scripts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/superfish.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/supersubs.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/jquery.prettyPhoto.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/jquery.tipsy.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/jquery.easing.1.3.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/jquery.jflickrfeed.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/tinynav.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.tragnarion.com/wp-content/themes/ekho/js/responsive-tables.js?ver=1.0'></script>
+		<script type="text/javascript">
+	        (function($){   
+	        		        })(jQuery);
+	    </script>
+			<script type="text/javascript">
+	        (function($){   
+	            var Spark=function(){var a=this;this.b="http://www.tragnarion.com/wp-content/themes/ekho/images/sparkles/";this.s=["spark.png","spark2.png","spark3.png","spark4.png","spark5.png","spark6.png"];this.i=this.s[this.random(this.s.length)];this.f=this.b+this.i;this.n=document.createElement("img");this.newSpeed().newPoint().display().newPoint().fly()};Spark.prototype.display=function(){$(this.n).attr("src",this.f).css("position","absolute").css("z-index",this.random(-3)).css("top",this.pointY).css("left",this.pointX);$(document.getElementById("sparkles")).append(this.n);return this};Spark.prototype.fly=function(){var a=this;$(this.n).animate({top:this.pointY,left:this.pointX},this.speed,"linear",function(){a.newSpeed().newPoint().fly()})};Spark.prototype.newSpeed=function(){this.speed=(this.random(10)+5)*1100;return this};Spark.prototype.newPoint=function(){this.pointX=this.random(window.innerWidth-100);this.pointY=this.random(650);return this};Spark.prototype.random=function(a){return Math.ceil(Math.random()*a)-1};$(function(){if($.browser.msie&&$.browser.version<9){return}var a=40;var b=[];for(i=0;i<a;i++){b[i]=new Spark()}});            
+	        	
+	        	
+	        })(jQuery);
+	    </script>
+	    </body>
+</html>

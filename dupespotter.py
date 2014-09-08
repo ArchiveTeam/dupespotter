@@ -51,6 +51,25 @@ def lower_escapes(url):
 	return re.sub(b'(%[a-fA-F0-9]{2})', lambda m: m.group(1).lower(), url)
 
 
+def kill_path(path, body):
+	body = body.replace(path.encode("utf-8"), b"")
+	body = body.replace(path.encode("utf-8").replace(b"/", br"\/"), b"")
+	body = body.replace(quote_plus(path).encode("utf-8"), b"")
+	body = body.replace(lower_escapes(quote_plus(path).encode("utf-8")), b"")
+	path_without_slashes = path.replace("/", "")
+	if len(path_without_slashes) >= 5:
+		body = body.replace(path_without_slashes.encode("utf-8"), b"")
+	# For Dokuwiki
+	path_underscored = path.replace("/", "_")
+	body = body.replace(path_underscored.encode("utf-8"), b"")
+	if '%' in path:
+		unquoted_path = unquote(path)
+		if len(unquoted_path) >= 4:
+			body = body.replace(quote_plus(unquoted_path).encode("utf-8"), b"")
+			body = body.replace(lower_escapes(quote_plus(unquoted_path).encode("utf-8")), b"")
+	return body
+
+
 def process_body(body, url):
 	"""
 	Return a post-processed page body that excludes irrelevant content
@@ -58,25 +77,12 @@ def process_body(body, url):
 	"""
 	assert isinstance(body, bytes), type(body)
 	u = urlsplit(url)
-	if len(u.path) >= 5:
-		path = u.path
-		if path.startswith('/'):
-			path = path[1:]
-		body = body.replace(path.encode("utf-8"), b"")
-		body = body.replace(path.encode("utf-8").replace(b"/", br"\/"), b"")
-		body = body.replace(quote_plus(path).encode("utf-8"), b"")
-		body = body.replace(lower_escapes(quote_plus(path).encode("utf-8")), b"")
-		path_without_slashes = path.replace("/", "")
-		if len(path_without_slashes) >= 5:
-			body = body.replace(path_without_slashes.encode("utf-8"), b"")
-		# For Dokuwiki
-		path_underscored = path.replace("/", "_")
-		body = body.replace(path_underscored.encode("utf-8"), b"")
-		if '%' in path:
-			unquoted_path = unquote(path)
-			if len(unquoted_path) >= 4:
-				body = body.replace(quote_plus(unquoted_path).encode("utf-8"), b"")
-				body = body.replace(lower_escapes(quote_plus(unquoted_path).encode("utf-8")), b"")
+	# Needed for www.tragnarion.com
+	path = u.path.rstrip('/')
+	if path.startswith('/'):
+		path = path[1:]
+	if len(path) >= 5:
+		body = kill_path(path, body)
 	if len(u.query) >= 3:
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
@@ -90,6 +96,14 @@ def process_body(body, url):
 
 	# Handle any 32-64 characters of hex
 	body = re.sub(br'\b[A-Fa-f0-9]{32,64}\b', b"", body)
+
+	# Randomized anti-spam mailto: lines
+	body = re.sub(br'<a href="mailto:[^"@]{1,100}@[^"]{2,100}">(&#[0-9a-fA-Fx]{2,4};){3,100}</a>', b"", body)
+
+	# Kill twitter and facebook share buttons, no matter what kind of
+	# URL they stuffed in there.
+	body = re.sub(br'<div class="fb-like" data-href=".*?</div>', b"", body)
+	body = re.sub(br'<a href="https?://twitter.com/share" class="twitter-share-button" data-text=".*?</a>', b"", body)
 
 	if b"drupal" in body:
 		# Drupal puts the current URL here, and the casing doesn't always match
