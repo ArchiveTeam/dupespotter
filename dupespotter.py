@@ -66,6 +66,9 @@ def process_body(body, url):
 		body = body.replace(path.encode("utf-8").replace(b"/", br"\/"), b"")
 		body = body.replace(quote_plus(path).encode("utf-8"), b"")
 		body = body.replace(lower_escapes(quote_plus(path).encode("utf-8")), b"")
+		path_without_slashes = path.replace("/", "")
+		if len(path_without_slashes) >= 5:
+			body = body.replace(path_without_slashes.encode("utf-8"), b"")
 		if '%' in path:
 			unquoted_path = unquote(path)
 			if len(unquoted_path) >= 4:

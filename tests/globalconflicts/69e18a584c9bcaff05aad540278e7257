@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Global Conflicts Portal</title>
+<link href="styles/gc-style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/gc.js"></script>
+<script src="fckeditor/fckeditor.js" type="text/javascript"></script>
+
+
+
+
+</head>
+<body>
+
+<div class="black-curtain" id="black-curtain" style="display: none;"></div>
+<div class="login-wrapper" id="login-window" style="display: none;">
+	<form method="post" action="./">
+	<div style="width: 607px; margin-top: 10px; margin-left: auto; margin-right: auto; text-align: right;">
+		<img src="images/loginwindow/close.png" id="close-login-window" alt="close window" />
+	</div>
+	<div class="login-title-holder">
+		<p class="login-title-label">Welcome to Global Conflicts</p>
+	</div>
+	<div class="login-form-holder">
+		<div class="login-label-box">
+			<p class="login-label-text">User name</p>
+		</div>
+		<input type="text" name="username" id="username" class="login-input" />
+		<div class="login-label-box" style="margin-left: 30px;">
+			<p class="login-label-text">Password:</p>
+		</div>
+		<input type="password" name="password" class="login-input" />
+		<div style="width: 100%; clear: both; height: 2px;"></div>
+	</div> 
+	<div class="login-bottom-holder">
+		<div style="width: 200px; float: left; text-align: left;"><a href="forgotpassword" class="login-forgot-link">Forgot your password?</a></div>
+		<input type="hidden" name="performLogin" value="true" />
+		<input type="hidden" name="login" value="true" />    
+		<input type="submit" class="login-button" value="Login"/>
+		<div style="width: 100%; clear: both;">&nbsp;</div>
+	</div>
+	</form>
+</div>
+
+<div class="languageSelect" id="languageSelect">
+	<a href="./?locale=en"><img src="images/langbuttons/en-00.png" id="en_butt" style="border: 0px;" onmouseover="mOver(id);" onmouseout="mOut(id);" alt="English" /></a><br />
+	<a href="./?locale=pt"><img src="images/langbuttons/pt-00.png" id="pt_butt" style="border: 0px;" onmouseover="mOver(id);" onmouseout="mOut(id);" alt="Portuguese" /></a><br />
+	<a href="./?locale=da"><img src="images/langbuttons/da-00.png" id="da_butt" style="border: 0px;" onmouseover="mOver(id);" onmouseout="mOut(id);" alt="Danish" /></a><br />
+	<a href="./?locale=de"><img src="images/langbuttons/de-00.png" id="de_butt" style="border: 0px;" onmouseover="mOver(id);" onmouseout="mOut(id);" alt="German" /></a><br />
+	<a href="./?locale=sv"><img src="images/langbuttons/sv-00.png" id="sv_butt" style="border: 0px;" onmouseover="mOver(id);" onmouseout="mOut(id);" alt="Swedish" /></a><br />
+</div>
+<div class="topbar-wrapper">
+	<div class="topbar">
+		<div class="topbar-text" >
+						<span class="login-icon" style="color: #ffffff;">Log-in</span>&nbsp;&nbsp;
+						<span class="language-icon">Select language</span>&nbsp;<img src="images/lang/en.png" id="langpos" class="language-icon" style="vertical-align: bottom;" alt="Select language" /></div>
+	</div>
+</div>
+
+<div class="logo-wrapper" style="height: 120px; width: 90%;">
+	<div class="logo"><img src="images/gclogo.png" onclick="window.location='/'" class="logo-image" alt="Global conflicts"  style="margin-top: 20px;"/><img src="images/bett-winner.png" style="width: 80px; height: 80px;" alt="Bett Awards Winner" /></div>
+</div>
+
+
+<div class="topbuttons-wrapper" >
+		<div class="topbuttons" id="top-buttons-home" style="width: 830px;">
+		<!--<div class="ext-link" id="tag-04-shop" onclick="window.location='http://shop.seriousgames.dk';">Our shop</div>-->
+		<div class="ext-link" id="tag-04-blog" onclick="window.location='http://www.seriousgames.dk/blog';">Our blog</div>
+		<div class="ext-link" id="tag-04-aboutseries" onclick="window.location='/about-series';">About series</div>
+	</div>
+</div>
+<div class="menu-explaination-wrapper" style="height: 60px; border-top: 2px solid #0d2d3b;border-bottom: 1px solid #0d2d3b;">
+	<div class="menu-explaination" style="padding: 0px;">
+	<p class="menu-explaination-text" id="menu-text-home" style="margin-top: 0px; padding-top: 23px;">Experience our award-winning "Global Conflicts" computer game series that empowers your teaching and ensures engaged students!</p>
+	</div>
+</div>
+
+<div class="sub-buttons-wrapper">
+	<div class="sub-buttons" id="subbuttons-home">
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='/';">Home</div>
+	</div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='products';">Products</div>
+	</div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='./gettingstarted';">Getting started guide</div>
+	</div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='./teachermaterial';">Teaching resources</div>
+	</div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='./faq';">FAQ</div>
+	</div>
+	<div class="sub-button-corner"></div>
+	</div>
+
+
+
+
+<!-- TEACHERS -->
+<div class="sub-buttons" id="subbuttons-teachers">
+	<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='./gettingstarted';">Getting started guide</div>
+	</div>
+	<div class="sub-button-corner"></div>
+</div>
+
+<!--   STUDENTS -->
+
+<div class="sub-buttons" id="subbuttons-students">
+<div class="sub-button-corner"></div>
+	<div class="sub-button-content" style="background-color: #ffffff;">
+		<div class="sub-button-label" style="color: #ff00aa; cursor: pointer;" onclick="window.location='./studentregistration';">Student registration</div>
+	</div>
+	<div class="sub-button-corner"></div>
+</div>
+
+<!-- OTHERS -->
+
+<div class="sub-buttons" id="subbuttons-others">
+
+</div>
+
+
+
+</div>
+
+<div class="content-wrapper">
+<div style="width: 100%; height: 20px;">&nbsp;</div>
+
+	<div class="content">
+		<div style="width: 100%; height: 3px;"></div>
+The page jsimageslangbuttonsfckeditorstylesimagesjsjquery.js does not exist.
+
+<div style="width: 100%; clear: both; height: 20px;">&nbsp;</div>
+</div>
+</div>
+<div class="bottom-links-wrapper">
+
+		<div class="bottom-container">
+			<div class="awards-div" style='float: left;'>
+<p class="award-heading">PRIZES</p>
+<hr class="award-line" />
+
+
+<div class="award-cont">
+<img src="/images/award.png" class="award-image" />
+<div class="award-name">BETT Awards - Secondary, FE & Skill Digital Content<br /><span class="award-year">(2010)</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/award.png" class="award-image" />
+<div class="award-name">Nordic Game Nominee<br /><span class="award-year">(2008, 2009)</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/award.png" class="award-image" />
+<div class="award-name">IndieCade Finalist<br /><span class="award-year">(2008, 2009)</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/award.png" class="award-image" />
+<div class="award-name">PcZone Indie Game of The Month award<br /><span class="award-year">(2007)</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/award.png" class="award-image" />
+<div class="award-name">Children's software review<br /><span class="award-year">(2007)</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/award.png" class="award-image" />
+<div class="award-name">KEK Most Creative Product<br /><span class="award-year">(2006)</span></div>
+</div></div>
+
+
+			<div class="awards-div" style='float: right;'>
+<p class="award-heading">QUOTES</p>
+<hr class="award-line">
+
+<div class="award-cont">
+<img src="/images/person-shade.png" class="award-image" style="margin-top: 2px;">
+<div class="award-name" style="margin-top: 0px;">
+"Compared to reading for an hour I have learned much more from playing this game."
+<br><span class="award-year">Anne Sofie 17 years, Rysensteen Gymnasium</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/person-shade.png" class="award-image" style="margin-top: 2px;">
+<div class="award-name" style="margin-top: 0px;">
+"Here you can walk around and see what is happening. In some way you actually experience it. 
+I think you learn a lot from this."
+<br><span class="award-year">Rasmus 14 years, Rosenlundskolen</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/person-shade.png" class="award-image" style="margin-top: 2px;">
+<div class="award-name" style="margin-top: 0px;">
+"It is a smart idea to let us see the issue from different perspectives. This makes 
+us much more interested in the topics."
+<br><span class="award-year">Theresa 18 years, Nærum Gymnasium</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/person-shade.png" class="award-image" style="margin-top: 2px;">
+<div class="award-name" style="margin-top: 0px;">
+"When you are playing the game, you remeber things better than if you are only 
+being taught by the teacher."
+
+<br><span class="award-year">Niels 14 years, Hastrupskolen</span></div>
+</div>
+
+<div class="award-cont">
+<img src="/images/person-shade.png" class="award-image" style="margin-top: 2px;">
+<div class="award-name" style="margin-top: 0px;">
+"It is a cool way of learning."
+<br><span class="award-year">Sofie 17 years, Rysensteen Gymnasium</span></div>
+</div>
+
+
+</div>
+
+
+		</div>
+		<div style="width: 100%; height: 20px; clear: both;">&nbsp;</div>
+</div>
+
+<div class="footer-wrapper">
+	<div class="footer">
+		<div style="text-align: center; padding-top: 20px;">
+		
+<div style="width: 100%; text-align: center; height: 50px; clear: both;">
+	<span style="margin-right: 20px;" class="footer-link" onclick="window.location='./about';">About</span>
+	<span style="margin-right: 20px;" class="footer-link" onclick="window.location='./contact';">Contact</span>
+	<span style="margin-right: 20px;" class="footer-link" onclick="window.location='./#newsletter';">Newsletter</span>
+	<span style="margin-right: 20px;" class="footer-link" onclick="window.location='./press';">Press</span>
+</div>
+		<span style="color: #ccc; font-size: 80%">&copy; 2008-2014 Serious Games Interactive</span>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2711285-10");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+</body>
+</html>
+<!-- LOADED SUCCESSFULLY -->
