@@ -1,0 +1,439 @@
+
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta charset="utf-8">
+<title>SITI Cable – Page Not Found</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=": Read frequently asked questions about the SITI Cable. Find out answers of commonly-asked questions about SITI Cable." />
+<meta name="keywords" content="" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="JS/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+<form method="post" action="jquery-scrolltofixed-min.js?404%3bhttp%3a%2f%2fwww.siticable.com%3a80%2ffonts%2fcss%2fjs%2fcss%2fjs%2fjquery-scrolltofixed-min.js" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTI4MjU3Mjk0Mw9kFgICAQ9kFgICAQ9kFgICAQ8WAh4HVmlzaWJsZWhkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYEBRZ1Y0hlYWRlciRyYnRuU3Vic3JpYmVyBRx1Y0hlYWRlciRyYnRuQnVzaW5lc3NQYXJ0bmVyBRx1Y0hlYWRlciRyYnRuQnVzaW5lc3NQYXJ0bmVyBRV1Y0hlYWRlciRpbWdCdG5TZWFyY2je0AdT20fvfyDlzYAolKcv692latlQOANMU4sgyNF7Lw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F2DD039B" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA8oe2Fl2eNUeXFM5B9d/bbud10usqlrWcePvYkiZgAfL/voZMks7wczpeMRducStm6o0SN87vPaBElcLB1IY01gfmSocbN4IPwn51nDFf6kiLtwnh8azKmbLEf1btQ0yYt8daFD18KI+iGNzh7P110qbCrGl6jgYKLFpvKV0PYXrGKiZu+2o+flMmrCPoZNtX20yD1MwU8zwivvpofG3WXDl4akDOlKrzHDoJe32PKetKDFvOcaefccOgCQlmcn1tM4JOKKHeinOoV4fxRhuxY2uhXjvhfVj5OHTzfQ6STetg5sdaVAjBRhyLrON6UY2QUv91t4+SGLfFrmDhXddMLC3/iZaGo4VPGYdlFKm0vPsw==" />
+  
+<script src="js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			// grab the initial top offset of the navigation 
+		   	var stickyNavTop = $('.navbar-collapse').offset().top;
+		   	
+		   	// our function that decides weather the navigation bar should have "fixed" css position or not.
+		   	var stickyNav = function(){
+			    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+			         
+			    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+			    // otherwise change it back to relative
+			    if (scrollTop > stickyNavTop) { 
+			        $('.navbar-collapse').addClass('sticky');
+			    } else {
+			        $('.navbar-collapse').removeClass('sticky'); 
+			    }
+			};
+
+			stickyNav();
+			// and run it again every time you scroll
+			$(window).scroll(function() {
+				stickyNav();
+			});
+		});
+	</script>
+    <style>
+    .sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background:#444242;
+  z-index: 100;
+  border-top: 0;
+}</style>
+<header>
+  <div class="row2 greyBG4 tb15">
+    <div class="col-md-12 psRel"><a href="index.aspx"><img src="img/logo.png" class="logo dlogo"><img src="img/mobile_logo.png" class="logo mlogo"></a>
+    
+     
+    
+      <div id="ucHeader_divLogin" class="pull-right signUp">
+        <div class="form-inline">
+        
+          <div id="ucHeader_pnlLogin">
+	
+        
+          
+         <div class="radio">
+          <span class="white"><input id="ucHeader_rbtnSubsriber" type="radio" name="ucHeader$Login" value="rbtnSubsriber" checked="checked" /><label for="ucHeader_rbtnSubsriber">Subscriber</label></span>
+          </div>
+          <div class="radio">
+          <span class="white"><input id="ucHeader_rbtnBusinessPartner" type="radio" name="ucHeader$Login" value="rbtnBusinessPartner" onclick="window.open(&#39;http://biz.siticable.com/&#39;);" /><label for="ucHeader_rbtnBusinessPartner">BusinessPartner</label></span>
+            </div>
+            
+          
+          
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">Username</label>            
+            <input name="ucHeader$txtUsername" type="text" maxlength="100" id="ucHeader_txtUsername" class="form-control inpt" placeholder="Email Id" /><br />
+            
+            
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword2">Password</label>
+            <input name="ucHeader$txtPassword" type="password" maxlength="50" id="ucHeader_txtPassword" class="form-control inpt" placeholder="Password" /><br />
+            
+            
+          </div>
+          <div class="form-group"> <a href="SubscriberForgotPassword.aspx" class="white" >[?]</a> </div>
+          <input type="submit" name="ucHeader$btnLogin" value="LOG IN" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ucHeader$btnLogin&quot;, &quot;&quot;, true, &quot;l&quot;, &quot;&quot;, false, false))" id="ucHeader_btnLogin" class="btn btn-default login" />
+          
+          <div class="form-group"><a href="RegistrationExistingSubscriber.aspx#existingsubscriber" class="signup">SIGN UP</a></div>
+            
+          
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row2 tb10">
+    
+    <div class="col-md-12 col-xs-8 tfright">
+      <div class="row top20">
+        <div class="col-md-12 tollfB psRel h0" style="height:28px;">
+        <div class="tfree "> Toll Free :<span class="size18">1800 1234 001</span></div>
+        
+          <div class="sBox LFC">
+            <div id="ucHeader_pnlLCOsearch">
+	
+            <label class="size12" style="font-weight:normal;">Find a local cable operator</label>
+            <div class="input-group">
+          
+              <input name="ucHeader$txtPinCodeSearch" type="text" maxlength="10" id="ucHeader_txtPinCodeSearch" name="srch-term" class="form-control pincode" placeholder="Enter Pincode" />
+              
+              <div class="input-group-btn">
+                <input type="image" name="ucHeader$imgBtnSearch" id="ucHeader_imgBtnSearch" class="btn btn-default search" src="../../../../../img/search.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ucHeader$imgBtnSearch&quot;, &quot;&quot;, true, &quot;s&quot;, &quot;&quot;, false, false))" /><br />                
+                
+                
+              </div>
+            
+            </div>
+            
+              
+</div>
+          </div>
+          <div class="tollM LF">
+          
+          <a href="DashboardAccountSummary.aspx" class="btn btn-default payment">&nbsp;&nbsp;Pay Bill&nbsp;&nbsp;</a>
+          </div>
+           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="popl1">
+      <div class="popOnr">
+      <button type="button" class="close clsbtn" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="font-20a txt_cntr txtmrg" id="myModalLabel">Insta-Payment</h4>
+        
+        <div class="col-md-12 mtop20">
+            <div class="col-md-5 tb10">Mobile No </div>
+            <div class="col-md-7 tb10"><input name="ucHeader$txtUserMobile" type="text" maxlength="12" id="ucHeader_txtUserMobile" class="form-control inpt" />
+            
+            
+            </div>
+            <div class="col-md-5 tb10">Recharge Amount</div>
+            <div class="col-md-7 tb10"> 
+            <input name="ucHeader$txtRechargeAmount" type="text" maxlength="5" id="ucHeader_txtRechargeAmount" class="form-control inpt" />
+            
+            
+       </div>
+            <div class="col-md-5 tb10"></div><div class="tb10" align="left"><input type="submit" name="ucHeader$btnProceed" value="Proceed" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ucHeader$btnProceed&quot;, &quot;&quot;, true, &quot;vInsta&quot;, &quot;&quot;, false, false))" id="ucHeader_btnProceed" class="gryBlk" /></div>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row2 navbar navbar-default z2" role="navigation" align="center">
+  
+   <div class="navbar-header psRel">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      <nav>
+        <ul class="navigation" id="navigation1">
+          <li class="ls"><a href="SubscriberLogin.aspx">Login</a></li>
+          <li><a href="RegistrationExistingSubscriber.aspx" class="ls">SignUp</a></li>
+          <li><a href="../../../../../index.aspx" id="ucHeader_index">Home</a>
+          </li>
+          <li onmouseover="this.className='child'" onmouseout="this.className=''"><a href="../../../../../CompanyAboutUs.aspx" id="ucHeader_iCorporate">Corporate</a><div class="dropdown" style="left:-127px;">
+          <ul>
+          
+           <li><a href="CompanyAboutUs.aspx"><img src="img/about.png">About us</a></li>
+          <li><a href="CompanyVision.aspx"><img src="img/vision.png">Vision</a></li>
+          
+          </ul>
+          
+          <ul>
+          
+           <li><a href="CompanyHistory.aspx"><img src="img/history.png">History</a></li>
+          <li><a href="CompanyManagementTeam.aspx"><img src="img/BOD.png">Board of Directors &amp; CEO</a></li>
+          
+          </ul>
+          <ul>
+          
+           <li><a href="CorporatePartnershipOpportunities.aspx"><img src="img/partners.png">Partners</a></li>
+          <li><a href="CompanyMarketPresence.aspx"><img src="img/market_presence.png">Market Presence</a></li>
+          
+          </ul>
+          <ul>
+          
+           <li><a href="CompanyGroupCompanies.aspx"><img src="img/essel.png">Essel Group</a></li>
+           <li><a href="CorporateTechnologyPartners.aspx"><img src="img/partners.png">Technology Partners</a></li>
+         
+          
+          </ul>
+          </div>
+          <ul style="display:none;">
+          
+            <li><a href="CompanyAboutUs.aspx">About</a></li>
+          <li><a href="CompanyVision.aspx">Vision</a></li>
+          <li><a href="CompanyHistory.aspx">History</a></li>
+          <li><a href="CompanyManagementTeam.aspx">Board of Directors &amp; CEO</a>
+       		   
+          <li><a href="CompanyMarketPresence.aspx">Market Presence</a></li>
+          <li><a href="CompanyGroupCompanies.aspx">Essel Group</a></li>
+          <li><a href="CorporatePartnershipOpportunities.aspx">Partners</a></li>
+          <li><a href="CorporateTechnologyPartners.aspx">Technology Partners</a></li>
+       
+       
+          </ul>
+          </li>
+          
+          
+          
+          <li onmouseover="this.className='child'" onmouseout="this.className=''"><a href="../../../../../ServicesWhySiti.aspx" id="ucHeader_iServices">Services</a><div class="dropdown" style="left:-298px;">
+          <ul>
+          
+           <li class="txt_cntr"><a href="ServicesWhySiti.aspx"><img src="img/why_siti.png"><br />Why SITI </a></li>  </ul>
+            <ul><li class="txt_cntr"><a href="ServicesDigital.aspx"><img src="img/digital_cable.png" alt="Siti Digital Cable, Siti Cable" ><br />Digital Cable </a></li></ul>
+            <ul><li class="txt_cntr"><a href="ServicesAnalog.aspx"><img src="img/ana_cable.png"><br />Analog Cable</a></li></ul>
+            <ul><li class="txt_cntr"><a href="ServicesBroadband.aspx"><img src="img/mouse.png"><br />Broadband</a></li></ul>
+    
+          
+        
+          
+          
+          
+          
+          </div><ul style="display:none;">
+                    <li><a href="ServicesWhySiti.aspx">Why SITI</a></li>
+                    <li><a href="ServicesDigital.aspx">Digital Cable</a></li>
+                    <li><a href="ServicesAnalog.aspx">Analog Cable</a></li>
+                    <li><a href="ServicesBroadband.aspx">Broadband</a></li>
+                    </ul></li>
+          <li><a href="../../../../../ServicesDigital.aspx" id="ucHeader_iDigital">Digital Cable</a></li>
+          <li><a href="../../../../../ServicesBroadband.aspx" id="ucHeader_iBroadband">Broadband</a></li>
+          
+          <li><a id="ucHeader_iPackages" href="javascript:__doPostBack(&#39;ucHeader$iPackages&#39;,&#39;&#39;)">Packages</a>
+            <ul style="display:none;">
+                    <li><a href="PackageBasePack.aspx#DivLeftPanel">Packages</a></li>
+                    <li><a href="STBKnow.aspx">SetTopBox</a></li>
+                    <li><a href="STBHirePurchaseSchemes.aspx">STB Scheme</a></li>
+                  <li><a href="pdf/Subscriber-Application-Form.pdf">Subscriber Form</a></li>
+                    </ul>
+          </li>
+          <li class="ls"><a href="MediaPressReleases.aspx">Media</a>
+          <ul style="display:none;">
+                    <li><a href="MediaPressReleases.aspx">Press Releases</a></li>
+                    <li><a href="MediaPressInterviews.aspx">Media Interviews</a></li>
+                    <li><a href="MediaContact.aspx">Media Contact</a></li>
+                    <li><a href="MediaKit.aspx">Media Kit</a></li>
+                    </ul>
+          </li>
+          <li class="ls"><a href="LifeatCity.aspx">Life@SITI</a>
+          <ul style="display:none;">
+                    <li><a href="LifeatCity.aspx">Life@SITI</a></li>
+                    <li><a href="CEODesk.aspx">CEO's Desk</a></li>
+                    <li><a href="CareerCurrentOpening.aspx">Careers</a></li>
+                  
+                    </ul>
+          </li>
+          <li class="ls"><a href="CustomerCare.aspx">Customer Care</a>
+           <ul style="display:none;">
+                    <li><a href="Complaint.aspx">Complaint Zone</a></li>
+                    <li><a href="CustomerCare.aspx">Customer Care</a></li>
+                    <li><a href="LCOFinder.aspx">Local Cable Operator</a></li>
+                  <li><a href="ComplaintStatusTrack.aspx">Track Your Complaint Status</a></li>
+                    </ul>
+          </li>
+        </ul>
+        
+        <div class="blstp" style="height:105px; background:#0081AD; width:100%; position:absolute;">
+        
+        
+        </div>
+      </nav>
+    </div>
+  
+  </div>
+</header>
+
+  <div class="row2 tb20" style="background-color:#222222;" align="center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 lineHN">
+          <p class="white222">404<span class="grey40">page not found</span></p>
+          <p class="grey12">Sorry, the page you're looking for doesn't exist.<br>
+            Go back to SitiCable or contact us about the problem.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="ucFooter_Scroller" class="greyBG3 tb20 row2"> 
+  <script type="text/javascript" src="js/crawler.js"></script>
+  <div class="container" >
+    <div class="row2">
+      <div class="marquee0" id="mycrawler2"> <img src="img/Channels/1.png" /><img src="img/Channels/2.png" /><img src="img/Channels/3.png" /><img src="img/Channels/4.png" /><img src="img/Channels/5.png" /><img src="img/Channels/6.png" /><img src="img/Channels/7.png" /><img src="img/Channels/8.png" /><img src="img/Channels/9.png" /><img src="img/Channels/10.png" /><img src="img/Channels/11.png" /><img src="img/Channels/12.png" /><img src="img/Channels/13.png" /><img src="img/Channels/14.png" /><img src="img/Channels/15.png" /><img src="img/Channels/16.png" /><img src="img/Channels/17.png" /><img src="img/Channels/18.png" /><img src="img/Channels/19.png" /><img src="img/Channels/20.png" /><img src="img/Channels/21.png" /><img src="img/Channels/22.png" /><img src="img/Channels/23.png" /><img src="img/Channels/24.png" /><img src="img/Channels/25.png" /><img src="img/Channels/26.png" /></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+			marqueeInit({
+				uniqueid: 'mycrawler2',
+				style: {
+					'padding-left': '2px',
+					'width': '100%',
+					'height': '57px'
+				},
+				inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+				mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+				moveatleast: 1,
+				neutral: 500,
+				savedirection: true,
+				random: true
+			});
+</script> 
+</section>
+<footer class="row2 footer">
+  <div class="col-md-12 row2">
+    <div class="ftrLink">
+      <div class="col-md-1">
+        <ul>
+      
+          <li class="head">Services</li>
+          <li><a href="ServicesWhySiti.aspx">Why SITI</a></li>
+          <li><a href="ServicesDigital.aspx">Digital Cable</a></li>
+          <li><a href="ServicesAnalog.aspx">Analog Cable</a></li>
+          <li><a href="ServicesBroadband.aspx">Broadband</a></li>
+        
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <ul>
+          <li class="head">Packages</li>
+          <li><a id="ucFooter_fPackages" href="javascript:__doPostBack(&#39;ucFooter$fPackages&#39;,&#39;&#39;)">Packages</a></li>
+          <li><a href="STBKnow.aspx">SetTopBox</a></li>
+          <li><a href="STBHirePurchaseSchemes.aspx">STB Scheme</a></li>
+          <li><a href="pdf/Subscriber-Application-Form.pdf" target="_blank">Subscriber Form</a></li>
+        </ul>
+      </div>
+    <div class="col-md-1">
+        <ul>
+          <li class="head">Customer Care</li>
+          <li><a href="Complaint.aspx">Complaint Zone</a></li>
+          <li><a href="CustomerCare.aspx">Customer Care</a></li>
+          <li><a href="LCOFinder.aspx">Local Cable Operator</a></li>
+          <li><a href="ComplaintStatusTrack.aspx">Track Your Complaint Status</a></li>
+        </ul>
+      </div>  
+      <div class="col-md-1">
+        <ul>
+          <li class="head">Corporate</li>
+          <li><a href="CompanyAboutUs.aspx">About Us</a></li>
+          <li><a href="CompanyVision.aspx">Vision</a></li>
+          <li><a href="CompanyHistory.aspx">History</a></li>
+          <li><a href="CompanyManagementTeam.aspx">Board of Director &amp; CEO</a></li>
+          <li><a href="CompanyMarketPresence.aspx">Market Presence</a></li>
+          <li><a href="CompanyGroupCompanies.aspx">Essel Group</a></li>
+          <li><a href="CorporatePartnershipOpportunities.aspx">Partners</a></li>
+          <li><a href="CorporateTechnologyPartners.aspx">Technology Partners</a></li>
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <ul>
+          <li class="head">Media</li>
+          <li><a href="MediaPressReleases.aspx">Press Releases</a></li>
+          
+          <li><a href="MediaPressInterviews.aspx">Media Interviews</a></li>
+          <li><a href="MediaContact.aspx">Media Contact</a></li>
+          <li><a href="MediaKit.aspx">Media Kit</a></li>         
+        </ul>
+      </div>
+      
+      <div class="col-md-1">
+        <ul>
+          <li class="head">Life@SITI</li>
+          <li><a href="LifeatCity.aspx">Life@SITI</a></li>
+          <li><a href="CEODesk.aspx">CEO's Desk</a></li>
+          <li><a href="CareerCurrentOpening.aspx">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="row2"> <span class="blue16">Sign up to our Newsletter</span>
+        <div class="input-group">
+          
+          <input name="ucFooter$txtNewLetterEmail" type="text" id="ucFooter_txtNewLetterEmail" class="form-control newsletter" placeholder="Email" />
+         
+          <div class="input-group-btn">
+            
+            <input type="submit" name="ucFooter$btnNewsLetter" value=">" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ucFooter$btnNewsLetter&quot;, &quot;&quot;, true, &quot;NewsLetter&quot;, &quot;&quot;, false, false))" id="ucFooter_btnNewsLetter" class="btn btn-default nsubmit" />
+            
+          </div>
+          
+           
+        </div>
+          
+      </div>
+      <div class="row2 tb10"><a href="https://www.facebook.com/SitiCable?fref=ts" target="_blank">Follow SITI on&nbsp;<img src="img/facebook.png"> </a><a href="https://www.youtube.com/channel/UCv3_bodbxfYvpetlkbajWbQ/featured?view_as=public" target="_blank" style="margin-left:5px;"><img src="img/youtube.jpg"></a></div>
+    </div>
+    
+  </div>
+  <div class="col-md-12 row2 mtop10">
+    <div class="col-md-7"><a href="OthersFAQ.aspx">FAQ</a> | <a href="InvestorFinancials.aspx">Investor Relations</a>  | <a href="ContactHeadOffice.aspx">Contact Us </a>
+    <br />
+
+    <a href="OthersPrivacyPolicy.aspx">Privacy Policy</a>| <a href="OthersTermsofUse.aspx">Terms of Use</a> | <a href="OthersStatutoryCompliances.aspx">Statutory Compliances</a> | <a href="OthersSitemap.aspx">Site Map</a>
+     </div>
+    <div class="col-md-5 tL tmtop20" align="right">Copyright © 2014 SITI Cable Network Limited, An Essel Group Company.</div>
+  </div>
+</footer>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37305534-1']);
+  _gaq.push(['_setDomainName', 'siticable.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,720 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>FFO</title>
+<link href="reset-min.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script src="js/jquery-1.4.4.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="js/thickbox.js"></script>
+<link rel="stylesheet" href="js/thickbox.css" type="text/css" media="screen" />
+<!--<script src="jquery-ui.min.js"></script>-->
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.qtip-1.0.0-rc3.custom/jquery.qtip-1.0.0-rc3.js"></script>
+<style>.contenu{padding-right:0px;} .gauche_contenu a{color:#00acec;text-decoration:none;font-weight:normal;}</style>
+
+
+    <script type="text/javascript" src="js/jssor_slider/jssor.core.js"></script>
+    <script type="text/javascript" src="js/jssor_slider/jssor.utils.js"></script>
+    <script type="text/javascript" src="js/jssor_slider/jssor.slider.js"></script>
+    
+
+    <script>
+         jQuery(document).ready(function ($) {
+            //Reference http://www.jssor.com/developement/slider-with-slideshow.html
+            //Reference http://www.jssor.com/developement/tool-slideshow-transition-viewer.html
+
+            var _SlideshowTransitions = [
+            //Fade in R
+            {$Duration: 1200, $During: { $Left: [0.3, 0.7] }, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $ScaleHorizontal: 0.3, $Opacity: 2 }
+            //Fade out L
+            , { $Duration: 1200, $SlideOut: true, $FlyDirection: 1, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $ScaleHorizontal: 0.3, $Opacity: 2 }
+            ];
+
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 0,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 10000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, default value is 3
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, direction navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+                    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+                    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+                    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+                    $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+                },
+
+                $NavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 10,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 10                                    //[Optional] Vertical space between each item in pixel, default value is 0
+                },
+
+                $DirectionNavigatorOptions: {
+                    $Class: $JssorDirectionNavigator$,              //[Requried] Class to create direction navigator instance
+                    $ChanceToShow: 2                                //[Required] 0 Never, 1 Mouse Over, 2 Always
+                },
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $ActionMode: 0,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $DisableDrag: true                              //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_sliderb = new $JssorSlider$("sliderb_container", options);
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_sliderb.$Elmt.parentNode.clientWidth;
+                if (parentWidth)
+                    jssor_sliderb.$SetScaleWidth(Math.min(parentWidth, 598));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+                $(window).bind('resize', ScaleSlider);
+            }
+            //responsive code end
+			
+		
+        })
+		
+		/*$(document).ready(function() {
+		  $('#blackBarSlider').slideToggle("slow");
+		  $('#SliderBullet').slideToggle("slow");
+		})
+		$(document).ready(function() {
+			$('#slideImg').hover(function() {
+				$('#blackBarSlider').slideToggle("slow");
+				$('#SliderBullet').slideToggle("slow");
+			});
+		})*/
+    </script>  
+    <style> 
+        .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:12px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(js/jssor_slider/img/browser-icons.png);
+        }
+    </style>  
+    
+</head>
+
+<body>
+<div class="container">
+    	<div class="gauche">
+			<a href="index.php">
+    <div class="logo">
+    <!--	<div class="etoile1">&nbsp;</div>
+        <div class="etoile2">&nbsp;</div>-->
+        <div><img src="images/banner.jpg" width="142" height="803" /></div>
+        
+    </div>
+</a>
+
+<div style="height:803px;"></div>
+
+
+<a href="http://www.offestival.com/bandeannonce/bande_annonce_2014.mp4" target="_blank" style="cursor: pointer; cursor: hand;">
+<div id="bandeAnnonceLien">
+    <div id="txtBandeAnnonce">
+    
+		<span>VISIONNEZ LA</span><br />
+		<strong>
+		BANDE<br />
+		ANNONCE<br />
+		2014</strong>    
+    
+    
+    
+    </div>
+</div>
+</a>   
+<div style="clear:both"></div>        </div>
+        <div class="droite">
+        	<div style="height:130px;">
+        	  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="845" height="130">
+        	    <param name="movie" value="images/header.swf" />
+        	    <param name="quality" value="high" />
+        	    <param name="wmode" value="opaque" />
+        	    <param name="swfversion" value="6.0.65.0" />
+        	    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+        	    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        	    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        	    <!--[if !IE]>-->
+        	    <object type="application/x-shockwave-flash" data="images/header.swf" width="845" height="130">
+        	      <!--<![endif]-->
+        	      <param name="quality" value="high" />
+        	      <param name="wmode" value="opaque" />
+        	      <param name="swfversion" value="6.0.65.0" />
+        	      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        	      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+        	      <div>
+        	        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        	        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      	        </div>
+        	      <!--[if !IE]>-->
+      	      </object>
+        	    <!--<![endif]-->
+      	    </object>
+        	</div>
+            <div class="menu">
+            	<ul>
+    <li><a href="">FFO</a>
+        <ul>
+            <li><a href="texte.php?id=22">&Agrave; propos de nous</a></li><li><a href="texte.php?id=1">Historique</a></li><li><a href="texte.php?id=2">Fondateur</a></li>    
+        </ul>
+    </li>
+    <li><a href="">Le Festival</a>
+        <ul>        
+            <li><a href="texte.php?id=3">Messages</a></li>
+            <li><a href="listefilm.php">Programmation par film</a></li>
+            <li><a href="listefilm.php?comm=1">Programmation French Connection</a></li>
+            <li><a href="listefilm.php?date=10-2">Calendrier</a></li>
+            <li><a href="listefilm.php?compe=1">Compétition</a></li>
+            <li><a href="texte.php?id=21">Jury</a></li>
+            <li><a href="listefilm.php?proj=1">Projections scolaires</a></li>
+            <li><a href="salle.php">Salles</a></li>
+            <li><a href="texte.php?id=32">Billets</a></li>
+            <li><a href="texte.php?id=7">Galas et activités</a></li>
+            <li><a href="texte.php?id=5">Les prix Totem</a></li>
+            <li><a href="texte.php?id=27">Programme <span style="font-size:10px;">(PDF)</span></a></li>
+            <li><a href="texte.php?id=27">FAQ</a></li>
+            <!--<li><a href="texte.php?id=25">Devenez un ami</a></li>-->
+        </ul>
+    </li>   
+    <li><a href="">Partenaires</a>
+        <ul>
+            <li><a href="texte.php?id=8">Remerciements</a></li>
+            <li><a href="texte.php?id=9">Partenaires</a></li>
+            <li><a href="texte.php?id=23">Devenez commanditaire</a></li>
+        </ul>
+    </li>
+    <li><a href="benevole.php">Impliquez-vous</a></li>
+    <li><a href="">Pro / Presse</a>
+        <ul>
+        	<li><strong>Professionnels</strong></li>
+        	<li><a href="texte.php?id=29">Inscription</a></li><li><a href="texte.php?id=26">Activit&eacute;s</a></li>            <li>&nbsp;</li>
+            <li><strong>Presse</strong></li>
+            <li><a href="texte.php?id=10">Matériel visuel</a></li>
+            <li><a href="texte.php?id=20">Communiqués</a></li>
+            <li><a href="doc_presse.php">Dossiers de presse</a></li> 
+            <li><a href="texte.php?id=24">Annonceurs</a></li>
+        </ul>
+    </li>
+    <li><a href="">Archives</a>
+        <ul>
+            <li><a href="archive.php">Festivals précédents</a></li>
+            <li><a href="texte.php?id=12">Bandes<br /> annonces</a></li>
+            <li><a href="texte.php?id=13">Programmes</a></li>                
+        </ul>
+    </li>
+    <li><a href="texte.php?id=14">Liens utiles</a></li>    
+    <li><a href="/index.php?lang=en">English</a></li>
+</ul>            </div>
+            <div class="contenu">
+	            <div class="gauche_contenu">
+                
+           
+<!-- Jssor Slider Begin -->
+    <!-- You can move inline styles (except 'top', 'left', 'width' and 'height') to css file or css block. -->
+    <div id="sliderb_container" style="position: relative; width: 598px; height: 377px;">
+
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(js/jssor_slider/img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div id="slideImg" u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 598px; height: 377px;
+            overflow: hidden;">
+            
+            <div>
+                			<img u="image" src="images/upload/slider/1392675629.png" width="598" height="377" />
+                			<div u="thumb">9 mois ferme - Ariane est juge d’instruction, mais surtout une célibataire endurcie.  Lorsqu’elle tombe enceinte, elle n’arrive pas à le croire, d’autant plus qu’elle ne se souvient de rien. Découvrir qu’elle est enceinte ne sera pas la dernière des surprises. <a href="http://www.offestival.com/film.php?id=437&lang=fr">> Plus</a></div>
+						</div><div>
+                			<img u="image" src="images/upload/slider/1395870387.jpg" width="598" height="377" />
+                			<div u="thumb"> <a href="http://www.offestival.com/listefilm.php?compe=1">> Plus</a></div>
+						</div><div>
+                			<img u="image" src="images/upload/slider/1392675802.png" width="598" height="377" />
+                			<div u="thumb">Le démantèlement - Gaby a une ferme : Gagnon et fils, mais il n’a que des filles. Des filles élevées comme des princesses et qui habitent à la ville. Alors que l’aînée lui demande de l’aider financièrement, il décide de démanteler sa ferme pour aller vivre dans un 2 pièces. <a href="http://offestival.com/film.php?id=459">> Plus</a></div>
+						</div><div>
+                			<img u="image" src="images/upload/slider/1392675916.png" width="598" height="377" />
+                			<div u="thumb">Entre deux eaux - Nick, un père de famille dévoué, se rendait à son chalet de pêche quand il percuta Eddie, un prisonnier en cavale. Trois mois plus tard, sa famille étant toujours en deuil, l’âme de Nick retourne parmi les siens, mais cette fois dans le corps d’Eddie! <a href="http://offestival.com/film.php?id=465">> Plus</a></div>
+						</div><div>
+                			<img u="image" src="images/upload/slider/1392675970.png" width="598" height="377" />
+                			<div u="thumb">Tel père, tel fils - Deux familles japonaises de classes sociales différentes apprennent que leurs fils ont été échangés à la naissance par la maternité.   <a href="http://offestival.com/film.php?id=504">> Plus</a></div>
+						</div>        </div>
+
+        <!-- ThumbnailNavigator Skin Begin -->
+        <div id="blackBarSlider" u="thumbnavigator" class="sliderb-T" style="position: absolute; bottom: 0px; left: 0px; height:80px; width:598px;">
+            <!--<div style="filter: alpha(opacity=40); opacity:0.4; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px; width: 100%; height: 100%;">-->
+            <div style="filter: alpha(opacity=50); opacity:0.5; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px; width: 598px; height: 80px;">
+            </div>
+            <!-- Thumbnail Item Skin Begin -->
+            <div u="slides">
+                <div u="prototype" style="position: absolute; width: 598px; height: 100px; top: 0px; left: 0px;">
+                    <thumbnailtemplate style="font-family:Arial, Helvetica, sans-serif; font-weight: bold; position: absolute; width: 580px; height: 50px; top: 15px; left: 0px; color:#fff; line-height: 15px; font-size:12px; padding-left:10px;"></thumbnailtemplate>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- ThumbnailNavigator Skin End -->
+        
+        <!-- Navigator Skin Begin -->
+        <!-- jssor slider navigator skin 01 -->
+        <style>
+            /*
+            .jssorn01 div           (normal)
+            .jssorn01 div:hover     (normal mouseover)
+            .jssorn01 .av           (active)
+            .jssorn01 .av:hover     (active mouseover)
+            .jssorn01 .dn           (mousedown)
+            */
+            .jssorn01 div, .jssorn01 div:hover, .jssorn01 .av
+            {
+                filter: alpha(opacity=70);
+                opacity: .7;
+                overflow:hidden;
+                cursor: pointer;
+                border: #000 1px solid;
+            }
+            .jssorn01 div { background-color: gray; }
+            .jssorn01 div:hover, .jssorn01 .av:hover { background-color: #d3d3d3; }
+            .jssorn01 .av { background-color: #fff; }
+            .jssorn01 .dn, .jssorn01 .dn:hover { background-color: #555555; }
+        </style>
+        <!-- navigator container -->
+        <div id="SliderBullet" u="navigator" class="jssorn01" style="position: absolute; bottom: 9px; left: 9px;">
+            <!-- navigator item prototype -->
+            <div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+        </div>
+        <!-- Navigator Skin End -->
+        
+        <!-- Direction Navigator Skin Begin -->
+        <style>
+            /* jssor slider direction navigator skin 05 css */
+            /*
+            .jssord05l              (normal)
+            .jssord05r              (normal)
+            .jssord05l:hover        (normal mouseover)
+            .jssord05r:hover        (normal mouseover)
+            .jssord05ldn            (mousedown)
+            .jssord05rdn            (mousedown)
+            */
+            .jssord05l, .jssord05r, .jssord05ldn, .jssord05rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(js/jssor_slider/img/d17.png) no-repeat;
+                overflow:hidden;
+				display:none;
+            }
+            .jssord05l { background-position: -10px -40px; }
+            .jssord05r { background-position: -70px -40px; }
+            .jssord05l:hover { background-position: -130px -40px; }
+            .jssord05r:hover { background-position: -190px -40px; }
+            .jssord05ldn { background-position: -250px -40px; }
+            .jssord05rdn { background-position: -310px -40px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssord05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssord05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
+        </span>
+        <!-- Direction Navigator Skin End -->
+    </div>
+    <!-- Jssor Slider End -->
+	            </div>
+                
+	            <div class="droite_contenu">
+                                      
+	            	<div id="calendrier" style="">                    	
+	            		
+<div id="annee">PROGRAMMATION 2014</div><div class="calendrier"><div id="date_calendrier"><a href="listefilm.php?date=14-3"><span style="font-size:17px; line-height:28px;">14</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=15-3"><span style="font-size:17px; line-height:28px;">15</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=16-3"><span style="font-size:17px; line-height:28px;">16</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=17-3"><span style="font-size:17px; line-height:28px;">17</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=18-3"><span style="font-size:17px; line-height:28px;">18</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=19-3"><span style="font-size:17px; line-height:28px;">19</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=20-3"><span style="font-size:17px; line-height:28px;">20</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div><div id="date_calendrier"><a href="listefilm.php?date=21-3"><span style="font-size:17px; line-height:28px;">21</span><br/><span style="color:#ffffff;font-weight:normal; font-size:9px;">MARS</span></a></div></div>
+                        
+	            	</div>
+	            	<div class="pub">
+	            		<style>#FlashID{ visibility:visible;}</style>
+<img src="images/upload/pub/1389368588.png" width="220" height="150"/><br /><br />
+
+	            	</div>
+                    <div class="socialIcon">
+                    <a href="http://www.facebook.com/festivaldufilmdeloutaouais"><img src="images/icone_media_sociaux/facebook-logo-webtreatsetc.png" width="50" height="50" hspace="0" vspace="0" border="0" /></a>
+                    <a href="http://www.facebook.com/festivaldufilmdeloutaouais"><img src="images/icone_media_sociaux/twitter-logo-webtreatsetc.png" width="50" height="50" hspace="0" vspace="0" border="0" /></a>
+                    <a href="http://www.facebook.com/festivaldufilmdeloutaouais"><img src="images/icone_media_sociaux/youtube-logo-webtreatsetc.png" width="50" height="50" hspace="0" vspace="0" border="0" /></a>
+                    <img src="images/icone_media_sociaux/instagram-logo-webtreatsetc.png" width="50" height="50" hspace="0" vspace="0" border="0" />
+                    </div>
+                    
+                     
+	            </div>
+	            <div style="clear:both;"></div> 
+                
+                
+	            <div class="ligneroseavebn"></div>
+                 
+	            <div class="gauche_contenu bas">
+					<a href="texte.php?id=32"><div id="achatBillet" style="cursor: pointer; cursor: hand;">
+                    	<img src="images/intro_icone_billets.png" alt="" width="148" height="117" />
+                        
+                        <!--<span>Achat de billets</span>-->
+                        <span>
+                        Achat de billets                      </span>  
+                        
+                    </div></a>
+				  <a href="listefilm.php?compe=1"><div id="FilmCompetition" style="cursor: pointer; cursor: hand;">
+                    <img src="images/intro_icone_competition.png" alt="" width="198" height="81" />
+                    <div style="clear:both;"></div> 
+                    <!--<span>Films en compétition</span>-->
+                    
+                  	  <span>
+                    Films en compétition                  	</span>
+                  </div></a>
+				  <a href="http://www.facebook.com/festivaldufilmdeloutaouais/photos_albums" style="cursor: pointer; cursor: hand;"><div id="arrierescene"><img src="images/intro_icone_arr_scene.png" alt="" width="124" height="127" />
+                  <div style="clear:both;"></div> 
+                  <!--<span>Arrière scène</span>-->
+                  <span>
+				  Arrière scène                  </span>
+                  </div></a>
+	            	<div style="clear:both;"></div> 
+                               
+				  <div id="top10"><img src="images/intro_icone_top10.png" id="imgTop" alt="Top 10" width="172" height="123" />
+                    	<div id="photoTopContainer">
+                        <a href="top.php?id=1" title="1 - Les garçons et Guillaume à table !"><img class="topimg" src="images/upload/top/thumb/1392665070.png" alt="Les garçons et Guillaume à table !" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=2" title="2 - L’autre maison"><img class="topimg" src="images/upload/top/thumb/1392665098.png" alt="L’autre maison" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=3" title="3 - Wadjda"><img class="topimg" src="images/upload/top/thumb/1392665122.png" alt="Wadjda" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=4" title="4 - Être Llewyn Davis"><img class="topimg" src="images/upload/top/thumb/1392665192.png" alt="Être Llewyn Davis" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=5" title="5 - Gloria"><img class="topimg" src="images/upload/top/thumb/1392665238.png" alt="Gloria" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=6" title="6 - Louis Cyr : L’homme le plus fort du monde"><img class="topimg" src="images/upload/top/thumb/1392665349.png" alt="Louis Cyr : L’homme le plus fort du monde" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=7" title="7 - Le passé"><img class="topimg" src="images/upload/top/thumb/1392665411.png" alt="Le passé" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=8" title="8 - Quai d’Orsay"><img class="topimg" src="images/upload/top/thumb/1392665529.png" alt="Quai d’Orsay" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=9" title="9 - Je fais le mort"><img class="topimg" src="images/upload/top/thumb/1392665574.png" alt="Je fais le mort" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a><a href="top.php?id=10" title="10 - Tom à la ferme"><img class="topimg" src="images/upload/top/thumb/1392665650.png" alt="Tom à la ferme" hspace="0" vspace="0" border="0" style="width:84px; height:60px; overflow:hidden" /></a>                       
+                        </div>                  </div>
+                  
+                  
+                  
+                  
+  		        	 <div id="partenaireDiv">    
+    <div id="partenairesPrinc">
+	  <div id="partenaireTitre">
+      PARTENAIRES PRINCIPAUX      </div>
+	  <div id="sliderPContainer"> 
+		<script>
+			 jQuery(document).ready(function ($) {
+				var options = {
+					$AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+					$AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+					$PauseOnHover: 3,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, default value is 3
+	
+					$ArrowKeyNavigation: false,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+					$SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+					$MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+					//$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+					//$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+					$SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+					$DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+					$ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+					$UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, direction navigator container, thumbnail navigator container etc).
+					$PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, default value is 1
+					$DragOrientation: 0,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+	
+					$DirectionNavigatorOptions: {                       //[Optional] Options to specify and enable direction navigator or not
+						$Class: $JssorDirectionNavigator$,              //[Requried] Class to create direction navigator instance
+						$ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+						$AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+						$Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+					},
+	
+					$ThumbnailNavigatorOptions: {
+						$Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+						$ChanceToShow: 0,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+	
+						$ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+						$AutoCenter: 0,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+						$Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+						$SpacingX: 3,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+						$SpacingY: 3,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+						$DisplayPieces: 9,                              //[Optional] Number of pieces to display, default value is 1
+						$ParkingPosition: 260,                          //[Optional] The offset position to park thumbnail
+						$Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+						$DisableDrag: true                            //[Optional] Disable drag or not, default value is false
+					}
+				};
+	
+				var sliderPartnerPrinc = new $JssorSlider$("sliderPartnerPrinc", options);
+				
+				//responsive code begin
+				//you can remove responsive code if you don't want the slider scales while window resizes
+				function ScaleSlider2() {
+					var bodyWidth = document.body.clientWidth;
+					if (bodyWidth)
+						sliderPartnerPrinc.$SetScaleWidth(Math.min(bodyWidth, 262)),
+						sliderPartnerSec.$SetScaleWidth(Math.min(bodyWidth, 262));
+					else
+						$JssorUtils$.$Delay(ScaleSlider, 30);
+				}
+				
+				
+				 var sliderPartnerSec = new $JssorSlider$("sliderPartnerSec", options);	
+			
+	
+	
+				ScaleSlider2();
+	
+				if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+					$(window).bind('resize', ScaleSlider2);
+				}
+				//responsive code end
+			});
+		</script> 
+		
+		<!-- Jssor Slider Begin --> 
+		<!-- You can move inline styles (except 'top', 'left', 'width' and 'height') to css file or css block. -->
+		<div id="sliderPartnerPrinc" style="position: relative; width: 262px; height: 120px;">
+		  <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+			<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+					background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;"> </div>
+			<div style="position: absolute; display: block; background: url(js/jssor_slider/img/loading.gif) no-repeat center center;
+					top: 0px; left: 0px;width: 100%;height:100%;"> </div>
+		  </div>
+		  <div id="slideImg" u="slides" style="position: absolute; left: 0px; top: 0px; width: 262px; height: 120px; text-align:center; vertical-align: middle; overflow: hidden;">
+			   
+			<div><a href="http://www.gouv.qc.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/principaux/quebec.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://canada.ca/fr/index.html" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/principaux/canada.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.ville.gatineau.qc.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/principaux/gatineau.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.gatineauvilledaffaires.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/principaux/cld-gatineau.png" border="0" alt="" width="262" height="120" /></a></div>
+			    
+		  </div>
+		  <style>
+				.jssorn0333 div, .jssorn0333 div:hover, .jssorn0333 .av
+				{
+				   display: none;
+				}
+			</style>
+		  <div id="SliderBullet" u="navigator" class="jssorn0333" style="position: absolute; bottom: 9px; left: 9px;">
+			<div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+		  </div>
+		  <style>
+			  .jssord0333l, .jssord0333r, .jssord0333ldn, .jssord03335rdn
+				{
+					display:none;
+				}
+			</style>
+		  <span u="arrowleft" class="jssord0333l" style="width: 40px; height: 40px; top: 123px; left: 8px;"> </span> <span u="arrowright" class="jssord0333r" style="width: 40px; height: 40px; top: 123px; right: 8px"> </span> </div>
+		<!-- Jssor Slider End --> 
+		
+	  </div>
+	</div>
+	<div id="partenairesSec">
+	  <div id="partenaireTitre">
+       PARTENAIRES      
+      </div>
+	  <div id="sliderPContainer"> 
+		<!-- Jssor Slider Begin --> 
+		<!-- You can move inline styles (except 'top', 'left', 'width' and 'height') to css file or css block. -->
+		<div id="sliderPartnerSec" style="position: relative; width: 262px; height: 120px;">
+		  <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+			<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+					background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;"> </div>
+			<div style="position: absolute; display: block; background: url(js/jssor_slider/img/loading.gif) no-repeat center center;
+					top: 0px; left: 0px;width: 100%;height:100%;"> </div>
+		  </div>
+		  <div id="slideImg" u="slides" style="position: absolute; left: 0px; top: 0px; width: 262px; height: 120px; text-align:center; vertical-align: middle; overflow: hidden;">
+          
+			<div><a href="http://www.rcq.gouv.qc.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/regie-cinema-qc.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.dec-ced.gc.ca/fra/index.html" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/dev-eco-canada.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.landmarkcinemas.com/orleans" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/LandmarkCinemas.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.tv5.ca" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/tv5.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.ctv.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/ctv.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.majic100.com/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/majic.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://gatineau.radionrj.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/nrj.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.ambafrance-ca.org/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/republique.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.telequebec.tv/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/telequebec.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.tvagatineau.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/tva_gatineau.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.fm1047.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/104-7-fm.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.slushpuppie.ca/accueil/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/slush.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.hotelqualityinnetsuitesgatineau.ca//" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/quality.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.fourpointsgatineau.com/francais/index.html" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/four-point.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://gatineau.rougefm.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/astralrouge.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.sodec.gouv.qc.ca/fr/home" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/logo-sodec.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.gatineau.planeteradio.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/planete_97-1.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://uqo.ca/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/UQO_logo.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.telefilm.ca/fr/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/telefilm.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.civilisations.ca/accueil/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/musee_canadien_civilisation.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://ici.radio-canada.ca/ottawa-gatineau/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/radiocan.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.ottawacitizen.com/index.html" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/ottawa-citizen.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.cyberpresse.ca/le-droit/" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/droit.png" border="0" alt="" width="262" height="120" /></a></div>
+			<div><a href="http://www.viarail.ca/fr" target="_blank"><img u="image" src="http://www.offestival.com/images/uploaded/partenaire/secondaires/via_rail.png" border="0" alt="" width="262" height="120" /></a></div>
+					  </div>
+		  <style>
+				.jssorn0333 div, .jssorn0333 div:hover, .jssorn0333 .av
+				{
+				   display: none;
+				}
+			</style>
+		  <div id="SliderBullet" u="navigator" class="jssorn0333" style="position: absolute; bottom: 9px; left: 9px;">
+			<div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+		  </div>
+		  <style>
+			  .jssord05l, .jssord05r, .jssord05ldn, .jssord05rdn
+				{
+					display:none;
+				}
+			</style>
+		  <span u="arrowleft" class="jssord05l" style="width: 40px; height: 40px; top: 123px; left: 8px;"> </span> <span u="arrowright" class="jssord05r" style="width: 40px; height: 40px; top: 123px; right: 8px"> </span> </div>
+		<!-- Jssor Slider End --> 
+	  </div>
+	</div>
+</div>	            </div>
+                 
+	            <div class="droite_contenu">
+<a class="twitter-timeline" width="220" height="250" href="https://twitter.com/OutaouaisFF" data-widget-id="435497273959514114">Tweets de @OutaouaisFF</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_CA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div style="background-color:#FFFFFF; margin-top:15px; margin-bottom:15px;" class="fb-like-box" data-href="https://www.facebook.com/festivaldufilmdeloutaouais" data-width="220" data-height="290" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>               	
+	            </div>
+                 
+	            <div style="clear:both;"></div>
+            
+          	 
+
+
+
+
+                 <div style="clear:both;"></div>
+                <div class="lignerose">
+                    <div class="menusec">  
+                  <a href="contact.php">Contactez-nous</a></div>
+                    <div class="search">
+                     <a href="javascript:document.forms['search'].submit();" id="btn-recherche"><img src="images/btn_recherche.png" width="28" height="20" onmouseover="this.src='images/btn_recherche_h.png';" onmouseout="this.src='images/btn_recherche.png';" /></a>
+                    <form method="get" action="recherche.php" name="search">
+                        <input type="text" name="recherche"/> 
+                    </form>
+                   
+                  </div>
+                </div>           
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+</div>
+<script language="javascript" type="text/javascript">
+// Create the tooltips only when document ready
+$(document).ready(function()
+{
+   // Use the each() method to gain access to each elements attributes
+   $('.topimg').each(function()
+   {
+      $(this).qtip(
+      {
+         content: $(this).attr('alt'), // Use the ALT attribute of the area map
+         style: {
+            name: 'light', // Give it the preset dark style
+            border: {
+               width: 0, 
+               radius: 4 
+            },
+            tip: true // Apply a tip at the default tooltip corner
+         },
+		 position: {
+		 	corner: {
+		 		target: 'topLeft',
+		 		tooltip: 'bottomRight'
+		 	},
+			adjust: { x: 5, y: 10 }
+		 }
+      });
+   });
+});
+
+
+
+jQuery(document).ready(function($) {
+		//  timer = setTimeout(Cloud, 0);
+		 // timer1 = setTimeout(Cloud2, 1000);
+});
+	 
+function Cloud() 
+{
+	$('.etoile1').fadeOut("slow",function() {
+			
+	$('.etoile1').fadeIn("slow")
+		timer = setTimeout(Cloud, 1000);
+	});
+}
+	
+function Cloud2() 
+{
+	$('.etoile2').fadeOut("slow",function() {
+			
+	$('.etoile2').fadeIn("slow")
+		 timer1 = setTimeout(Cloud2, 1000);
+	});
+}
+swfobject.registerObject("FlashID");
+</script>
+<script src="analytic.js" type="text/javascript" language="javascript"></script>
+</body>
+</html>
