@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<title>我的岐黄道 - Powered by UCenter Home</title>
+<script language="javascript" type="text/javascript" src="source/script_cookie.js"></script>
+<script language="javascript" type="text/javascript" src="source/script_common.js"></script>
+<script language="javascript" type="text/javascript" src="source/script_menu.js"></script>
+<script language="javascript" type="text/javascript" src="source/script_ajax.js"></script>
+<script language="javascript" type="text/javascript" src="source/script_face.js"></script>
+<script language="javascript" type="text/javascript" src="source/script_manage.js"></script>
+<style type="text/css">
+@import url(template/default/style.css);
+@import url(template/default/network.css);
+@import url(template/green/style.css);
+</style>
+<link rel="shortcut icon" href="image/favicon.ico" />
+<link rel="edituri" type="application/rsd+xml" title="rsd" href="xmlrpc.php?rsd=" />
+</head>
+<body>
+
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="header">
+<div class="headerwarp">
+<h1 class="logo"><a href="index.php"><img src="template/green/image/logo.gif" alt="我的岐黄道" /></a></h1>
+<ul class="menu">
+<li><a href="index.php">首页</a></li>
+
+<li><a target="_blank" href="http://bbs.qihuangdao.com" title="岐黄道论坛">岐黄道论坛</a></li>
+
+<li><a href="help.php">帮助</a></li>
+</ul>
+
+<div class="nav_account">
+<a href="do.php?ac=63e2a0257457d1db9d1c224cd35cc392" class="login_thumb"><img src="http://center.qihuangdao.com/data/avatar/000/00/00/00_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a>
+欢迎您<br>
+<a href="do.php?ac=da09d65fbd6c657a30a3ea73f795904c">登录</a> | 
+<a href="do.php?ac=63e2a0257457d1db9d1c224cd35cc392">注册</a>
+</div>
+</div>
+</div>
+
+<div id="wrap">
+
+
+
+<div id="network">
+
+<script>
+function setintro(type) {
+var intro = '';
+var bPosition = '';
+if(type == 'doing') {
+intro = '用一句话记录自己生活中的点点滴滴';
+bPosition = '0';
+} else if(type == 'mtag') {
+intro = '创建自己的小圈子，与大家交流感兴趣的话题';
+bPosition = '175px';
+} else if(type == 'pic') {
+intro = '上传照片，分享生活中的精彩瞬间';
+bPosition = '55px';
+} else if(type == 'app') {
+intro = '与好友一起玩转游戏和游戏，增加好友感情';
+bPosition = '118px';
+} else {
+intro = '马上注册，与好友分享日志、照片，一起玩转游戏';
+bPosition = '0';
+}
+$('guest_intro').innerHTML = intro + '......';
+$('guest_intro').style.backgroundPosition = bPosition + ' 100%'
+}
+function scrollPic(e, LN, Width, Price, Speed) {
+id = e.id;
+if(LN == 'Last'){ scrollNum = Width; } else if(LN == 'Next'){ scrollNum = 0 - Width; }
+scrollStart = parseInt(e.style.marginLeft, 10);
+scrollEnd = parseInt(e.style.marginLeft, 10) + scrollNum;
+
+MaxIndex = (e.getElementsByTagName('li').length / Price).toFixed(0);
+sPicMaxScroll = 0 - Width * MaxIndex;
+
+if(scrollStart == 0 && scrollEnd == Width){
+scrollEnd = -1806;
+e.style.marginLeft = parseInt(e.style.marginLeft, 10) - Speed + 'px';
+} else if(scrollStart == sPicMaxScroll + Width && scrollEnd == sPicMaxScroll){
+scrollEnd = 0;
+e.style.marginLeft = parseInt(e.style.marginLeft, 10) + Speed + 'px';
+}
+scrollShowPic = setInterval(scrollShow, 1);
+
+function scrollShow() {
+if(scrollStart > scrollEnd) {
+if(parseInt(e.style.marginLeft, 10) > scrollEnd) {
+$(id + '_last').onclick = function(){ return false; };
+$(id + '_next').onclick = function(){ return false; };
+e.style.marginLeft = parseInt(e.style.marginLeft, 10) - Speed + 'px';
+} else {
+clearInterval(scrollShowPic);
+$(id + '_last').onclick = function(){ scrollPic(e, 'Last', Width, Price, Speed);return false; };
+$(id + '_next').onclick = function(){ scrollPic(e, 'Next', Width, Price, Speed);return false; };
+}
+} else {
+if(parseInt(e.style.marginLeft, 10) < scrollEnd) {
+$(id + '_last').onclick = function(){ return false; };
+$(id + '_next').onclick = function(){ return false; };
+e.style.marginLeft = parseInt(e.style.marginLeft, 10) + Speed + 'px';
+} else {
+clearInterval(scrollShowPic);
+$(id + '_last').onclick = function(){ scrollPic(e, 'Last', Width, Price, Speed);return false; };
+$(id + '_next').onclick = function(){ scrollPic(e, 'Next', Width, Price, Speed);return false; };
+}					
+}
+}
+}
+function scrollShowNav(e, Width, Price, Speed) {
+id = e.id;
+$(id + '_last').onclick = function(){ scrollPic(e, 'Last', Width, Price, Speed);return false; };
+$(id + '_next').onclick = function(){ scrollPic(e, 'Next', Width, Price, Speed);return false; };
+
+}
+function getUserTip(obj) {
+var tipBox = $('usertip_box');
+tipBox.childNodes[0].innerHTML = '<strong>' + obj.rel + ':<\/strong> ' + obj.rev + '...';
+
+var showLeft;
+if(obj.parentNode.offsetLeft > 730) {
+showLeft = $('showuser').offsetLeft + obj.parentNode.offsetLeft - 148;
+tipBox.childNodes[0].style.right = 0;
+} else {
+tipBox.childNodes[0].style.right = 'auto';
+showLeft = $('showuser').offsetLeft + obj.parentNode.offsetLeft;
+}
+tipBox.style.left = showLeft + 'px';
+
+var showTop; 
+if(obj.className == 'uonline') {
+showTop = $('showuser').offsetTop + obj.parentNode.offsetTop - tipBox.childNodes[0].clientHeight;
+} else {
+showTop = $('showuser').offsetTop + obj.parentNode.offsetTop + 48;
+}
+tipBox.style.top = showTop + 'px';
+
+tipBox.style.visibility = 'visible';
+}
+</script>
+
+<div id="guestbar" class="nbox">
+<div class="nbox_c">
+<p id="guest_intro">马上注册，与好友分享日志、照片，一起玩转游戏......</p>
+<a href="do.php?ac=63e2a0257457d1db9d1c224cd35cc392" id="regbutton" onmouseover="setintro('register');">马上注册</a>
+<p id="guest_app">
+<a href="javascript:;" class="appdoing" onmouseover="setintro('doing');">记录</a>
+<a href="javascript:;" class="appphotos" onmouseover="setintro('pic');">照片</a>
+<a href="javascript:;" class="appgames" onmouseover="setintro('app');">游戏</a>
+<a href="javascript:;" class="appgroups" onmouseover="setintro('mtag');">群组</a> 
+</p>
+</div>	
+<div class="nbox_s side_rbox" id="nlogin_box">
+<h3 class="ntitle">请登录</h3>
+<div class="side_rbox_c">
+<form name="loginform" action="do.php?ac=da09d65fbd6c657a30a3ea73f795904c&&ref" method="post">
+<p><label for="username">用户名</label> <input type="text" name="username" id="username" class="t_input" value="" /></p>
+<p><label for="password">密　码</label> <input type="password" name="password" id="password" class="t_input" value="" /></p>
+<p class="checkrow"><input type="checkbox" id="cookietime" name="cookietime" value="315360000"  style="margin-bottom: -2px;" /><label for="cookietime">下次自动登录</label></p>
+<p class="submitrow">
+<input type="hidden" name="refer" value="space.php?do=home" />
+<input type="submit" id="loginsubmit" name="loginsubmit" value="登录" class="submit" />
+<a href="do.php?ac=lostpasswd">忘记密码?</a>
+<input type="hidden" name="formhash" value="8544765b" />
+</p>
+</form>
+</div>
+</div>
+</div>
+
+<div class="nbox">
+<div class="nbox_c">
+<h2 class="ntitle"><span class="r_option"><a href="space.php?do=blog&view=all">更多日志</a></span> 日志 &raquo;</h2>
+<ul class="bloglist">
+</ul>
+</div>
+<div class="nbox_s side_rbox side_rbox_w">
+<h2 class="ntitle"><span class="r_option"><a href="space.php?do=doing&view=all">更多记录</a></span> 记录 &raquo;</h2>
+<div class="side_rbox_c">
+<ul class="side_rbox_c doinglist">
+<li>
+<p>
+<a href="space.php?uid=68380&do=doing&doid=8" target="_blank" class="gray r_option dot" style="margin:0;background-position-y: 0;">20:52</a>
+<a href="space.php?uid=68380" title="HeaDube" class="s_avatar"><img src="http://center.qihuangdao.com/data/avatar/000/06/83/80_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a>
+<a href="space.php?uid=68380">HeaDube</a>
+</p>
+<p class="message" title="Korzystanie z komputera osobistego, a ciągle nie widział problemu, jak wesele, stanowi znacząco rzadko swoje w bieżącym świecie. Prawie wszystkie narzędzia zawiera pewną komplikacje jak komput">Korzystanie z komputera osobistego, a ciągle nie widział problemu, jak wesele, stanowi znacząco rzadko swoje w bieżącym świecie. Prawie wszystkie narzędzia zawiera pewną komplikacje jak komput</p>
+</li>
+<li>
+<p>
+<a href="space.php?uid=27584&do=doing&doid=7" target="_blank" class="gray r_option dot" style="margin:0;background-position-y: 0;">23:13</a>
+<a href="space.php?uid=27584" title="GeoMff" class="s_avatar"><img src="http://center.qihuangdao.com/data/avatar/000/02/75/84_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a>
+<a href="space.php?uid=27584">GeoMff</a>
+</p>
+<p class="message" title="&amp;lt;img src=&quot;http://i1375.photobucket.com/albums/ag467/DiscoSuperfly_Lemonade/Hammerlock/Screenshot_2014-05-31-09-11-44Cleanedup_zpsf048b4fb.jpg&quot; alt=&quot;clash of clans gemmes gratuites&amp;qu">&lt;img src=&quot;http://i1375.photobucket.com/albums/ag467/DiscoSuperfly_Lemonade/Hammerlock/Screenshot_2014-05-31-09-11-44Cleanedup_zpsf048b4fb.jpg&quot; alt=&quot;clash of clans gemmes gratuites&qu</p>
+</li>
+<li>
+<p>
+<a href="space.php?uid=40128&do=doing&doid=6" target="_blank" class="gray r_option dot" style="margin:0;background-position-y: 0;">14:36</a>
+<a href="space.php?uid=40128" title="CasDimarco" class="s_avatar"><img src="http://center.qihuangdao.com/data/avatar/000/04/01/28_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a>
+<a href="space.php?uid=40128">CasDimarco</a>
+</p>
+<p class="message" title="Many statеs help it Ƅecome mandatory tо maкe sure youг ϲar. Nonethelеss there is certaіnly a substantial аmount օf options in rеgards to the form οf insurance coverage that exist foг the">Many statеs help it Ƅecome mandatory tо maкe sure youг ϲar. Nonethelеss there is certaіnly a substantial аmount օf options in rеgards to the form οf insurance coverage that exist foг the</p>
+</li>
+<li>
+<p>
+<a href="space.php?uid=38975&do=doing&doid=5" target="_blank" class="gray r_option dot" style="margin:0;background-position-y: 0;">11:17</a>
+<a href="space.php?uid=38975" title="YetChase" class="s_avatar"><img src="http://center.qihuangdao.com/data/avatar/000/03/89/75_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a>
+<a href="space.php?uid=38975">YetChase</a>
+</p>
+<p class="message" title="So you decided tо begin optimizing yߋur site for mucҺ betteг search engine resultѕ. That's fantastic іnformation! Уou pօssibly will not know how tߋ begin with ƴoսr Search engine optimisatio">So you decided tо begin optimizing yߋur site for mucҺ betteг search engine resultѕ. That's fantastic іnformation! Уou pօssibly will not know how tߋ begin with ƴoսr Search engine optimisatio</p>
+</li>
+<li>
+<p>
+<a href="space.php?uid=38941&do=doing&doid=4" target="_blank" class="gray r_option dot" style="margin:0;background-position-y: 0;">11:16</a>
+<a href="space.php?uid=38941" title="JesNGG" class="s_avatar"><img src="http://center.qihuangdao.com/data/avatar/000/03/89/41_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a>
+<a href="space.php?uid=38941">JesNGG</a>
+</p>
+<p class="message" title="If үou oԝn an internet site, you want it to bеcome successful. It is hoped tɦat yoս ѡill gain tҺe rіght expertise tօ fіnd οut higҺer reѕults with гegards to so that іt is ߋn thе main">If үou oԝn an internet site, you want it to bеcome successful. It is hoped tɦat yoս ѡill gain tҺe rіght expertise tօ fіnd οut higҺer reѕults with гegards to so that іt is ߋn thе main</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<div class="nbox" id="photolist">
+<h2 class="ntitle">
+<a href="space.php?do=album&view=all" class="r_option">更多图片</a>
+图片 &raquo;
+</h2>
+<div id="p_control">
+<a href="javascript:;" id="spics_last">上一页</a>
+<a href="javascript:;" id="spics_next">下一页</a>
+<ul id="p_control_pages">
+<li>第一页</li>
+<li>第二页</li>
+<li>第三页</li>
+<li>第四页</li>
+</li>
+</div>
+<div id="spics_wrap">
+<ul id="spics" style="margin-left: 0;">
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+scrollShowNav($('spics'), 903, 7, 43);
+</script>
+
+<div id="searchbar" class="nbox s_clear">
+<div class="floatleft">
+<form method="get" action="cp.php">
+<input name="searchkey" value="" size="15" class="t_input" type="text" style="padding:5px;">
+<input name="searchsubmit" value="找人" class="submit" type="submit"> &nbsp;
+查找：<a href="cp.php?ac=friend&op=search&view=sex" target="_blank">男女朋友</a><span class="pipe">|</span>
+<a href="cp.php?ac=friend&op=search&view=reside" target="_blank">同城</a><span class="pipe">|</span>
+<a href="cp.php?ac=friend&op=search&view=birth" target="_blank">老乡</a><span class="pipe">|</span>
+<a href="cp.php?ac=friend&op=search&view=birthyear" target="_blank">同年同月同日生</a><span class="pipe">|</span>
+<a href="cp.php?ac=friend&op=search&view=edu" target="_blank">同学</a><span class="pipe">|</span>
+<a href="cp.php?ac=friend&op=search&view=work" target="_blank">同事</a><span class="pipe">|</span>
+<a href="space.php?do=top&view=online" target="_blank">在线会员(69)</a>
+<input type="hidden" name="searchmode" value="1" />
+<input type="hidden" name="ac" value="friend" />
+<input type="hidden" name="op" value="search" />
+</form>
+</div>
+<div class="floatright">
+<form method="get" action="space.php">
+<input name="searchkey" value="" size="15" class="t_input" type="text" style="padding:5px;">
+<select name="do">
+<option value="blog">日志</option>
+<option value="album">相册</option>
+<option value="thread">话题</option>
+<option value="poll">投票</option>
+<option value="event">活动</option>
+</select>
+<input name="searchsubmit" value="搜索" class="submit" type="submit">
+<input type="hidden" name="view" value="all" />
+<input type="hidden" name="orderby" value="dateline" />
+</form>
+</div>
+</div>
+
+<div id="showuser" class="nbox">
+<div id="user_recomm">
+<h2>站长推荐</h2>
+<div class="s_avatar"><a href="space.php?uid=134097" target="_blank"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/97_real_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_middle.gif'"></a></div>
+<div class="s_cnts">
+<h3><a href="space.php?uid=134097" title="San6002">San6002</a></h3>
+<p>访问: </p>
+<p>积分: </p>
+<hr />
+<p>好友: </p>
+<p>更新: 现在</p>
+</div>
+</div>
+<div id="user_wall" onmouseout="javascript:$('usertip_box').style.visibility = 'hidden';">
+<div id="user_pay" class="s_clear">
+<h2><a href="space.php?do=top">竞价排名</a></h2>
+<ul>
+</ul>
+<p><a href="space.php?do=top">我要上榜</a></p>
+</div>
+<div id="user_online" class="s_clear">
+<h2><a href="space.php?do=top&view=online">在线会员</a></h2>
+<ul>
+<li><a href="space.php?uid=134101" target="_blank" rel="JacHirst" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/41/01_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134100" target="_blank" rel="MinMulvany" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/41/00_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134099" target="_blank" rel="3768764yrt" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/99_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134097" target="_blank" rel="San6002" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/97_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134098" target="_blank" rel="ShaSJJN" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/98_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134096" target="_blank" rel="SuzMcKeon" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/96_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134095" target="_blank" rel="Amb15O" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/95_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134094" target="_blank" rel="liksia13e6" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/94_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134093" target="_blank" rel="Pas02C" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/93_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134092" target="_blank" rel="ThaS50" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/92_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134091" target="_blank" rel="MonWoolnoug" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/91_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+<li><a href="space.php?uid=134090" target="_blank" rel="MauSaxton" rev="" class="uonline" onmouseover="getUserTip(this)"><img src="http://center.qihuangdao.com/data/avatar/000/13/40/90_real_avatar_small.jpg" onerror="this.onerror=null;this.src='http://center.qihuangdao.com/images/noavatar_small.gif'"></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="usertip_box"><div></div></div>
+
+<div class="nbox">
+<div class="nbox_c">
+<h2 class="ntitle"><span class="r_option"><a href="space.php?do=thread&view=all">更多话题</a></span>话题 &raquo;</h2>
+<div class="tlist">
+<table cellpadding="0" cellspacing="1">
+<tbody>
+</tbody>
+</table>
+</div>
+</div>
+<div id="npoll" class="nbox_s side_rbox side_rbox_w">
+<div class="side_rbox_c">
+<h2 class="ntitle"><span class="r_option"><a href="space.php?do=poll">更多投票</a></span>投票 &raquo;</h2>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="nbox">
+<div class="nbox_c">
+<h2 class="ntitle"><span class="r_option"><a href="space.php?do=event&view=recommend">更多活动</a></span> 活动 &raquo; 
+&nbsp; <a href="space.php?do=event&view=all&type=going&classid=1">生活/聚会</a></li>
+&nbsp; <a href="space.php?do=event&view=all&type=going&classid=2">出行/旅游</a></li>
+&nbsp; <a href="space.php?do=event&view=all&type=going&classid=4">电影/演出</a></li>
+&nbsp; <a href="space.php?do=event&view=all&type=going&classid=3">比赛/运动</a></li>
+&nbsp; <a href="space.php?do=event&view=all&type=going&classid=5">教育/讲座</a></li>
+&nbsp; <a href="space.php?do=event&view=all&type=going&classid=6">其它</a></li>
+</h2>
+<ul class="elist">
+</ul>
+</div>
+<div id="nshare" class="nbox_s side_rbox side_rbox_w">
+<h2 class="ntitle"><span class="r_option"><a href="space.php?do=share&view=all">更多分享</a></span>分享 &raquo;</h2>
+<div class="side_rbox_c">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="footerbar">
+<div class="fbtop"></div>
+<div class="nbox_c">
+<div class="foobox">
+<div class="fbox">
+<h2 class="ntitle">常用</h2>
+<ul>
+<li><a href="space.php?do=doing">记录</a></li>
+<li><a href="space.php?do=blog">日志</a></li>
+<li><a href="space.php?do=album">相册</a></li>
+<li><a href="space.php?do=mtag">群组</a></li>
+<li><a href="space.php?do=poll">投票</a></li>
+<li><a href="space.php?do=event">活动</a></li>
+<li><a href="space.php?do=share">分享</a></li>
+</ul>
+</div>
+<div class="fbox">
+<h2 class="ntitle">应用</h2>
+<ul>
+<li><a href="#">还没有应用</a></li>
+</ul>
+</div>
+<div class="fbox">
+<h2 class="ntitle">发现</h2>
+<ul>
+<li><a href="space.php?do=blog&view=all">大家发表的日志</a></li>
+<li><a href="space.php?do=album&view=all">大家上传的图片</a></li>
+<li><a href="space.php?do=thread&view=all">大家的话题</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="nbox_s">
+<h2 class="ntitle">邀请</h2>
+<ul>
+<li><a href="cp.php?ac=invite">邀请好友加入，获赠积分奖励</a></li>
+<li><a href="cp.php?ac=invite">QQ 好友</a></li>
+<li><a href="cp.php?ac=invite">163 邮箱</a></li>
+<li><a href="cp.php?ac=invite">新浪邮箱</a></li>
+<li><a href="cp.php?ac=invite">搜狐邮箱</a></li>
+<li><a href="cp.php?ac=invite">Google Gmail</a></li>
+<li><a href="cp.php?ac=invite">MSN 联系人</a></li>
+<li><a href="cp.php?ac=invite">Yahoo! 邮箱</a></li>
+<li><a href="cp.php?ac=invite" class="alink">更多联系人……</a></li>
+</ul>
+</div>
+<div class="fbbottom"></div>
+</div>
+
+</div>
+
+
+<div id="footer">
+
+<p class="r_option">
+<a href="javascript:;" onclick="window.scrollTo(0,0);" id="a_top" title="TOP"><img src="image/top.gif" alt="" style="padding: 5px 6px 6px;" /></a>
+</p>
+
+
+<p>
+我的岐黄道 - 
+<a href="mailto:webmaster@i.qihuangdao.com">联系我们</a>
+ - <a  href="http://www.miibeian.gov.cn" target="_blank">沪ICP备08019828号</a></p>
+<p>
+Powered by <a  href="http://u.discuz.net" target="_blank"><strong>UCenter Home</strong></a> <span title="20100416">2.0</span>
+&copy; 2001-2010 <a  href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a>
+</p>
+</div>
+</div>
+<!--/wrap-->
+
+<ul id="ucappmenu_menu" class="dropmenu_drop" style="display:none;">
+<li><a href="link.php?url=http://bbs.qihuangdao.com" title="岐黄道论坛" target="_blank">岐黄道论坛</a></li>
+</ul>
+
+
+<script language="javascript"  type="text/javascript" src="do.php?ac=sendmail&rand=1410514482"></script>
+
+</body>
+</html>
