@@ -1,0 +1,382 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Header"><link href="App_Styles/Styles.css?v=10" rel="stylesheet" type="text/css" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /><link rel="icon" href="/favicon.ico" type="image/x-icon" /><meta name="keywords" content="Transparent Caching, OTT, Content Delivery, Video and P2P Caching, Content Acceleration, Lower Bandwidth Costs, UltraBand,  Quality of Experience (QoE)" />
+<meta name="description" content="PeerApp’s transparent caching platform provides scalable OTT Video, Media, P2P, and Web caching solutions. Network service providers save costs while improving Quality of Experience." />
+<title>
+	Transparent Video Caching Infrastructure, OTT Content Delivery | PeerApp
+</title></head>
+
+<body>
+  <form name="form1" method="post" action="Default.aspx?404%3bhttp%3a%2f%2fwww.peerapp.com%3a80%2fimages%2fApp_Scripts%2fApp_Images%2fFramework%2fApp_Images%2fFramework%2fApp_Styles%2fApp_Images%2fFramework%2flinkedIn.gif" id="form1" style="height: 100%">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5MDM3MjkxMjEPZBYCAgMPZBYIAgEPFgIeBFRleHQFmwk8dGFibGUgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4NCiAgICA8dGJvZHk+DQogICAgICAgIDx0ciB2YWxpZ249InRvcCI+DQogICAgICAgICAgICA8dGQgc3R5bGU9ImZvbnQtc2l6ZTogMTJweDsgd2lkdGg6IDE0MHB4OyBjb2xvcjogIzU5NWE1YyI+DQogICAgICAgICAgICA8aDQ+VHJhbnNmb3JtPC9oND4NCiAgICAgICAgICAgIDxoNT50aGUgSW50ZXJuZXQ8YnIgLz4NCiAgICAgICAgICAgIFZpZGVvIEV4cGVyaWVuY2U8L2g1Pg0KICAgICAgICAgICAgUGVlckFwcCdzIFVsdHJhQmFuZCB0cmFuc3BhcmVudCBjYWNoZSBkZWxpdmVycyB2aWRlbywgbXVzaWMgYW5kIGRvd25sb2FkcyBhdCB3aXJlIHNwZWVkIHRvIGRyYW1hdGljYWxseSBpbXByb3ZlIHRoZSBzdWJzY3JpYmVyJ3MgZXhwZXJpZW5jZS48L3RkPg0KICAgICAgICAgICAgPHRkIHN0eWxlPSJmb250LXNpemU6IDEycHg7IHdpZHRoOiAxNDVweDsgY29sb3I6ICM1OTVhNWM7ICAgcGFkZGluZy1sZWZ0OiA2MHB4OyBwYWRkaW5nLXJpZ2h0OiA2MHB4OyI+DQogICAgICAgICAgICA8aDQ+VGFrZSBDb250cm9sPC9oND4NCiAgICAgICAgICAgIDxoNT5vZiBPdmVyLXRoZS1Ub3A8YnIgLz4NCiAgICAgICAgICAgIE5ldHdvcmsgVHJhZmZpYzwvaDU+DQogICAgICAgICAgICBVbHRyYUJhbmQgaGVscHMgb3BlcmF0b3JzIGZhY2UgdGhlIGV4cG9uZW50aWFsIGdyb3d0aCBpbiBvdmVyLXRoZS10b3AgdmlkZW8sIHBlZXItIHRvLXBlZXIgYW5kIGNsb3VkLWJhc2VkIGNvbnRlbnQsIHJlZHVjaW5nIG5ldHdvcmsgY29uZ2VzdGlvbiBhbmQgY29zdHMuPC90ZD4NCiAgICAgICAgICAgIDx0ZCBzdHlsZT0iZm9udC1zaXplOiAxMnB4OyB3aWR0aDogMTM1cHg7IGNvbG9yOiAjNTk1YTVjIj4NCiAgICAgICAgICAgIDxoND5EZWxpdmVyPC9oND4NCiAgICAgICAgICAgIDxoNT50aGUgRnVsbCBSYW5nZTxiciAvPg0KICAgICAgICAgICAgb2YgQ29udGVudDwvaDU+DQogICAgICAgICAgICBQZWVyQXBwJnJzcXVvO3MgdW5pcXVlIG11bHRpLSBzZXJ2aWNlIGFwcHJvYWNoIG9wdGltaXplcyBhbGwgdHlwZXMgb2YgY29udGVudCB0cmFmZmljLCBhbmQgYXV0b21hdGljYWxseSBhZGFwdHMgdG8gY2hhbmdlcyBpbiB0aGUgY29udGVudCBtaXguPC90ZD4NCiAgICAgICAgPC90cj4NCiAgICA8L3Rib2R5Pg0KPC90YWJsZT5kAgIPFgIfAAWpCDx0YWJsZSBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIGJvcmRlcj0iMCI+DQogICAgPHRib2R5Pg0KICAgICAgICA8dHIgdmFsaWduPSJtaWRkbGUiPg0KICAgICAgICAgICAgPHRkIHN0eWxlPSJ0ZXh0LWFsaWduOiByaWdodDsiPjxhIGhyZWY9Imh0dHA6Ly93d3cucGVlcmFwcC5jb20vc29sdXRpb25zL2ZzLW1hcmtldC1sZWFkZXItcHJvZmlsZS5hc3B4Ij48aW1nIHdpZHRoPSIxMjAiIGhlaWdodD0iOTYiIGFsdD0iRnJvc3QgJmFtcDsgU3VsbGl2YW4gTWFya2V0IExlYWRlciBQcm9maWxlIFJlcG9ydCIgc3JjPSIvQXBwX0ZDSy9pbWFnZS9zcG90bGlnaHRfZiZhbXA7cy5wbmciIGJvcmRlcj0iNCIgLz48L2E+PC90ZD4NCiAgICAgICAgICAgIDx0ZCBzdHlsZT0icGFkZGluZzogMCAwIDAgMjJweCI+DQogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tdG9wOiAxMnB4OyBoZWlnaHQ6IDc2cHg7IG1hcmdpbi1ib3R0b206IDEycHg7IHdpZHRoOiAycHg7IGJhY2tncm91bmQtY29sb3I6ICM3ODdmYWQiPiZuYnNwOzwvZGl2Pg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBzdHlsZT0id2lkdGg6IDM2MHB4OyBwYWRkaW5nLWxlZnQ6IDIycHg7Y29sb3I6ICM1OTVhNWM7IGZvbnQtc2l6ZTogMTJweDsgdmVydGljYWwtYWxpZ246IHRvcCI+DQogICAgICAgICAgICA8ZGl2IHN0eWxlPSJjb2xvcjogIzFhMjc3NTsgZm9udC1zaXplOiAxNnB4OyBmb250LXdlaWdodDogYm9sZDsgcGFkZGluZy1ib3R0b206IDVweDsiPkdldCB0aGUgUmVwb3J0PC9kaXY+DQogICAgICAgICAgICBMZWFybiB3aHkmbmJzcDs8c3Ryb25nPkZyb3N0ICZhbXA7IFN1bGxpdmFuPC9zdHJvbmc+IG5hbWVkIFBlZXJBcHAgdGhlIDIwMTMgVHJhbnNwYXJlbnQgQ2FjaGluZyBNYXJrZXQgTGVhZGVyLiZuYnNwOyZuYnNwOzxhIGhyZWY9Imh0dHA6Ly93d3cucGVlcmFwcC5jb20vc29sdXRpb25zL2ZzLW1hcmtldC1sZWFkZXItcHJvZmlsZS5hc3B4Ij5Eb3dubG9hZCB0aGUgcmVwb3J0PC9hPi48L3RkPg0KICAgICAgICA8L3RyPg0KICAgIDwvdGJvZHk+DQo8L3RhYmxlPmQCAw8WAh8ABcgIPGxpIGNsYXNzPSduZXdzLWl0ZW0nPjxzdHJvbmc+U2VwdGVtYmVyIDA4LCAyMDE0PC9zdHJvbmc+IC0gPGEgaHJlZj0nL05ld3MvVmlld05ld3MuYXNweD9pZD0yNTAnIGNsYXNzPSduZXdzSXRlbSc+UGVlckFwcCBhbmQgU2FuZHZpbmUgdG8gRGVtb25zdHJhdGUgdGhlIEluZHVzdHJ54oCZcyBGaXJzdCBWaXJ0dWFsaXplZCBDb250ZW50IENhY2hpbmcgU29sdXRpb24gYXQgSURGIFNhbiBGcmFuY2lzY28gMjAxNDwvYT48L2xpPjxsaSBjbGFzcz0nbmV3cy1pdGVtJz48c3Ryb25nPlNlcHRlbWJlciAwMiwgMjAxNDwvc3Ryb25nPiAtIDxhIGhyZWY9Jy9OZXdzL1ZpZXdOZXdzLmFzcHg/aWQ9MjQ5JyBjbGFzcz0nbmV3c0l0ZW0nPlBlZXJBcHAgdG8gUHJlc2VudCBvbiBQbGF0Zm9ybXMgdG8gTW9uZXRpemUgIE9UVCBBcHBsaWNhdGlvbnMgYW5kIFZpZGVvPC9hPjwvbGk+PGxpIGNsYXNzPSduZXdzLWl0ZW0nPjxzdHJvbmc+QXVndXN0IDA1LCAyMDE0PC9zdHJvbmc+IC0gPGEgaHJlZj0nL05ld3MvVmlld05ld3MuYXNweD9pZD0yNDUnIGNsYXNzPSduZXdzSXRlbSc+UGVlckFwcCBQYXJ0bmVycyB3aXRoIFdEQyBOZXR3b3JrcyBpbiBCcmF6aWwgdG8gRGVsaXZlciBDb250ZW50IEFjY2VsZXJhdGlvbiB0byBJU1BzIENhYmxlIE9wZXJhdG9ycyA8L2E+PC9saT48bGkgY2xhc3M9J25ld3MtaXRlbSc+PHN0cm9uZz5KdWx5IDI5LCAyMDE0PC9zdHJvbmc+IC0gPGEgaHJlZj0nL05ld3MvVmlld05ld3MuYXNweD9pZD0yNDQnIGNsYXNzPSduZXdzSXRlbSc+UGVlckFwcCB0byBQcmVzZW50IE5ldyBWaWRlbyBhbmQgQ29udGVudCBEZWxpdmVyeSBBcHByb2FjaCBmb3IgIE1vbmV0aXppbmcgT1RUIGF0IENhYmxlTGFi4oCZcyBTdW1tZXIgQ29uZmVyZW5jZTwvYT48L2xpPjxsaSBjbGFzcz0nbmV3cy1pdGVtJz48c3Ryb25nPkp1bHkgMTQsIDIwMTQ8L3N0cm9uZz4gLSA8YSBocmVmPScvTmV3cy9WaWV3TmV3cy5hc3B4P2lkPTI0MycgY2xhc3M9J25ld3NJdGVtJz5QZWVyQXBwIHRvIFByZXNlbnQgTmV3IENvbnRlbnQgRGVsaXZlcnkgUGFyYWRpZ20gZm9yICBNb25ldGl6aW5nIE9UVCBhbmQgQ29udGVudCBTZXJ2aWNlczwvYT48L2xpPmQCBA8WAh8ABcIgICA8ZGl2IGNsYXNzPSdGb290ZXJMaW5rcyc+PGEgaHJlZj0nUHJvZHVjdHMvRGVmYXVsdC5hc3B4JyBjbGFzcz0nRm9vdGVyTWFpbic+UHJvZHVjdHM8L2E+DQogICAgPHVsIGNsYXNzPSdGb290ZXInPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1Byb2R1Y3RzL3RyYW5zcGFyZW50Y2FjaGluZy5hc3B4Jz5XaGF0IGlzIFRyYW5zcGFyZW50IENhY2hpbmc/PC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1Byb2R1Y3RzL1VsdHJhQmFuZC5hc3B4Jz5VbHRyYUJhbmQgU2VyaWVzPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1Byb2R1Y3RzL1VCV2ViLmFzcHgnPlVCV2ViPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1Byb2R1Y3RzL1VCSW5zaWdodC5hc3B4Jz5VQkluc2lnaHQgQW5hbHl0aWNzPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1Byb2R1Y3RzL1Byb2Zlc3Npb25hbHNlcnZpY2VzLmFzcHgnPlByb2Zlc3Npb25hbCBTZXJ2aWNlczwvYT48L2xpIGNsYXNzPSdwYWdlMUNsb3NlJz4NCiAgICAgIDxsaSBjbGFzcz0ncGFnZTFPcGVuJz48YSBjbGFzcz0nRm9vdGVyU3ViJyBocmVmPSdQcm9kdWN0cy9wZWVyYXBwZGlmZmVyZW5jZS5hc3B4Jz5UaGUgUGVlckFwcCBEaWZmZXJlbmNlPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgIDwvdWwgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICA8L2Rpdj4NCiAgPGRpdiBjbGFzcz0nRm9vdGVyTGlua3MnPjxhIGhyZWY9J1NvbHV0aW9ucy9EZWZhdWx0LmFzcHgnIGNsYXNzPSdGb290ZXJNYWluJz5Tb2x1dGlvbnM8L2E+DQogICAgPHVsIGNsYXNzPSdGb290ZXInPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1NvbHV0aW9ucy9kc2wuYXNweCc+Rm9yIFRlbGVjb20gT3BlcmF0b3JzPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1NvbHV0aW9ucy9jYWJsZS5hc3B4Jz5Gb3IgQ2FibGUgT3BlcmF0b3JzPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1NvbHV0aW9ucy9tb2JpbGUuYXNweCc+Rm9yIE1vYmlsZSBPcGVyYXRvcnM8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nU29sdXRpb25zL2NzZS5hc3B4Jz5Db250ZW50IFNlcnZpY2UgRXh0ZW5zaW9uPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1NvbHV0aW9ucy91bml2ZXJzaXR5LmFzcHgnPkZvciBVbml2ZXJzaXRpZXM8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgPC91bCBjbGFzcz0ncGFnZTFDbG9zZSc+DQogIDwvZGl2Pg0KICA8ZGl2IGNsYXNzPSdGb290ZXJMaW5rcyc+PGEgaHJlZj0nQ29tcGFueS9EZWZhdWx0LmFzcHgnIGNsYXNzPSdGb290ZXJNYWluJz5Db21wYW55PC9hPg0KICAgIDx1bCBjbGFzcz0nRm9vdGVyJz4NCiAgICAgIDxsaSBjbGFzcz0ncGFnZTFPcGVuJz48YSBjbGFzcz0nRm9vdGVyU3ViJyBocmVmPSdDb21wYW55L0Fib3V0LmFzcHgnPkFib3V0IFBlZXJBcHA8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nQ29tcGFueS9NYW5hZ2VtZW50LmFzcHgnPk1hbmFnZW1lbnQ8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nQ29tcGFueS9Cb2FyZC5hc3B4Jz5Cb2FyZCBvZiBEaXJlY3RvcnM8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nQ29tcGFueS9DYXJlZXJzLmFzcHgnPkNhcmVlcnM8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nQ29tcGFueS9Db250YWN0LmFzcHgnPkNvbnRhY3QgUGVlckFwcDwvYT48L2xpIGNsYXNzPSdwYWdlMUNsb3NlJz4NCiAgICAgIDxsaSBjbGFzcz0ncGFnZTFPcGVuJz48YSBjbGFzcz0nRm9vdGVyU3ViJyBocmVmPSdDb21wYW55L2xvY2F0aW9ucy5hc3B4Jz5PZmZpY2UgTG9jYXRpb25zPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J0NvbXBhbnkvU3VwcG9ydC5hc3B4Jz5TdXBwb3J0PC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgIDwvdWwgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICA8L2Rpdj4NCiAgPGRpdiBjbGFzcz0nRm9vdGVyTGlua3MnPjxhIGhyZWY9J05ld3MvRGVmYXVsdC5hc3B4JyBjbGFzcz0nRm9vdGVyTWFpbic+TmV3cyAmIEV2ZW50czwvYT4NCiAgICA8dWwgY2xhc3M9J0Zvb3Rlcic+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nTmV3cy9QcmVzcy5hc3B4Jz5QcmVzcyBSZWxlYXNlczwvYT48L2xpIGNsYXNzPSdwYWdlMUNsb3NlJz4NCiAgICAgIDxsaSBjbGFzcz0ncGFnZTFPcGVuJz48YSBjbGFzcz0nRm9vdGVyU3ViJyBocmVmPSdOZXdzL05ld3MuYXNweCc+SW4gdGhlIE5ld3M8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nTmV3cy9FdmVudHMuYXNweCc+RXZlbnRzIENhbGVuZGFyPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J05ld3MvQmxvZy5hc3B4Jz5CbG9nPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgIDwvdWwgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICA8L2Rpdj4NCiAgPGRpdiBjbGFzcz0nRm9vdGVyTGlua3MnPjxhIGhyZWY9J1BhcnRuZXJzL0RlZmF1bHQuYXNweCcgY2xhc3M9J0Zvb3Rlck1haW4nPlBhcnRuZXJzPC9hPg0KICAgIDx1bCBjbGFzcz0nRm9vdGVyJz4NCiAgICAgIDxsaSBjbGFzcz0ncGFnZTFPcGVuJz48YSBjbGFzcz0nRm9vdGVyU3ViJyBocmVmPSdQYXJ0bmVycy9EZWZhdWx0LmFzcHgnPk92ZXJ2aWV3PC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1BhcnRuZXJzL0JlbmVmaXRzLmFzcHgnPlVsdHJhQmFuZCBDZXJ0aWZpZWQgUGFydG5lciBQcm9ncmFtIEJlbmVmaXRzPC9hPjwvbGkgY2xhc3M9J3BhZ2UxQ2xvc2UnPg0KICAgICAgPGxpIGNsYXNzPSdwYWdlMU9wZW4nPjxhIGNsYXNzPSdGb290ZXJTdWInIGhyZWY9J1BhcnRuZXJzL0JlY29tZUFQYXJ0bmVyLmFzcHgnPkhvdyB0byBCZWNvbWUgYSBQZWVyQXBwIFBhcnRuZXI8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nUGFydG5lcnMvU3lzdGVtc1BhcnRuZXJzLmFzcHgnPlN5c3RlbXMgUGFydG5lcnM8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQogICAgICA8bGkgY2xhc3M9J3BhZ2UxT3Blbic+PGEgY2xhc3M9J0Zvb3RlclN1YicgaHJlZj0nUGFydG5lcnMvU3lzdGVtc0ludGVncmF0b3JzLmFzcHgnPlN5c3RlbXMgSW50ZWdyYXRvcnM8L2E+PC9saSBjbGFzcz0ncGFnZTFDbG9zZSc+DQo8L3VsPjwvZGl2PmRkHsZnkHLytohczoN5RZEqK900ntw=" />
+
+    <div id="main">   
+      <div id="top">
+        
+        <div id="header">
+          <img src="/App_Images/Framework/logo.gif" style="width: 135px; height: 35px; padding-top: 20px;padding-right: 20px;" class="floatL block" alt="PeerApp" />
+          
+          <div class="floatL">
+            <div class="HeaderLinkContainer"> 
+              <a href="/Sitemap.aspx" class="HeaderLink">Sitemap</a> &nbsp; | &nbsp; 
+              <a href="/Company/Contact.aspx" class="HeaderLink">Contact</a>  &nbsp; | &nbsp;  
+              <a href="/company/support.aspx" class="HeaderLink">Support</a> &nbsp; | &nbsp;  
+              <a href="http://www.peerapp.com/blog" class="HeaderLink">Blog</a>               
+            </div>
+            <div style="z-index: 101;" class="relative">
+              
+                  <div class="NavItem relative">
+                    <div id="sddm" class="relative">
+                      <a id="rptrMenu_ctl00_menuLink" class="mainlevelNonActive" onmouseout="mclosetime()" onmouseover="mopen('m2')" href="Products/Default.aspx">Products</a>
+                      <span class="headerPipe">|</span>
+                      <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="margin-top:14px; margin-left: -8px;">
+                          
+                              <a href="Products/transparentcaching.aspx">What is Transparent Caching?</a>
+                            
+                              <a href="Products/UltraBand.aspx">UltraBand Series</a>
+                            
+                              <a href="Products/UBWeb.aspx">UBWeb</a>
+                            
+                              <a href="Products/UBInsight.aspx">UBInsight Analytics</a>
+                            
+                              <a href="Products/Professionalservices.aspx">Professional Services</a>
+                            
+                              <a href="Products/peerappdifference.aspx">The PeerApp Difference</a>
+                            
+                      </div>
+
+
+
+                      
+                    </div>        
+                  </div>             
+                
+                  <div class="NavItem relative">
+                    <div id="sddm" class="relative">
+                      <a id="rptrMenu_ctl01_menuLink" class="mainlevelNonActive" onmouseout="mclosetime()" onmouseover="mopen('m5')" href="Solutions/Default.aspx">Solutions</a>
+                      <span class="headerPipe">|</span>
+                      <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="margin-top:14px; margin-left: -8px;">
+                          
+                              <a href="Solutions/dsl.aspx">For Telecom Operators</a>
+                            
+                              <a href="Solutions/cable.aspx">For Cable Operators</a>
+                            
+                              <a href="Solutions/mobile.aspx">For Mobile Operators</a>
+                            
+                              <a href="Solutions/cse.aspx">Content Service Extension</a>
+                            
+                              <a href="Solutions/university.aspx">For Universities</a>
+                            
+                      </div>
+
+
+
+                      
+                    </div>        
+                  </div>             
+                
+                  <div class="NavItem relative">
+                    <div id="sddm" class="relative">
+                      <a id="rptrMenu_ctl02_menuLink" class="mainlevelNonActive" onmouseout="mclosetime()" onmouseover="mopen('m6')" href="Company/Default.aspx">Company</a>
+                      <span class="headerPipe">|</span>
+                      <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="margin-top:14px; margin-left: -8px;">
+                          
+                              <a href="Company/About.aspx">About PeerApp</a>
+                            
+                              <a href="Company/Management.aspx">Management</a>
+                            
+                              <a href="Company/Board.aspx">Board of Directors</a>
+                            
+                              <a href="Company/Careers.aspx">Careers</a>
+                            
+                              <a href="Company/Contact.aspx">Contact PeerApp</a>
+                            
+                              <a href="Company/locations.aspx">Office Locations</a>
+                            
+                              <a href="Company/Support.aspx">Support</a>
+                            
+                      </div>
+
+
+
+                      
+                    </div>        
+                  </div>             
+                
+                  <div class="NavItem relative">
+                    <div id="sddm" class="relative">
+                      <a id="rptrMenu_ctl03_menuLink" class="mainlevelNonActive" onmouseout="mclosetime()" onmouseover="mopen('m7')" href="News/Default.aspx">News & Events</a>
+                      <span class="headerPipe">|</span>
+                      <div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="margin-top:14px; margin-left: -8px;">
+                          
+                              <a href="News/Press.aspx">Press Releases</a>
+                            
+                              <a href="News/News.aspx">In the News</a>
+                            
+                              <a href="News/Events.aspx">Events Calendar</a>
+                            
+                              <a href="News/Blog.aspx">Blog</a>
+                            
+                      </div>
+
+
+
+                      
+                    </div>        
+                  </div>             
+                
+                  <div class="NavItem relative">
+                    <div id="sddm" class="relative">
+                      <a id="rptrMenu_ctl04_menuLink" class="mainlevelNonActive" onmouseout="mclosetime()" onmouseover="mopen('m8')" href="Partners/Default.aspx">Partners</a>
+                      <span class="headerPipe">|</span>
+                      <div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="margin-top:14px; margin-left: -8px;">
+                          
+                              <a href="Partners/Default.aspx">Overview</a>
+                            
+                              <a href="Partners/Benefits.aspx">UltraBand Certified Partner Program Benefits</a>
+                            
+                              <a href="Partners/BecomeAPartner.aspx">How to Become a PeerApp Partner</a>
+                            
+                              <a href="Partners/SystemsPartners.aspx">Systems Partners</a>
+                            
+                              <a href="Partners/SystemsIntegrators.aspx">Systems Integrators</a>
+                            
+                      </div>
+
+
+
+                      
+                    </div>        
+                  </div>             
+                
+                  <div class="floatR relative" style="margin-left: 16px; padding-top: 3px;">              
+                    
+
+<select id="language" class="language" title="Choose a Language" style="font-size: 11px; width: 170px;">
+  <option value=""></option>
+  <option value="/company/lang_chinese.aspx">Chinese</option>
+  <option value="/company/lang_French.aspx">French</option>
+  <option value="/company/lang_Japanese.aspx">Japanese</option>
+  <option value="/company/lang_Portuguese.aspx">Portuguese</option>
+  <option value="/company/lang_Russian.aspx">Russian</option>
+  <option value="/company/lang_Spanish.aspx">Spanish</option>
+</select>              
+                  </div>
+                 
+            </div>
+            
+            
+            <div class="clear"></div>
+          </div>
+        </div>
+        
+        
+        <div id="rotator">
+          <div class="floatL">
+            <img src="/App_Images/rotate/1a.png" id="img1" width="536" height="520" style="position: relative; z-index: 0" />
+          </div>
+          <div class="floatL">
+            <img src="/App_Images/rotate/1b.png" id="img2" width="593" height="222" style="position: relative; z-index: 0" />
+            
+            <div style="padding-left: 431px; z-index: 100;position:relative; margin-top: -42px; margin-bottom: 40px;" id="dots"></div>
+            
+            
+            <table cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr valign="top">
+            <td style="font-size: 12px; width: 140px; color: #595a5c">
+            <h4>Transform</h4>
+            <h5>the Internet<br />
+            Video Experience</h5>
+            PeerApp's UltraBand transparent cache delivers video, music and downloads at wire speed to dramatically improve the subscriber's experience.</td>
+            <td style="font-size: 12px; width: 145px; color: #595a5c;   padding-left: 60px; padding-right: 60px;">
+            <h4>Take Control</h4>
+            <h5>of Over-the-Top<br />
+            Network Traffic</h5>
+            UltraBand helps operators face the exponential growth in over-the-top video, peer- to-peer and cloud-based content, reducing network congestion and costs.</td>
+            <td style="font-size: 12px; width: 135px; color: #595a5c">
+            <h4>Deliver</h4>
+            <h5>the Full Range<br />
+            of Content</h5>
+            PeerApp&rsquo;s unique multi- service approach optimizes all types of content traffic, and automatically adapts to changes in the content mix.</td>
+        </tr>
+    </tbody>
+</table>
+            
+            <div style="padding-top: 32px;">
+              <table cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr valign="middle">
+            <td style="text-align: right;"><a href="http://www.peerapp.com/solutions/fs-market-leader-profile.aspx"><img width="120" height="96" alt="Frost &amp; Sullivan Market Leader Profile Report" src="/App_FCK/image/spotlight_f&amp;s.png" border="4" /></a></td>
+            <td style="padding: 0 0 0 22px">
+            <div style="margin-top: 12px; height: 76px; margin-bottom: 12px; width: 2px; background-color: #787fad">&nbsp;</div>
+            </td>
+            <td style="width: 360px; padding-left: 22px;color: #595a5c; font-size: 12px; vertical-align: top">
+            <div style="color: #1a2775; font-size: 16px; font-weight: bold; padding-bottom: 5px;">Get the Report</div>
+            Learn why&nbsp;<strong>Frost &amp; Sullivan</strong> named PeerApp the 2013 Transparent Caching Market Leader.&nbsp;&nbsp;<a href="http://www.peerapp.com/solutions/fs-market-leader-profile.aspx">Download the report</a>.</td>
+        </tr>
+    </tbody>
+</table>                          
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>   
+        
+        <div style="padding: 3px 0 3px 0; background: url(/App_Images/Homepage/BlueSeperatorHome.jpg) repeat-x #e2e2e2; height: 61px; color: White;">
+          <div class="floatL" style="height: 61px;padding-top: 10px; padding-left: 220px; font-weight: bold; font-size: 18px; color: #d0d0d0">
+            Latest News
+          </div>                    
+          <div class="floatL" style="height: 61px;padding-top: 6px; width: 665px; vertical-align: middle">
+            
+            <ul id="js-news" class="js-hidden">
+              <li class='news-item'><strong>September 08, 2014</strong> - <a href='/News/ViewNews.aspx?id=250' class='newsItem'>PeerApp and Sandvine to Demonstrate the Industry’s First Virtualized Content Caching Solution at IDF San Francisco 2014</a></li><li class='news-item'><strong>September 02, 2014</strong> - <a href='/News/ViewNews.aspx?id=249' class='newsItem'>PeerApp to Present on Platforms to Monetize  OTT Applications and Video</a></li><li class='news-item'><strong>August 05, 2014</strong> - <a href='/News/ViewNews.aspx?id=245' class='newsItem'>PeerApp Partners with WDC Networks in Brazil to Deliver Content Acceleration to ISPs Cable Operators </a></li><li class='news-item'><strong>July 29, 2014</strong> - <a href='/News/ViewNews.aspx?id=244' class='newsItem'>PeerApp to Present New Video and Content Delivery Approach for  Monetizing OTT at CableLab’s Summer Conference</a></li><li class='news-item'><strong>July 14, 2014</strong> - <a href='/News/ViewNews.aspx?id=243' class='newsItem'>PeerApp to Present New Content Delivery Paradigm for  Monetizing OTT and Content Services</a></li>
+	          </ul>
+	          <div style="clear: both"></div>
+            
+          </div>
+          <div class="floatL" style="padding-top: 10px; padding-left: 40px;">
+            <a href="/News/Default.aspx"><img src="App_Images/Homepage/archive.png" width="65" height="23" alt="archive" /></a>
+          </div> 
+          <div class="clear" ></div>
+        </div>   
+        
+        <div style="background-color: #e2e2e2">
+          <div style="margin-left: auto; margin-right: auto; padding-bottom: 8px;  width: 945px; padding-top: 8px;">         
+            <div style="margin-bottom: 30px;">                   
+                <div class='FooterLinks'><a href='Products/Default.aspx' class='FooterMain'>Products</a>
+    <ul class='Footer'>
+      <li class='page1Open'><a class='FooterSub' href='Products/transparentcaching.aspx'>What is Transparent Caching?</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Products/UltraBand.aspx'>UltraBand Series</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Products/UBWeb.aspx'>UBWeb</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Products/UBInsight.aspx'>UBInsight Analytics</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Products/Professionalservices.aspx'>Professional Services</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Products/peerappdifference.aspx'>The PeerApp Difference</a></li class='page1Close'>
+    </ul class='page1Close'>
+  </div>
+  <div class='FooterLinks'><a href='Solutions/Default.aspx' class='FooterMain'>Solutions</a>
+    <ul class='Footer'>
+      <li class='page1Open'><a class='FooterSub' href='Solutions/dsl.aspx'>For Telecom Operators</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Solutions/cable.aspx'>For Cable Operators</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Solutions/mobile.aspx'>For Mobile Operators</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Solutions/cse.aspx'>Content Service Extension</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Solutions/university.aspx'>For Universities</a></li class='page1Close'>
+    </ul class='page1Close'>
+  </div>
+  <div class='FooterLinks'><a href='Company/Default.aspx' class='FooterMain'>Company</a>
+    <ul class='Footer'>
+      <li class='page1Open'><a class='FooterSub' href='Company/About.aspx'>About PeerApp</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Company/Management.aspx'>Management</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Company/Board.aspx'>Board of Directors</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Company/Careers.aspx'>Careers</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Company/Contact.aspx'>Contact PeerApp</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Company/locations.aspx'>Office Locations</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Company/Support.aspx'>Support</a></li class='page1Close'>
+    </ul class='page1Close'>
+  </div>
+  <div class='FooterLinks'><a href='News/Default.aspx' class='FooterMain'>News & Events</a>
+    <ul class='Footer'>
+      <li class='page1Open'><a class='FooterSub' href='News/Press.aspx'>Press Releases</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='News/News.aspx'>In the News</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='News/Events.aspx'>Events Calendar</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='News/Blog.aspx'>Blog</a></li class='page1Close'>
+    </ul class='page1Close'>
+  </div>
+  <div class='FooterLinks'><a href='Partners/Default.aspx' class='FooterMain'>Partners</a>
+    <ul class='Footer'>
+      <li class='page1Open'><a class='FooterSub' href='Partners/Default.aspx'>Overview</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Partners/Benefits.aspx'>UltraBand Certified Partner Program Benefits</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Partners/BecomeAPartner.aspx'>How to Become a PeerApp Partner</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Partners/SystemsPartners.aspx'>Systems Partners</a></li class='page1Close'>
+      <li class='page1Open'><a class='FooterSub' href='Partners/SystemsIntegrators.aspx'>Systems Integrators</a></li class='page1Close'>
+</ul></div>      
+              <div style="clear: both;"></div>
+            </div>    
+                  
+            <div id="Copyright">
+              Copyright 2014 PeerApp &nbsp; | &nbsp; <a class="FooterSub" style="font-size: 11px;" href="/Company/Privacy.aspx">Privacy Statement</a>
+            </div>                
+            <div id="social">
+              <a href="http://www.linkedin.com/company/peerapp" target="_blank" class="block floatL"><img src="App_Images/Framework/linkedIn.gif" width="21" height="21" alt="linkedIn" /></a>
+              <a href="http://twitter.com/peerapp" target="_blank" class="block floatL" style="padding: 0 5px 0 5px;"><img src="App_Images/Framework/twitter.gif"  width="21" height="21" alt="twitter" /></a>
+              <a href="/RSS.aspx" target="_blank" class="block floatL"><img src="App_Images/Framework/rss.gif"  width="21" height="21" alt="rss" /></a>
+              <div class="clear"></div>
+            </div>  
+            <div class="clear"></div>
+          </div>
+        </div>        
+      </div>
+      
+    </div>
+  </form>
+  
+  
+  <script src="App_Scripts/DropDownMenu.js" type="text/javascript"></script>     
+  <script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>        
+  <script language="javascript" type="text/javascript" src="/App_Scripts/ImageRotator.js"></script>
+  <script src="/App_Scripts/jquery.ticker.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".headerPipe").last().css('display', 'none');
+      
+      $('#language').change(function() {
+        if ($(this).val() != "")
+          location.href = $(this).val();
+      });
+
+
+      if (!$.browser.opera) {
+
+        $('select.language').each(function() {
+          var title = $(this).attr('title');
+          if ($('option:selected', this).val() != '') title = $('option:selected', this).text();
+          $(this)
+                .css({ 'z-index': 10, 'opacity': 0, '-khtml-appearance': 'none' })
+                .after('<span class="select">' + title + '</span>')
+                .change(function() {
+                  val = $('option:selected', this).text();
+                  $(this).next().text(val);
+                })
+        });
+      };
+
+      $('#js-news').ticker({
+        speed: 0.10,
+        htmlFeed: true,        
+        titleText: '',
+        displayType: 'fade',
+        pauseOnItems: 6000,
+        fadeInSpeed: 1500,
+        fadeOutSpeed: 500
+      });
+    });    
+  </script>
+  
+  <script type="text/javascript">
+    function recordOutboundLink(link, category, action) {
+      try {
+        var pageTracker = _gat._getTracker("UA-2240025-1");
+        pageTracker._trackEvent(category, action);
+        setTimeout('document.location = "' + link.href + '"', 100)
+      } catch (err) { }
+    }
+    </script>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2240025-1']);
+      _gaq.push(['_trackPageview']);
+
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>  
+</body>
+</html>
