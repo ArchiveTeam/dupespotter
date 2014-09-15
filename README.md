@@ -16,7 +16,7 @@ Workflow:
 
 7. `git add dupespotter.py tests`
 8. `git commit`
-9. Copy into ludios/wpull:wpull/dupespotter.py
+9. Copy dupespotter.py to ludios/wpull:wpull/dupespotter.py
 
 
 TODO
