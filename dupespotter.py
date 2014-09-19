@@ -121,7 +121,7 @@ def process_body(body, url):
 		body = re.sub(br"\bview-dom-id-[0-9a-f]+\b", b"", body)
 
 		# Drupal generates <body class="..."> items based on the URL
-		body = re.sub(br'<body class="[^"]+">', b"", body)
+		body = re.sub(br'<body class="[^"]+"', b"", body)
 
 		# Drupal sites have randomized sidebar content with these IDs
 		body = re.sub(br'<div class="views-field views-field-[-a-z]+">.*', b"", body)

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.ashotoftruth.org/sites/default/files/favicon.png" />
+<meta name="description" content="Display a list of months that link to content for that month." />
+<!--[if lt IE 8]><script language="javascript" type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script><![endif]--><script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(100674106); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100674106ns.gif" /></p></noscript><meta http-equiv="ImageToolbar" content="false" />
+<meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible" />
+<meta name="viewport" content="width=device-width" />
+<meta property="twitter:title" content="A Shot of Truth" />
+<meta property="twitter:card" content="summary" />
+<link rel="shortlink" href="http://www.ashotoftruth.org/blog/archive/sites/all/modules/panels/js/modules/search/misc/ui/jquery.ui.slider.min.js" />
+<link rel="canonical" href="http://www.ashotoftruth.org/blog/archive/sites/all/modules/panels/js/modules/search/misc/ui/jquery.ui.slider.min.js" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta property="og:site_name" content="A Shot of Truth" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.ashotoftruth.org/blog/archive/sites/all/modules/panels/js/modules/search/misc/ui/jquery.ui.slider.min.js" />
+<meta property="og:image" content="http://www.ashotoftruth.org/sites/default/files/shotoftruth_logo.png" />
+<meta property="twitter:url" content="http://www.ashotoftruth.org/blog/archive/sites/all/modules/panels/js/modules/search/misc/ui/jquery.ui.slider.min.js" />
+  <title>| A Shot of Truth</title>
+  <style>@import url("http://www.ashotoftruth.org/modules/system/system.base.css?nbebbn");
+@import url("http://www.ashotoftruth.org/modules/system/system.messages.css?nbebbn");
+@import url("http://www.ashotoftruth.org/modules/system/system.theme.css?nbebbn");</style>
+<style>@import url("http://www.ashotoftruth.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.slider.min.css?nbebbn");</style>
+<style media="screen">@import url("http://www.ashotoftruth.org/sites/all/libraries/jquery-ui-timepicker/jquery-ui-timepicker-addon.css?nbebbn");</style>
+<style>@import url("http://www.ashotoftruth.org/sites/all/modules/adaptive_image/css/adaptive-image.css?nbebbn");
+@import url("http://www.ashotoftruth.org/modules/comment/comment.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/date/date_api/date.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/fences/field.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/mollom/mollom.css?nbebbn");
+@import url("http://www.ashotoftruth.org/modules/node/node.css?nbebbn");
+@import url("http://www.ashotoftruth.org/modules/search/search.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/custom_modules/ubercart/uc_order/uc_order.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/custom_modules/ubercart/uc_product/uc_product.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/custom_modules/ubercart/uc_store/uc_store.css?nbebbn");
+@import url("http://www.ashotoftruth.org/modules/user/user.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/views/css/views.css?nbebbn");</style>
+<style>@import url("http://www.ashotoftruth.org/sites/all/modules/colorbox/styles/default/colorbox_style.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/ctools/css/ctools.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/panels/css/panels.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/video/css/video.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/modules/webform/css/webform.css?nbebbn");</style>
+
+<!--[if IE]>
+<link rel="stylesheet" href="http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/ie.css?nbebbn" />
+<![endif]-->
+<style>@import url("http://www.ashotoftruth.org/sites/all/libraries/superfish/css/superfish.css?nbebbn");</style>
+<style>@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/responsive-tables.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/timeline.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/app.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/shotoftruth.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/grid5.css?nbebbn");
+@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/shot.css?nbebbn");</style>
+<style media="print">@import url("http://www.ashotoftruth.org/sites/all/themes/shotoftruth/css/print.css?nbebbn");</style>
+  <script>document.cookie = 'adaptive_image=' + Math.max(screen.width, screen.height) + '; path=/';</script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="http://www.ashotoftruth.org/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.ashotoftruth.org/misc/drupal.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script src="http://www.ashotoftruth.org/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script src="http://www.ashotoftruth.org/misc/ui/jquery.ui.datepicker.min.js?v=1.8.7"></script>
+<script src="http://www.ashotoftruth.org/misc/ui/jquery.ui.mouse.min.js?v=1.8.7"></script>
+<script src="http://www.ashotoftruth.org/misc/ui/jquery.ui.slider.min.js?v=1.8.7"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/jquery-ui-timepicker/jquery-ui-sliderAccess.js?v=1.4"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/jquery-ui-timepicker/jquery-ui-timepicker-addon.js?v=1.4"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/media_colorbox/media_colorbox.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/colorbox/jquery.colorbox-min.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/colorbox/js/colorbox.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/colorbox/styles/default/colorbox_style.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/colorbox/js/colorbox_load.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/colorbox/js/colorbox_inline.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/panels/js/panels.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/video/js/video.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/webform/js/webform.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/google_analytics/googleanalytics.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/readmore/js/readmore.js?nbebbn"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-44181059-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/stanford_date_timepicker/js/stanford_date_timepicker.js?nbebbn"></script>
+<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53adab571688f9a7"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/superfish/sfsmallscreen.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/superfish/supposition.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/superfish/superfish.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/libraries/superfish/supersubs.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/modules/superfish/superfish.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/themes/shotoftruth/js/vendor/custom.modernizr.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/themes/shotoftruth/js/foundation.min.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/themes/shotoftruth/js/responsive-tables.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/themes/shotoftruth/js/timeline.js?nbebbn"></script>
+<script src="http://www.ashotoftruth.org/sites/all/themes/shotoftruth/js/shotoftruth.js?nbebbn"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"shotoftruth","theme_token":"ZGA6_OHlEPPiX4AvVL26kl8jCgiTiwTOcvQk2RUilcc","js":{"0":1,"http:\/\/code.jquery.com\/jquery-1.7.1.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.slider.min.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"sites\/all\/modules\/media_colorbox\/media_colorbox.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/video\/js\/video.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"sites\/all\/modules\/readmore\/js\/readmore.js":1,"2":1,"sites\/all\/modules\/stanford_date_timepicker\/js\/stanford_date_timepicker.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-53adab571688f9a7":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/shotoftruth\/js\/vendor\/custom.modernizr.js":1,"sites\/all\/themes\/shotoftruth\/js\/foundation.min.js":1,"sites\/all\/themes\/shotoftruth\/js\/responsive-tables.js":1,"sites\/all\/themes\/shotoftruth\/js\/timeline.js":1,"sites\/all\/themes\/shotoftruth\/js\/shotoftruth.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"sites\/all\/modules\/adaptive_image\/css\/adaptive-image.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/custom_modules\/ubercart\/uc_order\/uc_order.css":1,"sites\/all\/modules\/custom_modules\/ubercart\/uc_product\/uc_product.css":1,"sites\/all\/modules\/custom_modules\/ubercart\/uc_store\/uc_store.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/video\/css\/video.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/shotoftruth\/css\/ie.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/shotoftruth\/css\/responsive-tables.css":1,"sites\/all\/themes\/shotoftruth\/css\/timeline.css":1,"sites\/all\/themes\/shotoftruth\/css\/app.css":1,"sites\/all\/themes\/shotoftruth\/css\/shotoftruth.css":1,"sites\/all\/themes\/shotoftruth\/css\/grid5.css":1,"sites\/all\/themes\/shotoftruth\/css\/shot.css":1,"sites\/all\/themes\/shotoftruth\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","breakpoint":1000,"addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Navigation"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}},"stanford_date_timepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"hh:mm","default_separator":" "}});</script>
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-blog page-blog-archive page-blog-archive-sites page-blog-archive-sites-all page-blog-archive-sites-all-modules page-blog-archive-sites-all-modules-panels page-blog-archive-sites-all-modules-panels-js page-blog-archive-sites-all-modules-panels-js-modules page-blog-archive-sites-all-modules-panels-js-modules-search page-blog-archive-sites-all-modules-panels-js-modules-search-misc page-blog-archive-sites-all-modules-panels-js-modules-search-misc-ui page-blog-archive-sites-all-modules-panels-js-modules-search-misc-ui-jqueryuisliderminjs section-blog views-page" >
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!--.page -->
+<div role="document" class="page">
+
+  <!--.l-header region -->
+  <header role="banner" class="l-header">
+
+    
+    <!-- Title, slogan and menu -->
+        <section class="row ">
+
+              <a href="/" title="Home" rel="home" id="logo" class="medium-3 large-2 columns">
+          <img src="http://www.ashotoftruth.org/sites/default/files/logo_slogan.png" alt="Home" />
+        </a>
+      
+              <div id="dropdown-menu" class="navigation medium-9 large-10 columns" role="navigation">
+              <section class="block block-menu inline-menu clearfix block-menu-menu-secondary-menu">
+
+      
+  <div  class="block-content">    <ul class="menu"><li class="first last leaf"><a href="/contact-us">Contact Us</a></li>
+</ul>  </div>
+</section>  <section class="block block-menu social-block block-menu-menu-social-menu">
+
+      
+  <div  class="block-content">    <ul class="menu"><li class="first leaf"><a href="https://www.facebook.com/ashotoftruth" rel="nofollow" class="facebook" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="https://twitter.com/aShot_ofTruth" rel="nofollow" class="twitter" target="_blank">Twitter</a></li>
+<li class="last leaf"><a href="http://youtube.com/ashotoftruth" rel="nofollow" class="youtube" target="_blank">Youtube</a></li>
+</ul>  </div>
+</section>  <section class="block block-superfish block-superfish-1">
+
+      
+  <div  class="block-content">    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-5 sf-single-items-2"><li id="menu-593-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-5 sf-parent-children-2 sf-single-children-3 menuparent"><a href="/vaccines" class="sf-depth-1 menuparent">The Vaccines</a><ul><li id="menu-659-1" class="first odd sf-item-1 sf-depth-2"><a href="/featured-vaccines/flu-shot" class="sf-depth-2">Flu Shot</a></li><li id="menu-739-1" class="middle even sf-item-2 sf-depth-2"><a href="/vaccines/hpv-vaccine" class="sf-depth-2">HPV Vaccine</a></li><li id="menu-1026-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/vaccines/hepatitis-b-vaccine" class="sf-depth-2">Hepatitis B Vaccine</a></li><li id="menu-615-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/featured-vaccines/vaccine-ingredients" class="sf-depth-2">Vaccine Ingredients</a></li><li id="menu-896-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/vaccines/vaccine-injury" class="sf-depth-2">Vaccine Injury</a></li></ul></li><li id="menu-596-1" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="/stories" class="sf-depth-1">The Stories</a></li><li id="menu-591-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/science" class="sf-depth-1 menuparent">Autism &amp; Vaccines</a><ul><li id="menu-913-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/history" class="sf-depth-2">Thimerosal Timeline</a></li><li id="menu-776-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/science/frank-b-engley-jr-phd-interview" class="sf-depth-2">Frank Engley, PhD Interview</a></li><li id="menu-740-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/science/study-1" class="sf-depth-2">Study 1</a></li><li id="menu-741-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/science/study-2" class="sf-depth-2">Study 2</a></li><li id="menu-754-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/thimerosal-papers" class="sf-depth-2">Thimerosal Papers</a></li></ul></li><li id="menu-595-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-2 sf-parent-children-1 sf-single-children-1 menuparent"><a href="/take-action" class="sf-depth-1 menuparent">Take Action</a><ul><li id="menu-881-1" class="first odd sf-item-1 sf-depth-2"><a href="/letter-to-remove-thimerosal-from-vaccines" class="sf-depth-2">A Shot of Truth Calls for a Complete Ban of Mercury-Containing Vaccines.</a></li><li id="menu-1009-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/take-action/join-us" class="sf-depth-2">Join Us</a></li></ul></li><li id="menu-594-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/about-us" class="sf-depth-1 menuparent">About Us</a><ul><li id="menu-738-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/about-us/open-letter-supporters" class="sf-depth-2">Open Letter to Supporters</a></li><li id="menu-753-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/about-us/media-inquiries" class="sf-depth-2">Media Inquiries</a></li></ul></li><li id="menu-1010-1" class="middle even sf-item-6 sf-depth-1 sf-no-children"><a href="/blog" class="sf-depth-1">ASOT Blog</a></li><li id="menu-1012-1" class="last odd sf-item-7 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/in-the-news" class="sf-depth-1 menuparent">In The News</a><ul><li id="menu-932-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/in-the-news/press-releases" class="sf-depth-2">Press Releases</a></li><li id="menu-1013-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/in-the-news/multimedia" class="sf-depth-2">Multimedia</a></li></ul></li></ul>  </div>
+</section>  <section class="block block-block sponsored-by block-block-6">
+
+      
+  <div  class="block-content">    <p><span style="color:#fff">A Shot of Truth is a campaign sponsored by</span> <img style="padding:3px; background:#fff;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;" src="http://www.ashotoftruth.org/sites/default/files/sponsored_focus_autism_logo.png" alt="A Shot of Truth is a Campaign sponsored by Focus Autism" /><span class="alt-text">Focus Autism</span></p>
+  </div>
+</section>        </div>
+      
+    </section>
+        <div id="submenu" class="row"></div>
+    <!-- End title, slogan and menu -->
+
+    
+          <!--.l-header-search-barregion -->
+      <section class="l-header-search-bar-region row">
+        <div class="large-12 columns">
+              <section class="block block-search block-search-form">
+
+      
+  <div  class="block-content">    <form action="/blog/archive/sites/all/modules/panels/js/modules/search/misc/ui/jquery.ui.slider.min.js" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline small-12 medium-6 large-4 columns" style="float:right;">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="row collapse">
+  	<div class="small-8 columns">
+  		<div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+  	</div>
+  	<div class="small-4 columns postfix">
+  		<button class="success form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+  	</div>
+  	<input type="hidden" name="form_build_id" value="form-rQALu_USf0j9NC7lDzrNWv5qph7BfxlV6zxJgsPAhm0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+  </div>
+  
+</div>
+</div></form>  </div>
+</section>        </div>
+      </section>
+      <!--/.l-header-search-bar-region -->
+    
+  </header>
+  <!--/.l-header -->
+
+  
+  
+  
+  <main role="main" class="row l-main">
+    <div class="large-9 main columns">
+      
+      <a id="main-content"></a>
+
+      <h2 class="element-invisible">You are here</h2><ul class="breadcrumbs"><li><a href="/">Home</a></li><li><a href="/blog/archive">Monthly archive</a></li><li class="current"><a href="#"></a></li></ul>
+      
+                            
+      
+        
+      
+  <div  class="block-content">    <div class="view view-blog-archive view-id-blog_archive view-display-id-page view-dom-id-1d1aa27d376a70de2736b0da8769de6a">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>  </div>
+    </div>
+    <!--/.main region -->
+
+    
+          <aside role="complementary" class="large-3 sidebar-second columns sidebar">
+            <section class="block block-block block-block-9 block-odd clearfix">
+
+      
+  <div  class="block-content">    <p><a href="http://www.ashotoftruth.org/subscribe-to-newsletter" class="button success expand radius">Subscribe to Our Blog</a></p>
+  </div>
+</section>  <section class="block block-views panel block-views-blog-block-3 block-even clearfix">
+
+        <h2 class="block-title">Past Blog Posts</h2>
+    
+  <div  class="block-content">    <div class="view view-blog view-id-blog view-display-id-block_3 sidebar-summary-spacing view-dom-id-c10aec7d1cdf0007a6e5d79ed25c7834">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/blog/september-11-2014-press-release-cdc-epidemiologist-whistleblower-confirms-new-review-showing">September 11, 2014 Press Release “CDC Epidemiologist Whistleblower Confirms New Review Showing Vaccine Autism Link”</a>...<a href="/blog/september-11-2014-press-release-cdc-epidemiologist-whistleblower-confirms-new-review-showing" class="italics green-text">Read More</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/blog/gardasil-back-school-resource">Gardasil® Back-to-School Resource </a>...<a href="/blog/gardasil-back-school-resource" class="italics green-text">Read More</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/blog/new-paper-reveals-cdc-misconduct-data-surrounding-mmr-vaccine-and-autism">New Paper Reveals CDC Misconduct with Data Surrounding the MMR Vaccine and Autism</a>...<a href="/blog/new-paper-reveals-cdc-misconduct-data-surrounding-mmr-vaccine-and-autism" class="italics green-text">Read More</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/blog/dr-andrew-wakefield-massive-proportion-question-vaccine-safety-responds-why-not-every-child">Dr. Andrew Wakefield: “Massive Proportion” Question Vaccine Safety -  Responds to “Why Not Every Child?”</a>...<a href="/blog/dr-andrew-wakefield-massive-proportion-question-vaccine-safety-responds-why-not-every-child" class="italics green-text">Read More</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="text-right"><a href="http://www.ashotoftruth.org/blog">View All Blogs</a></div>
+    </div>
+  
+  
+</div>  </div>
+</section>  <section class="block block-menu panel side-menu block-menu-menu-categories block-odd clearfix">
+
+        <h2 class="block-title">Categories</h2>
+    
+  <div  class="block-content">    <ul class="menu"><li class="first leaf"><a href="/categories/shot-truth-david-lewis" title="A Shot of Truth from David Lewis (1)">A Shot of Truth from David Lewis (1)</a></li>
+<li class="leaf"><a href="/categories/hpv-vaccines" title="HPV Vaccines (1)">HPV Vaccines (1)</a></li>
+<li class="leaf"><a href="/categories/vaccines" title="Vaccines (10)">Vaccines (10)</a></li>
+<li class="leaf"><a href="/categories/thimerosal" title="Thimerosal (0)">Thimerosal (0)</a></li>
+<li class="leaf"><a href="/categories/hpv" title="HPV (0)">HPV (0)</a></li>
+<li class="leaf"><a href="/categories/shot-truth-brian-hooker" title="A Shot of Truth from Brian Hooker (0)">A Shot of Truth from Brian Hooker (0)</a></li>
+<li class="last leaf"><a href="/categories/autism" title="Autism (2)">Autism (2)</a></li>
+</ul>  </div>
+</section>  <section class="block block-views panel block-views-blog-archive-block block-even clearfix">
+
+        <h2 class="block-title">Archive</h2>
+    
+  <div  class="block-content">    <div class="view view-blog-archive view-id-blog_archive view-display-id-block view-dom-id-f1844b4c4cca6a5e2f4f18253c0430a5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-summary views-summary-unformatted">        <a href="/blog/archive/201409">September 2014</a>
+          (1)
+      </div>  <div class="views-summary views-summary-unformatted">        <a href="/blog/archive/201408">August 2014</a>
+          (2)
+      </div>  <div class="views-summary views-summary-unformatted">        <a href="/blog/archive/201407">July 2014</a>
+          (3)
+      </div>  <div class="views-summary views-summary-unformatted">        <a href="/blog/archive/201406">June 2014</a>
+          (3)
+      </div>  <div class="views-summary views-summary-unformatted">        <a href="/blog/archive/201405">May 2014</a>
+          (4)
+      </div>  <div class="views-summary views-summary-unformatted">        <a href="/blog/archive/201404">April 2014</a>
+          (4)
+      </div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</section>      </aside>
+      </main>
+  <!--/.main-->
+
+  <!-- Secondary Content -->
+    <!--/.Secondary Content -->
+
+  <!-- Tertiary Content -->
+    <!--/.Tertiary Content -->
+
+  
+  
+  <div id="footer-top" class="row">
+          <div class="footer-top large-12 columns">
+            <section class="block block-webform signup-block block-webform-client-block-628">
+
+      
+  <div  class="block-content">    <form class="webform-client-form webform-client-form-628" enctype="multipart/form-data" action="/blog/archive/sites/all/modules/panels/js/modules/search/misc/ui/jquery.ui.slider.min.js" method="post" id="webform-client-form-628" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-markup webform-component--markup">
+ <h3>Join Us</h3>
+<p>If you want to join us, and to hear more about our fight for the truth, sign up for updates.</p>
+
+</div>
+<div  class="form-item webform-component webform-component-email webform-component--email-address">
+  <label class="element-invisible" for="edit-submitted-email-address">Email Address <span class="form-required" title="This field is required.">*</span></label>
+ <input class="email form-text form-email required" placeholder="Email Address" type="email" id="edit-submitted-email-address" name="submitted[email_address]" size="60" />
+</div>
+<input type="hidden" name="submitted[mailchimp_opt_in][mailchimp_signup]" value="1" />
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-gw3SjTLJ88S-DHJVRKHXUhwNIlCoHTtTY36VtZPyztY" />
+<input type="hidden" name="form_id" value="webform_client_form_628" />
+<button class="secondary button radius form-submit" name="op" value="Join Our List" type="submit">Join Our List</button>
+</div></form>  </div>
+</section>      </div>
+      </div>
+
+  <!--.l-footer-->
+  <footer class="l-footer row" role="contentinfo">
+          <div class="footer large-12 columns">
+            <section class="block block-views block-views-videos-block">
+
+      
+  <div  class="block-content">    <div class="view view-videos view-id-videos view-display-id-block view-dom-id-795a7c1c8c61154e4d6375ffb97b2cd6">
+        
+  
+  
+      <div class="view-content">
+          <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4">          <li class=""><div  about="/dr-mark-geier-discusses-flu-vaccine" typeof="sioc:Item foaf:Document" class="ds-1col node node-videos node-teaser view-mode-teaser clearfix">
+
+  
+  
+  <div class="field field-name-field-video field-type-file field-label-hidden field-wrapper">
+    <a href="/media_colorbox/134/media_original/und" title="" class="media-colorbox " style="" rel="gallery-284" data-mediaColorboxFixedWidth="800" data-mediaColorboxFixedHeight="600" data-mediaColorboxAudioPlaylist="0"><div  class="ds-1col file file-video file-video-youtube view-mode-preview clearfix">
+
+  
+  <img typeof="foaf:Image" src="http://www.ashotoftruth.org/sites/default/files/styles/large/public/media-youtube/nvXIqUyOdK4.jpg?itok=O50oNx2u" alt="Dr. Mark Geier discusses aspects of the flu vaccine" /></div>
+
+</a>  </div>
+<div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><div class="video-title">Dr. Mark Geier Discusses the Flu Vaccine</div></div></div>
+
+</li>
+          <li class=""><div  about="/dangers-flu-shot" typeof="sioc:Item foaf:Document" class="ds-1col node node-videos node-teaser view-mode-teaser clearfix">
+
+  
+  
+  <div class="field field-name-field-video field-type-file field-label-hidden field-wrapper">
+    <a href="/media_colorbox/133/media_original/und" title="" class="media-colorbox " style="" rel="gallery-283" data-mediaColorboxFixedWidth="800" data-mediaColorboxFixedHeight="600" data-mediaColorboxAudioPlaylist="0"><div  class="ds-1col file file-video file-video-youtube view-mode-preview clearfix">
+
+  
+  <img typeof="foaf:Image" src="http://www.ashotoftruth.org/sites/default/files/styles/large/public/media-youtube/Z_HyPezYzmw.jpg?itok=hRayhLxq" alt="The Dangers of the Flu Shot" /></div>
+
+</a>  </div>
+<div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><div class="video-title">The Dangers of the Flu Shot</div></div></div>
+
+</li>
+          <li class=""><div  about="/synergistic-toxicity" typeof="sioc:Item foaf:Document" class="ds-1col node node-videos node-teaser view-mode-teaser clearfix">
+
+  
+  
+  <div class="field field-name-field-video field-type-file field-label-hidden field-wrapper">
+    <a href="/media_colorbox/81/media_original/und" title="" class="media-colorbox " style="" rel="gallery-201" data-mediaColorboxFixedWidth="800" data-mediaColorboxFixedHeight="600" data-mediaColorboxAudioPlaylist="0"><div  class="ds-1col file file-video file-video-youtube view-mode-preview clearfix">
+
+  
+  <img typeof="foaf:Image" src="http://www.ashotoftruth.org/sites/default/files/styles/large/public/media-youtube/xL4uFso-7pw.jpg?itok=UW0EMLiC" alt="Chris Shade Ph.D. of Quicksilver Scientific discusses synergistic toxicity" /></div>
+
+</a>  </div>
+<div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><div class="video-title">Synergistic Toxicity</div></div></div>
+
+</li>
+          <li class=""><div  about="/you-dont-want-know-whats-your-flu-shot" typeof="sioc:Item foaf:Document" class="ds-1col node node-videos node-teaser view-mode-teaser clearfix">
+
+  
+  
+  <div class="field field-name-field-video field-type-file field-label-hidden field-wrapper">
+    <a href="/media_colorbox/82/media_original/und" title="" class="media-colorbox " style="" rel="gallery-200" data-mediaColorboxFixedWidth="800" data-mediaColorboxFixedHeight="600" data-mediaColorboxAudioPlaylist="0"><div  class="ds-1col file file-video file-video-youtube view-mode-preview clearfix">
+
+  
+  <img typeof="foaf:Image" src="http://www.ashotoftruth.org/sites/default/files/styles/large/public/media-youtube/Wm2HLSXxYXQ.jpg?itok=8mYC4kZw" alt="You Don&#039;t Want to Know What&#039;s in Your Flu Shot!" /></div>
+
+</a>  </div>
+<div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><div class="video-title">You don&#039;t want to know what&#039;s in your flu shot</div></div></div>
+
+</li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</section>  <section class="block block-menu block-menu-menu-footer-links">
+
+      
+  <div  class="block-content">    <ul class="menu"><li class="first leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/site-map">Site Map</a></li>
+<li class="last leaf"><span class="nolink">© A Shot of Truth. All Rights Reserved 2013</span></li>
+</ul>  </div>
+</section>  <section class="block block-block disclaimer-block block-block-4">
+
+      
+  <div  class="block-content">    <p>DISCLAIMER OF MEDICAL LIABILITY - All text, images, graphics and links on this website are provided solely for informational purposes, are not medical advice, and are subjective and reflect the personal opinions of the founders and staff of A Shot of Truth. Neither this website nor A Shot of Truth founders and staff are attempting to give medical advice under any circumstances. You must not rely on any information on this site as an alternative to medical advice from your doctor. Never delay or avoid seeking medical advice, ignore such advice, or undergo or discontinue medical treatment for any member of your family because of information here. A Shot of Truth, its founders and staff are not responsible or liable for your pursuing or avoiding any course of treatment because of information, services, or products that you view, obtain from, or because of this site. Also, none of the third party resources accessible via links from this site, or that you access because of information on this site, are not under the direct or indirect control of A Shot of Truth, its founders or staff. We therefore assume no responsibility for the online content of any resources linked to or from, or discussed here in any way. All text, images, graphics, links and information on this site are provided without any representation or warranties, express or implied by A Shot of Truth, its founders and staff and are subject to change without notice. By clicking on any of the links or pages, you agree that you have read, understand and agree to this disclaimer.</p>
+  </div>
+</section>      </div>
+    
+      </footer>
+  <!--/.footer-->
+
+  </div>
+<!--/.page -->
+      <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+</body>
+</html>
