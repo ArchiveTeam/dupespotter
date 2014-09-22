@@ -62,6 +62,9 @@ def kill_path(path, body):
 	# For Dokuwiki
 	path_underscored = path.replace("/", "_")
 	body = body.replace(path_underscored.encode("utf-8"), b"")
+	# For Drupal "jQuery.extend(Drupal.settings" line
+	path_jsoned = '"' + path.replace("/", "\\u002F") + '"'
+	body = body.replace(path_jsoned.encode("utf-8"), b"")
 	if '%' in path:
 		unquoted_path = unquote(path)
 		if len(unquoted_path) >= 4:
