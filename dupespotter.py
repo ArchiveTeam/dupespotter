@@ -113,10 +113,10 @@ def process_body(body, url):
 	# <p>The owner of this website (whiterabbitexpress.com) has banned your access based on your browser's signature (166d5a82362b1219-ua48).</p>
 	body = re.sub(br'your browser\'s signature \([0-9a-f]{16}-[^\)]{1,10}\)', b"", body)
 
-	if b"drupal" in body:
-		# Drupal puts the current URL here, and the casing doesn't always match
-		body = re.sub(br'<link rel="canonical" href="[^"]+" />', b"", body)
+	# Drupal puts the current URL here, and the casing doesn't always match
+	body = re.sub(br'<link rel="(canonical|shortlink)" href="[^"]+" />', b"", body)
 
+	if b"drupal" in body:
 		# Drupal generates this form id
 		body = re.sub(br'\bvalue="form-[-_A-Za-z0-9]+\b"', b"", body)
 

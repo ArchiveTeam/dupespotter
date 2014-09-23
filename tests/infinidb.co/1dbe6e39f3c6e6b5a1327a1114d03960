@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.infinidb.co/sites/all/themes/calpont/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="http://www.infinidb.co/about/events/sites/all/modules/contrib/mediaelement/modules/node/modules/system/system.messages.css" />
+<link rel="canonical" href="http://www.infinidb.co/about/events/sites/all/modules/contrib/mediaelement/modules/node/modules/system/system.messages.css" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Events | InfiniDB</title>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>    
+  <style type="text/css" media="all">@import url("http://www.infinidb.co/modules/system/system.base.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/system/system.menus.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/system/system.messages.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/system/system.theme.css?n8hhfs");</style>
+<style type="text/css" media="all">@import url("http://www.infinidb.co/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?n8hhfs");</style>
+<style type="text/css" media="all">@import url("http://www.infinidb.co/modules/comment/comment.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/modules/contrib/date/date_api/date.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/modules/contrib/date/date_repeat_field/date_repeat_field.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/field/theme/field.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/modules/contrib/logintoboggan/logintoboggan.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/node/node.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/search/search.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/user/user.css?n8hhfs");
+@import url("http://www.infinidb.co/modules/forum/forum.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/modules/contrib/views/css/views.css?n8hhfs");</style>
+<style type="text/css" media="all">@import url("http://www.infinidb.co/sites/all/modules/contrib/ctools/css/ctools.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/modules/contrib/quote/quote.css?n8hhfs");</style>
+<style type="text/css" media="all">@import url("http://www.infinidb.co/sites/all/themes/calpont/main.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/themes/calpont/layout.css?n8hhfs");
+@import url("http://www.infinidb.co/sites/all/themes/calpont/curtain.css?n8hhfs");</style>
+  <script type="text/javascript" src="http://www.infinidb.co/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.infinidb.co/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.infinidb.co/misc/drupal.js?n8hhfs"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/modules/contrib/accordions/accordions.js?v=1.0"></script>
+<script type="text/javascript" src="http://www.infinidb.co/misc/form.js?v=7.24"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/modules/contrib/mediaelement/mediaelement.js?n8hhfs"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/modules/contrib/quote/quote.js?n8hhfs"></script>
+<script type="text/javascript" src="http://www.infinidb.co/misc/collapse.js?v=7.24"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/themes/calpont/js/jquery-1.10.1.min.js?n8hhfs"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/themes/calpont/js/main.js?n8hhfs"></script>
+<script type="text/javascript" src="http://www.infinidb.co/sites/all/themes/calpont/js/jquery.mmenu.min.all.js?n8hhfs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"calpont","theme_token":"rDiugJbXgUAEBuXMf4LFb4OB0GLjUFVcI1ZeRiidGZw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/modules\/contrib\/accordions\/accordions.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/mediaelement\/mediaelement.js":1,"sites\/all\/modules\/contrib\/quote\/quote.js":1,"misc\/collapse.js":1,"sites\/all\/themes\/calpont\/js\/jquery-1.10.1.min.js":1,"sites\/all\/themes\/calpont\/js\/main.js":1,"sites\/all\/themes\/calpont\/js\/jquery.mmenu.min.all.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/quote\/quote.css":1,"sites\/all\/themes\/calpont\/main.css":1,"sites\/all\/themes\/calpont\/layout.css":1,"sites\/all\/themes\/calpont\/curtain.css":1,"sites\/all\/themes\/calpont\/jquery.mmenu.all.css":1,"sites\/all\/themes\/calpont\/sub.css":1}},"mediaelementAll":true,"quote_nest":"2"});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-about page-about-events page-about-events-sites page-about-events-sites-all page-about-events-sites-all-modules page-about-events-sites-all-modules-contrib page-about-events-sites-all-modules-contrib-mediaelement page-about-events-sites-all-modules-contrib-mediaelement-modules page-about-events-sites-all-modules-contrib-mediaelement-modules-node page-about-events-sites-all-modules-contrib-mediaelement-modules-node-modules page-about-events-sites-all-modules-contrib-mediaelement-modules-node-modules-system page-about-events-sites-all-modules-contrib-mediaelement-modules-node-modules-system-systemmenuscss" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!-- Header, navigation and breadcrumb divs are removed. -->
+<div id="wrapper">
+    <div id="menu-wrapper">
+        <div class="data-wrap-inner">
+            <div class="pull-left h-logo">
+                 <div class="device-nav">
+                   <a href="#menu-left"> <img src="/sites/all/themes/calpont/images/mobile-nav-icon.png" alt="nav icon" class="mob-nav-img" /></a>
+                   
+                </div>
+                <a href="/"><img src="/sites/all/themes/calpont/images/logo.png" alt="Calpont" /></a>
+            </div>
+          <div class="menu-alt pull-right">
+               
+                <div id="menu">
+                    <nav id="menu-left">
+                        <ul>
+                          <li><a href="/try-infinidb">TRY INFINIDB</a></li>
+                           <li><a href="/products">PRODUCTS</a></li>
+                           <li><a href="/resources">RESOURCES</a></li>
+                           <li><a href="/partners">PARTNERS</a></li>
+                           <li><a href="/about">ABOUT</a></li>
+                        </ul>
+                    </nav>
+                    <ul id="nav" class="">
+                     <li class="web-menu">
+                        <ul>
+                          <li><a href="/try-infinidb">TRY INFINIDB</a></li>
+                           <li><a href="/products">PRODUCTS</a></li>
+                           <li  ><a href="/resources">RESOURCES</a></li>
+                           <li><a href="/partners">PARTNERS</a></li>
+                           <li><a href="/about">ABOUT</a></li>
+                        </ul>
+                    </li>
+                       <li class="list-wrap">
+                           <ul class="right-menu">
+                           <li class="list-inner-div search-wrap">
+                                <a href="#" class="icon"><img src="/sites/all/themes/calpont/images/search.png" alt="search" /></a>
+                              <div class="list-inner-cnt comment-form">
+                                  <form class="search-form" action="/search/node" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label class="element-invisible" for="edit-keys">Enter your keywords </label>
+ <input placeholder="Search" type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search!" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-ILjoxkjMDllRWFr6SD9lQNc8X7O0L-QQ1fjVj5w8iXs" />
+<input type="hidden" name="form_id" value="search_form" />
+</div></form>                              </div> 
+                            </li>
+                            <!-- Mobile sub menu for inner pages starts-->
+                             <li class="inner-sub-menu list-inner-div">
+                                <a href="#" class="icon"><img src="/sites/all/themes/calpont/images/i.png" alt="" /></a>
+                                 <div class="list-inner-cnt comment-form">
+                                    <ul>
+<!--                                        <li><a href="/infinidb">InfiniDB</a></li>-->
+<!--                                        <li><a href="/features">Features</a></li>-->
+                                        <li><a href="/customers">Customers</a></li>
+                                        <li><a href="/community"> Community</a></li>
+<!--                                         <li><a href="/partners">Partners</a></li> -->
+                                        <li><a href="/blog">Blog</a></li>
+                                     
+                                    </ul>
+                                   
+                                </div>
+                            </li>
+                                
+
+                             <!-- Mobile sub menu for inner pages ends-->
+                           
+                    <li id="social-media-wrap" class="web-only">
+                                <ul>
+                                    <li class="social-media">
+                                        <a href="https://twitter.com/InfiniDB" class="twitter" target="_blank">
+                                        </a>
+                                    </li>
+                                    <li class="social-media">
+                                    <a href="http://www.linkedin.com/company/34219?trk=tyah&trkInfo=tas%3Acalpont%2Cidx%3A1-1-1" class="linkedin" target="_blank">
+                                    </a></li>
+                                    <li class="social-media">
+                                    <a href="/rss.xml" target="_blank" class="rss">
+                                    </a></li>
+                                </ul> 
+                            </li>
+                            <li id="social-media-wrap" class="mobile-only">
+                                <ul>
+
+                                    <li class="follow list-inner-div">
+                                        <a href="#">FOLLOW</a>
+                                        <div class="list-inner-cnt">
+                                            <ul>
+
+									<li class="social-media">
+                                        <a href="https://twitter.com/InfiniDB" class="twitter" target="_blank"></a>
+                                    </li>
+                                    <li class="social-media">
+                                    	<a href="http://www.linkedin.com/company/34219?trk=tyah&trkInfo=tas%3Acalpont%2Cidx%3A1-1-1" class="linkedin" target="_blank"></a>
+                                    </li>
+                                    <li class="social-media">
+                                    	<a href="/rss.xml" target="_blank" class="rss"></a>
+                                    </li>
+                                             </ul> 
+                                        
+                                        </div>
+                                    </li>
+
+                                 
+                                   
+                                </ul> 
+                            </li>
+                            <li class="login list-inner-div">
+                                                                                            <a href="#" class="icon"><img src="/sites/all/themes/calpont/images/login.png" alt="login" /></a>
+                                <div class="list-inner-cnt">
+                                <form action="/about/events/sites/all/modules/contrib/mediaelement/modules/node/modules/system/system.menus.css?destination=about/events/sites/all/modules/contrib/mediaelement/modules/node/modules/system/system.menus.css" method="post" id="user-login-form" accept-charset="UTF-8"><div><div id="user-login-block-container">
+  <div id="user-login-block-form-fields test">
+  	<span class="login-error" style="display:none;">Unsuccessful login. Please confirm the fields and submit again.</span>
+    <div class="form-item form-type-textfield form-item-name">
+  <label class="element-invisible" for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Username *" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+    <div class="form-item form-type-password form-item-pass">
+  <label class="element-invisible" for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Password *" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+    <input type="submit" id="edit-submit--2" name="op" value="Login Now" class="form-submit" />    <div class="item-list"><ul><li class="first"><a href="/user/register" title="Join Today! Create Account">Join Today! Create Account</a></li>
+	<li class="last"><a href="/user/password" title="Request New password via e-mail.">Request New Password</a></li>
+	</ul></div><input type="hidden" name="form_build_id" value="form-z0oMtl4zWnXyfRd4kIcQ19mCkyBeTnnw04BYAlHLDwE" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"></div>  </div>
+  </div></form>                                                                <div class="clear"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cnt-menu web-only">
+       <div class="data-wrap-inner">
+            <ul>
+<!--                <li><a href="/infinidb">InfiniDB</a></li>-->
+<!--                <li><a href="/features">Features</a></li>-->
+                <li><a href="/customers">Customers</a></li>
+                <li><a href="/community"> Community</a></li>
+<!--                 <li><a href="/partners">Partners</a></li> -->
+                <li><a href="/blog">Blog</a></li>
+             
+            </ul>
+        </div>
+    </div> 
+    <script type="text/javascript">
+      $(document).ready(function() {
+      //hide div on outside click
+        $(document.body).not(".login .list-inner-cnt").click(function () {
+          $('li.login div.list-inner-cnt').hide();
+        });
+      //login block error
+        if ($('#user-login-block-container input[type=text]').hasClass('error') || $('#user-login-block-container input[type=password]').hasClass('error')) {
+          $('div.messages').hide();
+          $('li.login div.list-inner-cnt').show();
+          $('.login-error').show();
+          $('li.login').addClass('user-block-bg');
+        }
+    });
+  </script> 
+    
+    <div id="main-wrapper"><div id="main" class="clearfix">
+
+                        <h1 class='title web-only' id="page-title">Events</h1>
+            <div id="data-wrap-outer">
+                <div class="data-wrap-inner">
+
+                                                    <div id="sidebar-first" class="column sidebar"><div class="section">
+                          <div class="region region-sidebar-first">
+    <div id="block-block-2" class="block block-block">
+
+    <h2 id="left-sidebar-title" >About</h2>
+  
+  <div class="content">
+     <ul class="mob-cnt-menu" id="left-sidebar-menu"><li><span class="mob-title mobile-only">Navigate</span><ul id="menu-list"><li class="mobile-only" id="">About</li><li><a href="/about/company">Our Company</a></li><li><a href="/about/team">Meet Our Team</a></li><li><a href="/blog">Blog</a></li><li><a href="/about/news">News</a></li><li><a href="/about/events">Events</a></li><li><a href="/about/careers">Careers</a></li></ul></li></ul>   </div>
+</div>
+  </div>
+                            </div></div> <!-- /.section, /#sidebar-first -->
+
+                    <div id="content" class="column"><div class="section">
+                                                        <a id="main-content"></a>
+                                                                                    <div class="tabs"></div>                                                                                    
+<!--                          <div  class="single-page-content inner-wrap full-content">-->
+                                       
+
+                                 <div id="main-content">
+                        <div class="container">
+  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="field-items"><h1 class="title mobile-only" id="page-title">Events</h1><div class="field-item wrap-item full-content"><h5 class="content-inner-title event-date">July 20-24, 2014</h5><div class="event-image"><img src="/sites/default/files/oscon2014_logo.png"></div><div class="event-content image-exists"><h2 class="content-main-title"><a href ="http://www.infinidb.co/about/events/oscon">OSCON</a></h2><p class="content-sub-title">InfiniDB and its open source partners will be in Portland, OR July 20-24 for OSCON, discussing all things open source.  Stop by our booth learn how  InfiniDB can fit into your open source stack.</p></div></div><div class="field-item wrap-item full-content"><h5 class="content-inner-title event-date">October 15-17, 2014</h5><div class="event-image"><img src="/sites/default/files/stratany2014_logo.gif"></div><div class="event-content image-exists"><h2 class="content-main-title"><a href ="http://www.infinidb.co/about/events/strata-hadoop-world">Strata + Hadoop World</a></h2><p class="content-sub-title">InfiniDB will be gathering with some of the best minds at Strata + Hadoop World in New York City, October 15-17th, to explore the complex issues and exciting opportunities brought to business by big data, data science, and pervasive computing.  Join us!</p></div></div></div>  </div>
+</div>
+  </div>
+                        </div>
+ </div>                                     
+                                </div>
+                                                        </div></div> <!-- /.section, /#content -->
+
+                                            </div>
+            </div>
+
+
+        </div></div> <!-- /#main, /#main-wrapper -->
+    <script>
+        $(document).ready(function() {
+            //jquery
+            $(location).attr('href');
+
+            //pure javascript
+            var pathname = window.location.pathname;
+            var pagename = pathname.split("/").pop();
+            var finalURL = pathname.replace(pagename,'');
+            var newpath = finalURL.replace(/\/$/, '');
+
+            $('#nav li a[href$="' + pathname + '"]').parent().addClass('current');
+            $('.data-wrap-inner li a[href$="' + pathname + '"]').parent().addClass('current');
+            $('#left-sidebar-menu li a[href$="' + pathname + '"]').parent().addClass('current');
+            $('.cnt-menu li a[href$="' + newpath + '"]').parent().addClass('current');
+
+            if (pathname.toLowerCase().indexOf("about/") >= 0) {
+                var about_name = "/about";
+                $('.web-menu li a[href$="' + about_name + '"]').parent().addClass('current');
+                $('#left-sidebar-menu li a[href$="' + newpath + '"]').parent().addClass('current');
+            }
+
+            if (pathname.toLowerCase().indexOf("/community/announcements") >= 0) {
+                $(".forum-node-create-links").remove();
+                $('body').addClass('forum-annoucements');
+            }
+
+            //forum pages
+            if ($("body").hasClass("page-forum") || $("body").hasClass("node-type-forum")) {
+              $('.data-wrap-inner li a[href$="'+newpath+'"]').parent().addClass('current');
+              var forum_name = "/community";
+              $('.web-menu li a[href$="' + forum_name + '"]').parent().addClass('current');
+                $('.data-wrap-inner li a[href$="community"]').parent().addClass('current');
+            }
+            if ($('body').hasClass('page-node-add-forum')) {
+                $('.data-wrap-inner li a[href$="community"]').parent().addClass('current');
+            }
+
+            //blog pages
+           if ($("body").hasClass("page-blog") || $("body").hasClass("node-type-blog")) {
+                $(".web-only li").last().addClass('current');
+            }
+
+            //career category pages
+            if (pathname.toLowerCase().indexOf("careers/") >= 0) {
+                $('.web-menu li a[href$="about"]').parent().addClass('current');
+                $('#left-sidebar-menu li a[href$="/about/careers"]').parent().addClass('current');
+            }
+
+            //events page
+            if ($("body").hasClass("page-resources-events")) {
+              $('.data-wrap-inner li a[href$="'+newpath+'"]').parent().addClass('current');
+              // $(".web-menu li").last().addClass('current');
+            }
+
+            //forum main list
+            if (pathname == "/forum" || pathname == "/community"  || pathname == "/community/" || $('body').hasClass('page-forum-')) {
+                $('body').addClass('forum-main');
+            }
+                    
+            //products and downloads page
+            if (pathname == "/products" || pathname == "/try-infinidb") { 
+                $(".accordion .accord-header").click(function() {
+                    if($(this).next("div").is(":visible")){
+                        $(this).removeClass('activated');
+                    $(this).next("div").slideUp("slow");
+                    } else {
+                        $('.activated').removeClass('activated');
+                        $(this).addClass('activated');
+                        $(this).next("h2").removeClass('activated');
+                        $(".accordion .accord-content").slideUp("slow");
+
+                    $(this).next("div").slideToggle("slow");
+                    }
+                });
+            }
+
+            //resources page
+            if (pathname == "/resources") { 
+                $(".accordion .accord-header").click(function() {
+                    if($(this).next("div").is(":visible")){
+                        $(this).removeClass('activated');
+                        $(this).next("div").slideUp("slow");
+                    } else {
+                        $('.activated').removeClass('activated');
+                        $(this).addClass('activated');
+                        $(this).next("h2").removeClass('activated');
+                        $(".accordion .accord-content").slideUp("slow");
+                        $(".inner-accord-content").hide();
+                        $(this).next("div").slideToggle("slow");
+
+                    }
+                });
+
+                $(".inner-accordion .inner-accord-header").click(function() {
+                    $(this).parent().parent().parent().find("h2.accord-header").addClass('activated');
+                    if($(this).next("div").is(":visible")){
+                        $(this).removeClass('activated');
+                        $(this).next("div").slideUp("slow");
+                    } else {
+                        $('h2.inner-accord-header.activated').removeClass('activated');
+                        $(this).addClass('activated');
+                        $(this).next("h2.inner-accord-header").removeClass('activated');
+                        $(".inner-accordion .inner-accord-content").slideUp("slow");
+                        $(this).next("div").slideToggle("slow");
+                    }
+                });
+            }
+
+        });
+    </script>
+    <div id="footer"><div class="section">
+    <div id="footer-wrap">
+        <div class="region region-footer">
+          <div id="block-block-4" class="block block-block">
+
+    
+  <div class="content">
+     <div id="footer-logo"><a href="/"><img alt="logo" src="/sites/all/themes/calpont/images/footer-logo.png"></a></div><div class="footer-contact"><ul class="top" style="width: 100%;"><li><span>InfiniDB Corporate Headquarters</span></li></ul><ul><li>2801 Network Blvd, Suite 220</li><li>|</li><li>Frisco, Texas 75034</li></ul><ul><li><span>Phone</span> 972.999.1355</li><li>|</li><li><span>Email</span><a href="mailto:info@calpont.com">info@infinidb.co</a></li></ul></div><p>Copyright © 2014. InfiniDB. All Rights Reserved.</p>   </div>
+</div>
+        </div>
+    </div>    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47900829-1', 'infinidb.co');
+  ga('send', 'pageview');
+
+</script>
+        </div></div> <!-- /.section, /#footer -->
+
+</div> <!-- #wrapper -->
+<script>
+    $( document ).ready(function() {
+    var optionTexts = [];
+    var regErrors = ["E-mail address field is required.", "First Name field is required.", "Last Name field is required.", "Company field is required.", "State field is required.", "Phone field is required.", "Country field is required."];
+$(".error ul li").each(function() { optionTexts.push($(this).text()) });
+for (var i = 0; i < regErrors.length; i++) {
+    if($.inArray(regErrors[i], optionTexts) > -1){
+        $("#register-form").show();
+        $("#login-form").hide();
+        $("a#login-link").removeClass("lt-active");
+        $("a#register-link").addClass("lt-active");
+        break;
+}
+}
+});
+</script>      </body>
+</html>
