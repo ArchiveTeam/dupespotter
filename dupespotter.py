@@ -129,6 +129,9 @@ def process_body(body, url):
 		# Drupal sites have randomized sidebar content with these IDs
 		body = re.sub(br'<div class="views-field views-field-[-a-z]+">.*', b"", body)
 
+		# nsslabs.com has this
+		body = re.sub(br'<div class="breadcrumb">.{1,4000}</div>', b"", body)
+
 	return body
 
 
