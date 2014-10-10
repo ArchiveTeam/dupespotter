@@ -116,6 +116,9 @@ def process_body(body, url):
 	# Drupal puts the current URL here, and the casing doesn't always match
 	body = re.sub(br'<link rel="(canonical|shortlink)" href="[^"]+" />', b"", body)
 
+	# Spotted on http://2045.com/
+	body = re.sub(br'<input type="hidden" name="file_uploadToken" value="\d+"', b"", body)
+
 	if b"drupal" in body:
 		# Drupal generates this form id
 		body = re.sub(br'\bvalue="form-[-_A-Za-z0-9]+\b"', b"", body)
