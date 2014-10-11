@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta property="fb:app_id" content=""/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok2v=1613a3a185/"},atok:"9da6c474b51cfe9860c5dd8f30dcf57a",petok:"6fc1671b584c42b87e94314b9e8c325e7f0e8b9e-1413059797-1800",zone:"academicroom.com",rocket:"0",apps:{"ga_key":{"ua":"UA-1997948-2","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok2v=919620257c/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="shortcut icon" href="/sites/default/files/academicroom_favicon.ico" type="image/x-icon"/>
+<title> | Academic Room</title>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/block_edit/block_edit.css?z"/>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_21feb62f1c279de3dbb9b1bfbcd54f4d.css"/>
+<link type="text/css" rel="stylesheet" media="print" href="/sites/default/files/css/css_62e0dfcce458f9ace44003faa7916559.css"/>
+<script type="text/javascript" src="/sites/default/files/js/js_d883389b84119cb49ebbe3304520e36a.js"></script>
+<script type="text/javascript" src="/sites/all/modules/block_edit/block_edit.js?z"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "block_edit": { "hover_links": 1 }, "jstools": { "cleanurls": true, "basePath": "/" }, "collapsiblock": { "blocks": { "block-block-15": "2", "block-fivestar-0": "2", "block-block-5": "1", "block-block-4": "1", "block-block-14": "1", "block-views-Video-block_3": "2", "block-views-Books-block_3": "1", "block-views-Video-block_2": "1", "block-user_relationship_blocks-user-all": "2", "block-quicktabs-directories_by_users": "1", "block-user_profile_views-4": "1", "block-views-webpage_view-block_7": "2", "block-block-11": "1", "block-ajax_register-0": "1", "block-user_profile_views-5": "2", "block-block-13": "1", "block-generalfeatures-2": "2", "block-quicktabs-allvideos": "1", "block-quicktabs-dissertations": "1", "block-quicktabs-bibliographies": "1", "block-quicktabs-allarticles": "1", "block-quicktabs-bookreviews": "1", "block-quicktabs-allaudios": "1", "block-quicktabs-allimages": "1", "block-quicktabs-allbooks": "1", "block-quicktabs-bookchapters": "1", "block-quicktabs-allmanuscripts": "1", "block-quicktabs-allwebpages": "1", "block-user_profile_views-6": "1", "block-quicktabs-directories": "1", "block-favorites-0": "2", "block-user_relationship_blocks-user-1-them_to_you": "1", "block-views-Books-block_9": "2", "block-views-Video-block_9": "2", "block-views-audio-block_6": "2", "block-views-Images-block_6": "2", "block-views-articles_view-block_7": "2", "block-views-book_review-block_7": "2", "block-views-book_chapter-block_4": "2", "block-views-manuscript_view-block_6": "2", "block-views-dissertation_view-block_7": "2", "block-views-bibliography_view-block_6": "2", "block-generalfeatures-1": "2", "block-views-book_chapter-block_9": "2", "block-block-16": "1", "block-quicktabs-topbooks": "1", "block-block-18": "1", "block-block-17": "1", "block-user_relationship_blocks-actions": "1", "block-views-Video-block_10": "4", "block-block-20": "1", "block-block-2": "1", "block-block-3": "1", "block-block-22": "2", "block-views-user_profile-block_1": "1", "block-quicktabs-all_profile_articles": "1", "block-quicktabs-all_profile_book_chapters": "1", "block-quicktabs-all_reviewed": "1", "block-quicktabs-all_authored": "1", "block-quicktabs-all_edited": "1", "block-featured_profile-0": "1", "block-quicktabs-topvideos": "2", "block-views-book_review-block_1": "1", "block-quicktabs-top_book_reivews": "2", "block-quicktabs-top_books": "2", "block-quicktabs-top_articles": "2", "block-quicktabs-top_dissertations": "2", "block-quicktabs-top_manuscripts": "2", "block-quicktabs-top_book_chapters": "2", "block-block-23": "1", "block-quicktabs-topimages": "2", "block-generalfeatures-3": "2", "block-common-0": "1", "block-quicktabs-top_biblographies": "2", "block-quicktabs-topaudios": "2", "block-quicktabs-topwebpages": "2", "block-user_profile_views-7": "2", "block-quicktabs-videobyuser": "4", "block-user_relationship_blocks-my-1-you_to_them": "2", "block-finduser-0": "2", "block-common-1": "1", "block-apachesolr_search-currentsearch": "2", "block-apachesolr_search-type": "2", "block-apachesolr_search-im_vid_2": "2", "block-apachesolr-mlt-002": "2", "block-apachesolr_search-im_vid_24": "1", "block-views-Taxonomy_List-block_1": "2", "block-faceted_search_ui-1_guided": "2", "block-faceted_search_ui-1_related": "2", "block-faceted_search_ui-1_keyword": "2", "block-faceted_search_ui-2_guided": "2", "block-admin_search-0": "1", "block-block-24": "2", "block-block-26": "1", "block-block-25": "1", "block-views-course_lecture_video-block_1": "1", "block-views-course_lecture_video-block_2": "1", "block-user_profile_views-8": "1", "block-quicktabs-publications_summary_block": "1", "block-quicktabs-alllectures": "1", "block-views-achievements-block_1": "1", "block-quicktabs-experience": "1", "block-quicktabs-allsyllabus": "1", "block-user_profile_views-3": "1", "block-formblock-user_register": "1", "block-custom-1": "1", "block-block-31": "1", "block-custom-0": "1", "block-block-33": "1", "block-quicktabs-references_front_block": "1", "block-quicktabs-multimedia": "1", "block-quicktabs-discipline_books": "1", "block-custom-2": "1", "block-views--exp-og-page": "2", "block-views--exp-og-page_1": "2", "block-block-38": "2", "block-views-members-block_1": "2", "block-user_profile_views-10": "2", "block-views-og_ghp_ron-block_1": "1", "block-block-37": "1", "block-block-36": "1", "block-views-Followers-block_1": "2", "block-custom-3": "1", "block-block-42": "1", "block-block-43": "1", "block-block-45": "1", "block-block-46": "1", "block-block-51": "1", "block-block-52": "1", "block-block-53": "1", "block-block-50": "1", "block-block-30": "1", "block-block-54": "1", "block-block-64": "1", "block-block-60": "1", "block-block-62": "1", "block-block-63": "1", "block-block-70": "1", "block-block-75": "1", "block-block-76": "1", "block-block-27": "1", "block-block-77": "1", "block-block-34": "1", "block-block-72": "1", "block-block-80": "1", "block-block-79": "1", "block-statcounter-0": "1", "block-quicktabs-course_tools": "1", "block-quicktabs-related_websites": "1", "block-views-geographical_focus_page-block_1": "1", "block-views--exp-courses-page_1": "2", "block-block-61": "1", "block-block-82": "1", "block-block-66": "1", "block-block-67": "1", "block-block-68": "1", "block-block-71": "1", "block-block-69": "1", "block-block-74": "1", "block-block-73": "1", "block-block-65": "1", "block-block-89": "1", "block-block-91": "1", "block-block-92": "1", "block-block-86": "1", "block-block-87": "1", "block-block-81": "1", "block-block-88": "1", "block-block-83": "1", "block-block-84": "1", "block-block-90": "1", "block-block-85": "1", "block-block-93": "1", "block-custom_blog-0": "2", "block-block-94": "2", "block-views-og_blog_profile-block_1": "1", "block-custom_blog-1": "1", "block-views-og_blog_post-block_1": "1", "block-block-95": "1", "block-apachesolr_search-im_vid_8": "2", "block-block-96": "2", "block-views-news_feed_blocks-block_3": "2", "block-views-member_blogger-block_1": "2", "block-views-member_blogger-block_2": "2", "block-views-news_feed_blocks-block_1": "2", "block-views-news_feed_blocks-block_2": "2", "block-block-98": "1", "block-views-member_requests-block_1": "2", "block-block-99": "1", "block-block-100": "1", "block-block-97": "2", "block-content_complete-basic": "1", "block-content_complete-content_complete_node": "1", "block-block-55": "1", "block-block-29": "1" }, "default_state": 1, "slide_type": 1, "slide_speed": 200, "block_title": ":header:first", "block": "div.block", "block_content": "div.content" }, "fivestar": { "titleUser": "Your rating: ", "titleAverage": "Average: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Your vote has been saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Your vote has been deleted." }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "lightbox2": { "rtl": 0, "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": true, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": false, "disable_resize": false, "disable_zoom": false, "force_show_nav": false, "show_caption": true, "loop_items": false, "node_link_text": "View Image Details", "node_link_target": false, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": false }, "nice_menus_options": { "delay": "800", "speed": "normal" }, "thickbox": { "close": "Close", "next": "Next \x3e", "prev": "\x3c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" }, "user_relationships_ui": { "loadingimage": "/sites/all/modules/user_relationships/user_relationships_ui/images/loadingAnimation.gif", "savingimage": "/sites/all/modules/user_relationships/user_relationships_ui/images/savingimage.gif", "position": { "position": "absolute", "left": "0", "top": "0" } }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "book_review", "view_display_id": "page_1", "view_args": "sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/like", "view_path": "bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/like", "view_base_path": "bookreview", "view_dom_id": 1, "pager_element": 0 } ] } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(function(){$("input[class*='datepicker']").datepicker({dateFormat: 'mm/dd/yy'});});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var tb_pathToImage ="sites/all/modules/ajax_register/images/loading.gif";
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-1997948-2";
+//--><!]]>
+</script>
+<script type='text/javascript'>var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '11lbfB']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src='http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();</script>
+<!--[if lt IE 9]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/academicroom/fix-ie.css" />    <![endif]-->
+<!--[if IE 9]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/academicroom/fix-ie9.css" />    <![endif]-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1997948-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body class="sidebar-right path-bookreview-sites-all-modules-ajax_register-images-sites-all-modules-ajax_register-images-bookreview-sites-all-modules-ajax_register-images-sites-all-modules-ajax_register-images-sites-all-modules-ajax_register-images-like">
+ 
+<div id="header-region" class="clear-block"></div>
+<div id="wrapper" class="not-front">
+<div class="userheader_top">
+<div class="page-inner">
+</div>
+</div>
+<div id="header">
+<div class="page-inner">
+<div id="logo-floater">
+<h1><a href="/" title=""><img src="/sites/default/files/academicroom_logo.png" alt="" id="logo"/></a></h1> </div>
+<div class="userheader">
+<div id="block-generalfeatures-0" class="clear-block block block-generalfeatures ">
+<div class="content">
+<form action="/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/like" accept-charset="UTF-8" method="post" id="content-form-upload">
+<div><div class="form-item" id="edit-content-type-name-wrapper">
+<select name="content_type_name" class="form-select" id="edit-content-type-name"><option value="aca_book">Book</option><option value="article" selected="selected">Article</option><option value="audio">Audio</option><option value="bibliographies">Bibliographies</option><option value="book_chapter">Book Chapter</option><option value="book_review">Book Review</option><option value="conference_paper">Conference Paper</option><option value="course_lecture">Course Lectures</option><option value="dissertation">Dissertation</option><option value="groups">Groups</option><option value="images">Images</option><option value="manuscripts">Manuscripts</option><option value="syllabus">Syllabus</option><option value="topic">Topic</option><option value="updates">Updates</option><option value="video">Video</option><option value="webpage">Webpage</option><option value="workingpapers">Working Papers</option></select>
+</div>
+<a href="/ajax_register/login" class="uploadLink thickbox loginLink">Upload</a><input type="hidden" name="form_build_id" id="form-fad522cda183f0c23b39e178249d2479" value="form-fad522cda183f0c23b39e178249d2479"/>
+<input type="hidden" name="form_id" id="edit-content-form-upload" value="content_form_upload"/>
+</div></form>
+</div>
+</div>
+<div id="block-search-0" class="clear-block block block-search ">
+<div class="content">
+<form action="/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/like" accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline">
+<div class="form-item" id="edit-search-block-form-1-wrapper">
+<label for="edit-search-block-form-1"> Search this site: </label>
+<input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text"/>
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search" class="form-submit"/>
+<input type="hidden" name="form_build_id" id="form-e79862166012eeabfbf25c8933b63c9c" value="form-e79862166012eeabfbf25c8933b63c9c"/>
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"/>
+</div>
+</div></form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="primary_discipline"> <div class="page-inner"> <div id="discipline-nav1">
+<div id="block-user_profile_views-3" class="clear-block block block-user_profile_views">
+<div class="content">
+<ul><li class="disc"><span class="head"><a href="/humanities">Humanities</a></span><div class="discddl"><div class="left"><div class="border" style="margin:0 0% 12px 39%;"></div><div class="tpNavImages"><img src=/sites/all/modules/user_profile_views/images/tpnav_humanities.jpg width="240" height="28" alt="not found"/></div><ul class="first"><li><a href="/humanities/architecture-and-environmental-design">Architecture and Environmental Design</a></li><li><a href="/humanities/art-history">Art History</a></li><li><a href="/humanities/arts">Arts</a></li><li><a href="/humanities/classics">Classics</a></li><li><a href="/humanities/communication-studies">Communication Studies</a></li><li><a href="/humanities/cultural-studies">Cultural Studies</a></li><li><a href="/humanities/dance">Dance</a></li><li><a href="/humanities/digital-humanities">Digital Humanities</a></li><li><a href="/humanities/film-and-media-studies">Film and Media Studies</a></li></ul><ul class="last"><li><a href="/humanities/history">History</a></li><li><a href="/humanities/languages-and-world-literatures">Languages and World Literatures</a></li><li><a href="/humanities/linguistics">Linguistics</a></li><li><a href="/humanities/music">Music</a></li><li><a href="/humanities/philosophy">Philosophy</a></li><li><a href="/humanities/religion">Religion</a></li><li><a href="/humanities/rhetoric-and-composition">Rhetoric and Composition</a></li><li><a href="/humanities/self-help">Self-help</a></li><li><a href="/humanities/theatre">Theatre</a></li></ul></div><div class="right"><ul>
+<li><a href="/directories/Humanities">Directories</a></li>
+<li><a href="/lectures/Humanities">Courses</a></li>
+<li><a href="/groups/Humanities">Discussion Groups</a></li>
+</ul></div></div></li><li class="disc"><span class="head"><a href="/social-sciences">Social Sciences</a></span><div class="discddl"><div class="left"><div class="border" style="margin:0 0% 12px 48%;"></div><div class="tpNavImages"><img src=/sites/all/modules/user_profile_views/images/tpnav_socialsciences.jpg width="240" height="28" alt="not found"/></div><ul class="first"><li><a href="/social-sciences/african-studies">African Studies</a></li><li><a href="/social-sciences/american-studies">American Studies</a></li><li><a href="/social-sciences/anthropology">Anthropology</a></li><li><a href="/social-sciences/archaeology">Archaeology</a></li><li><a href="/social-sciences/asian-studies">Asian Studies</a></li><li><a href="/social-sciences/communication-sciences">Communication Sciences</a></li><li><a href="/social-sciences/economics">Economics</a></li><li><a href="/social-sciences/ethnic-studies">Ethnic Studies</a></li><li><a href="/social-sciences/european-studies">European Studies</a></li><li><a href="/social-sciences/gender-studies">Gender Studies</a></li></ul><ul class="last"><li><a href="/social-sciences/human-development">Human Development</a></li><li><a href="/social-sciences/information-science">Information Science</a></li><li><a href="/social-sciences/law">Law</a></li><li><a href="/social-sciences/oceania-studies">Oceania Studies</a></li><li><a href="/social-sciences/political-science">Political Science</a></li><li><a href="/social-sciences/psychology">Psychology</a></li><li><a href="/social-sciences/recreation-and-leisure">Recreation and Leisure</a></li><li><a href="/social-sciences/science-and-technology-studies">Science and Technology Studies</a></li><li><a href="/social-sciences/sociology">Sociology</a></li><li><a href="/social-sciences/urban-and-regional-planning">Urban and Regional Planning</a></li></ul></div><div class="right"><ul>
+<li><a href="/directories/Social%20Sciences">Directories</a></li>
+<li><a href="/lectures/Social%20Sciences">Courses</a></li>
+<li><a href="/groups/Social%20Sciences">Discussion Groups</a></li>
+</ul></div></div></li><li class="disc"><span class="head"><a href="/physical-sciences">Physical Sciences</a></span><div class="discddl"><div class="left"><div class="border" style="margin:0 0% 12px 73%;"></div><div class="tpNavImages"><img src=/sites/all/modules/user_profile_views/images/tpnav_physicalsciences.jpg width="240" height="28" alt="not found"/></div><ul class="first"><li><a href="/physical-sciences/big-data-analytics">Big Data Analytics</a></li><li><a href="/physical-sciences/chemistry">Chemistry</a></li><li><a href="/physical-sciences/computer-science">Computer Science</a></li><li><a href="/physical-sciences/earth-sciences">Earth Sciences</a></li><li><a href="/physical-sciences/engineering">Engineering</a></li><li><a href="/physical-sciences/information-technology">Information Technology</a></li></ul><ul class="last"><li><a href="/physical-sciences/mathematics">Mathematics</a></li><li><a href="/physical-sciences/nanotechnology">Nanotechnology</a></li><li><a href="/physical-sciences/physics">Physics</a></li><li><a href="/physical-sciences/space-sciences">Space Sciences</a></li><li><a href="/physical-sciences/school-topics">School Topics</a></li></ul></div><div class="right"><ul>
+<li><a href="/directories/Physical%20Sciences">Directories</a></li>
+<li><a href="/lectures/Physical%20Sciences">Courses</a></li>
+<li><a href="/groups/Physical%20Sciences">Discussion Groups</a></li>
+</ul></div></div></li><li class="disc"><span class="head"><a href="/life-sciences">Life Sciences</a></span><div class="discddl"style="margin-left:-130px;"><div class="left"><div class="border" style="margin:0 0% 12px 43%;"></div><div class="tpNavImages"><img src=/sites/all/modules/user_profile_views/images/tpnav_lifesciences.jpg width="240" height="28" alt="not found" /></div><ul class="first"><li><a href="/life-sciences/animal-communications">Animal Communications</a></li><li><a href="/life-sciences/biochemistry">Biochemistry</a></li><li><a href="/life-sciences/bioinformatics">Bioinformatics</a></li><li><a href="/life-sciences/biology">Biology</a></li><li><a href="/life-sciences/biophysics">Biophysics</a></li><li><a href="/life-sciences/cell-biology">Cell Biology</a></li><li><a href="/life-sciences/chronobiology">Chronobiology</a></li><li><a href="/life-sciences/cryobiology">Cryobiology</a></li><li><a href="/life-sciences/ecology">Ecology</a></li><li><a href="/life-sciences/endocrinology">Endocrinology</a></li><li><a href="/life-sciences/entomology">Entomology</a></li><li><a href="/life-sciences/epidemiology">Epidemiology</a></li><li><a href="/life-sciences/ethnobotany">Ethnobotany</a></li><li><a href="/life-sciences/evolutionary-biology">Evolutionary Biology</a></li><li><a href="/life-sciences/food-science-and-technology">Food Science and Technology</a></li><li><a href="/life-sciences/genetics">Genetics</a></li><li><a href="/life-sciences/human-anatomy">Human Anatomy</a></li></ul><ul class="last"><li><a href="/life-sciences/human-biology">Human Biology</a></li><li><a href="/life-sciences/kinesiology">Kinesiology</a></li><li><a href="/life-sciences/linnaean-taxonomy">Linnaean Taxonomy</a></li><li><a href="/life-sciences/marine-biology">Marine Biology</a></li><li><a href="/life-sciences/microbiology">Microbiology</a></li><li><a href="/life-sciences/molecular-biology">Molecular Biology</a></li><li><a href="/life-sciences/mycology">Mycology</a></li><li><a href="/life-sciences/neuroscience">Neuroscience</a></li><li><a href="/life-sciences/paleontology">Paleontology</a></li><li><a href="/life-sciences/parasitology">Parasitology</a></li><li><a href="/life-sciences/pathology">Pathology</a></li><li><a href="/life-sciences/phycology">Phycology</a></li><li><a href="/life-sciences/physiology">Physiology</a></li><li><a href="/life-sciences/plant-science">Plant Science</a></li><li><a href="/life-sciences/virology">Virology</a></li><li><a href="/life-sciences/xenobiology">Xenobiology</a></li><li><a href="/life-sciences/zoology">Zoology</a></li></ul></div><div class="right"><ul>
+          <li><a href="/directories/Life%20Sciences">Directories</a></li>
+          <li><a href="/lectures/Life%20Sciences">Courses</a></li>
+          <li><a href="/groups/Life%20Sciences">Discussion Groups</a></li>
+        </ul></div></div></li><li class="disc"><span class="head"><a href="/healthcare">Healthcare</a></span><div class="discddl"style="margin-left:-310px;"><div class="left"><div class="border" style="margin:0 0% 12px 50%;"></div><div class="tpNavImages"><img src=/sites/all/modules/user_profile_views/images/tpnav_healthsciences.jpg width="240" height="28" alt="not found" /></div><ul class="first"><li><a href="/healthcare/allied-health">Allied Health</a></li><li><a href="/healthcare/bioethics">Bioethics</a></li><li><a href="/healthcare/dentistry">Dentistry</a></li><li><a href="/healthcare/health-management-and-informatics">Health Management and Informatics</a></li><li><a href="/healthcare/health-sciences-education">Health Sciences Education</a></li></ul><ul class="last"><li><a href="/healthcare/medicine">Medicine</a></li><li><a href="/healthcare/nursing">Nursing</a></li><li><a href="/healthcare/pharmaceutical-sciences">Pharmaceutical Sciences</a></li><li><a href="/healthcare/public-health">Public Health</a></li><li><a href="/healthcare/veterinary-medicine">Veterinary Medicine</a></li></ul></div><div class="right"><ul>
+          <li><a href="/directories/Healthcare">Directories</a></li>
+          <li><a href="/lectures/Healthcare">Courses</a></li>
+          <li><a href="/groups/Healthcare">Discussion Groups</a></li>
+        </ul></div></div></li><li class="disc"><span class="head"><a href="/professions">Professions</a></span><div class="discddl"style="margin-left:-478px;;"><div class="left"><div class="border" style="margin:0 40% 12px 0%;"></div><div class="tpNavImages"><img src=/sites/all/modules/user_profile_views/images/tpnav_professions.jpg width="240" height="28" alt="not found" /></div><ul class="first"><li><a href="/professions/agriculture">Agriculture</a></li><li><a href="/professions/business-management">Business Management</a></li><li><a href="/professions/criminal-justice">Criminal Justice</a></li><li><a href="/professions/education">Education</a></li><li><a href="/professions/financial-services">Financial Services</a></li><li><a href="/professions/forestry">Forestry</a></li><li><a href="/professions/journalism-and-media">Journalism and Media</a></li></ul><ul class="last"><li><a href="/professions/library-science">Library Science</a></li><li><a href="/professions/marketing-advertising-and-sales">Marketing, Advertising and Sales</a></li><li><a href="/professions/military-science">Military Science</a></li><li><a href="/professions/museum-studies">Museum Studies</a></li><li><a href="/professions/public-affairs">Public Affairs</a></li><li><a href="/professions/social-work">Social Work</a></li><li><a href="/professions/test-prep">Test Prep</a></li></ul></div><div class="right"><ul>
+          <li><a href="/directories/Professions">Directories</a></li>
+          <li><a href="/lectures/Professions">Courses</a></li>
+          <li><a href="/groups/Professions">Discussion Groups</a></li>
+        </ul></div></div></li></ul>
+  </div>
+  
+</div>
+
+</div>
+ </div> </div>
+    <div id="navigation"> 
+      <div class="page-inner">  
+        <div class='navigation'><ul class="nice-menu nice-menu-down" id="nice-menu-0"><li class="menu-9357 menu-path-user first  odd "><a href="/user" title="">Profile</a></li>
+<li class="menu-10855 menu-path-directories even "><a href="/directories" title="">Directories</a></li>
+<li class="menu-9359 menu-path-courses odd "><a href="/courses" title="">Courses</a></li>
+<li class="menu-9363 menuparent menu-path-groups even "><a href="/groups" title="">Discussion Groups</a><ul><li class="menu-9364 menu-path-groups first  odd "><a href="/groups" title="">Groups</a></li>
+<li class="menu-9367 menu-path-groups-my even "><a href="/groups/my" title="">My Groups</a></li>
+<li class="menu-9381 menu-path-add-groups-node odd  last "><a href="/add-groups-node" title="">Create a Group</a></li>
+</ul>
+</li>
+<li class="menu-9365 menuparent menu-path-blogs odd "><a href="/blogs" title="">Blogs</a><ul><li class="menu-14627 menu-path-blogs first  odd "><a href="/blogs" title="">Blogs</a></li>
+<li class="menu-9366 menu-path-blogs-my even "><a href="/blogs/my" title="">My Blogs</a></li>
+<li class="menu-14598 menu-path-add-blogs-node odd  last "><a href="/add-blogs-node" title="">Create a Blog</a></li>
+</ul>
+</li>
+<li class="menu-18620 menu-path-https--experfycom- even  last "><a href="https://www.experfy.com/" title="">Big Data Consulting</a></li>
+</ul>
+</div>                  		              <div id="block-block-100" class="clear-block block block-block ">
+
+
+  <div class="content">
+  <ul  class="dashboard">
+<li>
+<a href="/ajax_register/login" class="newsfeed thickbox loginLink">Dashboard</a></li>
+</ul> 
+  </div>
+   </div>
+
+
+  <div id="block-block-34" class="clear-block block block-block ">
+
+
+  <div class="content">
+  <ul class="account_bar nice-menu nice-menu-down sf-js-enabled">
+
+
+
+<li>
+
+
+<a class="join" href="/user/register?destination=bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/like" rel="nofollow">JOIN</a>
+
+</li>
+
+<li>
+<a href="/ajax_register/login?destination=bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/bookreview/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/sites/all/modules/ajax_register/images/like" style="text-transform: uppercase;" class=" thickbox loginLink">Login</a></li>
+
+<!--<li><a href="/ajax_register/login" class=" thickbox loginLink initThickbox-processed" rel="nofollow">LOGIN</a></li>-->
+
+</ul> 
+  </div>
+   </div>
+
+
+      </div> 
+    </div> 
+    <div class="page-inner">  
+      <div class="bgContainer">
+				<div class="breadcrumb"><span>Explore > </span><a href="/">Home</a></div>            	
+			</div>
+   	</div>
+        <div id="container" class="clear-block  ">
+   
+     <div class="page-inner">
+         <div class="top-corner">
+           
+         </div><!-- /corners -->
+                  
+                                          
+            
+	  <div class="inrContainer notHomePage       ">
+      
+            
+          
+      <div id="center">
+     
+      <div id="squeeze">
+         <div class="main_content">
+	       
+		  
+                              
+            
+                                              
+            		
+		
+
+
+               
+
+
+                              
+          
+          		  
+          		 		    		 
+                     
+          <div class="clear-block  ">
+		    
+            
+            <div class="view view-book-review view-id-book_review view-display-id-page_1 view-dom-id-1">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+</div>           </div>
+		  		  
+		                                       
+		          </div> 
+      </div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+      
+              <div id="sidebar-right" class="sidebar">
+                      
+<div id="block-generalfeatures-2" class="clear-block block block-generalfeatures">
+
+              <h2>
+        Related Disciplines                </h2>
+      
+  <div class="content">
+  <div class="inner-content"><ul><li></li></ul></div>  
+         
+  </div>
+   <div class="tabBtm">
+      <div class="l"></div>
+      <div class="r"></div>
+      <div class="m"></div>
+    </div>
+</div>
+
+
+  
+<div id="block-generalfeatures-1" class="clear-block block block-generalfeatures">
+
+              <h2>
+        Tags                </h2>
+      
+  <div class="content">
+  <div class="inner-content"><ul><li>No tags found. Click EDIT to add/edit tags</li></ul></div>  
+         
+  </div>
+   <div class="tabBtm">
+      <div class="l"></div>
+      <div class="r"></div>
+      <div class="m"></div>
+    </div>
+</div>
+
+
+  
+<div id="block-generalfeatures-3" class="clear-block block block-generalfeatures">
+
+              <h2>
+        Geographic Focus                </h2>
+      
+  <div class="content">
+  <div class="inner-content"><ul><li></li></ul></div>  
+         
+  </div>
+   <div class="tabBtm">
+      <div class="l"></div>
+      <div class="r"></div>
+      <div class="m"></div>
+    </div>
+</div>
+
+
+        </div>
+            
+	</div>
+    </div>
+    <div class="page-bottom"></div>
+  </div> <!-- /container -->
+
+    <div id="footer">
+      <div class="page-inner">
+        <div class="region-footer">  <div id="block-block-13" class="clear-block block block-block ">
+
+
+  <div class="content">
+  <div class="link-footer">
+<div class="ftrLbl"> About Us</div>
+<div class="ftrLnks">
+
+<a href="http://www.academicroom.com/about-us" rel="nofollow">Organization Info</a> &nbsp;|&nbsp;
+<a href="http://www.academicroom.com/sponsorships" rel="nofollow">Sponsorships</a> &nbsp;|&nbsp;
+<a href="https://www.buyads.com/website/academic-room" target="_blank" rel="nofollow">Advertise</a>
+</div>
+  <div class="ftrLbl">Legal</div>
+  <div class="ftrLnks">
+<a href="http://www.academicroom.com/privacy-policy" rel="nofollow">Privacy Policy</a> &nbsp;|&nbsp; <a href="http://www.academicroom.com/terms-of-use" rel="nofollow">Terms of Use</a> &nbsp;|&nbsp;  <a href="http://www.academicroom.com/copyright" rel="nofollow">Copyright</a>&nbsp;|&nbsp; <a href="/cdn-cgi/l/email-protection#a8c1c6cec7e8c9cbc9cccdc5c1cbdac7c7c586cbc7c5" rel="nofollow">Contact Us</a> 
+</div>
+
+
+<div class="social-bottom">
+    <div id="custom-tweet-button">
+
+      <a href="https://twitter.com/share?url=http://www.academicroom.com" target="_blank" rel="nofollow">Tweet</a>
+
+    </div>
+
+ <div id="custom-facebook-button">
+<a name="fb_share" type="icon_link" href="https://www.facebook.com/academicroom" target="_blank" rel="nofollow">Facebook</a> 
+ </div>
+
+<div id="custom-plusone-button"><a href="https://plus.google.com/up/start/?continue=http://www.academicroom.com" rel="nofollow">Google Plus</a> </div>
+
+
+
+  </div>
+
+</div>
+  <div class="colyRt"><span class="icon"></span> Academic Room &copy; 2013   <span class="c10">Use of this site is subject to express <a href="http://www.academicroom.com/terms-of-use" rel="nofollow">terms of use</a>, which prohibit commercial use of this site. By continuing past this page, you agree to abide by these <a href="#" rel="nofollow">terms</a>.</span> </div>
+  <div class="clr">&nbsp;</div>
+
+  </div>
+   </div>
+
+
+</div>    
+      </div>
+    </div>
+    <div id="footer_links">
+      <div class="page-inner"><div class="region_footer_links">  <div id="block-user_profile_views-6" class="clear-block block block-user_profile_views ">
+
+
+  <div class="content">
+  <div class="mnHumRcd">
+            <div class="tltHumn">Humanities</div>
+            <div>
+              <ul class="lstHumn"><li><a href="/humanities/architecture-and-environmental-design">Architecture and Environmental Design</a></li><li><a href="/humanities/art-history">Art History</a></li><li><a href="/humanities/arts">Arts</a></li><li><a href="/humanities/classics">Classics</a></li><li><a href="/humanities/communication-studies">Communication Studies</a></li><li><a href="/humanities/cultural-studies">Cultural Studies</a></li><li><a href="/humanities/dance">Dance</a></li><li><a href="/humanities/digital-humanities">Digital Humanities</a></li><li><a href="/humanities/film-and-media-studies">Film and Media Studies</a></li><li><a href="/humanities/history">History</a></li><li><a href="/humanities/languages-and-world-literatures">Languages and World Literatures</a></li><li><a href="/humanities/linguistics">Linguistics</a></li><li><a href="/humanities/music">Music</a></li><li><a href="/humanities/philosophy">Philosophy</a></li><li><a href="/humanities/religion">Religion</a></li><li><a href="/humanities/rhetoric-and-composition">Rhetoric and Composition</a></li><li><a href="/humanities/self-help">Self-help</a></li><li><a href="/humanities/theatre">Theatre</a></li></ul></div>
+        </div><div class="mnHumRcd">
+            <div class="tltHumn">Social Sciences</div>
+            <div>
+              <ul class="lstHumn"><li><a href="/social-sciences/african-studies">African Studies</a></li><li><a href="/social-sciences/american-studies">American Studies</a></li><li><a href="/social-sciences/anthropology">Anthropology</a></li><li><a href="/social-sciences/archaeology">Archaeology</a></li><li><a href="/social-sciences/asian-studies">Asian Studies</a></li><li><a href="/social-sciences/communication-sciences">Communication Sciences</a></li><li><a href="/social-sciences/economics">Economics</a></li><li><a href="/social-sciences/ethnic-studies">Ethnic Studies</a></li><li><a href="/social-sciences/european-studies">European Studies</a></li><li><a href="/social-sciences/gender-studies">Gender Studies</a></li><li><a href="/social-sciences/human-development">Human Development</a></li><li><a href="/social-sciences/information-science">Information Science</a></li><li><a href="/social-sciences/law">Law</a></li><li><a href="/social-sciences/oceania-studies">Oceania Studies</a></li><li><a href="/social-sciences/political-science">Political Science</a></li><li><a href="/social-sciences/psychology">Psychology</a></li><li><a href="/social-sciences/recreation-and-leisure">Recreation and Leisure</a></li><li><a href="/social-sciences/science-and-technology-studies">Science and Technology Studies</a></li><li><a href="/social-sciences/sociology">Sociology</a></li><li><a href="/social-sciences/urban-and-regional-planning">Urban and Regional Planning</a></li></ul></div>
+        </div><div class="mnHumRcd">
+            <div class="tltHumn">Physical Sciences</div>
+            <div>
+              <ul class="lstHumn"><li><a href="/physical-sciences/big-data-analytics">Big Data Analytics</a></li><li><a href="/physical-sciences/chemistry">Chemistry</a></li><li><a href="/physical-sciences/computer-science">Computer Science</a></li><li><a href="/physical-sciences/earth-sciences">Earth Sciences</a></li><li><a href="/physical-sciences/engineering">Engineering</a></li><li><a href="/physical-sciences/information-technology">Information Technology</a></li><li><a href="/physical-sciences/mathematics">Mathematics</a></li><li><a href="/physical-sciences/nanotechnology">Nanotechnology</a></li><li><a href="/physical-sciences/physics">Physics</a></li><li><a href="/physical-sciences/space-sciences">Space Sciences</a></li><li><a href="/physical-sciences/school-topics">School Topics</a></li></ul></div>
+        </div><div class="mnHumRcd">
+            <div class="tltHumn">Life Sciences</div>
+            <div>
+              <ul class="lstHumn"><li><a href="/life-sciences/animal-communications">Animal Communications</a></li><li><a href="/life-sciences/biochemistry">Biochemistry</a></li><li><a href="/life-sciences/bioinformatics">Bioinformatics</a></li><li><a href="/life-sciences/biology">Biology</a></li><li><a href="/life-sciences/biophysics">Biophysics</a></li><li><a href="/life-sciences/cell-biology">Cell Biology</a></li><li><a href="/life-sciences/chronobiology">Chronobiology</a></li><li><a href="/life-sciences/cryobiology">Cryobiology</a></li><li><a href="/life-sciences/ecology">Ecology</a></li><li><a href="/life-sciences/endocrinology">Endocrinology</a></li><li><a href="/life-sciences/entomology">Entomology</a></li><li><a href="/life-sciences/epidemiology">Epidemiology</a></li><li><a href="/life-sciences/ethnobotany">Ethnobotany</a></li><li><a href="/life-sciences/evolutionary-biology">Evolutionary Biology</a></li><li><a href="/life-sciences/food-science-and-technology">Food Science and Technology</a></li><li><a href="/life-sciences/genetics">Genetics</a></li><li><a href="/life-sciences/human-anatomy">Human Anatomy</a></li><li><a href="/life-sciences/human-biology">Human Biology</a></li><li><a href="/life-sciences/kinesiology">Kinesiology</a></li><li><a href="/life-sciences/linnaean-taxonomy">Linnaean Taxonomy</a></li><li><a href="/life-sciences/marine-biology">Marine Biology</a></li><li><a href="/life-sciences/microbiology">Microbiology</a></li><li><a href="/life-sciences/molecular-biology">Molecular Biology</a></li><li><a href="/life-sciences/mycology">Mycology</a></li><li><a href="/life-sciences/neuroscience">Neuroscience</a></li><li><a href="/life-sciences/paleontology">Paleontology</a></li><li><a href="/life-sciences/parasitology">Parasitology</a></li><li><a href="/life-sciences/pathology">Pathology</a></li><li><a href="/life-sciences/phycology">Phycology</a></li><li><a href="/life-sciences/physiology">Physiology</a></li><li><a href="/life-sciences/plant-science">Plant Science</a></li><li><a href="/life-sciences/virology">Virology</a></li><li><a href="/life-sciences/xenobiology">Xenobiology</a></li><li><a href="/life-sciences/zoology">Zoology</a></li></ul></div>
+        </div><div class="mnHumRcd">
+            <div class="tltHumn">Healthcare</div>
+            <div>
+              <ul class="lstHumn"><li><a href="/healthcare/allied-health">Allied Health</a></li><li><a href="/healthcare/bioethics">Bioethics</a></li><li><a href="/healthcare/dentistry">Dentistry</a></li><li><a href="/healthcare/health-management-and-informatics">Health Management and Informatics</a></li><li><a href="/healthcare/health-sciences-education">Health Sciences Education</a></li><li><a href="/healthcare/medicine">Medicine</a></li><li><a href="/healthcare/nursing">Nursing</a></li><li><a href="/healthcare/pharmaceutical-sciences">Pharmaceutical Sciences</a></li><li><a href="/healthcare/public-health">Public Health</a></li><li><a href="/healthcare/veterinary-medicine">Veterinary Medicine</a></li></ul></div>
+        </div><div class="mnHumRcd">
+            <div class="tltHumn">Professions</div>
+            <div>
+              <ul class="lstHumn"><li><a href="/professions/agriculture">Agriculture</a></li><li><a href="/professions/business-management">Business Management</a></li><li><a href="/professions/criminal-justice">Criminal Justice</a></li><li><a href="/professions/education">Education</a></li><li><a href="/professions/financial-services">Financial Services</a></li><li><a href="/professions/forestry">Forestry</a></li><li><a href="/professions/journalism-and-media">Journalism and Media</a></li><li><a href="/professions/library-science">Library Science</a></li><li><a href="/professions/marketing-advertising-and-sales">Marketing, Advertising and Sales</a></li><li><a href="/professions/military-science">Military Science</a></li><li><a href="/professions/museum-studies">Museum Studies</a></li><li><a href="/professions/public-affairs">Public Affairs</a></li><li><a href="/professions/social-work">Social Work</a></li><li><a href="/professions/test-prep">Test Prep</a></li></ul></div>
+        </div>
+  </div>
+   </div>
+
+
+</div></div>
+    </div>  
+    <div class="social_left_bar">
+ <li>
+<div class="fb-like" data-href="http://www.facebook.com/academicroom" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true"></div></li>
+<li>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<div class="addthis_button_google_plusone">    
+         <g:plusone size="tall" width="450px" href="https://plus.google.com/100620311179268221318/posts"></g:plusone>
+	</div> 
+  </li>
+  <li>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.academicroom.com" data-count="vertical">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </li>
+    <li><script src="//platform.linkedin.com/in.js" type="text/javascript">
+ lang: en_US
+</script>
+<script type="IN/Share" data-url="http://www.academicroom.com" data-counter="top"></script>
+  </li>
+    </div></div>  <!-- /layout -->
+    
+  <div id="fb-root"></div><script type="text/javascript">
+     window.fbAsyncInit = function() {
+       FB.init({
+         appId: "",
+         status: true, 
+         cookie: true,
+         xfbml: true,
+         channelUrl: "http://www.academicroom.com/fb_social/channel"
+       });
+       
+       FB.Event.subscribe("edge.create", function(href, widget) {
+_gaq.push(["_trackEvent", "Facebook like", "Drupal", href]);
+});
+       
+         
+     };
+     (function() {
+       var e = document.createElement('script'); 
+       e.async = true;
+       e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+       document.getElementById('fb-root').appendChild(e);
+     }());
+  </script>
+<noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-49glGpXCsBeVE.gif" border="0" height="1" width="1" alt="Quantcast"/></div></noscript>
+<div id="user_relationships_popup_form" class="user_relationships_ui_popup_form"></div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _qevents = _qevents || [];(function() {var elem = document.createElement("script");elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName("script")[0];scpt.parentNode.insertBefore(elem, scpt);})();_qevents.push({qacct:"p-49glGpXCsBeVE"});
+//--><!]]>
+</script>
+<script type="text/javascript">/* CloudFlare analytics upgrade */
+</script>
+  
+<div class="style_social_top">
+	<span class="recommend">Recommend Us</span>
+	<div class="twitter">
+        <a href="https://twitter.com/academicroom" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	</div>
+	<div class="facebook">
+      <div class="fb-social-like-widget"><fb:like  href="http://www.facebook.com/academicroom" send="false" layout="button_count" show_faces="false" width="100" action="like" font="verdana" colorscheme="light"></fb:like></div>
+ 	</div> 
+ 	<div class="plusone">    
+         <g:plusone size="medium" href="https://plus.google.com/100620311179268221318/posts"></g:plusone>
+	</div>         
+</div>
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"/cdn-cgi/l/email-protection"==a.substr(0 ,27)){s='';j=28;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>

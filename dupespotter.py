@@ -95,7 +95,8 @@ def process_body(body, url):
 	body = re.sub(br'/lib/exe/indexer.php\?id=&amp;\d{10}', b"", body)
 
 	# Drupal generates a "theme_token":"..." inside a JSON blob
-	body = re.sub(br'_token":"[-_A-Za-z0-9]+"', b"", body)
+	# CloudFlare has a petok:"-1413059798-86400"
+	body = re.sub(br'(petok|_token)"?:"[-_A-Za-z0-9]+"', b"", body)
 
 	# Handle any 32-64 characters of hex
 	body = re.sub(br'\b[A-Fa-f0-9]{32,64}\b', b"", body)
@@ -119,7 +120,10 @@ def process_body(body, url):
 	# Spotted on http://2045.com/
 	body = re.sub(br'<input type="hidden" name="file_uploadToken" value="\d+"', b"", body)
 
-	if b"drupal" in body:
+	if b"Drupal" in body:
+		# Kill entire Drupal settings line
+		body = re.sub(br'jQuery\.extend\(Drupal.settings, ?\{.{1,20000}?\}\);', b"", body)
+
 		# Drupal generates this form id
 		body = re.sub(br'\bvalue="form-[-_A-Za-z0-9]+\b"', b"", body)
 
