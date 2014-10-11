@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" >
+	<head>
+		<title>.: Communauté Animal Crossing :.</title>
+		<link rel="icon" type="image/png" href="style/images/favicon.png" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Communauté Francophone Animal Crossing" />
+		<meta http-equiv="Content-Language" content="fr" />
+		<meta name="author" content="kindjal" />
+		<meta name="copyright" content="Copyright 2004-20013 Communauté Animal Crossing, Reproduction interdite sans autorisation écrite" />
+		<meta name="keywords" content="Communauté Animal Crossing, Animal Crossing Fr, AnimalCrossing-Fr, Animal Crossing, animal crossing, animal, crossing, 
+		Animal, Crossing, Communauté, communauté, community, FR, Fr, fr, France, france, français, française, Francophone, francophone, Jeu, jeu, Jeux, jeux, 
+		Game, game, Games, games, video, vidéo, vidéos, astuces, trucs, tips, soluce, soluces, solution, codes, universels, meubles, vetements, vêtements, 
+		t-shirt, t-shirts, jeux NES, NES, nes, papiers peints, tapis, sols, insectes, poissons, gyroides, fossiles, clochettes, papiers à lettres, guides, 
+		motifs, police, écriture, fonds, musiques, mp3, divers, forum, actif, messages, message, news, nouvelles, actualités, panneau, affichage, membres, 
+		membre, tests, info, infos, informations, information, Nintendo, nintendo, Gamecube, gamecube, GC, gc, NGC, ngc, NDS, nds, DS, ds, Wild, World, wild, 
+		world, Wii, wii, City, Folk, city, folk, île, ile, GBA, Gameboy, gameboy, Advance, advance, DS, NDS, nds, dual, screen, ds, downloads, download, 
+		télécharger, téléchargement, téléchargements, goodies, bonus, concours" />
+		
+		<link type="text/css" href="style/hiver.css" rel="stylesheet" />
+		<link type="text/css" href="style/print.css" rel="stylesheet" media="print" />
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 		<script type="text/javascript" src="js/jquery_ui/jquery-ui-1.10.3.custom.min"></script> 		<link rel="stylesheet" href="style/js/jquery_ui/jquery-ui-1.10.3.custom.css" type="text/css"/>
+		
+		
+		<script type="text/javascript" src="js/msdropdown/jquery.dd.min.js"></script>
+		<link type="text/css" href="style/js/msdropdown/dd.css" rel="stylesheet"/>
+		<script type="text/javascript" src="js/star_rating/jquery.rating.js"></script>
+		<link type="text/css" href="js/star_rating/jquery.rating.css" rel="stylesheet"/>
+		
+		<link rel="stylesheet" href="style/js/zoombox/zoombox.css" type="text/css"/>
+		<script type="text/javascript" src="js/zoombox/zoombox.js"></script>
+	</head>
+	<body>
+		<div id="bandeau">
+			<p>.: Communauté Animal crossing :.</p>
+			<a href="index.php">
+				<object type="application/x-shockwave-flash" data="http://www.communauteanimalcrossing.com/swf/horlogehiver.swf" width="100" height="55" id="horloge" style="margin-top:95px;margin-left:210px;">
+					<param name="movie" value="http://www.communauteanimalcrossing.com/swf/horlogehiver.swf" />
+					<param name="quality" value="high" />
+					<param name="flashvars" value="servannee=2014&amp;servmois=9&amp;servjour=11&amp;servheure=23&amp;servminute=21&amp;servseconde=11" />
+				</object>
+			</a>
+		</div>
+		<div id="menu-haut">
+			<ul id="vertical-navigation">
+				<li><a href="index.php"><img src="style/icons/home.png" alt="Accueil" class="icone" /> Accueil</a></li>
+				<li><a href="http://forum.communauteanimalcrossing.com/"><img src="style/icons/tree.png" alt="Forum" class="icone" /> Forum</a></li>
+					<li>
+							<form method="post" action="" class="connection">			
+									<input type="text" name="connec_login" id="connec_login" placeholder="Pseudo" size="10" maxlength="50" tabindex="1" />
+									<input type="password" name="connec_mdp" id="connec_mdp"  placeholder="Mot de passe" size="10" maxlength="50" tabindex="2"  />
+									<acronym title="Rester connecter">?</acronym> <input type="checkbox" tabindex="3" name="remember" id="remember" checked="checked" />
+									<input type="submit" value="S'identifier" />
+							</form>
+					</li>
+					<li><a href="http://forum.communauteanimalcrossing.com/index.php?app=core&amp;module=global&amp;section=register"><img src="style/icons/pencil.png" alt="Inscription" class="icone" /> <em>inscription</em></a></li>
+			</ul>
+		<hr class="clearehr" />
+		</div>
+		<div id="menu">
+				<div class="menu-block">
+					<div class="menu-block-header"><img src="images/jeux/acnl/logo.png" alt="Logo" class="icone" /> New Leaf</div>
+					<div class="menu-block-content">
+						<ul>
+							<li><img src="style/icons/calendrier.png" alt="icone" class="icone" /> <a href="calendrier.php?jeu=4"> Calendrier</a></li>
+							<li><img src="style/icons/objets.png" alt="icone" class="icone" /> <a href="les_objets.php?jeu=4">Objets</a></li>
+							<li><img src="style/icons/astuces.png" alt="icone" class="icone" /> <a href="les_astuces.php?jeu=4">Astuces</a></li>
+							<li><img src="style/icons/guides.png" alt="icone" class="icone" /> <a href="les_guides.php?jeu=4">Guides</a></li>
+								<li><img src="style/icons/page.png" alt="Page" class="icone" /><a href="4_nouveautes.php"> Nouveautés</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-block">
+					<div class="menu-block-header"><img src="images/jeux/aclg/logo.png" alt="Logo" class="icone" /> Let's Go to the City</div>
+					<div class="menu-block-content">
+						<ul>
+							<li><img src="style/icons/calendrier.png" alt="icone" class="icone" /> <a href="calendrier.php?jeu=3"> Calendrier</a></li>
+							<li><img src="style/icons/objets.png" alt="icone" class="icone" /> <a href="les_objets.php?jeu=3">Objets</a></li>
+							<li><img src="style/icons/persos.png" alt="icone" class="icone" /> <a href="les_personnages.php?jeu=3">Personnages</a></li>
+							<li><img src="style/icons/astuces.png" alt="icone" class="icone" /> <a href="les_astuces.php?jeu=3">Astuces</a></li>
+							<li><img src="style/icons/guides.png" alt="icone" class="icone" /> <a href="les_guides.php?jeu=3">Guides</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-block">
+					<div class="menu-block-header"><img src="images/jeux/acww/logo.png" alt="Logo" class="icone" /> Wild World</div>
+					<div class="menu-block-content">
+						<ul>
+							<li><img src="style/icons/calendrier.png" alt="icone" class="icone" /> <a href="calendrier.php?jeu=2"> Calendrier</a></li>
+							<li><img src="style/icons/objets.png" alt="icone" class="icone" /> <a href="les_objets.php?jeu=2">Objets</a></li>
+							<li><img src="style/icons/persos.png" alt="icone" class="icone" /> <a href="les_personnages.php?jeu=2">Personnages</a></li>
+							<li><img src="style/icons/astuces.png" alt="icone" class="icone" /> <a href="les_astuces.php?jeu=2">Astuces</a></li>
+							<li><img src="style/icons/guides.png" alt="icone" class="icone" /> <a href="les_guides.php?jeu=2">Guides</a></li>
+								<li><img src="style/icons/page.png" alt="Page" class="icone" /><a href="2_test.php"> Test</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-block">
+					<div class="menu-block-header"><img src="images/jeux/acpc/logo.png" alt="Logo" class="icone" /> Pop. Croissante</div>
+					<div class="menu-block-content">
+						<ul>
+							<li><img src="style/icons/calendrier.png" alt="icone" class="icone" /> <a href="calendrier.php?jeu=1"> Calendrier</a></li>
+							<li><img src="style/icons/objets.png" alt="icone" class="icone" /> <a href="les_objets.php?jeu=1">Objets</a></li>
+							<li><img src="style/icons/persos.png" alt="icone" class="icone" /> <a href="les_personnages.php?jeu=1">Personnages</a></li>
+							<li><img src="style/icons/astuces.png" alt="icone" class="icone" /> <a href="les_astuces.php?jeu=1">Astuces</a></li>
+							<li><img src="style/icons/guides.png" alt="icone" class="icone" /> <a href="les_guides.php?jeu=1">Guides</a></li>
+								<li><img src="style/icons/page.png" alt="Page" class="icone" /><a href="1_test.php"> Test</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-block">
+					<div class="menu-block-header"><img src="style/icons/leaf.png" alt="Feuille" class="icone" /> Communauté</div>
+					<div class="menu-block-content">
+						<ul>
+							<li><a href="les_melodies.php"><img src="style/icons/melodies.png" alt="icone" class="icone" /> Mélodies</a></li>
+							<li><a href="les_motifs.php"><img src="style/icons/qrcode.png" alt="icone" class="icone" /> Motifs (QR codes)</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-block">
+					<div class="menu-block-header"><img src="style/icons/present.png" alt="Feuille" class="icone" /> Téléchargements</div>
+					<div class="menu-block-content">
+						<ul>
+							<li><a href="musiques.php"><img src="style/icons/music-beam.png" alt="icone" class="icone" /> Musiques</a></li>
+							<li><a href="fonds.php"><img src="style/icons/monitor.png" alt="icone" class="icone" /> Fonds d'écran</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		
+		<div id="corps"><div class="block">
+	<div class="block-header">Actualités</div>
+	<div class="block-content">
+				<div class="articleListe-content">
+					<a href="voir_article.php?id=9" class="articleListe-illustration">
+						<img src="images/articles/9/thumbs/illustration.png" alt="La place WaraWara Animal Crossing est disponible sur Wii U" />
+					</a>
+					<p class="articleListe-titre"><a href="voir_article.php?id=9">La place WaraWara Animal Crossing est disponible sur Wii U</a></p>
+					<p class="articleListe-intro">
+						<span class="articleListe-dateAuteur">Le <strong>07/08/2013</strong> à <strong>17h48</strong> par <strong>Grobzoula</strong></span><br />
+						Cet apr&egrave;s-midi, Satoru Iwata a pr&eacute;sent&eacute; un nouveau logiciel pour les fans d'Animal Crossing et les possesseurs de la Wii U. Il s'agit de la place Animal Crossing !
+&nbsp;
+C'est... <a href="voir_article.php?id=9">Lire la suite</a>
+					</p>
+					<hr class="clearehr" />
+				</div>
+				<div class="articleListe-content">
+					<a href="voir_article.php?id=8" class="articleListe-illustration">
+						<img src="images/articles/8/thumbs/illustration.jpg" alt="ACNL: Obtenir l'horloge raton laveur" />
+					</a>
+					<p class="articleListe-titre"><a href="voir_article.php?id=8">ACNL: Obtenir l'horloge raton laveur</a></p>
+					<p class="articleListe-intro">
+						<span class="articleListe-dateAuteur">Le <strong>21/06/2013</strong> à <strong>15h13</strong> par <strong>bobsolo</strong></span><br />
+						Bonjour &agrave; tous,
+&nbsp;
+En suivant la manipulation d&eacute;crite dans notre nouveau guide vous pourrez obtenir une sublime horloge raton laveur depuis votre bureau de poste, objet pour... <a href="voir_article.php?id=8">Lire la suite</a>
+					</p>
+					<hr class="clearehr" />
+				</div>
+				<div class="articleListe-content">
+					<p class="articleListe-titre"><a href="voir_article.php?id=7">Les objets ACNL et le guide des biscuits de la chance</a></p>
+					<p class="articleListe-intro">
+						<span class="articleListe-dateAuteur">Le <strong>18/06/2013</strong> à <strong>11h35</strong> par <strong>Karoo</strong></span><br />
+						Bonjour &agrave; tous, amis de la communaut&eacute;!
+&nbsp;
+Nous avons l'honneur de vous indiquer que la cat&eacute;gorie des objets Animal Crossing New Leaf est disponible!
+Comme vous pouvez le... <a href="voir_article.php?id=7">Lire la suite</a>
+					</p>
+					<hr class="clearehr" />
+				</div>
+				<div class="articleListe-content">
+					<a href="voir_article.php?id=6" class="articleListe-illustration">
+						<img src="images/articles/6/thumbs/illustration.jpg" alt="Nouveaux fonds d'écran et couvertures Facebook" />
+					</a>
+					<p class="articleListe-titre"><a href="voir_article.php?id=6">Nouveaux fonds d'écran et couvertures Facebook</a></p>
+					<p class="articleListe-intro">
+						<span class="articleListe-dateAuteur">Le <strong>15/06/2013</strong> à <strong>21h41</strong> par <strong>Karoo</strong></span><br />
+						Re bonjour les amis!
+&nbsp;
+Nous souhaitons vous informer que de nouveaux fonds d'&eacute;cran sont disponible!
+&nbsp;
+Envie de r&eacute;chauffer votre bureau? Ou bien de sentir l'ambiance... <a href="voir_article.php?id=6">Lire la suite</a>
+					</p>
+					<hr class="clearehr" />
+				</div>
+				<div class="articleListe-content">
+					<a href="voir_article.php?id=5" class="articleListe-illustration">
+						<img src="images/articles/5/thumbs/illustration.jpg" alt="ACNL: Paravent arc-en-ciel" />
+					</a>
+					<p class="articleListe-titre"><a href="voir_article.php?id=5">ACNL: Paravent arc-en-ciel</a></p>
+					<p class="articleListe-intro">
+						<span class="articleListe-dateAuteur">Le <strong>15/06/2013</strong> à <strong>18h22</strong> par <strong>Karoo</strong></span><br />
+						Bonjour &agrave; tous,
+&nbsp;
+En ce moment vous pouvez obtenir le paravent arc-en-ciel dans Animal Crossing New Leaf.
+Pour cela rien de plus simple: Il suffit dans un premier temps de connecter... <a href="voir_article.php?id=5">Lire la suite</a>
+					</p>
+					<hr class="clearehr" />
+				</div>
+				<div class="articleListe-content">
+					<a href="voir_article.php?id=4" class="articleListe-illustration">
+						<img src="images/articles/4/thumbs/illustration.jpg" alt="Animal Crossing : New Leaf sort aujourd'hui !" />
+					</a>
+					<p class="articleListe-titre"><a href="voir_article.php?id=4">Animal Crossing : New Leaf sort aujourd'hui !</a></p>
+					<p class="articleListe-intro">
+						<span class="articleListe-dateAuteur">Le <strong>14/06/2013</strong> à <strong>12h47</strong> par <strong>Grobzoula</strong></span><br />
+						Annonc&eacute; &agrave; l'E3 2010, et presque 5 ans apr&egrave;s la sortie de l'opus Wii, c'est une longue attente qui s'ach&egrave;ve, car Animal Crossing New Leaf sur 3DS sort officiellement en... <a href="voir_article.php?id=4">Lire la suite</a>
+					</p>
+					<hr class="clearehr" />
+				</div>
+	</div>
+	<div class="block-footer"></div>
+</div>
+<div class="block">
+	<div class="block-header"><img src="style/icons/balloon-twitter.png" alt="Twitter" class="icone" />  Twitter @CommuAC</div>
+	<div class="block-content" style="text-align:center;">
+		<a class="twitter-timeline" href="https://twitter.com/CommuAC" data-widget-id="339046511180664834">Tweets de @CommuAC</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class="block-footer"></div>
+</div>		</div>
+		<div id="adsense" style="margin-left:350px;">
+				<script type="text/javascript"> <!--
+						google_ad_client = "ca-pub-3743403458766645";
+						/* 468x60, date de création 28/07/08 */
+						google_ad_slot = "7371325501";
+						google_ad_width = 468;
+						google_ad_height = 60;
+						//-->
+				</script>
+				<script type="text/javascript"
+						src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+		</div>
+		<div id="partenaire" style="text-align:center;color:grey;">
+			<span>Partenaires : </span> <a href="http://www.animalcrossing-online.com/" target="_blank" /><img src="style/partenaires/animalcrossing-online.gif" alt="animalcrossing-online" style="vertical-align:middle;display:inline-block;" /></a>
+		</div>
+		<div id="btm">
+		<form method="post" action="" class="theme" style="float:left;margin:0px;margin-left:10px;">
+			Thème :
+			<select id="theme" name="theme">
+				<option value="ete" >Eté</option>
+				<option value="hiver" selected="selected">Hiver</option>
+			</select>
+			<input type="submit" value="Ok" />
+		</form>
+			<p><em>Communauté Animal Crossing Fr © 2004-2013</em></p>
+		</div>
+		 <script type="text/javascript">
+			(function($){
+				$('a.zoombox').zoombox();
+			})(jQuery);
+		</script>
+	</body>
+</html>

@@ -120,6 +120,9 @@ def process_body(body, url):
 	# Spotted on http://2045.com/
 	body = re.sub(br'<input type="hidden" name="file_uploadToken" value="\d+"', b"", body)
 
+	# Spotted on http://www.communauteanimalcrossing.fr/
+	body = re.sub(br'<param name="flashvars" value="servannee=\d{4}&amp;servmois=\d{1,2}&amp;servjour=\d{1,2}&amp;servheure=\d{1,2}&amp;servminute=\d{1,2}&amp;servseconde=\d{1,2}" />', b"", body)
+
 	if b"Drupal" in body:
 		# Kill entire Drupal settings line
 		body = re.sub(br'jQuery\.extend\(Drupal.settings, ?\{.{1,20000}?\}\);', b"", body)
