@@ -91,6 +91,10 @@ def process_body(body, url):
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")
 		body = body.replace(quote('?' + u.query).encode("utf-8"), b"")
 
+	# Strip HTML comments, which sometimes include timestamps or
+	# page generation stats
+	body = re.sub(br'<\!--.{1,4000}?-->', b"", body)
+
 	# Dokuwiki includes the current Unix time
 	body = re.sub(br'/lib/exe/indexer.php\?id=&amp;\d{10}', b"", body)
 
@@ -123,6 +127,10 @@ def process_body(body, url):
 	# Spotted on http://www.communauteanimalcrossing.fr/
 	body = re.sub(br'<param name="flashvars" value="servannee=\d{4}&amp;servmois=\d{1,2}&amp;servjour=\d{1,2}&amp;servheure=\d{1,2}&amp;servminute=\d{1,2}&amp;servseconde=\d{1,2}" />', b"", body)
 
+	# Drupal generates <body class="..."> items based on the URL
+	# Generated class="" also spotted on non-Drupal www.minutouno.com
+	body = re.sub(br'<body class="[^"]+"', b"", body)
+
 	if b"Drupal" in body:
 		# Kill entire Drupal settings line
 		body = re.sub(br'jQuery\.extend\(Drupal.settings, ?\{.{1,20000}?\}\);', b"", body)
@@ -132,9 +140,6 @@ def process_body(body, url):
 
 		# Drupal generates this class id
 		body = re.sub(br"\bview-dom-id-[0-9a-f]+\b", b"", body)
-
-		# Drupal generates <body class="..."> items based on the URL
-		body = re.sub(br'<body class="[^"]+"', b"", body)
 
 		# Drupal sites have randomized sidebar content with these IDs
 		body = re.sub(br'<div class="views-field views-field-[-a-z]+">.*', b"", body)
