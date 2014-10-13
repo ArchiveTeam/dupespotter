@@ -152,7 +152,8 @@ def compare_bodies(body1, body2, url1, url2):
 		body2.decode("utf-8", "replace").splitlines(keepends=True),
 		fromfile=url1,
 		tofile=url2):
-
+		if not "\n" in line:
+			line += "\n"
 		sys.stdout.write(line)
 
 
