@@ -114,11 +114,6 @@ def process_body(body, url):
 	body = re.sub(br'<div class="fb-like" data-href=".*?</div>', b"", body)
 	body = re.sub(br'<a href="https?://twitter.com/share" class="twitter-share-button" data-text=".*?</a>', b"", body)
 
-	# CloudFlare
-	body = re.sub(br'Ray ID: (<strong>)?[0-9a-f]{16}', b"", body)
-	# <p>The owner of this website (whiterabbitexpress.com) has banned your access based on your browser's signature (166d5a82362b1219-ua48).</p>
-	body = re.sub(br'your browser\'s signature \([0-9a-f]{16}-[^\)]{1,10}\)', b"", body)
-
 	# Drupal puts the current URL here, and the casing doesn't always match
 	body = re.sub(br'<link rel="(canonical|shortlink)" href="[^"]+" />', b"", body)
 
