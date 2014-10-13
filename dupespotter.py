@@ -102,8 +102,9 @@ def process_body(body, url):
 	# CloudFlare has a petok:"-1413059798-86400"
 	body = re.sub(br'(petok|_token|applicationTime)"?:("[-_A-Za-z0-9\.]+"|[0-9\.]+)', b"", body)
 
-	# Handle any 32-256 characters of hex
-	body = re.sub(br'\b[A-Fa-f0-9]{32,256}', b"", body)
+	# Handle any 10-256 characters of hex or decimal
+	# Minimum of 10 to handle UNIX timestamps
+	body = re.sub(br'\b[A-Fa-f0-9\.]{10,256}', b"", body)
 
 	# Randomized anti-spam mailto: lines
 	body = re.sub(br'<a href="mailto:[^"@]{1,100}@[^"]{2,100}">(&#[0-9a-fA-Fx]{2,4};){3,100}</a>', b"", body)
