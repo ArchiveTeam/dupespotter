@@ -100,10 +100,10 @@ def process_body(body, url):
 
 	# Drupal generates a "theme_token":"..." inside a JSON blob
 	# CloudFlare has a petok:"-1413059798-86400"
-	body = re.sub(br'(petok|_token)"?:"[-_A-Za-z0-9]+"', b"", body)
+	body = re.sub(br'(petok|_token|applicationTime)"?:("[-_A-Za-z0-9\.]+"|[0-9\.]+)', b"", body)
 
-	# Handle any 32-64 characters of hex
-	body = re.sub(br'\b[A-Fa-f0-9]{32,64}\b', b"", body)
+	# Handle any 32-256 characters of hex
+	body = re.sub(br'\b[A-Fa-f0-9]{32,256}', b"", body)
 
 	# Randomized anti-spam mailto: lines
 	body = re.sub(br'<a href="mailto:[^"@]{1,100}@[^"]{2,100}">(&#[0-9a-fA-Fx]{2,4};){3,100}</a>', b"", body)
@@ -130,6 +130,10 @@ def process_body(body, url):
 	# Drupal generates <body class="..."> items based on the URL
 	# Generated class="" also spotted on non-Drupal www.minutouno.com
 	body = re.sub(br'<body class="[^"]+"', b"", body)
+
+	# vbulletin
+	body = re.sub(br'\(\d+ Viewing\)', b"", body)
+	body = re.sub(br'Currently Active Users</a>: \d+ \(\d+ members and \d+ guests\)', b"", body)
 
 	if b"Drupal" in body:
 		# Kill entire Drupal settings line
