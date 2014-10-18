@@ -79,6 +79,9 @@ def process_body(body, url):
 	that would prevent duplicate pages from being detected as duplicates.
 	"""
 	assert isinstance(body, bytes), type(body)
+
+	drupal = b"Drupal" in body
+
 	u = urlsplit(url)
 	# Needed for www.tragnarion.com
 	path = u.path.rstrip('/')
@@ -93,7 +96,7 @@ def process_body(body, url):
 
 	# Strip HTML comments, which sometimes include timestamps or
 	# page generation stats
-	body = re.sub(br'<\!--.{1,4000}?-->', b"", body)
+	body = re.sub(br'<\!--.{1,4000}?-->', b"", body, count=1000, flags=re.DOTALL)
 
 	# Dokuwiki includes the current Unix time
 	body = re.sub(br'/lib/exe/indexer.php\?id=&amp;\d{10}', b"", body)
@@ -115,10 +118,14 @@ def process_body(body, url):
 	body = re.sub(br'<a href="https?://twitter.com/share" class="twitter-share-button" data-text=".*?</a>', b"", body)
 
 	# Drupal puts the current URL here, and the casing doesn't always match
-	body = re.sub(br'<link rel="(canonical|shortlink)" href="[^"]+" />', b"", body)
+	body = re.sub(br'<link rel="(canonical|shortlink|alternate)".{1,1000}?href="[^"]+" />', b"", body)
 
 	# Spotted on http://2045.com/
 	body = re.sub(br'<input type="hidden" name="file_uploadToken" value="\d+"', b"", body)
+
+	# Spotted on http://www.museodelvideojuego.com/ - handles
+	# <input type="hidden" name="form_build_id" value="form-ddmhsyCMnpZsHKCQN-l6R1j9EwMT3lHKDI4xXcyFcBA" />
+	body = re.sub(br'<input type="hidden"[^>]{1,1000}?>', b"", body)
 
 	# Spotted on http://www.communauteanimalcrossing.fr/
 	body = re.sub(br'<param name="flashvars" value="servannee=\d{4}&amp;servmois=\d{1,2}&amp;servjour=\d{1,2}&amp;servheure=\d{1,2}&amp;servminute=\d{1,2}&amp;servseconde=\d{1,2}" />', b"", body)
@@ -131,12 +138,9 @@ def process_body(body, url):
 	body = re.sub(br'\(\d+ Viewing\)', b"", body)
 	body = re.sub(br'Currently Active Users</a>: \d+ \(\d+ members and \d+ guests\)', b"", body)
 
-	if b"Drupal" in body:
+	if drupal:
 		# Kill entire Drupal settings line
 		body = re.sub(br'jQuery\.extend\(Drupal.settings, ?\{.{1,20000}?\}\);', b"", body)
-
-		# Drupal generates this form id
-		body = re.sub(br'\bvalue="form-[-_A-Za-z0-9]+\b"', b"", body)
 
 		# Drupal generates this class id
 		body = re.sub(br"\bview-dom-id-[0-9a-f]+\b", b"", body)
