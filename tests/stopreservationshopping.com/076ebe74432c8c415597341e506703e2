@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<meta property="og:url" content="http://www.stopreservationshopping.com/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/css/custom.css" />
+<link rel="shortcut icon" href="http://www.stopreservationshopping.com/sites/all/themes/custom/no_on_48/favicon.ico" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta property="og:site_name" content="No on Proposition 48" />
+<meta property="og:type" content="article" />
+<link rel="alternate" title="News" href="http://www.stopreservationshopping.com/news.xml/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/js/foundation/foundation.accordion.js" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.stopreservationshopping.com/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/css/custom.css" />
+<link rel="shortlink" href="http://www.stopreservationshopping.com/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/css/custom.css" />
+<meta property="og:title" content="News" />
+  <title>News | No on Proposition 48</title>
+  <link rel="stylesheet" href="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/advagg_css/css__5oRbWPM9-N4Br8ND14pd0Fg1YIIJydIRdpTtwk7UI1o__y333Qon2rbQbH3UVPAu5XTtoDN0IWwT0EXxKJovCF28__21JhHFfEyvhZhYO6YsfOcQY01pURiOuqy0fVhpeqp-w.css" />
+<link rel="stylesheet" href="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/advagg_css/css__fjJsPyNQ4BLBQ2MrLCM9tcZykjZFViy1A8WCVYpuUZE__vMUSPWlK3-U1H9NwFwRj1FCgDKggtj1Ss7LjnCg4uy4__21JhHFfEyvhZhYO6YsfOcQY01pURiOuqy0fVhpeqp-w.css" />
+  <script src="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/advagg_js/js__FyG1n9MXiKI2tGs6mOGf8VIVHIUA_Gk3Q83kRyJVc_w__CMTLl8EO4KNUtkY3JoqByvQM1UnjKbmbgFGryAiGxFQ__21JhHFfEyvhZhYO6YsfOcQY01pURiOuqy0fVhpeqp-w.js"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-55381430-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/advagg_js/js__kPlnPrzsGksoM20kFNIONYZkvEAiyzpNWzk5hZiz9vU__kV8olPB24XnktdP0x6kvdJkhiOez2-15N9COZmwpE1E__21JhHFfEyvhZhYO6YsfOcQY01pURiOuqy0fVhpeqp-w.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"no_on_48","theme_token":"OlwMvrhyfiCCta27gYIxqQvkxmwVvZjimb0sSqySEog","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/flight\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"profiles\/flight\/modules\/contrib\/views\/css\/views.css":1,"profiles\/flight\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/flight\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/flight\/modules\/contrib\/views_infinite_scroll\/css\/views_infinite_scroll.css":1,"profiles\/flight\/modules\/contrib\/share42\/css\/share42.css":1,"profiles\/flight\/themes\/custom\/flight_base\/css\/app.css":1,"sites\/all\/themes\/custom\/no_on_48\/css\/custom-foundation.css":1,"sites\/all\/themes\/custom\/no_on_48\/css\/custom.css":1},"js":{"profiles\/flight\/libraries\/share42\/share42.js":1,"profiles\/flight\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/autopager\/jquery.autopager-1.0.0.js":1,"profiles\/flight\/modules\/contrib\/views_infinite_scroll\/js\/views_infinite_scroll.js":1,"profiles\/flight\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/vendor\/custom.modernizr.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.abide.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.accordion.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.alert.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.clearing.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.dropdown.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.equalizer.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.interchange.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.joyride.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.magellan.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.offcanvas.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.orbit.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.slider.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.reveal.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.tab.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.tooltip.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/foundation\/foundation.topbar.js":1,"sites\/all\/themes\/custom\/no_on_48\/js\/scripts.js":1}},"admin_menu":{"suppress":1},"views_infinite_scroll":[{"view_name":"news","display":"page","pager_selector":"ul.pager","next_selector":"li.pager-next a:first","content_selector":"div.view-content","items_selector":".views-row","img_path":"http:\/\/www.stopreservationshopping.com\/profiles\/flight\/modules\/contrib\/views_infinite_scroll\/images\/ajax-loader.gif"}],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-news page-news-2014-10-20 page-news-2014-10-20-modules page-news-2014-10-20-modules-system page-news-2014-10-20-modules-system-profiles page-news-2014-10-20-modules-system-profiles-flight page-news-2014-10-20-modules-system-profiles-flight-libraries page-news-2014-10-20-modules-system-profiles-flight-libraries-share42 page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all-themes page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all-themes-custom page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all-themes-custom-no-on-48 page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all-themes-custom-no-on-48-js page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all-themes-custom-no-on-48-js-foundation page-news-2014-10-20-modules-system-profiles-flight-libraries-share42-sites-all-themes-custom-no-on-48-js-foundation-foundationaccordionjs section-news views-page" >
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!--.page -->
+<div role="document" class="page">
+
+  <!--.l-header region -->
+  <header role="banner" class="l-header">
+
+          <!--.top-bar -->
+            <div class="contain-to-grid show-for-small">
+              <nav class="top-bar" data-topbar data-options="">
+          <ul class="title-area">
+            <li class="name"><h1><a href="/" rel="home" title="No on Proposition 48 Home">No on Proposition 48</a></h1></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+          <section class="top-bar-section">
+                          <ul id="main-menu" class="main-nav left"><li class="first leaf"><a href="/about">About</a></li><li class="expanded has-dropdown"><a href="/issues">Issues</a><ul class="dropdown"><li class="expanded show-for-small"><a href="/issues">Issues</a><li class="first last leaf"><a href="/blue-sky-report-north-fork-casino">Blue Sky Report</a></li></ul></li><li class="leaf active"><a href="/news" class="active">News</a></li><li class="last leaf"><a href="/opposition-compact">Opposition to the Compact</a></li></ul>                                  </section>
+        </nav>
+            </div>
+            <!--/.top-bar -->
+    
+    <!-- Title, slogan and menu -->
+        <section class="row  hide-for-small">
+
+    
+                        <div id="site-name" class="element-invisible">
+            <strong>
+              <a href="/" title="Home" rel="home"><span>No on Proposition 48</span></a>
+            </strong>
+          </div>
+                    
+      
+      
+            <div class="row">
+        <div class="medium-3 columns logo">
+        <h1><a href="/"><img src="http://www.stopreservationshopping.com/sites/all/themes/custom/no_on_48/logo.png"/></a></h1>
+      </div>
+        <div class="medium-9 columns">
+          <nav id="main-menu" class="navigation right button-group" role="navigation">
+            <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links inline-list clearfix"><li class="menu-578 first"><a href="/about">About</a></li>
+<li class="menu-579"><a href="/issues">Issues</a></li>
+<li class="menu-569 active-trail"><a href="/news" class="active-trail active">News</a></li>
+<li class="menu-631 last"><a href="/opposition-compact">Opposition to the Compact</a></li>
+</ul>          </nav> <!-- /#main-menu -->
+         </div>
+      </div>
+              
+
+      
+    </section>
+        <!-- End title, slogan and menu -->
+
+    
+  </header>
+  <!--/.l-header -->
+
+  
+  
+  
+  <main role="main" class="row l-main">
+    <div class="medium-9 main columns">
+      
+      <a id="main-content"></a>
+
+
+                      <h1 id="page-title" class="title">News</h1>
+                    <hr>
+
+                            
+      
+        
+      
+      <div class="view view-news view-id-news view-display-id-page view-dom-id-a48309c5671cbb52a36b6362a8a61c9e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div  class="zf-1col node node-story node-teaser view-mode-teaser  row">
+
+  
+  <div class="group-content large-12">
+    <div class="field field-name-field-picture field-type-image field-label-hidden field-wrapper"><img src="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/styles/news_logo_story_top/public/2014-09-15_05-27-12_0.png?itok=Now9DVMo" />
+</div><div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><h2><a href="/news/2014-09-15/california-tribes%E2%80%99-casino-shopping-spree">California Tribes’ Casino Shopping Spree</a></h2></div><div class="field field-name-field-publication-date field-type-datetime field-label-hidden field-wrapper"><span class="date-display-single">Monday, September 15, 2014</span></div><div class="field field-name-field-quote field-type-text-long field-label-hidden field-wrapper">The original promise of limited gaming in distant corners of California is no longer true.</div><div class="body text-secondary"><p>Since California voters approved Indian gambling over a decade ago, the business has exceeded all expectations and limitations. It’s grown into a Vegas-sized industry that’s enriched dirt-poor tribes and hired thousands more, but it’s also proved hard to control as quarrels over money, scale and location flare anew.</p></div><div class="field field-name-node-link field-type-ds field-label-hidden field-wrapper"><a href="/news/2014-09-15/california-tribes%E2%80%99-casino-shopping-spree">Keep Reading</a></div><div class="field field-name-rule field-type-ds field-label-hidden field-wrapper"><hr /></div>  </div>
+
+</div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div  class="zf-1col node node-story node-promoted node-teaser view-mode-teaser  row">
+
+  
+  <div class="group-content large-12">
+    <div class="field field-name-field-picture field-type-image field-label-hidden field-wrapper"><img src="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/styles/news_logo_story_top/public/Screen%20Shot%202014-10-16%20at%2012.29.07%20PM.png?itok=nNpUT_2h" />
+</div><div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><h2><a href="/news/2014-10-16/chico-enterprise-record-editorial-state-propositions-warrant-much-skepticism">Chico Enterprise-Record Editorial: State propositions warrant much skepticism</a></h2></div><div class="field field-name-field-publication-date field-type-datetime field-label-hidden field-wrapper"><span class="date-display-single">Thursday, October 16, 2014</span></div><div class="field field-name-field-quote field-type-text-long field-label-hidden field-wrapper">This proposition would open the door for more casinos off tribal land. Vote no.</div><div class="body text-secondary"><p>California voters have every right to view all state propositions with a healthy dose of skepticism.</p>
+<p>Propositions rarely do exactly what the authors say they will do. They are drawn up with loopholes big enough to drive a bullet train through, or with little favors built in to curry votes with certain groups, or with last-minute add-ons that should make voters uneasy.</p>
+<p>Voters have been burned before. Many feel they didn't get exactly what they thought they were voting for with respect to medical marijuana, Indian gaming, the bullet train and numerous big-money bonds.</p></div><div class="field field-name-node-link field-type-ds field-label-hidden field-wrapper"><a href="/news/2014-10-16/chico-enterprise-record-editorial-state-propositions-warrant-much-skepticism">Keep Reading</a></div><div class="field field-name-rule field-type-ds field-label-hidden field-wrapper"><hr /></div>  </div>
+
+</div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div  class="zf-1col node node-story node-teaser view-mode-teaser  row">
+
+  
+  <div class="group-content large-12">
+    <div class="field field-name-field-picture field-type-image field-label-hidden field-wrapper"><img src="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/styles/news_logo_story_top/public/2014-09-15_05-37-38.png?itok=GaMHn4ST" alt="Union-Tribute San Diego" />
+</div><div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><h2><a href="/news/2014-09-15/thanks-brown-casino-free-all-may-loom">Thanks to Brown, Casino Free-For-All May Loom</a></h2></div><div class="field field-name-field-publication-date field-type-datetime field-label-hidden field-wrapper"><span class="date-display-single">Sunday, August 11, 2013</span></div><div class="field field-name-field-quote field-type-text-long field-label-hidden field-wrapper">Voters were assured the measure wouldn’t trigger a casino boom and that casinos would only be built on recognized Indian territory.</div><div class="body text-secondary"><p>Since the enactment of the 1988 federal law formally accepting and recognizing Indian gambling, the federal government has with scant exceptions only allowed Native American tribes to build casinos on the reservation land they controlled as of 1988. Now, without nearly enough public debate, California could be on the brink of a much more freewheeling approach.</p></div><div class="field field-name-node-link field-type-ds field-label-hidden field-wrapper"><a href="/news/2014-09-15/thanks-brown-casino-free-all-may-loom">Keep Reading</a></div><div class="field field-name-rule field-type-ds field-label-hidden field-wrapper"><hr /></div>  </div>
+
+</div>
+
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first">&nbsp;</li>
+<li class="pager-current">1 of 7</li>
+<li class="pager-next last"><a href="/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/js/foundation/foundation.accordion.js?page=1">››</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  
+    </div>
+    <!--/.main region -->
+
+    
+          <aside role="complementary" class="medium-3 sidebar-second columns sidebar">
+            <section class="block block-views block-views-news-block block-even clearfix">
+
+        <h2 class="block-title">More</h2>
+    
+      <div class="view view-news view-id-news view-display-id-block view-dom-id-2cf3d5d2a7569aea1cb2290b7ad8d934">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-30/our-voice-keep-indian-gaming-tribal-properties">Our Voice: Keep Indian gaming on tribal properties</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-30/porterville-recorder-prop-48-would-open-casino-floodgates">Porterville Recorder: Prop. 48 would open up casino floodgates</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-30/west-marin-citizen-endorsements-november-4-2014-general-election">West Marin Citizen: Endorsements In November 4, 2014, General Election</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-28/la-daily-news-vote-no-proposition-48-curtail-more-california-casinos">L.A. Daily News: Vote no on Proposition 48 to curtail more California casinos</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-21/paradise-post-post-recommends-no-vote-prop-48">Paradise Post: Post recommends a no vote on Prop. 48</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-20/napa-valley-register-statewide-ballot-questions">Napa Valley Register: The statewide ballot questions</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-20/prop-48-look-long-and-hard-then-reject">Prop. 48: Look long and hard, then reject</a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-20/victorville-daily-press-reservations">Victorville Daily Press: Off the reservations</a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-16/chico-enterprise-record-editorial-state-propositions-warrant-much-skepticism">Chico Enterprise-Record Editorial: State propositions warrant much skepticism</a></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014-10-16/press-enterprise-editorial-no-prop-48-indian-gaming">The Press Enterprise Editorial: No on Prop. 48, Indian gaming</a></span>  </div>  </div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="pagination-centered"><div class="item-list"><ul class="pagination pager"><li class="current first"><a href="">1</a></li>
+<li><a title="Go to page 2" href="/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/js/foundation/foundation.accordion.js?page=1">2</a></li>
+<li><a title="Go to page 3" href="/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/js/foundation/foundation.accordion.js?page=2">3</a></li>
+<li class="arrow"><a title="Go to next page" href="/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/js/foundation/foundation.accordion.js?page=1">next ›</a></li>
+<li class="arrow last"><a title="Go to last page" href="/news/2014-10-20/modules/system/profiles/flight/libraries/share42/sites/all/themes/custom/no_on_48/js/foundation/foundation.accordion.js?page=2">last »</a></li>
+</ul></div></div>  
+  
+  
+  
+  
+</div>  
+</section>      </aside>
+      </main>
+  <!--/.main-->
+
+    
+      <!--.diptych2-->
+    <section class="l-diptych2 row">
+      <div class="diptych2-first medium-8 columns">
+            <section class="block block-bean block-bean-stay-informed">
+
+      
+      <div class="field field-name-field-body field-type-text-long field-label-hidden field-wrapper"><div class="row">
+<div class="medium-7 columns">
+<h4>Stay Informed</h4>
+<form action="/stay-informed" method="POST">
+<div class="row collapse">
+<div class="small-10 columns"><input type="text" name="email" placeholder="Your Email Address" /></div>
+<div class="small-2 columns"><input type="submit" class="button postfix" /></div>
+</div>
+</form>
+</div>
+<div class="medium-5 columns">
+<h3><img alt="Vote No on Prop 48" height="131" width="349" class="media-element file-full" src="http://stopreservationshopping.com/sites/stopreservationshopping.com/files/styles/large/public/slogan.png?itok=7_-A9F9G" title="" /></h3>
+</div>
+</div>
+</div>  
+</section>      </div>
+      <div class="diptych2-middle medium-4 columns">
+            <section class="block block-share42 fill share block-share42-share42">
+
+        <h2 class="block-title">Share</h2>
+    
+      <div class="share42init" data-path="/profiles/flight/libraries/share42/" data-top1="200" data-top2="50" data-margin="-70"></div>
+  
+</section>      </div>
+    </section>
+    <!--/.diptych -->
+    
+      <!--.footer-sections -->
+  <div class="row">
+    <hr>
+    <section class="l-footer-sections">
+              <div class="footer-first medium-5 push-medium-1 small-12 columns">
+              <section class="block block-bean block-bean-address">
+
+      
+      <div class="field field-name-field-body field-type-text-long field-label-hidden field-wrapper"><p>Keep Vegas-Style Casinos Out of Neighborhoods PO Box 1744 | Sacramento, CA 95812</p>
+</div>  
+</section>        </div>
+                    <div class="footer-second medium-7 small-12 columns">
+              <section class="block block-menu block-menu-menu-footer-menu">
+
+      
+      <ul class="menu"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/issues" title="">Issues</a></li>
+<li class="leaf active-trail"><a href="/news" title="" class="active-trail active">News</a></li>
+<li class="leaf"><a href="/privacy" title="">Privacy Policy</a></li>
+<li class="last leaf"><a href="/contact-us" title="">Contact Us</a></li>
+</ul>  
+</section>        </div>
+          </div>
+  </div>
+    
+    </section>
+    <!--/.footer-sections-->
+  
+  <!--.l-footer-->
+  <footer class="l-footer row" role="contentinfo">
+          <div class="footer medium-12 columns">
+            <section class="block block-block block-block-1">
+
+      
+      <p>Paid for by Keep Vegas-Style Casinos Out of Neighborhoods, a project of Stand Up for California, with major funding by Table Mountain Rancheria and Brigade Capital Management, LLC ID# 1359207</p>
+  
+</section>      </div>
+    
+          <div class="copyright medium-12 columns">
+        &copy; 2014 No on Proposition 48 All rights reserved.      </div>
+      </footer>
+  <!--/.footer-->
+
+  </div>
+<!--/.page -->
+
+<!--/typekit -->
+
+
+<script type="text/javascript">
+    /* <![CDATA[ */ 
+    TypekitConfig = {
+        kitId: 'fik2vlf'
+    };
+    (function() {
+        var tk = document.createElement('script');
+        tk.src = '//use.typekit.com/' + TypekitConfig.kitId + '.js';
+        tk.type = 'text/javascript';
+        tk.async = 'true';
+        tk.onload = tk.onreadystatechange = function() {
+            var rs = this.readyState;
+            if (rs && rs != 'complete' && rs != 'loaded') return;
+            try { Typekit.load(TypekitConfig); } catch (e) {}
+        };
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(tk, s);
+    })(); 
+    /* ]]> */
+</script>
+<!--/.typekit -->
+  <script src="http://www.stopreservationshopping.com/sites/stopreservationshopping.com/files/advagg_js/js__VdiRGvddAx6Jl7z9qlwGUUGAqbvGP1jqu8Q72xnXf3A__JdWoH3uwWjGqK9lJs6E5w-V84QJZb3mXQHtusMs-EPY__21JhHFfEyvhZhYO6YsfOcQY01pURiOuqy0fVhpeqp-w.js"></script>
+    <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+</body>
+</html>
