@@ -98,9 +98,6 @@ def process_body(body, url):
 	# page generation stats
 	body = re.sub(br'<\!--.{1,4000}?-->', b"", body, count=1000, flags=re.DOTALL)
 
-	# Dokuwiki includes the current Unix time
-	body = re.sub(br'/lib/exe/indexer.php\?id=&amp;\d{10}', b"", body)
-
 	# Drupal generates a "theme_token":"..." inside a JSON blob
 	# CloudFlare has a petok:"-1413059798-86400"
 	body = re.sub(br'(petok|_token|applicationTime)"?:("[-_A-Za-z0-9\.]+"|[0-9\.]+)', b"", body)
