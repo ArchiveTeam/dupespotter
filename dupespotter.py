@@ -135,6 +135,9 @@ def process_body(body, url):
 	body = re.sub(br'\(\d+ Viewing\)', b"", body)
 	body = re.sub(br'Currently Active Users</a>: \d+ \(\d+ members and \d+ guests\)', b"", body)
 
+	# Spotted on http://vstreamers.com/v/images/css/p/videos
+	body = re.sub(br'[&\?]v=\d+', b"", body)
+
 	if drupal:
 		# Kill entire Drupal settings line
 		body = re.sub(br'jQuery\.extend\(Drupal.settings, ?\{.{1,20000}?\}\);', b"", body)

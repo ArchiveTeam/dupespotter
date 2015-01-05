@@ -1,0 +1,979 @@
+﻿<html>
+	<head>
+		<title>vStreamers.com - Error!</title>
+		<meta name="title" content="vStreamers.com - Error!">
+		<meta name="keywords" content="vstreamers error">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">var logged = 0; var files_path = '../';</script>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/functions.js?v=814891"></script>
+<script type="text/javascript" src="../js/jscolor/jscolor.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/font-awesome/css/font-awesome.min.css" />
+<style type="text/css">
+	#main_header {
+		font-family: Arial;
+		width: 960px;
+		background-color: white;
+		color: rgb(170,170,170);
+	}
+
+	#main_header a, #topbar_warning a { color: rgb(0,51,164); text-decoration:none; }
+	#main_header a:hover, #topbar_warning a:hover { text-decoration:underline; }
+
+	#topbar_warning_cont {
+		width: 100%;
+	}
+
+	#topbar_warning {
+		font-weight: bold;
+		width: 100%;
+		background-image: url('../images/topbar_warning.png');
+		background-size: 100% 100%;
+		color: blue;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	#topbar_warning a {
+		text-decoration: underline;
+	}
+
+	#website_logo {
+		width: 150px;
+		height: 75px;
+		background-image: url('../images/vstream_beta.png');
+		background-size: 150px 75px;
+		position: absolute;
+		margin-top: 10px;
+	}
+
+	.header_links {
+		width: 98%;
+		height: 41px;
+		text-align: right;
+		padding-top: 16px;
+	}
+
+	.header_links a {
+		text-decoration: underline;
+	}
+
+	.h_items, .h_items_c {
+		background-image: url('../images/header_items.png');
+		background-position: -125px 0px;
+		width: 122px;
+		height: 27px;
+		border: 1px solid rgb(194,208,236);
+		border-radius: 5px;
+		border-bottom: 0;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		font-size: 15px;
+		line-height: 27px;
+		font-weight: bold;
+		text-align: center;
+		color: rgb(0,51,204);
+		text-decoration: none !important;
+	}
+
+	.h_items_c, .h_items:hover {
+		background-position: 0px 0px;
+		border: 1px solid rgb(213,213,213);
+		border-bottom: 0;
+		color: black;
+	}
+
+	#search_bar_container {
+		width: 945px;
+		height: 37px;
+		background-image: url('../images/header_bar_bg.png');
+		border-radius: 8px;
+	}
+
+	#search_box {
+		margin-top: 7px;
+		width: 250px;
+		height: 22px;
+	}
+
+	#upload_button {
+		position: absolute;
+		margin-top: 6px;
+		margin-left: 863px;
+	}
+
+	#upload_button a:hover {
+		text-decoration: none;
+	}
+
+	#login_text {
+		width: 40px;
+		position: relative;
+	}
+
+	#header_login {
+		position: absolute;
+		width: 178px;
+		height: 200px;
+		background-color: rgb(225, 240, 255);
+		border: 1px solid rgb(194, 208, 236);
+		color: rgb(0,51,164);
+		right: 0;
+		margin-top: 14px;
+		text-align: center;
+		z-index: 1;
+		box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 1);
+		display: none;
+	}
+
+	#header_login input {
+		border-radius: 5px;
+	}
+
+	#add_comment {
+		display: none;
+	}
+
+
+	#comments_container { overflow:hidden; }
+	#comments_div_loading {
+		background-image: url('../images/loading.gif');
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: absolute;
+		display: none;
+		opacity: 0.5;
+	}
+
+	#user_panel {
+		position: absolute;
+		width: 128px;
+		background-color: rgb(225, 240, 255);
+		border: 1px solid rgb(194, 208, 236);
+		color: rgb(0,51,164);
+		margin-top: 14px;
+		text-align: center;
+		z-index: 1;
+		box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 1);
+		display: none;
+	}
+
+	#user_panel .upitem {
+		border-bottom: 1px solid rgb(224, 228, 255);
+		padding: 5px;
+		text-align: left;
+	}
+
+	#user_panel .upitem:hover {
+		background-color: rgb(244, 248, 255);
+	}
+
+	.cmm_approved0 { background-color: rgba(255, 255, 0, 0.2); }
+	.c_thumbnail { float:left; width:48px; height:48px; }
+	.c_top_left { float:left; }
+	.c_top_right { float:right; }
+	.c_info, .c_info_left, .c_info_full { float:left; padding-left:5px; overflow: auto; width:469px; }
+	.c_info_r, .c_info_r_left, .c_info_r_full { float:left; padding-left:5px; overflow: auto; width:409px; }
+	.c_info_left { padding-left: 0; width: 277px; }
+	.c_info_r_left { padding-left: 0; width: 267px; }
+	.c_info_full { width: 794px; }
+	.c_info_r_full { width: 734px; }
+	.thumbs_up, .thumbs_down, .trash_bin, .approve_comm { float: right; width: 18px; height: 18px; background-image: url('../images/thumbs.png'); cursor: pointer; }
+	.thumbs_up:hover { background-position: -18px 0px; }
+	.thumbs_down { background-position: 0px -18px; }
+	.thumbs_down:hover { background-position: -18px -18px; }
+	.thumbs_count { float: right; width: 40px; padding-right: 5px; text-align: right; font-weight: bold; line-height: 18px; }
+	.trash_bin { background-image: url('../images/trash_bin.png'); }
+	.trash_bin:hover { background-position: 0px -18px; }
+	.approve_comm { background-image: url('../images/approve_icon.png'); }
+	.approve_comm:hover { background-position: 0px -18px; }
+	.load_more_rep, .load_more_rep_left, .load_more_rep_full { margin-left: 60px; width: 468px; height: 20px; line-height: 20px; text-align: center; }
+	.load_more_rep_left { margin-left: 10px; width: 268px; }
+	.load_more_rep_full { width: 793px; }
+
+	.bt, .bt_pressed, .bbt, .bbt_pressed {
+		min-width: 58px;
+		padding-left: 10px;
+		padding-right: 10px;
+		height: 23px;
+		line-height: 23px;
+		font-size: 12px;
+		font-weight: bold;
+		font-family: Arial;
+		color: rgb(153, 72, 0);
+		border: 1px solid rgb(236, 193, 1);
+		border-radius: 5px;
+		background-image: url('../images/bt_transp.png');
+		background-color: rgb(254, 216, 28);
+		background-size: 1px 70px;
+		text-align: center;
+		cursor: pointer;
+
+		user-select: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+	}
+
+	.bbt, .bbt_pressed {
+		background-image: url('../images/bbt.png');
+		color: rgb(0,100,255);
+		border: 1px solid rgb(0,200,255);
+	}
+
+	.tdn a {
+		text-decoration: none;
+	}
+
+	.bt:hover, .bbt:hover {
+		background-size: 1px 69px;
+		background-position: 0px -23px;
+	}
+
+	.bt:active, .bt_pressed, .bbt:active, .bbt_pressed {
+		background-size: 1px 70px;
+		background-position: 0px -47px;
+	}
+
+	.bt_pressed, .bbt_pressed {
+		background-size: 1px 70px;
+		cursor: auto;
+		pointer-events: none;
+	}
+
+	.bt_left, .bbt_left {
+		border-top-right-radius : 0;
+		border-bottom-right-radius : 0;
+	}
+
+	.bt_middle, .bbt_middle {
+		border-radius: 0;
+	}
+
+	.bt_right, .bbt_right {
+		border-top-left-radius : 0;
+		border-bottom-left-radius : 0;
+	}
+
+	.blue_bt {
+		border-color: rgb(160,177,220);
+		background-color: rgb(189,209,239);
+		color: #0033CC;
+	}
+
+	.stars_container {
+		position: relative;
+		width:62px;
+		height:16px;
+		padding-left:2px;
+		border-radius:3px;
+		background-color: white;
+	}
+
+	.stars_absolute {
+		width:60px;
+		height:16px;
+		position:absolute;
+		background-image: url('../images/stars_small.png');
+		background-position: -120px 0px;
+	}
+
+	.stars_red, .stars_grey {
+			float:left;
+			height:16px;
+			background-image: url('../images/stars_small.png');
+	}
+
+	.stars_red {
+		background-position: 0px 0px;
+	}
+
+	.stars_grey {
+		background-position: -60px 0px;
+	}
+
+	.big_stars_container {
+		position: relative;
+		width:87px;
+		height:16px;
+		margin-top: 2px;
+		padding-left:2px;
+		border-radius:3px;
+		background-color: white;
+		float:left;
+	}
+
+	.big_stars_absolute {
+		width:85px;
+		height:16px;
+		position:absolute;
+		background-image: url('../images/stars_big.png');
+		background-position: -0px 0px;
+	}
+
+	.big_stars_red, .big_stars_grey {
+		float:left;
+		height:16px;
+		background-image: url('../images/stars_big.png');
+	}
+
+	.big_stars_red {
+		background-position: -85px 0px;
+	}
+
+	.big_stars_grey {
+		background-position: -170px 0px;
+	}
+
+	.arrow_float {float:left; width:18px; height:1px;}
+	.arrow_left, .arrow_right {
+		width: 18px;
+		height: 106px;
+		background-image: url('../images/nav_bts.png');
+		cursor: pointer;
+	}
+					
+	.arrow_left {
+		background-position: 0px 0px;
+	}
+					
+	.arrow_left:hover {
+		background-position: -18px 0px;
+	}
+					
+	.arrow_left:active {
+		background-position: -36px 0px;
+	}
+					
+	.arrow_right {
+		background-position: -54px 0px;
+	}
+					
+	.arrow_right:hover {
+		background-position: -72px 0px;
+	}
+					
+	.arrow_right:active {
+		background-position: -90px 0px;
+	}
+
+	.footer_ad {
+		width: 728px;
+		border: 1px solid rgb(204, 204, 204);
+		padding: 5px;
+		position: relative;
+	}
+
+	.add_cmm_input, .add_cmm_input_left, .add_cmm_input_full {
+		margin-left: 10px;
+		width: 0px;
+		min-width: 474px;
+		max-width: 474px;
+		height: 100px;
+		min-height: 54px;
+	}
+
+	.add_cmm_input_left {
+		margin: 0;
+		min-width: 288px;
+		max-width: 288px;
+	}
+
+	.add_cmm_input_full {
+		min-width: 799px;
+		max-width: 799px;
+	}
+
+	.add_cmm_error {
+		text-align: center;
+		color: red;
+		font-weight: bold;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.replybox_avatar {
+		width: 48px;
+	}
+
+	.replybox, .replybox_left, .replybox_full {
+		margin-left: 10px;
+		width: 0px;
+		min-width: 404px;
+		max-width: 404px;
+		min-height: 54px;
+	}
+
+	.replybox_left {
+		margin-left: 0;
+		min-width: 267px;
+		max-width: 267px;
+	}
+
+	.replybox_full {
+		min-width: 729px;
+		max-width: 729px;
+	}
+
+	.loading_absolute {
+		background-image: url('../images/loading.gif'); 
+		opacity: 0.5; 
+		position: absolute; 
+		background-repeat: no-repeat; 
+		background-position: center center;
+		z-index: 1;
+	}
+
+	*.unselectable {
+		user-select: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+	}
+
+	.myacc_frame {
+		width: 840px;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	.myacc_left_frame {
+		width: 150px;
+		display: inline-block;
+		valign: top;
+		border: 10px solid rgb(215,235,245);
+		border-right: 0;
+		border-radius: 10px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.myacc_menu {
+		background-color: rgb(225,245,255);
+		height: 50px;
+		line-height: 50px;
+		text-align: left;
+		font-family: Arial;
+		font-size: 12px;
+		font-weight: bold;
+		color: blue;
+		text-decoration: underline;
+		padding-left: 20px;
+	}
+
+	.myacc_menu_i {
+		background-color: rgb(225,245,255);
+		padding-left: 30px;
+		padding-bottom: 15px;
+		font-family: Arial;
+		font-size: 11px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	.myacc_menu:hover {
+		color: black;
+	}
+
+	.myacc_menu2 {
+		background-color: rgb(215,235,245);
+	}
+
+	.myacc_right_frame {
+		width: 550px;
+		border-radius: 10px;
+		background-color: rgb(225,245,255);
+		border-top-left-radius: 0;
+		display: inline-block;
+		border: 10px solid rgb(215,235,245);
+		padding: 20px;
+		text-align: left;
+		min-height: 425px;
+	}
+
+	.blbox {
+		background-color: rgb(225,245,255);
+		border: 1px solid rgb(200,200,200);
+		padding: 10px;
+		color: black;
+		font-size: 16px;
+		width: 378px; 
+	}
+
+	.pl_container {
+		background-image: url('../images/playlist_container.png');
+		background-repeat: no-repeat;
+		padding-left: 3px;
+		padding-top: 3px;
+		padding-right: 7px;
+		padding-bottom: 7px;
+		width: 100px;
+		height: 67px;
+		overflow: hidden;
+	}
+
+	.pl_container2 {
+		background-image: url('../images/playlist_container.png');
+		background-size: 54px 37px;
+		background-repeat: no-repeat;
+		padding-left: 1px;
+		padding-top: 1px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+		width: 50px;
+		height: 33px;
+		overflow: hidden;
+	}
+
+	.hspc5 {float:left; width:5px; height:1px;}
+	.hspc10 {float:left; width:10px; height:1px;}
+	.fl {float:left;}
+	.ft {float:right;}
+	.ft15 {float:right; width:15px; text-align:center; pointer-events:none}
+	.pd2 {padding: 2px;}
+	.pd4 {padding: 4px;}
+	.pd5 {padding: 5px;}
+	.pd7 {padding: 7px;}
+	.pd12 {padding: 12px;}
+	.pdl5 {padding-left: 5px;}
+	.pdl7 {padding-left: 7px;}
+	.pdl10 {padding-left: 10px;}
+	.pdr5 {padding-right: 5px;}
+	.pdr10 {padding-right: 10px;}
+	.pdr20 {padding-right: 20px;}
+	.pdt4 {padding-top: 4px;}
+	.pdb4 {padding-bottom: 4px;}
+	.pdt0 {padding-top: 0px;}
+	.pdt5 {padding-top: 5px;}
+	.pdt10 {padding-top: 10px;}
+	.pdb5 {padding-bottom: 5px;}
+	.bdbd { border-bottom: 1px dotted; }
+	.cb {clear:both;}
+	.spc2 {width:1px; height:2px;}
+	.spc3 {width:1px; height:3px;}
+	.spc5 {width:1px; height:5px;}
+	.spc7 {width:1px; height:7px;}
+	.spc8 {width:1px; height:8px;}
+	.spc10 {width:1px; height:10px;}
+	.spc15 {width:1px; height:15px;}
+	.spc20 {width:1px; height:20px;}
+	.spc50 {width:1px; height:50px;}
+	.smf {font-size: 11px;}
+	.red { color: red; }
+	.green { color: green; }
+	.black { color: black; }
+	.hide { display:none; }
+	.show { display:block; }
+	.ovfy { overflow-x: hidden; overflow-y: auto; }
+	.hauto { height: auto; }
+	.tal { text-align: left; }
+	.tac { text-align: center; }
+	.tar { text-align: right; }
+	.h0 { height: 0px; }
+	.h1 { height: 1px; }
+	.h10 { height: 10px; }
+	.h20 { height: 20px; }
+	.h22 { height: 22px; }
+	.h23 { height: 23px; }
+	.h25 { height: 25px; }
+	.h30 { height: 30px; }
+	.h35 { height: 35px; }
+	.h38 { height: 38px; }
+	.h45 { height: 45px; }
+	.h48 { height: 48px; }
+	.h70 { height: 70px; }
+	.h77 { height: 77px; }
+	.h85 { height: 85px; }
+	.h96 { height: 96px; }
+	.h136 { height: 136px; }
+	.h175 { height: 175px; }
+	.h200 { height: 200px; }
+	.h320 { height: 320px; }
+	.h300 { height: 288px; }
+	.h505 { height: 505px; }
+	.h510 { height: 510px; }
+	.h575 { height: 575px; }
+	.h585 { height: 585px; }
+	.h595 { height: 595px; }
+	.lh16 { line-height: 16px; }
+	.lh18 { line-height: 18px; }
+	.lh20 { line-height: 20px; }
+	.lh22 { line-height: 22px; }
+	.lh35 { line-height: 35px; }
+	.lh38 { line-height: 38px; }
+	.ov-a { overflow: auto; }
+	.ov-h { overflow: hidden; }
+	.w0 { width: 0px; overflow: hidden; padding:0px; margin:0px; }
+	.w4 { width: 4px; overflow: hidden; padding:0px; margin:0px; }
+	.w5 { width: 5px; overflow: hidden; padding:0px; margin:0px; }
+	.w8 { width: 8px; overflow: hidden; padding:0px; margin:0px; }
+	.w10 { width: 10px; }
+	.w20 { width: 20px; }
+	.w25 { width: 25px; }
+	.w41 { width: 41px; }
+	.w48 { width: 48px; }
+	.w55 { width: 55px; }
+	.w60 { width: 60px; }
+	.w75 { width: 75px; }
+	.w83 { width: 83px; }
+	.w84 { width: 84px; }
+	.w90 { width: 90px; }
+	.w95 { width: 95px; }
+	.w96 { width: 96px; }
+	.w100 { width: 100px; }
+	.w106 { width: 106px; }
+	.w110 { width: 110px; }
+	.w125 { width: 125px; }
+	.w126 { width: 126px; }
+	.w128 { width: 128px; }
+	.w136 { width: 136px; }
+	.w138 { width: 138px; }
+	.w140 { width: 140px; }
+	.w148 { width: 148px; }
+	.w150 { width: 150px; }
+	.w152 { width: 152px; }
+	.w154 { width: 154px; }
+	.w163 { width: 163px; }
+	.w167 { width: 167px; }
+	.w175 { width: 175px; }
+	.w198 { width: 198px; }
+	.w200 { width: 200px; }
+	.w208 { width: 208px; }
+	.w220 { width: 220px; }
+	.w240 { width: 240px; }
+	.w255 { width: 255px; }
+	.w275 { width: 275px; }
+	.w276 { width: 276px; }
+	.w281 { width: 281px; }
+	.w285 { width: 285px; }
+	.w286 { width: 286px; }
+	.w288 { width: 288px; }
+	.w293 { width: 293px; }
+	.w295 { width: 295px; }
+	.w298 { width: 298px; }
+	.w300 { width: 300px; }
+	.w322 { width: 322px; }
+	.w330 { width: 330px; }
+	.w340 { width: 340px; }
+	.w400 { width: 400px; }
+	.w404 { width: 404px; }
+	.w406 { width: 406px; }
+	.w410 { width: 410px; }
+	.w420 { width: 420px; }
+	.w427 { width: 427px; }
+	.w430 { width: 430px; }
+	.w432 { width: 432px; }
+	.w446 { width: 446px; }
+	.w450 { width: 450px; }
+	.w462 { width: 462px; }
+	.w470 { width: 470px; }
+	.w490 { width: 490px; }
+	.w500 { width: 500px; }
+	.w510 { width: 510px; }
+	.w540 { width: 540px; }
+	.w557 { width: 557px; }
+	.w616 { width: 616px; }
+	.w620 { width: 620px; }
+	.w640 { width: 640px; }
+	.w660 { width: 660px; }
+	.w745 { width: 745px; }
+	.w790 { width: 790px; }
+	.w810 { width: 810px; }
+	.w863 { width: 863px; }
+	.w877 { width: 877px; }
+	.w942 { width: 942px; }
+	.w938 { width: 938px; }
+	.w946 { width: 946px; }
+	.w948 { width: 948px; }
+	.w960 { width: 960px; }
+	.w100p { width: 100%; }
+	.mgtm2 { margin-top: -2px; }
+	.mgt1 { margin-top: 1px; }
+	.mgt2 { margin-top: 2px; }
+	.mgt5 { margin-top: 5px; }
+	.mgt6 { margin-top: 6px; }
+	.mgt7 { margin-top: 7px; }
+	.mgt10 { margin-top: 10px; }
+	.mgt15 { margin-top: 15px; }
+	.mgl5 { margin-left: 5px; }
+	.mgl8 { margin-left: 8px; }
+	.mgl15 { margin-left: 15px; }
+	.mgl20 { margin-left: 20px; }
+	.mgl60 { margin-left: 60px; }
+	.mgl80 { margin-left: 80px; }
+	.mgl107 { margin-left: 107px; }
+	.mgl117 { margin-left: 117px; }
+	.mgr5 { margin-right: 5px; }
+	.mgr15 { margin-right: 15px; }
+	.mgr40 { margin-right: 40px; }
+	.mnw25 { min-width: 25px; }
+	.mxw25 { max-width: 25px; }
+	.mnw200 { min-width: 200px; }
+	.mxw200 { max-width: 200px; }
+	.mnw220 { min-width: 220px; }
+	.mxw220 { max-width: 220px; }
+	.mnw275 { min-width: 275px; }
+	.mxw275 { max-width: 275px; }
+	.mnw276 { min-width: 276px !important; }
+	.mxw276 { max-width: 276px !important; }
+	.mnw330 { min-width: 330px; }
+	.mxw330 { max-width: 330px; }
+	.mnw340 { min-width: 340px; }
+	.mxw340 { max-width: 340px; }
+	.mnw360 { min-width: 360px; }
+	.mxw360 { max-width: 360px; }
+	.mnw400 { min-width: 400px; }
+	.mxw400 { max-width: 400px; }
+	.mnw538 { min-width: 538px; }
+	.mxw538 { max-width: 538px; }
+	.mnw616 { min-width: 616px; }
+	.mxw616 { max-width: 616px; }
+	.mnh100 { min-height: 100px; }
+	.mnh125 { min-height: 125px; }
+	.mnh150 { min-height: 150px; }
+	.mnh200 { min-height: 200px; }
+	.mxh320 { max-height: 320px; }
+	.dborder { border: 3px double rgb(204, 204, 204); position:relative; }
+	.viddur_marker { background-color: rgba(0,0,0,0.5); font-family: Arial; font-weight: bold; font-size: 11px; padding: 2px; position: absolute; bottom: 0; right: 0; color: white; pointer-events: none; }
+	.op5 { opacity: 0.5; }
+	.op5:hover { opacity: 1; }
+	.pa { position:absolute; }
+	.inlbl { display:inline-block; }
+	.hidden {display: none;}
+	.vat { vertical-align: top; }
+	.vab { vertical-align: bottom; }
+	.carr { width: 20px; min-width: 20px; padding:0; height: 20px; float:right; margin-top: -1px;  }
+	.videos_row, .videos_row_left {float:left; width:500px; overflow:hidden;}
+	.videos_row_left {width:234px;}
+	.videos_row_container { width: 500px; float: left; display: inline-block; }
+	.header_error, .header_success { width: 846px; padding: 5px; border: 2px solid red; font-size: 12px; color: red; font-family: Arial; font-weight: bold; margin-top: 5px;}
+	.header_success { border: 2px solid green; color: green; }
+	.bigf {	font-size: 16px; font-weight: bold; }
+	.biggerf { font-size: 24px; font-weight: bold; }
+	.normalf { font-size: 12px; }
+	.fb_link { position:absolute; margin-left: 2px; }
+	.fb_icon { width: 25px; height: 25px; background-image: url('../images/fb_icon.png'); }
+	.vt_link { position:absolute; margin-left: 27px; }
+	.vt_icon { width: 25px; height: 25px; background-image: url('../images/vTest.png'); }
+	.online_icon, .offline_icon { width: 12px; height: 12px; background-image: url('../images/online_offline.png'); display: inline-block; cursor: pointer; margin-right: 2px; }
+	.offline_icon { background-position: 0px -12px; }
+	.wwbw { word-wrap: break-word; }
+</style>		<style type="text/css">
+			body {
+				font-family: Arial;
+				font-size: 12px;
+				color: black;
+				background-color: white;
+				margin: 0;
+				padding: 0;
+			}
+
+			#error_m {
+				width: 100%;
+				font-size: 30px;
+				font-family: Verdana;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main_frame" align="center">
+			<div style="width: 960px">
+				
+
+<script type="text/javascript">
+if (localStorage.getItem("isBanned") == 1 || 0 == 1) {
+	if (0 != 1 && '1.2.3.4' != '177.105.177.215') {
+		localStorage.setItem("isBanned",1);
+	}
+}
+</script>
+
+<div id="topbar_warning_cont">
+	<div id="topbar_warning" align="center">
+		<div>Website will be shutting down day January 15th. <a href="https://www.facebook.com/vStreamersDotCom/posts/1522151608049044">Click here for more info</a>.</div>
+			</div>
+</div>
+
+<div id="main_header" align="center">
+	<a href="../index"><div id="website_logo"></div></a>
+	<div class="header_links">
+		<div class="ft" id="login_text">
+	<div id="header_login">
+		<div id="login_terminal">
+			<br>Username:<br>
+			<input type="text" name="login_username" class="w150" id="login_username"><br>
+			<br>Password:<br>
+			<input type="password" name="login_password" class="w150" id="login_password"><br>
+			<input type="checkbox" name="login_remember" id="login_remember" value="yes" checked=""> Remember me?<br><br>
+			<center>
+				<div class="bt w48" id="login_button">Log in!</div>
+				<a id="forgotmypass_bt" href="javascript:void()"><b>Forgot your password?</b></a>
+			</center>
+		</div>
+
+		<div id="forgotpass_terminal" class="hidden">
+			<br>Please, type the e-mail you<br>have used when signing up<br>on vStreamers.com:<br><br>
+			<input type="text" class="w150" name="forgotpass_email" id="forgotpass_email"><br><br>
+			<center>
+				<div class="bt w48" id="forgotpass_button">Restore!</div><br>
+				<a href="javascript:void()" id="forgotpass_cancel"><b>Nevermind, I remember now!</b></a>
+			</center>
+		</div>
+	</div>
+		
+	<center><b><a href="javascript:void()">Log in</a></b></a></center>
+</div>
+<div class="ft15 hidden">|</div>
+<div class="ft hidden"><b><a href="">Help</a></b></a></div>
+<div class="ft15">|</div>
+<div class="ft"><b><a href="../p/sign_up">Sign up</a></b></a></div>
+<div class="cb"></div>
+<div class="red"><b class="loginErrorDiv"></b></div>
+
+<script type="text/javascript">
+	var isOverLogin = 0;
+	$('#login_text').mouseover(function() {
+		$('#header_login').show();
+	});
+
+	$(document).mousemove(function(e) {
+		var mousey = e.pageY;
+		var mousex = e.pageX;
+		var obj = $('#header_login');
+		if (obj.css('display') == 'block' && mousey <= (obj.offset().top + obj.outerHeight()) && mousex >= obj.offset().left && mousex <= (obj.offset().left + obj.outerWidth())) {
+			isOverLogin = 1;
+		} else {
+			if (isOverLogin == 1) {
+				isOverLogin = 0;
+				$('#header_login').hide();
+			}
+		}
+	});
+
+	function submitLogin(t) {
+		if (t == undefined) { t = 'login'; }
+		
+		if (t == 'login') {
+			var uName = encodeURIComponent($('#login_username').val());
+			var uPass = encodeURIComponent($('#login_password').val());
+			var uRemember = 0;
+			if ($('#login_remember').is(':checked')) { uRemember = 1; }
+			var addParams = '&l_user='+uName+'&l_pass='+uPass+'&l_remember='+uRemember;
+			var oldObj = $('#login_button');
+		}
+		
+		if (t == 'forgotpass') {
+			var addParams = '&l_email=' + encodeURIComponent($('#forgotpass_email').val());
+			var oldObj = $('#forgotpass_button');
+		}
+		
+		var oldObjTxt = oldObj.html();
+		oldObj.addClass('bt_pressed').html('<img src="../images/loading.gif" height="23"></img>');
+		
+		$.ajax({
+			url: '../js/login_form.php',
+			type: 'post',
+			dataType: 'json',
+			data: 'action=' + t + addParams,
+			success: function(r) {
+				if (r[0] == 0) {
+					$('.loginErrorDiv').html(r[1]);
+				}
+				
+				if (r[0] == 1) {
+					location.reload();
+				}
+				
+				isOverLogin = 0;
+				$('#header_login').hide();
+				oldObj.removeClass('bt_pressed').html(oldObjTxt);
+			}
+		});
+	}
+	
+	$('#login_username').keypress(function(e) { if (e.keyCode == 13) { submitLogin(); } });
+	$('#login_password').keypress(function(e) { if (e.keyCode == 13) { submitLogin(); } });
+	$('#login_button').click(function() { submitLogin(); });
+	$('#forgotmypass_bt').click(function() { $('#forgotpass_terminal').removeClass('hidden'); $('#login_terminal').addClass('hidden'); });
+	$('#forgotpass_email').keypress(function(e) { if (e.keyCode == 13) { submitLogin('forgotpass'); } });
+	$('#forgotpass_button').click(function() { submitLogin('forgotpass'); });
+	$('#forgotpass_cancel').click(function() { $('#forgotpass_terminal').addClass('hidden'); $('#login_terminal').removeClass('hidden'); });
+	
+	$('.loginErrorDiv').on('click', '#resend_act_email a', function() {
+		var oldObj = $(this).parent();
+		oldObj.html('<img src="../images/loading.gif" height="12">');
+
+		$.ajax({
+			url: '../js/resend_email.php',
+			type: 'post',
+			data: 'u_id=' + $('#resend_act_email').attr('data-resend-uid') + '&u_pass=' + $('#resend_act_email').attr('data-resend-pass'),
+			success: function(r) {
+				oldObj.html(r);
+			}
+		});
+	});
+</script>	</div>
+
+	<div align="center">
+		<div class="inlbl vat">
+			<a href="../index"><div class="h_items">Home</div></a>
+		</div><div class="inlbl vat pdl5">
+			<a href="../p/videos"><div class="h_items">Videos</div></a>
+		</div><div class="inlbl vat pdl5">
+			<a href="../p/channels"><div class="h_items">Channels</div></a>
+		</div><div class="inlbl vat pdl5">
+			<a href="../p/groups_main"><div class="h_items">Groups</div></a>
+		</div><div class="inlbl vat pdl5">
+			<a href="../p/premium"><div class="h_items">Premium</div></a>
+		</div><div class="inlbl vat">
+			<div class="fb_link"><a href="https://www.facebook.com/vStreamersDotCom" title="Facebook Page"><div class="fb_icon"></div></a></div>
+		</div><div class="inlbl vat">
+			<div class="vt_link"><a href="../p/streams_main" title="vBeta"><div class="vt_icon"></div></a></div>
+		</div>
+	</div>
+
+	<div id="upload_button">
+		<a href="../p/upload"><div class="bt">Upload</div></a>
+	</div>
+
+	<div id="search_bar_container">
+		<input type="text" id="search_box">
+		<input type="button" id="search_submit" value="Search!">
+		<script type="text/javascript">
+			$('#search_submit').click(function() {
+				location.href='../s/' + encodeURIComponent($('#search_box').val());
+			});
+
+			$('#search_box').keypress(function(e) {
+				if (e.which == 13) {
+					location.href='../s/' + encodeURIComponent($('#search_box').val());
+				}
+			});
+		</script>
+	</div>
+</div>				<img src="../images/error.png">
+				<div id="error_m">
+					Video not found!				</div>
+				<div class="hidden">
+	<div class="spc50"></div>
+	
+	<a href="https://www.facebook.com/vStreamersDotCom">Facebook Page</a> | <a href="">About Us</a> | <a href="">F.A.Q.</a> | <a href="">Terms of Use</a> | <a href="">Privacy Policy</a>
+		
+	<div class="spc5"></div>
+	
+	<div class="footer_ad">
+	</div>
+</div>
+
+<div class="spc20"></div>			</div>
+		</div>
+	</body>
+</html>
+
