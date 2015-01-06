@@ -5,10 +5,10 @@ import os
 import re
 import json
 import difflib
+import subprocess
 
 from hashlib import md5
 from urllib.parse import urlsplit, quote, quote_plus, unquote
-from urllib.request import urlopen, HTTPError
 
 cache_dir = "cache"
 
@@ -21,27 +21,19 @@ def get_cache_filename(url):
 	return os.path.join(cache_dir, md5_url(url))
 
 
+UA = "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36"
+
 def get_body(url):
 	fname = get_cache_filename(url)
 	if os.path.exists(fname):
 		with open(fname, "rb") as f:
 			return f.read()
 	else:
-		try:
-			with urlopen(url) as o:
-				body = o.read()
-				with open(fname, "wb") as f:
-					f.write(body)
-				with open(fname + ".info.json", "w") as f:
-					f.write(json.dumps({"url": url}))
-				return body
-		except HTTPError as e:
-			body = e.fp.read()
-			with open(fname, "wb") as f:
-				f.write(body)
-			with open(fname + ".info.json", "w") as f:
-				f.write(json.dumps({"url": url}))
-			return body
+		subprocess.check_output(["wget", "-U", UA, url, "-O", fname])
+		with open(fname + ".info.json", "w") as f:
+			f.write(json.dumps({"url": url}))
+		with open(fname, "rb") as f:
+			return f.read()
 
 
 def lower_escapes(url):
