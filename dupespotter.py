@@ -109,6 +109,9 @@ def process_body(body, url):
 	# Drupal puts the current URL here, and the casing doesn't always match
 	body = re.sub(br'<(link rel="(canonical|shortlink|alternate)".{1,1000}?href=|meta property="og:url" content=)"[^"]+" />', b"", body)
 
+	# Spotted on eff.org drupal
+	body = re.sub(br'<link href="[^"]+" rel="alternate" hreflang="[^"]+" />', b"", body)
+
 	# Spotted on http://2045.com/
 	body = re.sub(br'<input type="hidden" name="file_uploadToken" value="\d+"', b"", body)
 
