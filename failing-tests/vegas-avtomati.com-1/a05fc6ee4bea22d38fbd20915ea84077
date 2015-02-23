@@ -1,0 +1,611 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.vegas-avtomati.com/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="vegas-avtomati.com" />
+<link rel="canonical" href="https://www.vegas-avtomati.com/games/sites/all/modules/gfgames/misc/sites/all/themes/casino2/js/sites/all/modules/gfgames/gfgames.js" />
+<link rel="shortlink" href="https://www.vegas-avtomati.com/games/sites/all/modules/gfgames/misc/sites/all/themes/casino2/js/sites/all/modules/gfgames/gfgames.js" />
+<link rel="publisher" href="https://plus.google.com/u/0/103033491245878946108" />
+<link rel="author" href="https://plus.google.com/u/0/103033491245878946108" />
+<title></title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+ 	
+   
+    <style type="text/css" media="all">@import url("https://www.vegas-avtomati.com/modules/system/system.base.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/modules/system/system.menus.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/modules/system/system.messages.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/modules/system/system.theme.css?njyzy4");</style>
+<style type="text/css" media="all">@import url("https://www.vegas-avtomati.com/modules/comment/comment.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/modules/field/theme/field.css?njyzy4");</style>
+<style type="text/css" media="all">@import url("https://www.vegas-avtomati.com/modules/node/node.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/modules/search/search.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/modules/user/user.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/modules/views/css/views.css?njyzy4");</style>
+<style type="text/css" media="all">@import url("https://www.vegas-avtomati.com/sites/all/modules/ctools/css/ctools.css?njyzy4");</style>
+<style type="text/css" media="all">@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/coin-slider-styles.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/reflection-jquery.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/nk_ZoomMenu.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/cusel.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/jScrollPane.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/jquery.fancybox-1.3.4.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/slidejs.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/style.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/style2.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/uniform.default.css?njyzy4");
+@import url("https://www.vegas-avtomati.com/sites/all/themes/casino2/css/dot-luv/jquery-ui-1.10.4.custom.css?njyzy4");</style>
+    <script type="text/javascript" src="https://www.vegas-avtomati.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/misc/drupal.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/modules/gfgames/gfgames.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/modules/google_analytics/googleanalytics.js?njyzy4"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-2724089-23", "auto");ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jquery-1.7.1.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/coin-slider.min.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/coin-slider-drupal.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/reflection.min.autoload.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/reflection.min.off.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/nk_ZoomMenu.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jquery-1.10.2.min.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jquery-migrate-1.1.1.min.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jquery.placeholder.min.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jquery.uniform.min.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/slides.min.jquery.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jquery-ui-1.10.4.custom.min.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/cusel-min-2.4.1.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/jScrollPane.js?njyzy4"></script>
+<script type="text/javascript" src="https://www.vegas-avtomati.com/sites/all/themes/casino2/js/main.js?njyzy4"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"casino2","theme_token":"IPIOLTQ3B31JVHiUrh5cdubX4lqIpc7_cV5B_utmDek","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/gfgames\/gfgames.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/casino2\/js\/jquery-1.7.1.js":1,"sites\/all\/themes\/casino2\/js\/coin-slider.min.js":1,"sites\/all\/themes\/casino2\/js\/coin-slider-drupal.js":1,"sites\/all\/themes\/casino2\/js\/reflection.min.autoload.js":1,"sites\/all\/themes\/casino2\/js\/reflection.min.off.js":1,"sites\/all\/themes\/casino2\/js\/nk_ZoomMenu.js":1,"sites\/all\/themes\/casino2\/js\/jquery-1.10.2.min.js":1,"sites\/all\/themes\/casino2\/js\/jquery-migrate-1.1.1.min.js":1,"sites\/all\/themes\/casino2\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/casino2\/js\/jquery.uniform.min.js":1,"sites\/all\/themes\/casino2\/js\/slides.min.jquery.js":1,"sites\/all\/themes\/casino2\/js\/jquery-ui-1.10.4.custom.min.js":1,"sites\/all\/themes\/casino2\/js\/cusel-min-2.4.1.js":1,"sites\/all\/themes\/casino2\/js\/jScrollPane.js":1,"sites\/all\/themes\/casino2\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/find_content\/find_content.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/casino2\/css\/coin-slider-styles.css":1,"sites\/all\/themes\/casino2\/css\/reflection-jquery.css":1,"sites\/all\/themes\/casino2\/css\/nk_ZoomMenu.css":1,"sites\/all\/themes\/casino2\/css\/cusel.css":1,"sites\/all\/themes\/casino2\/css\/jScrollPane.css":1,"sites\/all\/themes\/casino2\/css\/jquery.fancybox-1.3.4.css":1,"sites\/all\/themes\/casino2\/css\/slidejs.css":1,"sites\/all\/themes\/casino2\/css\/style.css":1,"sites\/all\/themes\/casino2\/css\/style2.css":1,"sites\/all\/themes\/casino2\/css\/uniform.default.css":1,"sites\/all\/themes\/casino2\/css\/dot-luv\/jquery-ui-1.10.4.custom.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+
+
+
+
+</head>
+<body>
+	    <div id="wrapper">
+
+        <!-- ********** HEADER ********** -->
+    
+        <header id="header" style='height: 368px;'>
+            <nav class="h-nav">
+
+	<menu class="h-menu">
+    <ul>
+	<li><a href="/games">Все игры</a></li>
+	<li>
+					<a href="/about">О казино</a>
+					
+
+					<ul>
+						<li><a href="/about">Информация о казино</a></li>
+						<li><a href="/nadezhnost">Надежность</a></li>
+						<li><a href="/otvetstvennaya-igra">Ответственная игра</a></li>
+						<li><a href="/blagotvoritelnost">Благотворительность</a></li>
+						<li><a href="/pravila">Правила и условия</a></li>
+						<li><a href="/novosti">Новости</a></li>						
+					</ul>
+				</li>
+	<li><a href="/bonus">Бонусы</a></li>
+	<li>
+					<a href="/kontakti">Помощь</a>
+					
+					<ul>
+						<li><a href="/kakuyu-igru-vybrat-segodnya">Какую игру выбрать сегодня</a></li>
+						<li><a href="/voprosi">Часто задаваемые вопросы</a></li>
+						<li><a href="/kontakti">Контакты</a></li>
+					</ul>
+				</li>
+	<li>
+					<a href="/bank">Банк</a>
+					
+					<ul>
+						<li><a href="/bank">Как сделать платеж в казино</a></li>
+						<li><a href="/getmoney">Получить выигрыш</a></li>
+					</ul>
+				</li>
+
+
+    </ul>
+</menu><!-- end h-menu -->
+
+
+                <div class="h-search">
+		    <form method='post' action='/search/gfsearch'>
+                    	<input type="text" name='keys' placeholder="поиск..." />
+	                 <input type="submit" value="" />
+		    </form>
+                </div><!-- end h-search -->
+            </nav><!-- end h-nav -->
+            
+           
+                           <script>
+	
+	var show_winner = 0;
+	var win_max_index = 9;
+	var winners = [
+				{
+				name:       "Igor`",
+				scores:     "359640 р",
+				city:       "Lugansk ",
+				date:       "2015/02/22",
+				game_alias: "Loaded",
+				game_name:  "Loaded ",
+				game_addr:  "/games/odnorukie-bandity/Loaded"
+			},
+				{
+				name:       "Svetlana",
+				scores:     "260820 р",
+				city:       "Orenburg ",
+				date:       "2015/02/20",
+				game_alias: "ParadiseFound",
+				game_name:  "Paradise Found ",
+				game_addr:  "/games/odnorukie-bandity/ParadiseFound"
+			},
+				{
+				name:       "Anonymous",
+				scores:     "237100 р",
+				city:       "Anonymous ",
+				date:       "2015/02/22",
+				game_alias: "",
+				game_name:  "Bust The Bank ",
+				game_addr:  "javascript:void(0);"
+			},
+				{
+				name:       "Aleksej",
+				scores:     "180030 р",
+				city:       "Revda ",
+				date:       "2015/02/23",
+				game_alias: "WildCatch",
+				game_name:  "Wild Catch ",
+				game_addr:  "/games/odnorukie-bandity/WildCatch"
+			},
+				{
+				name:       "Igor`",
+				scores:     "170200 р",
+				city:       "Lugansk ",
+				date:       "2015/02/21",
+				game_alias: "RubyBurningDesire",
+				game_name:  "Burning Desire ",
+				game_addr:  "/games/slots/RubyBurningDesire"
+			},
+				{
+				name:       "Mixail",
+				scores:     "1787  фун.",
+				city:       "Sankt-peterburg ",
+				date:       "2015/02/21",
+				game_alias: "TallyHo",
+				game_name:  "Tally Ho ",
+				game_addr:  "/games/igrovye-apparaty/TallyHo"
+			},
+				{
+				name:       "Il`ya",
+				scores:     "1697  фун.",
+				city:       "Spb ",
+				date:       "2015/02/23",
+				game_alias: "LadiesNite",
+				game_name:  "Ladies Nite ",
+				game_addr:  "/games/odnorukie-bandity/LadiesNite"
+			},
+				{
+				name:       "Nikita",
+				scores:     "2080  Eur",
+				city:       "Sankt peterburg ",
+				date:       "2015/02/21",
+				game_alias: "CricketStar",
+				game_name:  "Cricket Star ",
+				game_addr:  "/games/simuliatori/CricketStar"
+			},
+				{
+				name:       "Anonymous",
+				scores:     "141658 р",
+				city:       "dzherdzhinsk ",
+				date:       "2015/02/20",
+				game_alias: "RubyBurningDesire",
+				game_name:  "Burning Desire ",
+				game_addr:  "/games/slots/RubyBurningDesire"
+			},
+				{
+				name:       "Vitalij",
+				scores:     "139960 р",
+				city:       "Novy`j urengoj ",
+				date:       "2015/02/18",
+				game_alias: "CoolWolf",
+				game_name:  "Cool Wolf ",
+				game_addr:  "/games/igrovye-apparaty/CoolWolf"
+			},
+			      ];
+
+	var show_jackpot = 0;
+	var jackpot_max_index = 14;
+	var jackpot = [
+				{
+				game_name:  "The Dark Knight (Mega)                  ",
+				value:      "5164090 p"
+			},
+				{
+				game_name:  "Mega Moolah (Mega)                      ",
+				value:      "5164090 p"
+			},
+				{
+				game_name:  "MM Isis (Mega)                          ",
+				value:      "5164090 p"
+			},
+				{
+				game_name:  "King Cashalot                           ",
+				value:      "606287.9 p"
+			},
+				{
+				game_name:  "Major Millions                          ",
+				value:      "253696.4 p"
+			},
+				{
+				game_name:  "Major Millions 5 Reel                   ",
+				value:      "253696.4 p"
+			},
+				{
+				game_name:  "Cyberstud                               ",
+				value:      "120717.4 p"
+			},
+				{
+				game_name:  "Treasure Nile                           ",
+				value:      "48231.78 p"
+			},
+				{
+				game_name:  "Tunzamunni                              ",
+				value:      "37807.5 p"
+			},
+				{
+				game_name:  "Jackpot Deuces                          ",
+				value:      "37170.38 p"
+			},
+				{
+				game_name:  "The Dark Knight (Major)                 ",
+				value:      "33700.25 p"
+			},
+				{
+				game_name:  "Mega Moolah (Major)                     ",
+				value:      "33700.25 p"
+			},
+				{
+				game_name:  "MM Isis (Major)                         ",
+				value:      "33700.25 p"
+			},
+				{
+				game_name:  "Lots a Loot                             ",
+				value:      "22081.79 p"
+			},
+				{
+				game_name:  "Lots a Loot 5 Reel                      ",
+				value:      "22081.79 p"
+			},
+			      ];
+
+</script>
+
+<div class="h-winners" id='winners-block'>
+	<p class="p-title">Наши победители</p>
+
+	<p class="p-name">
+		<a href="/games/odnorukie-bandity/Loaded" id="gf-winner-game">
+			Loaded 		</a>
+	</p>
+	
+	<p class="p-sum"  id='gf-winner-sum'>359640 р</p>
+	<p class="p-nick" id='gf-winner-name'>Igor`</p>
+	<p class="p-nick" id='gf-winner-city'>Lugansk </p>
+</div>                 
+
+<div class="h-winners" id='jackpot-block' style='display: none;'>
+	<p class="p-title">Наши джекпоты</p>
+
+	<p class="p-name">
+		<a href="javascript:void(0);" id="gf-jackpot-game">
+			The Dark Knight (Mega)                  		</a>
+	</p>
+	
+	<p class="p-sum"  id='gf-jackpot-sum'>5164090 p р</p>
+</div>                 
+                                        <div id="block-user-login" class="block block-user h-login">
+
+    <p class="p-title">Вход в казино</p>
+  
+  <div class="content">
+    <form action="/games/sites/all/modules/gfgames/misc/sites/all/themes/casino2/js/sites/all/modules/google_analytics/googleanalytics.js?destination=games/sites/all/modules/gfgames/misc/sites/all/themes/casino2/js/sites/all/modules/google_analytics/googleanalytics.js" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label class="element-invisible" for="edit-name">E-mail или логин <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="E-mail или логин" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<input type="hidden" name="form_build_id" value="form-33hOH5a2pfSWNFAuLYr7NUV8Pf2C9Onqid6GG_e0nIo" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-item form-type-password form-item-pass">
+  <label class="element-invisible" for="edit-pass">Пароль <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Пароль" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Войти" class="form-submit" /></div><div class="item-list"><ul><li class="first"><a href="/user/password" title="">Забыли пароль?</a></li>
+<li class="last"><a href="/user/register" title="">Регистрация</a></li>
+</ul></div></div></form>  </div>
+</div>
+                                   
+            
+            <!-- nk_ZoomMenu -->
+<div class="nk_ZoomMenuContainer">
+
+    <div id="nk_ZoomMenuPositionVirtualContainer">
+        <!-- --> 
+        <div class="nk_ZoomMenuImageItem">
+            <a href="/games/slots" title="" >
+            	<img src="/img/nk_ZoomMenu/001.png" width="96" height="96">
+            </a>
+        </div>
+        <div class="nk_ZoomMenuImageItem">
+            <a href="/games/roulette" title="">
+            	<img src="/img/nk_ZoomMenu/002.png" width="96" height="96">
+            </a>
+        </div>
+        <div class="nk_ZoomMenuImageItem">
+            <a href="/games/kartochnye-igry" title="">
+            	<img src="/img/nk_ZoomMenu/003.png" width="96" height="96">
+            </a>
+        </div>
+        <div class="nk_ZoomMenuImageItem">
+            <a href="/games/jackpot" title="">
+            	<img src="/img/nk_ZoomMenu/004.png" width="96" height="96">
+            </a>
+         </div>       
+         <div class="nk_ZoomMenuImageItem">
+            <a href="/games/lotereya" title="">
+            	<img src="/img/nk_ZoomMenu/005.png" width="96" height="96">
+            </a>
+        </div>
+	<div class="nk_ZoomMenuImageItem">
+            <a href="/kakuyu-igru-vybrat-segodnya" title="">
+            	<img src="/img/nk_ZoomMenu/006.png" width="96" height="96">
+            </a>
+        </div>                
+        <div class="nk_ZoomMenuImageItem">
+            <!-- <a href="/games/novye-igry" title=""> -->
+	    <a href="/games/novinki" title="">          	 
+ 		<img src="/img/nk_ZoomMenu/007.png" width="96" height="96">
+            </a>
+        </div>     
+   
+    </div>  
+</div>
+ <!-- END nk_ZoomMenu --> 
+                       
+			<!-- h-slider -->
+			<div class="h-slider" style="background: none; border:0px solid red;">               
+                <!-- h-logo -->
+                <div class="h-logo">
+        <img src="/img/logo_h.png" alt="" usemap ="#vegasmap" />
+		<map id ="vegasmap" name="vegasmap">
+			<!-- x1,y1,x2,y2 -->
+  			<area shape ="rect" coords ="10,40,200,90" href ="/" alt="" />
+		</map>
+</div>   
+                <!-- end h-logo -->              
+            </div>
+			<!-- end h-slider -->
+            
+                   
+
+            <a class="btn-game" href="/user/register" title="Сыграть на деньги">
+            </a>
+            
+      
+            
+            <a class="btn-download" href="/zachem-skachivat-kazino">
+            </a>
+            
+        </header>
+        <!-- end header -->
+
+        <!-- ********** MAIN ********** -->
+
+        <div id="main">
+            <div class=""></div>
+
+            <div class="wrapper-white">
+                <div class="inner-wrapper">
+<h1 class="blue-title"><span></span></h1>
+<div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Главная страница</a> » <a href="/games">Все игры</a> » <a href="/games/sites"></a></div></div>
+
+		    <script>
+
+	$(document).ready(function(){
+		$( "#game_form" ).submit();
+	});
+
+</script>
+
+<div class="game-b">
+	<div class="game-container">
+		<div id="game-full-screen"></div>
+		<form method="post" action="https://mycasino.gameassists.co.uk/aurora/?theme=mycasino" target="game_frame" id="game_form">
+				<input type="hidden" name="gameID" value="">
+				<input type="hidden" name="sEXT1" value="demo">
+				<input type="hidden" name="sEXT2" value="demo">
+				<input type="hidden" name="usertype" value="1">
+			      </form>	
+		<iframe name="game_frame" src="" style="border: none; width: 100%; height: 540px;"></iframe> 
+
+	</div><!-- end game-container -->
+	
+	
+	
+	<div class="game-info">
+	    <div class="img-b">
+		<a href="#"><img src="" alt="" /></a>
+	    </div>
+	    
+	    
+	    <div class="text-b">
+		<div class="text-content">
+					</div><!-- end text-content -->
+		
+		
+		<div class="game-stat">
+		    <p class="p-title">Статистика по игре</p>
+		    
+		    <table>
+			<tr>
+			    <td>Максимальная выплата, руб.</td>
+			    <td></td>
+			    <td>
+				<span class="stat-stars">
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    				</span>
+			    </td>
+			</tr>
+			
+
+			<tr>
+			    <td>Средняя ставка, руб.</td>
+			    <td></td>
+			    <td>
+				<span class="stat-stars">
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    				</span>
+			    </td>
+			</tr>
+			
+			
+			<tr>
+			    <td>Популярность игры, игроков/месяц</td>
+			    <td></td>
+			    <td>
+				<span class="stat-stars">
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    				</span>
+			    </td>
+			</tr>
+
+
+	                <tr>
+			    <td>Кол-во дней с момента самого крупного выигрыша</td>
+			    <td></td>
+			    <td>
+				<span class="stat-stars">
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    					<span class="star-b  "></span>
+				    				</span>
+			    </td>
+			</tr>
+		    </table> <br><br>
+		</div><!-- end game-stat -->
+	    </div><!-- end text-b -->
+	</div><!-- end game-info -->
+	
+	
+
+    </div><!-- end game-b -->
+</div><!-- end inner-wrapper -->
+</div><!-- end wrapper-white -->
+                    
+                </div>
+            </div>
+        </div>
+
+    </div><!-- end wrapper -->
+
+
+    <!-- ********** FOOTER ********** -->
+
+        <footer id="footer">
+        <div class="inner-wrapper">
+            <div class="pay-menu">
+                <ul>
+                    <li><a href="/user/register">VISA</a></li>
+                    <li><a href="/user/register">MasterCard</a></li>
+                    <li><a href="/user/register">WebMoney</a></li>
+                    <li><a href="/user/register">Moneta</a></li>
+                    <!-- <li><a href="/user/register">DinersClub</a></li> -->
+                    <li><a href="/user/register">QIWI</a></li>
+                </ul>
+            </div><!-- end pay-menu -->
+            
+            
+            <div class="pay-another">
+                <ul>
+
+                    <li><a href="/user/register">Neteller</a></li>
+                    <li><a href="/user/register">Click2Pay</a></li>
+                    <li><a href="/user/register">UseMyWallet</a></li>
+                    <li><a href="/user/register">EcoCard</a></li>
+                    <li><a href="/user/register">ClickAndBuy</a></li>
+                    <li><a href="/user/register">Другие платежные системы</a></li>
+                                   
+
+                </ul>
+                <ul>
+                    <li><a href="/">Главная Страница</a></li>
+                    <li><a href="/games/igry-na-dengi">Игры на деньги</a></li>
+                    <li><a href="/games/jackpot">Джекпот</a></li>
+                    <li><a href="/games/novinki">Новые автоматы</a></li>
+                    <li><a href="/games/odnorukie-bandity">Однорукие бандиты</a></li>
+                    <li><a href="/games/igrovye-apparaty">Игровые Аппараты</a></li>
+                    <li><a href="/games/simuliatori">Эмуляторы игровых автоматов</a></li>
+                    <li><a href="/games/skachat">Скачать азартные игры</a></li>
+                    <li><a href="/games/slots">Слоты</a></li>
+                    <li><a href="/obzor">Обзоры казино</a></li>
+                    <li><a href="/game-reviews">Обзоры игр</a></li>
+                </ul>
+
+            </div><!-- end pay-another -->
+            
+            
+            
+            
+            
+            <div class="charity-b">
+			<!--
+                <a href="http://www.goldfishka.org/" target="_blank"><img src="/img/img_banner1.jpg" alt="" /></a>
+				-->
+            </div><!-- end charity-b -->
+            
+            
+            
+            
+            <div class="company-list">
+           
+                <a href="https://certificates.gamingcommission.ca/KGCCertificates.aspx?id=fd505892-5032-4448-b830-8b4e7eee0fe2" target="_blank"><img src="/img/img_banner2.jpg" alt="" /></a> 
+            <!--    <a href="http://www.ecogra.org/certificates/certificate.aspx?cid=135&l=RUS" target="_blank"><img src="/img/img_banner3.jpg" alt="" /></a>
+           -->
+                <a href="http://www.microgaming.com/" target="_blank"><img src="/img/img_banner4.jpg" alt="" /></a>
+                <a href="/otvetstvennaya-igra"><img src="/img/img_banner5.jpg" alt="" /></a>
+		<a href="http://www.copyscape.com/plagiarism-tool/"><IMG SRC="http://banners.copyscape.com/images/cs-bk-3d-88x31.gif" ALT="Protected by Copyscape Web Plagiarism Tool" TITLE="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." WIDTH="88" HEIGHT="31" BORDER="0"/></a>
+            </div><!-- end company-list -->
+        </div><!-- end inner-wrapper -->
+    </footer>
+    <!-- end footer -->
+
+
+
+</body>
+</html>
