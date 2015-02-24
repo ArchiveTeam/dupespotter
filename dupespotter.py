@@ -29,7 +29,7 @@ def get_body(url):
 		with open(fname, "rb") as f:
 			return f.read()
 	else:
-		subprocess.check_output(["wget", "-U", UA, url, "-O", fname])
+		subprocess.call(["wget", "--content-on-error", "-U", UA, url, "-O", fname])
 		with open(fname + ".info.json", "w") as f:
 			f.write(json.dumps({"url": url}))
 		with open(fname, "rb") as f:
