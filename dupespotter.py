@@ -145,6 +145,9 @@ def process_body(body, url):
 		# nsslabs.com has this
 		body = re.sub(br'<div class="breadcrumb">.{1,4000}?    </div>', b"", body)
 
+		# sbs.com.au has generated /css_ filenames
+		body = re.sub(br'/css_[-_A-Za-z0-9]{10,100}\.css', b"", body)
+
 	# Drupal generates <body class="..."> items based on the URL
 	# Generated class="" also spotted on non-Drupal www.minutouno.com
 	body = re.sub(br'<(body|div) class="[^"]+"( data-src="[^"]{1,2000}")?', b"", body)
