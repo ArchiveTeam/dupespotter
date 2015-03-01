@@ -112,11 +112,10 @@ def process_body(body, url):
 	# Spotted on eff.org drupal
 	body = re.sub(br'<link href="[^"]+" rel="alternate" hreflang="[^"]+" />', b"", body)
 
-	# Spotted on http://2045.com/
-	body = re.sub(br'<input type="hidden" name="file_uploadToken" value="\d+"', b"", body)
-
 	# Spotted on http://www.museodelvideojuego.com/ - handles
 	# <input type="hidden" name="form_build_id" value="form-ddmhsyCMnpZsHKCQN-l6R1j9EwMT3lHKDI4xXcyFcBA" />
+	# Spotted on http://2045.com/
+	# <input type="hidden" name="file_uploadToken" value="\d+"
 	body = re.sub(br'<input type="hidden"[^>]{1,1000}?>', b"", body)
 
 	# Spotted on http://www.communauteanimalcrossing.fr/
