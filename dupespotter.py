@@ -81,6 +81,13 @@ def process_body(body, url):
 		path = path[1:]
 	if len(path) >= 5:
 		body = kill_path(path, body)
+
+	# Drupal websites sometimes embed the current URL excluding the
+	# first and/or second path component
+	shorter_path = '/'.join(path.split('/')[2:])
+	if len(shorter_path) >= 50:
+		body = kill_path(shorter_path, body)
+
 	if len(u.query) >= 3:
 		encoded_query = u.query.encode("utf-8")
 		body = body.replace(('?' + u.query).encode("utf-8"), b"")

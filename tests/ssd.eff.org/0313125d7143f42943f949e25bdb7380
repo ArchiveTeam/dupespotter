@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://ssd.eff.org/sites/all/themes/ssd/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://ssd.eff.org/es/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" rel="alternate" hreflang="es" />
+<link href="https://ssd.eff.org/ar/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" rel="alternate" hreflang="ar" />
+<link href="https://ssd.eff.org/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" rel="alternate" hreflang="en" />
+<meta name="description" content="Tips, Tools and How-tos for Safer Online Communications" />
+<meta name="generator" content="SSD 2.0" />
+<meta name="rights" content="https://www.eff.org/copyright" />
+<link rel="canonical" href="https://ssd.eff.org/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" />
+<link rel="shortlink" href="https://ssd.eff.org/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" />
+<link rel="publisher" href="https://www.eff.org/" />
+<link rel="author" href="https://www.eff.org/" />
+<meta property="og:site_name" content="Surveillance Self-Defense" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ssd.eff.org/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" />
+<meta property="og:title" content="Playlists" />
+<meta property="og:image" content="https://ssd.eff.org/sites/all/themes/ssd/logo.png" />
+<meta property="og:image:secure_url" content="https://ssd.eff.org/sites/all/themes/ssd/logo.png" />
+<meta property="og:image:width" content="750" />
+<meta property="og:image:height" content="316" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@eff" />
+<meta name="twitter:site:id" content="4816" />
+<meta name="twitter:creator" content="@eff" />
+<meta name="twitter:creator:id" content="4816" />
+<meta property="og:email" content="webmaster@eff.org" />
+<meta name="twitter:url" content="https://ssd.eff.org/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" />
+<meta name="twitter:title" content="Playlists" />
+<meta name="twitter:image:src" content="https://ssd.eff.org/touch-icon-192x192.png" />
+<meta name="twitter:image:width" content="192" />
+<meta name="twitter:image:height" content="192" />
+  <title>Playlists | Surveillance Self-Defense</title>
+  <link type="text/css" rel="stylesheet" href="https://ssd.eff.org/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ssd.eff.org/files/css/css_5j0AI8d2Oitbw0YNiu20MKh1KrDcnlp16SZ_4RYQTdA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ssd.eff.org/files/css/css_DM5CrXsgJAHlFxrSnqDpEBKi_MV_ni6puzCoKFBwfwg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ssd.eff.org/files/css/css_7l7BrA49SUQ_DaMtTxY_u9ip7HcpIASWfCeel3HVxAg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ssd.eff.org/files/css/css_GKmJEOCDuQOLxfj7DnvU5FXH3y-5djSDmbIH5UfUPWU.css" media="print" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://ssd.eff.org/sites/all/themes/ssd/js/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+/**
+ * @licstart The following is the entire license notice for the JavaScript
+ * code in this page.
+ *
+ * Copyright (C) 2015  Electronic Frontier Foundation.
+ *
+ * The JavaScript code in this page is free software: you can redistribute
+ * it and/or modify it under the terms of the GNU General Public License
+ * (GNU GPL) as published by the Free Software Foundation, either version 3
+ * of the License, or (at your option) any later version.  The code is
+ * distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU GPL
+ * for more details.
+ *
+ * As additional permission under GNU GPL version 3 section 7, you may
+ * distribute non-source (e.g., minimized or compacted) forms of that code
+ * without the copy of the GNU GPL normally required by section 4, provided
+ * you include this license notice and a URL through which recipients can
+ * access the Corresponding Source.
+ *
+ * @licend The above is the entire license notice for the JavaScript code
+ * in this page.
+ */
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ssd.eff.org/files/js/js_-z-2lAhufzBeVjYseT6cTzSICUy9vnoLBpu1sF_zZrs.js"></script>
+<script type="text/javascript" src="https://ssd.eff.org/files/js/js_9PoCIpaBdXzAfwjeoO2ibi_TtEs6jMROpVOwk-_WIBw.js"></script>
+<script type="text/javascript" src="https://ssd.eff.org/files/js/js_0ARywAjY_V1MuwR9GXqUrBBCZ4svbEJdznLS-N_BpqQ.js"></script>
+<script type="text/javascript" src="https://ssd.eff.org/files/js/js_UN1p40dOoc7wyLYAesKTW9NmCzUbZ1d_RKtJHZ57poU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"ssd","theme_token":"qAIjYqCx8_3R2bHGiZQZU5JwJEQ2pYHpdAjJsUJbf7Y","jquery_version":"1.8","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"misc\/textarea.js":1,"misc\/progress.js":1,"sites\/all\/modules\/patched\/feedback\/feedback.js":1,"sites\/all\/themes\/ssd\/js\/bootstrap.min.js":1,"sites\/all\/themes\/ssd\/js\/ssd.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.field_ui.css":1,"sites\/all\/modules\/patched\/feedback\/feedback.css":1,"sites\/all\/themes\/ssd\/css\/style.css":1,"sites\/all\/themes\/ssd\/css\/mobile.css":1,"sites\/all\/themes\/ssd\/css\/print.css":1}},"ajax":{"feedback-submit":{"wrapper":"feedback-form","callback":"feedback_form_ajax_callback","progress":{"type":"throbber","message":""},"event":"mousedown","keypress":true,"prevent":"click","url":"\/en\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Send feedback"}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-playlist page-playlist-sites page-playlist-sites-all page-playlist-sites-all-modules page-playlist-sites-all-modules-contrib page-playlist-sites-all-modules-contrib-jquery-update page-playlist-sites-all-modules-contrib-jquery-update-replace page-playlist-sites-all-modules-contrib-jquery-update-replace-misc page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-misc page-playlist-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-sites-all-modules-contrib-jquery-update-replace-misc-misc-drupaljs i18n-en" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page-wrapper">
+<header id="navbar" role="banner" class="navbar">
+  <div class="container">
+    <!-- EFF Header -->
+    <div id="top-eff-header">
+      <a href="https://www.eff.org/">
+        <img src="/sites/all/themes/ssd/img/eff-logo.png" alt="EFF" />
+        A Project of the Electronic Frontier Foundation      </a>
+    </div>
+
+    <div class="search-form-header"><form class="search-form" action="/en/searchapi" method="GET" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label for="edit-keys">Enter your keywords </label>
+ <input type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="" value="Search" class="form-submit" /></div></div></form></div><div id="language-switcher" class=""><div class="language-switcher-label">Language</div>
+          <div class="region region-language-switcher">
+    <div id="block-locale-language" class="block block-locale">
+
+    
+  <div class="content">
+    <ul class="language-switcher-locale-url"><li class="ar first"><a href="/ar/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" class="language-link" lang="ar" hreflang="ar">العربية</a></li>
+<li class="en active"><a href="/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" class="language-link active" lang="en" hreflang="en">English</a></li>
+<li class="es last"><a href="/es/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" class="language-link" lang="es" hreflang="es">Español</a></li>
+</ul>  </div>
+</div>
+  </div>
+      </div>
+    
+    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+    <button type="button" class="menu-hamburger" data-toggle="collapse" data-target=".navbar-collapse">
+      Menu    </button>
+  </div> 
+</header>
+<header id="nav-expanded">
+  <div class="container">
+    <div class="row">
+              <div class="navbar-collapse collapse">
+          <nav role="navigation">
+                          <ul class="menu nav navbar-nav nav-primary"><li class="first leaf"><a href="/en/index">Index</a></li>
+<li class="leaf"><a href="/en/blog">Blog</a></li>
+<li class="leaf"><a href="/en/about-surveillance-self-defense">About</a></li>
+<li class="leaf"><a href="/en/contact" title="">Contact</a></li>
+<li class="leaf"><a href="/en/glossary" title="">Glossary</a></li>
+<li class="last leaf"><a href="/en/credits">Credits</a></li>
+</ul>                                              </nav>
+        </div>
+          </div>
+   </div>
+</header>
+<header role="banner" id="page-header" class="container">
+
+      <div id ="top-logo">
+      <div id="top-logo-inner">
+        <a class="logo" href="/en" title="Home">
+          <img src="https://ssd.eff.org/sites/all/themes/ssd/logo.png" alt="Home" class="img-responsive" />
+        </a>
+      </div>
+    </div>
+    
+  
+  
+        
+</header> <!-- /#page-header -->
+
+  
+  <div class=" container ">
+
+    
+    <section class="container-full-width">
+            <a id="main-content"></a>
+              <div class="header-graphic">
+          <img src="/sites/all/themes/ssd/img/play-c-header.png" alt="Playlist" />        </div>
+                  
+        
+        <h1 class="page-header">Playlists</h1>
+
+        
+                                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-site-map view-id-site_map view-display-id-page_1 view-dom-id-fc100c518d7fcf37b4dad10dbc5da097">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/activist-or-protester">Activist or protester?  </a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">How to keep you and your communications safe wherever your campaigning takes you.</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/human-rights-defender">Human rights defender?</a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">Recipes for organizations who need to keep safe from government eavesdroppers.</div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/journalism-student">Journalism student?</a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">Lessons in security they might not teach at your j-school.</div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/journalist-move">Journalist on the move?</a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">How to stay safe online anywhere without sacrificing access to information.</div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/mac-user">Mac user? </a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">Tips and tools to help you protect your data and communications.</div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/online-security-veteran">Online security veteran?</a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">Advanced guides to enhance your surveillance self-defense skill set.</div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title-field">        <h2 class="field-content"><a href="/en/playlist/want-security-starter-pack">Want a security starter pack?</a></h2>  </div>  
+  <div class="views-field views-field-field-playlist-banner-subtitle">        <div class="field-content">Start from the beginning with a selection of simple steps.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    </section>
+
+      </div>
+
+</div>
+
+<footer class="footer clearfix">
+  <div class="container">
+    <div id="eff-footer">
+      <a href="https://www.eff.org/">
+        <img src="/sites/all/themes/ssd/img/eff-logo.png" alt="EFF" />
+        A Project of the Electronic Frontier Foundation      </a>
+    </div>
+      <div class="region region-footer">
+    <div id="block-menu-menu-footer-links" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf"><a href="/en/about-surveillance-self-defense" title="">About</a></li>
+<li class="leaf"><a href="/en/credits" title="">Credits</a></li>
+<li class="leaf"><a href="https://www.eff.org/policy" title="">Privacy</a></li>
+<li class="last leaf"><a href="https://supporters.eff.org/donate/support-surveillance-self-defense" title="">Donate</a></li>
+</ul>  </div>
+</div>
+  </div>
+    <span id="feedback-button" class="feedback-link">Feedback</span>
+    <a href="https://www.eff.org/copyright"><img src="/sites/all/themes/ssd/img/cc-by-logo.png" alt="Creative Commons" width="60px" /></a>
+  </div>
+</footer>
+    <div class="region region-page-bottom">
+    <div id="block-feedback-form">
+  <div class="content"><form class="feedback-form" action="/en/playlist/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/sites/all/modules/contrib/jquery_update/replace/misc/misc/drupal.js" method="post" id="feedback-form" accept-charset="UTF-8"><div><div class="feedback-help">If you experience a bug or would like to see an addition on the current page, feel free to leave us a message.</div><div class="form-item form-type-textarea form-item-message">
+  <label for="edit-message">Message <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea class="feedback-message form-textarea required" id="edit-message" name="message" cols="20" rows="5"></textarea></div>
+</div>
+<input type="hidden" name="form_build_id" value="form-s0asXOLFCSmPHTWPHP-eNz4Wj0YGwBppGaQJ-gsvdDQ" />
+<input type="hidden" name="form_id" value="feedback_form" />
+<div class="clearfix form-actions form-wrapper" id="edit-actions"><input type="submit" id="feedback-submit" name="op" value="Send feedback" class="form-submit" /></div></div></form></div>
+</div>
+<a href="/en/librejs/jslicense" rel="jslicense" style="display: none">JavaScript license information</a><noscript><img src="https://anon-stats.eff.org/piwik.php?idsite=7&amp;rec=1&amp;action_name=Playlists%20%7C%20Surveillance%20Self-Defense" style="border:0" height="0" width="0" alt="" /></noscript>
+<div style="height: 0; width: 0" id="anon-stats"></div>
+<script type="text/javascript">document.getElementById('anon-stats').innerHTML = '<img src="https://anon-stats.eff.org/piwik.php?idsite=7&amp;rec=1&amp;urlref=' + encodeURIComponent(document.referrer) + '&amp;action_name=' + encodeURIComponent(document.title) + '" style="border:0" height="0" width="0" alt="" />';</script>
+  </div>
+</body>
+</html>
