@@ -150,7 +150,7 @@ def process_body(body, url):
 
 	# Drupal generates <body class="..."> items based on the URL
 	# Generated class="" also spotted on non-Drupal www.minutouno.com
-	body = re.sub(br'<(body|div) class="[^"]+"( data-src="[^"]{1,2000}")?', b"", body)
+	body = re.sub(br'<(body|div)( id="[^"]+")? class="[^"]+"( data-src="[^"]{1,2000}")?', b"", body)
 
 	return body
 

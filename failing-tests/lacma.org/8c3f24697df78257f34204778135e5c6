@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.lacma.org/sites/default/files/lacma_favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Search | LACMA</title>
+  <link type="text/css" rel="stylesheet" href="http://www.lacma.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.lacma.org/sites/default/files/css/css_XGXsphfVn3_vpDP6xoxLOg0fEg0cGtPDdR7CDqCpIso.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.lacma.org/sites/default/files/css/css_nxfZXpanFKfxnjxGHPcm8iIUqMiw-PUdI0LH1aLadB8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.lacma.org/sites/default/files/css/css_4Da5LAz_EPaBA-N8PqNEx6fk49dktOn9AJxc2QlhBD4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.lacma.org/sites/default/files/css/css_Uaz4BsLsJSNI4bttBEfLH_VB4UwnFQDRNn2cHFQYV1o.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://www.lacma.org/sites/default/files/css/css_f1vgAaUm8_5IZZztjZTWCVSNEtMGdbVMFnKTx7Lv04s.css" media="all" />
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.googleanalytics_search_results = 0;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_CZc4VQVZPs0w0Bvckm4k9vrmE8NdjNXb9R8dflrquKk.js"></script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_KCd8rbJYUruV1tRJnh4um34UYvyhlrSVCPR1jNko2h8.js"></script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_LYnsNokJ3hCwYVzOkOBap0cPdxFI3f_jpkPxZtvMMyw.js"></script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_bkrzuqa_lkkPYkjCTltxOBj-Gl2_dSFJD-b7KHAdRMU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-936900-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+  setTimeout('checkEqualize()', 1500);
+  function checkEqualize() {
+    if(jQuery('body.page-node-edit').length == 0){
+      jQuery('.equalize-sidebar').css('height', 'auto').equalHeights().css('overflow', 'visible');
+    }else{
+    }
+    /*setTimeout('checkEqualize()', 500);*/
+  }
+
+
+  
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_EAHTtOsOCXDuDf2aboi94fl0_DisCqoxlaluer1c4QU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+		jQuery().ready(function(){
+			jQuery('#block-search-form input[name=search_block_form]').focus(function() {
+				if (jQuery(this).val() == 'Search') {
+					jQuery(this).val('');
+				}
+			}).val('Search');
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_a_XWH2S1EQaU85ypMDyQGiUfzPFez1IOZKxHnhGkv3E.js"></script>
+<script type="text/javascript" src="http://www.lacma.org/sites/default/files/js/js_ridbRF35DKLN1ViblT3w1r_1gI2gX5cjsckyObaNN2Q.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"lacma", "theme_token":"I9Z1Iqd5JOcStIHToY5kzzM4lRYPYZXyjaZFQuMzR2Y", "js":{"0":1, "misc\u002Fjquery.js":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fequalheights\u002Fjquery.equalheights.js":1, "misc\u002Fform.js":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fequalheights\u002Fequalheights.js":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fkaltura\u002Fjs\u002Fkaltura.js":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fkaltura\u002Fjs\u002Fkaltura.behaviors.js":1, "sites\u002Fall\u002Flibraries\u002Fimagesloaded\u002Fjquery.imagesloaded.min.js":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fgoogle_analytics\u002Fgoogleanalytics.js":1, "1":1, "2":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Flacma\u002Fjs\u002Fgeneral.js":1, "3":1, "misc\u002Fcollapse.js":1, "sites\u002Fall\u002Fthemes\u002Fcontrib\u002Ffusion\u002Ffusion_core\u002Fjs\u002Fscript.js":1}, "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Fsystem\u002Fsystem.menus.css":1, "modules\u002Fsystem\u002Fsystem.messages.css":1, "modules\u002Fsystem\u002Fsystem.theme.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_api\u002Fdate.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_popup\u002Fthemes\u002Fdatepicker.1.7.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_repeat_field\u002Fdate_repeat_field.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Flogintoboggan\u002Flogintoboggan.css":1, "modules\u002Fnode\u002Fnode.css":1, "modules\u002Fsearch\u002Fsearch.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fubercart\u002Fuc_order\u002Fuc_order.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fubercart\u002Fuc_product\u002Fuc_product.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fubercart\u002Fuc_store\u002Fuc_store.css":1, "modules\u002Fuser\u002Fuser.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fworkflow\u002Fworkflow_admin_ui\u002Fworkflow_admin_ui.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fviews\u002Fcss\u002Fviews.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fkaltura\u002Fstyle\u002Fkaltura.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fpanels\u002Fcss\u002Fpanels.css":1, "sites\u002Fall\u002Fthemes\u002Fcontrib\u002Ffusion\u002Ffusion_core\u002Fcss\u002Ffusion-style.css":1, "sites\u002Fall\u002Fthemes\u002Fcontrib\u002Ffusion\u002Ffusion_core\u002Fcss\u002Ffusion-typography.css":1, "sites\u002Fall\u002Fthemes\u002Fcontrib\u002Ffusion\u002Ffusion_core\u002Fskins\u002Fcore\u002Ffusion-core-skins.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Flacma\u002Fcss\u002Flacma.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Flacma\u002Fcss\u002Flacma_calendar.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Flacma\u002Fcss\u002Fsearch.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Flacma\u002Fcss\u002Fprint.css":1, "sites\u002Fall\u002Fthemes\u002Fcontrib\u002Ffusion\u002Ffusion_core\u002Fcss\u002Fgrid16-960.css":1}}, "equalHeightsModule":{"classes":[ {"selector":"equalize-sidebar", "mediaquery":"", "minheight":"", "maxheight":"", "overflow":"auto"} ], "imagesloaded_ie8":1}, "googleanalytics":{"trackOutbound":1, "trackMailto":1, "trackDownload":1, "trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!--[if IE 7]>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/custom/lacma/css/ie7-fixes.css" />
+  <script type="text/javascript" src="/sites/all/themes/custom/lacma/js/ie7.js"></script>
+  <![endif]-->
+</head>
+<body id="pid-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-formjs" class="html not-front not-logged-in no-sidebars page-search page-search-node page-search-node-misc page-search-node-misc-sites page-search-node-misc-sites-all page-search-node-misc-sites-all-modules page-search-node-misc-sites-all-modules-contrib page-search-node-misc-sites-all-modules-contrib-kaltura page-search-node-misc-sites-all-modules-contrib-kaltura-js page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc page-search-node-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-sites-all-modules-contrib-kaltura-js-sites-all-modules-contrib-google-analytics-misc-formjs sidebars-split font-size-12 grid-type-960 grid-width-16" >
+  <div id="skip-link">
+    <a href="#main-content-area">Skip to main content area</a>
+  </div>
+  
+<!-- page-top region -->
+  <div id="page-top" class="region region-page-top page-top">
+    <div id="page-top-inner" class="page-top-inner inner">
+          </div><!-- /page-top-inner -->
+  </div><!-- /page-top -->
+    <div id="page" class="page">
+    <div id="page-inner" class="page-inner">
+            <div id="primary-links-background"></div>
+
+      <!-- header-group row: width = grid_width -->
+      <div id="header-group-wrapper" class="header-group-wrapper full-width">
+        <div id="header-group" class="header-group region grid16-16">
+          <div id="header-group-inner" class="header-group-inner inner clearfix">
+
+                        <div id="header-site-info" class="header-site-info block">
+              <div id="header-site-info-inner" class="header-site-info-inner inner">
+                                <div id="logo">
+                  <a href="/" title="Home"><img src="http://www.lacma.org/sites/default/files/lacma50-logo.png" alt="Home" /></a>
+                </div>
+                                              </div><!-- /header-site-info-inner -->
+            </div><!-- /header-site-info -->
+            
+            <div id="block-lacma_blocks-main_nav" class="block block-lacma-blocks first  odd grid16-8">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <ul id="main-nav"><li class="menu-308 menuparent"><a href="/visit/plan-your-visit">Visit</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="/visit/plan-your-visit" title="Plan Your Visit">Plan Your Visit</a></li>
+<li class=""><a href="/visit/plan-your-visit/visita/planee-su-visita" title="">Visita (Español)</a></li>
+<li class=""><a href="/node/8481">Tickets</a></li>
+<li class=""><a href="/groups-tours">Groups &amp; Tours</a></li>
+</div><div class="column"><li class=""><a href="/events-calendar" title="">Calendar</a></li>
+<li class=""><a href="/visit/campus-map" title="Campus Map">Campus Map</a></li>
+<li class=""><a href="/visit/plan-your-visit/restaurants" title="">Food &amp; Drink</a></li>
+</div></ul></li><span class="divider"> | </span><li class="menu-2157 menuparent"><a href="/art/exhibitions/current" title="">Art</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="/node/3708" title="">Featured Exhibitions</a></li>
+<li class=""><a href="/art/exhibitions/installations" title="">More Exhibitions</a></li>
+<li class=""><a href="/art/exhibitions/coming-soon" title="Future Exhibitions">Coming Soon</a></li>
+<li class=""><a href="/art/exhibitions/past/2014" title="">Past Exhibitions</a></li>
+</div><div class="column"><li class=""><a href="/node/8042">Search Collection</a></li>
+</div></ul></li><span class="divider"> | </span><li class="menu-2169 menuparent"><a href="/node/3707">On View</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="/art/exhibition/nature-and-american-vision-hudson-river-school">The Hudson River School</a></li>
+<li class=""><a href="/art/exhibition/islamic-art-now-contemporary-art-middle-east">Islamic Art Now</a></li>
+<li class=""><a href="/art/exhibition/thomas-demand-pacific-sun">Thomas Demand: Pacific Sun</a></li>
+<li class=""><a href="/art/exhibition/larry-sultan-here-and-home">Larry Sultan</a></li>
+</div><div class="column"><li class=""><a href="/art/exhibition/variations-conversations-and-around-abstract-painting">Variations</a></li>
+<li class=""><a href="/art/exhibition/haunted-screens-german-cinema-1920s">Haunted Screens</a></li>
+<li class=""><a href="/node/815" title="Installation On View Link">More Exhibitions</a></li>
+<li class=""><a href="/node/3458" title="Coming Soon">Coming Soon</a></li>
+</div><div class="column"><li class=""><a href="http://collections.lacma.org/" title="">Search Collection</a></li>
+</div></ul></li><span class="divider"> | </span><li class="menu-6041 menuparent"><a href="/programs" title="Public Programs">Programs</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="/events-calendar" title="">Search Programs</a></li>
+<li class=""><a href="/film" title="Film Programs">Film</a></li>
+<li class=""><a href="/music" title="Music Programs">Music</a></li>
+<li class=""><a href="https://www.lacma.org/programs/education/talks-courses" title="">Talks &amp; Courses</a></li>
+</div><div class="column"><li class=""><a href="/education-programs" title="Education Programs">Education</a></li>
+<li class=""><a href="/programs/members" title="">Members</a></li>
+<li class=""><a href="/programs/tours" title="">Tours</a></li>
+<li class=""><a href="/libraries-research-intro" title="Libraries &amp; Research">Libraries/Research</a></li>
+</div><div class="column"><li class=""><a href="/art/exhibition/conservation" title="Conservation">Conservation</a></li>
+<li class=""><a href="http://www.lacma.org/lab" title="">Art + Technology Lab</a></li>
+</div></ul></li><span class="divider"> | </span><li class="menu-6322 menuparent"><a href="/membership/join" title="Support">Support</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="/members">Membership</a></li>
+<li class=""><a href="/give">Give</a></li>
+<li class=""><a href="/membership/volunteer/intro">Volunteer</a></li>
+<li class=""><a href="/node/9297">Join</a></li>
+</div><div class="column"><li class=""><a href="/membership/art-councils/intro">Art Councils</a></li>
+</div></ul></li><span class="divider"> | </span><li class="menu-2629 menuparent"><a href="/overview" title="">LACMA</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="/overview">Overview</a></li>
+<li class=""><a href="/about/transformation/phase-1" title="Transformation Campaign">Transformation</a></li>
+<li class=""><a href="/about/contact-us">Contact Us</a></li>
+<li class=""><a href="/about/e-news">E-News</a></li>
+</div><div class="column"><li class=""><a href="/about/special-event-services/welcome">Special Events</a></li>
+<li class=""><a href="/about/press">Press</a></li>
+<li class=""><a href="/jobs">Employment</a></li>
+<li class=""><a href="/video" title="Video">Video</a></li>
+</div><div class="column"><li class=""><a href="/art/reading-room" title="Reading Room">Reading Room</a></li>
+</div></ul></li><span class="divider"> | </span><li class="menu-314 menuparent"><a href="http://www.thelacmastore.org/" title="">Shop</a>
+<ul class="second-level"><div class="column first"><li class=""><a href="http://www.lacma.org/shop/onlinestore.aspx" title="">The LACMA Store Online</a></li>
+<li class=""><a href="http://www.artcatalogues.com" title="">Art Catalogues at LACMA</a></li>
+<li class=""><a href="/visit/plan-your-visit/stores" title="Stores">Stores at LACMA</a></li>
+</div></ul></li></ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-search-form" class="block block-search  last even grid16-8">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <form action="/search/node/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/form.js" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--3" name="op" value="Go" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-zQlqYx2D8E2q2QQJJF5edk7fvalOWusycw49TgVulUM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+                      </div><!-- /header-group-inner -->
+        </div><!-- /header-group -->
+      </div><!-- /header-group-wrapper -->
+
+      <!-- preface-top row: width = grid_width -->
+      
+      <!-- main row: width = grid_width -->
+      <div id="main-wrapper" class="main-wrapper full-width">
+        <div id="main" class="main region grid16-16">
+          <div id="main-inner" class="main-inner inner clearfix equalize-sidebar">
+            <div id="breadcrumbs" class="breadcrumbs block">
+<div id="breadcrumbs-inner" class="breadcrumbs-inner gutter">
+<div class="breadcrumb"><a href="/">Home</a> <span class="arrow"></span> <a href="/search/node/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/form.js" class="active">Search</a></div></div><!-- /breadcrumbs-inner -->
+</div><!-- /breadcrumbs -->
+            
+            <!-- main group: width = grid_width - sidebar_first_width -->
+            <div id="main-group" class="main-group region nested grid16-16">
+              <div id="main-group-inner" class="main-group-inner inner">
+                
+                <div id="main-content" class="main-content region nested">
+                  <div id="main-content-inner" class="main-content-inner inner">
+                    <!-- content group: width = grid_width - (sidebar_first_width + sidebar_last_width) -->
+                    <div id="content-group" class="content-group region nested grid16-16">
+                      <div id="content-group-inner" class="content-group-inner inner">
+                                                
+                        <div id="content-region" class="content-region row nested">
+                          <div id="content-region-inner" class="content-region-inner inner">
+                            <a id="main-content"></a>
+
+                            <div id="content-inner" class="content-inner block">
+                              <div id="content-inner-inner" class="content-inner-inner inner">
+
+                                                                                                                                 <h1 class="title gutter">Search</h1>
+                                                                                                
+                                <div id="content-content" class="content-content static-frame">
+
+                                  <!-- Search content -->
+                                  <div id="search-page-wrapper">
+
+                                    <div class="search-keyword-bar">
+                                      <div class="title">Search LACMA.org</div>
+                                      <form action="/search/node/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/form.js" method="post" id="apachesolr-search-custom-page-search-form" accept-charset="UTF-8"><div><input type="hidden" name="form_build_id" value="form-10FAQoGP0w5mm1VlL7RlvNb_K0X2lBdqqIQmGiaZcNQ" />
+<input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
+</div></form>
+                                    </div>
+
+                                    <div class="column-left">
+                                                                          </div>
+
+                                    <div class="column-middle">
+                                      <div class="search-title">Exhibitions & Programs</div>
+                                      <div id="block-system-main" class="block block-system first last odd grid16-16">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <form class="search-form" action="/search/node" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label for="edit-keys">Enter your keywords </label>
+ <input type="text" id="edit-keys" name="keys" value="misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/sites/all/modules/contrib/kaltura/js/sites/all/modules/contrib/google_analytics/misc/form.js" size="40" maxlength="255" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-dTajPyNNopq9iTgpzNUGkbuRMx5EfjEzOB8Ce2o7emc" />
+<input type="hidden" name="form_id" value="search_form" />
+<fieldset class="search-advanced collapsible collapsed form-wrapper" id="edit-advanced"><legend><span class="fieldset-legend">Advanced search</span></legend><div class="fieldset-wrapper"><div class="criterion"><div class="form-item form-type-textfield form-item-or">
+  <label for="edit-or">Containing any of the words </label>
+ <input type="text" id="edit-or" name="or" value="" size="30" maxlength="255" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-phrase">
+  <label for="edit-phrase">Containing the phrase </label>
+ <input type="text" id="edit-phrase" name="phrase" value="" size="30" maxlength="255" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-negative">
+  <label for="edit-negative">Containing none of the words </label>
+ <input type="text" id="edit-negative" name="negative" value="" size="30" maxlength="255" class="form-text" />
+</div>
+</div><div class="action"><input type="submit" id="edit-submit--2" name="op" value="Advanced search" class="form-submit" /></div></div></fieldset>
+</div></form>  <h2>Your search yielded no results</h2>
+  <ul>
+<li>Check if your spelling is correct.</li>
+<li>Remove quotes around phrases to search for each word individually. <em>bike shed</em> will often show more results than <em>&quot;bike shed&quot;</em>.</li>
+<li>Consider loosening your query with <em>OR</em>. <em>bike OR shed</em> will often show more results than <em>bike shed</em>.</li>
+</ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+                                    </div>
+
+                                    <div class="column-right">
+
+                                      <div id="content-external-search">
+                                                                                  <div class="search-title">Collection</div>
+
+                                          <div class="search-container">
+                                                                                    <div class="search-co-top">1 of 1 results <span class="search-co-link"><a href="http://collections.lacma.org">Advanced search</a></span></div>
+                                          
+                                          <table class="results"><tr><td class="col-1">
+            <div class="image"><a href="http://collections.lacma.org/node/186144"><img src="http://collections.lacma.org/sites/default/files/remote_images/piction/ma-31771457-THUMBNAIL.jpg"></a></div>
+            <div class="artist"><a href="http://collections.lacma.org/node/168922">W. Eugene Smith</a></div>
+            <div class="title"><a href="http://collections.lacma.org/node/186144">Fantasy Clouds</a></div>
+            <div class="date"></div></td></tr></table><div class="search-co-more"><a href="http://collections.lacma.org/search/site/misc">more &gt;</a></div>                                                                                </div>
+                                      </div>
+
+                                    </div>
+
+
+
+
+                                  </div> <!-- /calendar-container -->
+                                  <!-- Search content end -->
+
+
+                                </div><!-- /content-content -->
+
+
+
+                              </div><!-- /content-inner-inner -->
+                            </div><!-- /content-inner -->
+                          </div><!-- /content-region-inner -->
+                        </div><!-- /content-region -->
+
+                      </div><!-- /content-group-inner -->
+                    </div><!-- /content-group -->
+                    <div id="right-sidebar-content-divider"></div>
+                                      </div><!-- /main-content-inner -->
+                </div><!-- /main-content -->
+
+                              </div><!-- /main-group-inner -->
+            </div><!-- /main-group -->
+          </div><!-- /main-inner -->
+        </div><!-- /main -->
+      </div><!-- /main-wrapper -->
+
+            
+<!-- footer region -->
+<div id="footer-wrapper" class="footer-wrapper full-width clearfix">
+  <div id="footer" class="region region-footer footer  grid16-16">
+    <div id="footer-inner" class="footer-inner inner">
+      <div id="block-menu-menu-footer-links" class="block block-menu first  odd grid16-8">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/" title="Home Page">Home</a></li>
+<li class="leaf"><a href="https://tx1.lacma.org/crm_login.asp" title="">My Lacma</a></li>
+<li class="leaf"><a href="/jobs" title="">Jobs</a></li>
+<li class="leaf"><a href="/about/contact-us/terms-use" title="">Terms</a></li>
+<li class="leaf"><a href="/accessibility" title="">Accessibility</a></li>
+<li class="leaf"><a href="http://www.lacma.org/about/e-news" title="">E-News</a></li>
+<li class="leaf"><a href="/levels" title="">Join </a></li>
+<li class="last leaf"><a href="/" title="">© Museum Associates 2011</a></li>
+</ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-block-3" class="block block-block  last even grid16-8">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="social"><a href="http://lacma.wordpress.com/" target="_blank" title="Unframed" id="unframed">Unframed</a> <a href="http://twitter.com/lacma" target="_blank" title="Twitter" id="twitter">Twitter</a> <a href="http://www.facebook.com/LACMA" target="_blank" title="Facebook" id="facebook">Facebook</a> <a href="http://lacma.tumblr.com/" target="_blank" title="Tumblr" id="tumblr">Tumblr</a> <a href="http://instagram.com/lacma" target="_blank" title="Instagram" id="instagram">Instagram</a> <a href="http://www.pinterest.com/lacma" target="_blank" title="Pinterest" id="pinterest">Pinterest</a></div>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /footer-inner -->
+  </div><!-- /footer -->
+</div><!-- /footer-wrapper -->
+
+    </div><!-- /page-inner -->
+  </div><!-- /page -->
+  
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1003223153;
+var google_conversion_label = "G_OwCL_s1gMQ8fCv3gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1003223153/?value=0&amp;label=G_OwCL_s1gMQ8fCv3gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Retargeting code -->
+<script type="text/javascript">
+adroll_adv_id = "CXXPM2FR55GWNKUHHLXNLM";
+adroll_pix_id = "JBDZXCWHXBBFLFBGVJYATG";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+<!-- Retargeting code end -->
+
+<!-- Remarketing code -->
+
+<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+//<![CDATA[
+document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=354196&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
+//]]>
+</script>
+<noscript>
+<img width="1" height="1" style="border:0" src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=354196&amp;ns=1"/>
+</noscript>
+<!-- Remarketing code end -->
+
+
+</body>
+</html>
+<!-- web1 -->
