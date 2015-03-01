@@ -163,7 +163,7 @@ def compare_bodies(body1, body2, url1, url2):
 		tofile=url2):
 		if not "\n" in line:
 			line += "\n"
-		sys.stdout.write(line.replace("\ufffd", "\\ufffd"))
+		sys.stdout.buffer.write(line.encode("utf-8"))
 
 
 def compare_unprocessed_bodies(up_body1, up_body2, url1, url2):
