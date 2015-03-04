@@ -12,7 +12,7 @@ Workflow:
 5. `cp cache/HASHURL2* tests/TESTNAME/`
 6. `./run_tests.py`
    
-   There should be no diffs listed for any of the tests.
+   There should be no diffs listed for any of the tests.  You need to check this visually.
 
 7. `git add dupespotter.py tests`
 8. `git commit`
