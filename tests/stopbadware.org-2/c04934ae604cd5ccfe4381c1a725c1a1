@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"3a719bd29db66996f35f7e066d1c6b59",petok:"5ce703b5f8dd56cbf624bd09216af9c20e9a27b8-1425443638-86400",zone:"stopbadware.org",rocket:"a",apps:{"ga_key":{"ua":"UA-15629165-3","ga_bs":"2"}}}];document.write('<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=919620257c/cloudflare.min.js"><'+'\/script>');}}catch(e){};
+//]]>
+</script>
+<link rel="shortcut icon" href="https://www.stopbadware.org/images/favicon.ico" type="image/vnd.microsoft.icon"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6, minimum-scale=1, user-scalable=yes"/>
+<meta name="description" content="StopBadware is a nonprofit organization that makes the Web safer through the prevention, mitigation, and remediation of badware websites."/>
+<meta name="keywords" content="StopBadware,badware,malware,virus,viruses,trojans,rootkits,spam bots"/>
+<meta property="og:site_name" content="StopBadware"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.stopbadware.org/blog/archive/sites/all/themes/sbw/js/sites/all/modules/views_slideshow/js/sites/all/libraries/superfish/superfish.js"/>
+<meta property="og:description" content="A nonprofit organization that makes the Web safer through the prevention, mitigation, and remediation of badware websites."/>
+<meta property="og:image" content="https://www.stopbadware.org/images/stopbadware_logo_250x250.png"/>
+<meta property="og:image:secure_url" content="https://www.stopbadware.org/images/stopbadware_logo_250x250.png"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@stopbadware"/>
+<meta name="twitter:site:id" content="14765743"/>
+<meta name="twitter:url" content="https://www.stopbadware.org/blog/archive/sites/all/themes/sbw/js/sites/all/modules/views_slideshow/js/sites/all/libraries/superfish/superfish.js"/>
+<meta name="twitter:description" content="A nonprofit organization that makes the Web safer through the prevention, mitigation, and remediation of badware websites."/>
+<meta name="twitter:image:src" content="https://www.stopbadware.org/images/stopbadware_logo_250x250.png"/>
+<link href='//fonts.googleapis.com/css?family=PT+Sans|Signika:400,600' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Signika:300,700' rel='stylesheet' type='text/css'>
+<title>Blog | StopBadware</title>
+<meta property="twitter:account_id" content="14765743"/>
+<style type="text/css" media="all">@import url("https://www.stopbadware.org/modules/system/system.base.css?nko6r8");@import url("https://www.stopbadware.org/modules/system/system.menus.css?nko6r8");@import url("https://www.stopbadware.org/modules/system/system.messages.css?nko6r8");@import url("https://www.stopbadware.org/modules/system/system.theme.css?nko6r8");</style>
+<style type="text/css" media="screen">@import url("https://www.stopbadware.org/sites/all/modules/views_slideshow/views_slideshow.css?nko6r8");</style>
+<style type="text/css" media="all">@import url("https://www.stopbadware.org/modules/aggregator/aggregator.css?nko6r8");@import url("https://www.stopbadware.org/modules/comment/comment.css?nko6r8");@import url("https://www.stopbadware.org/modules/field/theme/field.css?nko6r8");@import url("https://www.stopbadware.org/modules/node/node.css?nko6r8");@import url("https://www.stopbadware.org/modules/search/search.css?nko6r8");@import url("https://www.stopbadware.org/modules/user/user.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/modules/views/css/views.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/modules/ckeditor/css/ckeditor.css?nko6r8");</style>
+<style type="text/css" media="all">@import url("https://www.stopbadware.org/sites/all/modules/ctools/css/ctools.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/modules/panels/css/panels.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/modules/panels/plugins/layouts/flexible/flexible.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/modules/panels/plugins/layouts/onecol/onecol.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/libraries/superfish/css/superfish.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/libraries/superfish/style/space-orange.css?nko6r8");</style>
+<style type="text/css" media="all">@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/jquery-ui.css?nko6r8");</style>
+<style type="text/css" media="all">@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/alpha-reset.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/alpha-mobile.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/alpha-alpha.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/omega/css/formalize.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/omega/css/omega-text.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/omega/css/omega-branding.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/omega/css/omega-menu.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/omega/css/omega-forms.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/omega/css/omega-visuals.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.all.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.slider.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.base.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.datepicker.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.tabs.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.autocomplete.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.dialog.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.core.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.theme.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.button.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.progressbar.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.resizable.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.accordion.css?nko6r8");@import url("https://www.stopbadware.org/files/jqueryui_theme/base/jquery.ui.selectable.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/global.css?nko6r8");</style>
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default.css?nko6r8");
+@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default-normal.css?nko6r8");
+@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?nko6r8");
+</style>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default-narrow.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?nko6r8");</style>
+<!--<![endif]-->
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default-normal.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?nko6r8");</style>
+<!--<![endif]-->
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/sbw/css/sbw-alpha-default-wide.css?nko6r8");@import url("https://www.stopbadware.org/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?nko6r8");</style>
+<!--<![endif]-->
+<script type="text/rocketscript" data-rocketsrc="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/rocketscript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/misc/drupal.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/modules/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script type="text/rocketscript" data-rocketsrc="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/libraries/jquery.cycle/jquery.cycle.all.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/libraries/superfish/sftouchscreen.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/libraries/superfish/supposition.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/libraries/superfish/superfish.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/libraries/superfish/supersubs.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/modules/superfish/superfish.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/sbw/js/html5.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/sbw/js/jquery.tinysort.min.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/sbw/js/jquery.history.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/sbw/js/jquery.mousewheel.min.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/sbw/js/jquery.tablesorter.min.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/sbw/js/support-ie/modernizr.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/omega/omega/js/jquery.formalize.js?nko6r8"></script>
+<script type="text/rocketscript" data-rocketsrc="https://www.stopbadware.org/sites/all/themes/omega/omega/js/omega-mediaqueries.js?nko6r8"></script>
+<script type="text/rocketscript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"sbw","theme_token":"LMul4IuONXjCRNvHe6Y_tWJjCd5yiCnJs45WkRmtLnw","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.9.1\/jquery-ui.min.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sbw\/js\/html5.js":1,"sites\/all\/themes\/sbw\/js\/jquery.tinysort.min.js":1,"sites\/all\/themes\/sbw\/js\/jquery.history.js":1,"sites\/all\/themes\/sbw\/js\/jquery.mousewheel.min.js":1,"sites\/all\/themes\/sbw\/js\/jquery.tablesorter.min.js":1,"sites\/all\/themes\/sbw\/js\/support-ie\/modernizr.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"public:\/\/ctools\/css\/cf6eca286575cd02eab867661b8f03ee_0.css":1,"public:\/\/ctools\/css\/9851ddcf19ec17550a90e191bba12247_0.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"public:\/\/ctools\/css\/3e5cc30fda7ca6e7fe3b0fa7626a2266_0.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/style\/space-orange.css":1,"sites\/all\/themes\/sbw\/css\/jquery-ui.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.all.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.slider.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.base.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.datepicker.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.tabs.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.autocomplete.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.dialog.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.core.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.theme.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.button.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.progressbar.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.resizable.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.accordion.css":1,"public:\/\/jqueryui_theme\/base\/jquery.ui.selectable.css":1,"sites\/all\/themes\/sbw\/css\/global.css":1,"ie::normal::sites\/all\/themes\/sbw\/css\/sbw-alpha-default.css":1,"ie::normal::sites\/all\/themes\/sbw\/css\/sbw-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/all\/themes\/sbw\/css\/sbw-alpha-default.css":1,"narrow::sites\/all\/themes\/sbw\/css\/sbw-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/sbw\/css\/sbw-alpha-default.css":1,"normal::sites\/all\/themes\/sbw\/css\/sbw-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/sbw\/css\/sbw-alpha-default.css":1,"wide::sites\/all\/themes\/sbw\/css\/sbw-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"viewsSlideshow":{"sponsoring_partner_view-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle","viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle","viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle","viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle","viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle","viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_sponsoring_partner_view-block":{"num_divs":2,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"sponsoring_partner_view-block","effect":"fade","transition_advanced":1,"timeout":8500,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":1,"start_paused":0,"remember_slide":1,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"superfish":{"1":{"id":"1","sf":{"delay":"650","animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":true,"disableHI":false},"plugins":{"touchscreen":{"mode":"always_active"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-15629165-3']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-blog page-blog-archive page-blog-archive-sites page-blog-archive-sites-all page-blog-archive-sites-all-themes page-blog-archive-sites-all-themes-sbw page-blog-archive-sites-all-themes-sbw-js page-blog-archive-sites-all-themes-sbw-js-sites page-blog-archive-sites-all-themes-sbw-js-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes-sbw page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes-sbw-js page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes-sbw-js-html5js" class="html not-front not-logged-in page-blog page-blog-archive page-blog-archive-sites page-blog-archive-sites-all page-blog-archive-sites-all-themes page-blog-archive-sites-all-themes-sbw page-blog-archive-sites-all-themes-sbw-js page-blog-archive-sites-all-themes-sbw-js-sites page-blog-archive-sites-all-themes-sbw-js-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes-sbw page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes-sbw-js page-blog-archive-sites-all-themes-sbw-js-sites-all-modules-views-slideshow-js-sites-all-libraries-superfish-sites-all-modules-views-slideshow-contrib-views-slideshow-cycle-js-sites-all-themes-sbw-js-html5js context-blog">
+<div class="page clearfix" id="page">
+<header id="section-header" class="section section-header">
+<div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">
+<div id="zone-branding" class="zone zone-branding clearfix container-12">
+<div class="grid-12 region region-branding" id="region-branding">
+<div class="region-inner region-branding-inner">
+</div>
+</div> </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">
+<div id="zone-menu" class="zone zone-menu clearfix container-12">
+<div class="grid-12 region region-menu" id="region-menu">
+<div class="region-inner region-menu-inner">
+</div>
+</div>
+</div>
+</div><div id="zone-header-wrapper" class="zone-wrapper zone-header-wrapper clearfix">
+<div id="zone-header" class="zone zone-header clearfix container-12">
+<div class="grid-6 region region-header-first" id="region-header-first">
+<div class="region-inner region-header-first-inner">
+<div class="block block-superfish block-1 block-superfish-1 odd block-without-title" id="block-superfish-1">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-space-orange sf-total-items-5 sf-parent-items-5 sf-single-items-0"><li id="menu-654-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="/about" class="sf-depth-1 menuparent">About</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper first odd sf-item-1 sf-depth-1 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><ol><li id="menu-1685-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/about" title="" class="sf-depth-2">About StopBadware</a></li><li id="menu-680-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/what-we-do" class="sf-depth-2">What we do</a></li><li id="menu-679-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/badware" class="sf-depth-2">What is badware?</a></li><li id="menu-886-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/partners" class="sf-depth-2">Partners</a></li><li id="menu-683-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/staff" class="sf-depth-2">Staff</a></li><li id="menu-682-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/board" class="sf-depth-2">Board of Directors</a></li><li id="menu-685-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/press" class="sf-depth-2">Press</a></li><li id="menu-684-1" class="last even sf-item-8 sf-depth-2 sf-no-children"><a href="/contact" class="sf-depth-2">Contact</a></li></ol></li></ul></li><li id="menu-655-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-5 sf-parent-children-2 sf-single-children-3 menuparent"><a href="/webmaster-help" class="sf-depth-1 menuparent">Webmaster Help</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-2 sf-depth-1 sf-total-children-5 sf-parent-children-2 sf-single-children-3 menuparent"><ol><li id="menu-681-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 sf-megamenu-column menuparent"><div class="sf-megamenu-column"><a href="/my-site-has-badware" class="sf-depth-2 menuparent">My site has badware</a><ol><li id="menu-686-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/common-hacks" class="sf-depth-3">Common hacks</a></li><li id="menu-687-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/blacklisted-by-google" class="sf-depth-3">Blacklisted by Google</a></li><li id="menu-691-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/blacklisted-by-others" class="sf-depth-3">Blacklisted by others</a></li><li id="menu-692-1" class="last even sf-item-4 sf-depth-3 sf-no-children"><a href="/hacked-sites-resources" class="sf-depth-3">Additional resources</a></li></ol></div></li><li id="menu-658-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-6 sf-parent-children-0 sf-single-children-6 sf-megamenu-column menuparent"><div class="sf-megamenu-column"><a href="/prevent-badware" class="sf-depth-2 menuparent">Prevent badware</a><ol><li id="menu-693-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/prevent-badware-basics" class="sf-depth-3">Basics</a></li><li id="menu-694-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/prevent-badware-wordpress" class="sf-depth-3">WordPress</a></li><li id="menu-695-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/prevent-badware-other" class="sf-depth-3">Other CMSes</a></li><li id="menu-696-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/protect-your-pc" class="sf-depth-3">Protect your PC</a></li><li id="menu-697-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/preventing-badware-resources" class="sf-depth-3">Additional resources</a></li><li id="menu-1687-1" class="last even sf-item-6 sf-depth-3 sf-no-children"><a href="/police" class="sf-depth-3">Resources for law enforcement</a></li></ol></div></li><li id="menu-688-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/request-review" class="sf-depth-2">Request a review</a></li><li id="menu-689-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/we-stop-badware" class="sf-depth-2">We Stop Badware™ Web Hosts</a></li><li id="menu-690-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/faq" class="sf-depth-2">FAQ</a></li></ol></li></ul></li><li id="menu-435-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/clearinghouse" class="sf-depth-1 menuparent">Data</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><ol><li id="menu-701-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/data-sharing" class="sf-depth-2">Data Sharing Program</a></li><li id="menu-703-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/clearinghouse/search" class="sf-depth-2">Search Clearinghouse</a></li><li id="menu-1595-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/report-badware" class="sf-depth-2">Report a Badware URL</a></li><li id="menu-1093-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/top-50" class="sf-depth-2">Top 50 AS/IP</a></li><li id="menu-702-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/request-review" class="sf-depth-2">Request a review</a></li></ol></li></ul></li><li id="menu-656-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/get-involved" class="sf-depth-1 menuparent">Get Involved</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-4 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><ol><li id="menu-1686-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/get-involved" title="" class="sf-depth-2">Overview</a></li><li id="menu-705-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/donate" class="sf-depth-2">Donate</a></li><li id="menu-706-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/become-a-partner" class="sf-depth-2">Become a Partner</a></li><li id="menu-707-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/join-we-stop-badware" class="sf-depth-2">Become a We Stop Badware™ Web Host</a></li></ol></li></ul></li><li id="menu-437-1" class="last odd sf-item-5 sf-depth-1 sf-total-children-4 sf-parent-children-2 sf-single-children-2 menuparent"><a href="/publications" class="sf-depth-1 menuparent">Publications</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper last odd sf-item-5 sf-depth-1 sf-total-children-4 sf-parent-children-2 sf-single-children-2 menuparent"><ol><li id="menu-710-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 sf-megamenu-column menuparent"><div class="sf-megamenu-column"><a href="/guidelines" class="sf-depth-2 menuparent">Badware guidelines</a><ol><li id="menu-717-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/badware-website-guidelines" class="sf-depth-3">Websites</a></li><li id="menu-716-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="/software-applications-guidelines" class="sf-depth-3">Software applications</a></li></ol></div></li><li id="menu-711-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 sf-megamenu-column menuparent"><div class="sf-megamenu-column"><a href="/best-practices" class="sf-depth-2 menuparent">Best practices</a><ol><li id="menu-698-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/web-hosting-best-practices" class="sf-depth-3">Web hosting providers</a></li><li id="menu-715-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="/reporting-best-practices" class="sf-depth-3">Reporting badware URLs</a></li></ol></div></li><li id="menu-939-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/public-comments" title="" class="sf-depth-2">Public Comments</a></li><li id="menu-938-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/reports" title="" class="sf-depth-2">White Papers &amp; Reports</a></li></ol></li></ul></li></ul> </div>
+</div>
+</div> </div>
+</div><div class="grid-6 region region-header-second" id="region-header-second">
+<div class="region-inner region-header-second-inner">
+<div class="block block-panels-mini block-donate-now block-panels-mini-donate-now odd block-without-title" id="block-panels-mini-donate-now">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-display panel-1col clearfix" id="mini-panel-donate_now">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-5" class="panel-pane pane-custom pane-5">
+<div class="pane-content">
+<div class="orange_button" id="donate_now">
+<h2>
+<a href="/donate">Donate</a></h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div> </div>
+</div></header>
+<section id="section-content" class="section section-content">
+<div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">
+<div id="zone-content" class="zone zone-content clearfix container-12">
+<aside class="grid-3 region region-sidebar-first" id="region-sidebar-first">
+<div class="region-inner region-sidebar-first-inner">
+<div class="block block-panels-mini block-logo-area block-panels-mini-logo-area odd block-without-title" id="block-panels-mini-logo-area">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-display panel-1col clearfix" id="mini-panel-logo_area">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-1 sidebar shadow" id="logo_area" class="panel-pane pane-custom pane-1 sidebar shadow">
+<div class="pane-content">
+<div><a href="/" id="sbw_logo"><img alt="StopBadware Logo" id="logo" src="/images/StopBadware_logo_200px.png"/></a></div>
+<div id="sbw-motto">A nonprofit that makes the Web safer by fighting badware</div>
+<div id="logo-buttons">
+<h2 id="report-badware">
+<a href="/report-badware">Report Badware</a></h2>
+<h2><a class="blue_button" href="/blog" id="blog-button">Blog</a></h2>
+<h2><a class="blue_button" href="https://www.badwarebusters.org/" id="babs-button">Forum</a></h2>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="block block-panels-mini block-help-button block-panels-mini-help-button even block-without-title" id="block-panels-mini-help-button">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-display panel-1col clearfix" id="mini-panel-help_button">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-2 sidebar" class="panel-pane pane-custom pane-2 sidebar">
+<div class="pane-content">
+<div class="orange_button" id="big_red">
+<h1><a href="/webmaster-help">HELP! MY SITE IS INFECTED.</a></h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="block block-panels-mini block-social-panel block-panels-mini-social-panel odd block-without-title" id="block-panels-mini-social-panel">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-display panel-1col clearfix" id="mini-panel-social_panel">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-3 sidebar" class="panel-pane pane-custom pane-3 sidebar">
+<div class="pane-content">
+<a class="socialmedia_link" href="https://www.facebook.com/StopBadware"><img alt="Like StopBadware on Facebook" class="socialmedia_icon" src="/images/some/facebook.png" title="Like us on Facebook"/></a><a class="socialmedia_link" href="https://twitter.com/stopbadware"><img alt="Follow StopBadware on Twitter" class="socialmedia_icon" src="/images/some/twitter.png" title="Follow us on Twitter"/></a><a class="socialmedia_link" href="http://feeds.feedburner.com/StopbadwareBlog"><img alt="Subscribe to StopBadware's blog feed" class="socialmedia_icon" src="/images/some/rss.png" title="Subscribe to our blog's RSS feed"/></a><a class="socialmedia_link" href="/subscribe"><img alt="Subscribe to StopBadware's mailing list" class="socialmedia_icon" src="/images/some/mail.png" title="Subscribe to our mailing list"/></a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="block block-panels-mini block-clearinghouse-count block-panels-mini-clearinghouse-count even block-without-title" id="block-panels-mini-clearinghouse-count">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-display panel-1col clearfix" id="mini-panel-clearinghouse_count">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-1 sidebar shadow" id="ch_count_area" class="panel-pane pane-custom pane-1 sidebar shadow">
+<div class="pane-content">
+<div class="clearinghouse_count" id="blacklist_count"> </div>
+<div class="clearinghouse_text" id="blacklist_count_label">
+URLs currently <span class="white">blacklisted</span> by our data providers</div>
+<div class="clearinghouse_count" id="helped_count"> </div>
+<div class="clearinghouse_text" id="helped_count_label">
+Sites we've <span class="white">helped</span><br/>
+de–blacklist</div>
+<!--[if (!IE)|(gte IE 9)]><!-->
+<p><input class="inline" id="badware_search" type="text" value="BADWARE SEARCH"/><span class="inline" id="badware_search_icon"> </span></p>
+<!--<![endif]--><!--[if lte IE 8]><div class="orange_button" id="ie_search_badware"><h2><a href="/clearinghouse/search">Search Badware</a></h2></div><![endif]--> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><section class="block block-views block-archive-block block-views-archive-block odd" id="block-views-archive-block">
+<div class="block-inner clearfix">
+<h2 class="block-title">Archives</h2>
+<div class="content clearfix">
+<div class="view view-archive view-id-archive view-display-id-block view-dom-id-a853cf7f745c8150e3bd7507b78bfdc3">
+<div class="view-content">
+<div class="item-list">
+<ul class="views-summary">
+<li>
+<a href="/blog/archive/201503">
+March 2015 <span class="posts-count">(1)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201502">
+February 2015 <span class="posts-count">(3)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201501">
+January 2015 <span class="posts-count">(3)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201412">
+December 2014 <span class="posts-count">(2)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201411">
+November 2014 <span class="posts-count">(1)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201410">
+October 2014 <span class="posts-count">(1)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201409">
+September 2014 <span class="posts-count">(1)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201408">
+August 2014 <span class="posts-count">(1)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201407">
+July 2014 <span class="posts-count">(3)</span>
+</a>
+</li>
+<li>
+<a href="/blog/archive/201406">
+June 2014 <span class="posts-count">(4)</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="more-link">
+<a href="/blog/archive">
+more </a>
+</div>
+</div> </div>
+</div>
+</section> </div>
+</aside><div class="grid-9 region region-content" id="region-content">
+<div class="region-inner region-content-inner">
+<a id="main-content"></a>
+<div id="breadcrumb" class="grid-12"><div class="item-list"><ul><li class="first"><a href="/">Home</a></li>
+<li class="last"><a href="/blog/archive">Archives</a></li>
+</ul></div></div>
+<h1 class="title" id="page-title">Blog</h1>
+<div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="view view-archive view-id-archive view-display-id-page view-dom-id-f310929faac47055861cbefea486d420">
+</div> </div>
+</div>
+</div> </div>
+</div> </div>
+</div></section>
+<footer id="section-footer" class="section section-footer">
+<div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">
+<div id="zone-footer" class="zone zone-footer clearfix container-12">
+<div class="grid-12 region region-footer-first" id="region-footer-first">
+<div class="region-inner region-footer-first-inner">
+<div class="block block-panels-mini block-partner-logo-footer block-panels-mini-partner-logo-footer odd block-without-title" id="block-panels-mini-partner-logo-footer">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-flexible panels-flexible-16 clearfix" id="mini-panel-partner_logo_footer">
+<div class="panel-flexible-inside panels-flexible-16-inside">
+<div class="panels-flexible-region panels-flexible-region-16-center panels-flexible-region-first">
+<div class="inside panels-flexible-region-inside panels-flexible-region-16-center-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-panels-mini pane-partner-footer" class="panel-pane pane-panels-mini pane-partner-footer">
+<h2 class="pane-title">
+Sustaining Partners </h2>
+<div class="pane-content">
+<div class="panel-flexible panels-flexible-11 clearfix" id="mini-panel-partner_footer">
+<div class="panel-flexible-inside panels-flexible-11-inside">
+<div class="panels-flexible-region panels-flexible-region-11-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-11-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-custom pane-6" class="panel-pane pane-custom pane-6">
+<div class="pane-content">
+<div id="sustaining">
+<a href="https://www.google.com/"><img alt="Google" class="sustaining partner_logo" id="google_partner_logo" src="/images/partners/google_partner_logo.png"/></a><a href="https://www.mozilla.org"><img alt="Mozilla" class="sustaining partner_logo" id="mozilla_partner_logo" src="/images/partners/mozilla_partner_logo.png"/></a></div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-16-prem_spons_partners panels-flexible-region-last ">
+<div class="inside panels-flexible-region-inside panels-flexible-region-16-prem_spons_partners-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-panels-mini pane-premium-partner-footer" class="panel-pane pane-panels-mini pane-premium-partner-footer">
+<h2 class="pane-title">
+Premium Partners </h2>
+<div class="pane-content">
+<div class="panel-flexible panels-flexible-12 clearfix" id="mini-panel-premium_partner_footer">
+<div class="panel-flexible-inside panels-flexible-12-inside">
+<div class="panels-flexible-region panels-flexible-region-12-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-12-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-custom pane-7" class="panel-pane pane-custom pane-7">
+<div class="pane-content">
+<div id="premium">
+<a href="https://www.qualys.com/"><img alt="Qualys" class="premium partner_logo" id="qualys_partner_logo" src="/images/partners/qualys_partner_logo.png"/></a><a href="http://www.yandex.com/"><img alt="Yandex" class="premium partner_logo" id="yandex_partner_logo" src="/images/partners/yandex_partner_logo.png"/></a></div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-sponsoring-partner-view" class="panel-pane pane-views pane-sponsoring-partner-view">
+<h2 class="pane-title">
+Sponsoring Partners </h2>
+<div class="pane-content">
+<div class="view view-sponsoring-partner-view view-id-sponsoring_partner_view view-display-id-block view-dom-id-61e79f8d93aa328a42adeb309688d995">
+<div class="view-content">
+<div class="skin-default">
+<div id="views_slideshow_cycle_main_sponsoring_partner_view-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_sponsoring_partner_view-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+<div id="views_slideshow_cycle_div_sponsoring_partner_view-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+<span class="views-field views-field-body"> <span class="field-content"><p><a href="http://automattic.com/"><img alt="Automattic" class="sponsoring partner_logo" id="automattic_partner_logo" src="/images/partners/automattic_partner_logo.png"/></a><a href="http://www.eset.com/"><img alt="ESET" class="sponsoring partner_logo" id="eset_partner_logo" src="/images/partners/eset_partner_logo.png"/></a></p></span> </span></div>
+</div>
+<div id="views_slideshow_cycle_div_sponsoring_partner_view-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even views-row-last">
+<span class="views-field views-field-body"> <span class="field-content"><p><a href="http://www.sitelock.com/"><img alt="SiteLock" class="sponsoring partner_logo" id="sitelock_partner_logo" src="/images/partners/sitelock_partner_logo.png"/></a></p></span> </span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+<div class="region-inner region-footer-second-inner">
+<div class="block block-panels-mini block-footer block-panels-mini-footer odd block-without-title" id="block-panels-mini-footer">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div class="panel-display panel-1col clearfix" id="mini-panel-footer">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-8" class="panel-pane pane-custom pane-8">
+<div class="pane-content">
+<div id="footer">
+<ul><li>
+<a class="footer_link" href="/sitemap">Site Map</a></li>
+<li>
+<a class="footer_link" href="/copyright">Copyright</a></li>
+<li>
+<a class="footer_link" href="/terms">Terms &amp; Conditions</a></li>
+<li>
+<a class="footer_link" href="/privacy">Privacy Policy</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div> </div>
+</div></footer> </div> <div class="region region-page-bottom" id="region-page-bottom">
+<div class="region-inner region-page-bottom-inner">
+</div>
+</div><script type="text/rocketscript" data-rocketsrc="/sites/all/themes/sbw/js/sbw.js?1398113533"></script>
+</body>
+</html>
