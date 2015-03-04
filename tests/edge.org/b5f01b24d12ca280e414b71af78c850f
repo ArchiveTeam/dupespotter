@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link href="http://edge.org/sites/all/themes/edge_adaptive/images/touch-icon-h.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+<link href="http://edge.org/sites/all/themes/edge_adaptive/images/touch-icon-m.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+<link href="http://edge.org/sites/all/themes/edge_adaptive/images/touch-icon-l.png" rel="apple-touch-icon-precomposed" />
+<link href="http://edge.org/sites/all/themes/edge_adaptive/images/touch-icon-l.png" rel="shortcut icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://edge.org/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta http-equiv="cleartype" content="on" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Edge.org</title>
+  <link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_k8qFm8PvHYY6gtt1ZZFpWhS8ES0Cvp2eS9RyEjYqyXo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_oa7mTq4n652iYEy4Yvmu_zR5MkdXVwZ7diIuL0huzWs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_VTK-6Nu9nDiSN8JcnKCpmtfPC3bNK2k8uj6bylcbJjA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_uoHzsSqq9BFg9XTlkC_qBuBm1PxuRPN3ynflUWZr37g.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_054UCT_2lXb6owDaYFiLoZJfTXuTvhYqKn4PrRpbyys.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_WJdP3KNBBUXX6f2_IRVsQXf70GqNeNt-JR-zn4lOPNk.css" media="only screen" />
+
+<!--[if (lt IE 9)&(!IEMobile 7)]>
+<link type="text/css" rel="stylesheet" href="http://edge.org/sites/default/files/css/css_JSnKU_fnNOjR7JL_PZPxIOEjB7SOdzTJBMxFUlS0E_A.css" media="screen" />
+<![endif]-->
+
+<!-- begin Typekit -->
+
+<script type="text/javascript" src="//use.typekit.net/ule5riu.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- end Typekit -->
+
+</head>
+<body class="tk-freight-sans-pro html not-front not-logged-in one-sidebar sidebar-first page-response-detail page-response-detail-sites page-response-detail-sites-all page-response-detail-sites-all-modules page-response-detail-sites-all-modules-accordion-blocks page-response-detail-sites-all-modules-accordion-blocks-sites page-response-detail-sites-all-modules-accordion-blocks-sites-all page-response-detail-sites-all-modules-accordion-blocks-sites-all-modules page-response-detail-sites-all-modules-accordion-blocks-sites-all-modules-views page-response-detail-sites-all-modules-accordion-blocks-sites-all-modules-views-js page-response-detail-sites-all-modules-accordion-blocks-sites-all-modules-views-js-basejs site-name-hidden page-views" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container page">
+
+  <!-- region: Leaderboard -->
+  
+  <header id="header" class="clearfix" role="banner">
+
+          <!-- start: Branding -->
+      <div id="branding" class="branding-elements clearfix">
+
+                  <div id="logo">
+            <a href="/" title="Home page"><img class="site-logo image-style-none" typeof="foaf:Image" src="http://edge.org/sites/default/files/edge_logo.jpg" alt="Edge.org" /></a>          </div>
+        
+                  <!-- start: Site name and Slogan hgroup -->
+          <hgroup class="element-invisible" id="name-and-slogan">
+
+                          <strong class="element-invisible" id="site-name"><a href="/" title="Home page">Edge.org</a></strong>
+            
+            
+          </hgroup><!-- /end #name-and-slogan -->
+        
+      </div><!-- /end #branding -->
+    
+    <!-- region: Header -->
+    <div class="region region-header"><div class="region-inner clearfix"><div id="block-block-8" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div style="clear: right; float:right; width: 330px;">
+<script>
+  (function() {
+    var cx = '012042634644280309647:jygomqbx65u';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div></div>
+  </div></div><div id="block-block-4" class="block block-block social-media-links no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="twitter">
+	<a href="http://twitter.com/edge" target="_blank">&nbsp;</a></div>
+<div class="rss">
+	<a href="/feed">&nbsp;</a></div>
+<div class="google">
+	<a href="http://blogsearch.google.com/blogsearch?hl=en&amp;q=link%3Ahttp%3A//www.edge.org&amp;btnG=Search+Blogs">&nbsp;</a></div>
+<div id="contact-form">
+	<a class="contact simple-dialog" href="/subscribe" name="subscription-form" rel="width:380px;modal:true;top left" title="Subscribe to Edge">Get Edge.org by Email</a></div></div>
+  </div></div><div id="block-block-1" class="block block-block site-slogan no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><p><em>To arrive at the edge of the world's knowledge, seek out the most complex and sophisticated minds, put them in a room together, and have them ask each other the questions they are asking themselves.<em></em></em></p>
+</div>
+  </div></div></div></div>  </header>
+
+  <!-- Navigation elements -->
+
+    <div id="primary-menu-bar" class="nav clearfix">
+    <nav class="primary-menu-wrapper menu-wrapper clearfix" role="navigation">
+  <span id="date-stamp">Tue, Mar 03, 2015</span><ul class="menu primary-menu"><li class="menu-218 first"><a href="/" title="">HOME</a></li><li class="menu-539"><a href="/conversations" title="">CONVERSATIONS</a></li><li class="menu-580"><a href="/videos" title="The Edge video library">VIDEOS</a></li><li class="menu-776 active-trail"><a href="/annual-questions" class="active-trail">ANNUAL QUESTION</a></li><li class="menu-598"><a href="/events" title="">EVENTS</a></li><li class="menu-528"><a href="/news" title="">NEWS</a></li><li class="menu-597"><a href="/library" title="">LIBRARY</a></li><li class="menu-427 last"><a href="/about-edgeorg">ABOUT</a></li></ul>	</nav>
+  </div>
+    
+
+
+  <!-- Breadcrumbs -->
+  <!--  Disable Breadcrumbs -->
+  
+  <!-- Messages and Help -->
+    
+  <!-- region: Secondary Content -->
+  
+  <div id="columns" class="columns clearfix">
+    <div id="content-column" class="content-column" role="main">
+      <div class="content-inner">
+
+        <!-- region: Highlighted -->
+        
+        <div id="main-content">
+
+          
+          
+          <!-- region: Main Content -->
+          <!-- sub-region: Content Highlight -->
+           <div class="page content-highlight clearfix">
+           	           </div>
+                      <div id="content" class="region">
+              <div id="block-system-main" class="block block-system no-title" >  
+  
+  <div class="view view-responses view-id-responses view-display-id-page_response_detail view-dom-id-f1081cbbf520e38e9a8f20230df6b517">
+            <div class="view-header">
+      <div class="view view-response-authors view-id-response_authors view-display-id-page response view-dom-id-4596389979984c56c82cdce710c3b228">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+  </div><div id="block-service-links-service-links-not-node" class="block block-service-links service-links no-title" >  
+  
+  <div class="service-links"><a href="http://twitter.com/share?url=http%3A//is.gd/zNOCFT&amp;count=none&amp;via=edge&amp;text=&amp;counturl=http%3A//edge.org/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js" class="twitter-share-button service-links-twitter-widget" title="Tweet This" rel="nofollow" target="_blank"><span class="element-invisible">Tweet Widget</span></a> <a href="http://www.facebook.com/plugins/like.php?href=http%3A//edge.org/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;width=80&amp;height=21&amp;font=&amp;locale=en_US" title="I Like it" class="service-links-facebook-like" rel="nofollow" target="_blank"><span class="element-invisible">Facebook Like</span></a> <a href="http://edge.org/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js" title="Plus it" class="service-links-google-plus-one" rel="nofollow" target="_blank"><span class="element-invisible">Google Plus One</span></a> <a href="http://edge.org/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js" title="Share on Linkedin" class="service-links-linkedin-share-button" rel="nofollow" target="_blank"><span class="element-invisible">Linkedin Share Button</span></a> <a href="http://www.facebook.com/sharer.php" title="Share this post on Facebook" class="service-links-facebook-share" rel="http://edge.org/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js" target="_blank"><span class="element-invisible">Share on Facebook</span></a> <a href="http://pinterest.com/pin/create/button/?url=http%3A//edge.org/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js&amp;description=&amp;media=" class="pin-it-button service-links-pinterest-button" title="Pin It" rel="nofollow" target="_blank"><span class="element-invisible">Pinterest</span></a> <a href="http://edge.org/printmail/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js" title="Send to a friend" class="service-links-printmail" rel="nofollow" target="_blank"><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/all/modules/service_links/images/printmail.png" alt="Print Mail logo" /></a> <a href="http://edge.org/print/response-detail/sites/all/modules/accordion_blocks/sites/all/modules/views/js/base.js" title="Printable version" class="service-links-print" rel="nofollow" target="_blank"><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/all/modules/service_links/images/print.png" alt="Print HTML logo" /></a></div>
+  </div>            </div>
+          
+          <!-- Feed icons (RSS, Atom icons etc -->
+          
+          
+        </div><!-- /end #main-content -->
+
+        <!-- region: Content Aside -->
+        
+      </div><!-- /end .content-inner -->
+    </div><!-- /end #content-column -->
+
+    <!-- regions: Sidebar first and Sidebar second -->
+    <div class="region region-sidebar-first sidebar"><div class="region-inner clearfix"><div id="block-views-92459b0a9e38007a8bbc08e5d54cc7f2" class="block block-views no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-annual-question view-id-annual_question view-display-id-block_annual_question_books view-dom-id-4ff51aa890e77d573137407b541e39b7">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-01-01T00:00:00-05:00">2015</span> : <a href="/annual-question/what-do-you-think-about-machines-that-think">WHAT DO YOU THINK ABOUT MACHINES THAT THINK?</a></span>  </span>  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-01-01T00:00:00-05:00">2014</span> : <a href="/annual-question/what-scientific-idea-is-ready-for-retirement">WHAT SCIENTIFIC IDEA IS READY FOR RETIREMENT?</a></span>  </span>  </div>
+  <div class="views-row views-row-3 views-row-odd clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://www.amazon.com/What-Should-Worried-About-Scientists/dp/006229623X%3FSubscriptionId%3DAKIAIUDIBB5W2YOHL3CQ%26tag%3Dedgeorg" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/51r44cx05sL._SL160_.jpg" width="107" height="160" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-01-01T00:00:00-05:00">2013</span> : <a href="/annual-question/what-should-we-be-worried-about">WHAT *SHOULD* WE BE WORRIED ABOUT?</a></span>  </span>  </div>
+  <div class="views-row views-row-4 views-row-even clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://www.amazon.com/This-Explains-Everything-Beautiful-Theories/dp/0062230174/ref=sr_1_1?ie=UTF8&amp;qid=1357749436&amp;sr=8-1&amp;keyword" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/556_ThisExplainsEverything_1.jpg" width="87" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2012-01-01T00:00:00-05:00">2012</span> : <a href="/annual-question/what-is-your-favorite-deep-elegant-or-beautiful-explanation">WHAT IS YOUR FAVORITE DEEP, ELEGANT, OR BEAUTIFUL EXPLANATION?</a></span>  </span>  </div>
+  <div class="views-row views-row-5 views-row-odd clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/t3U4Vr" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/751_twmys300_3.jpg" width="86" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2011-01-01T00:00:00-05:00">2011</span> : <a href="/annual-question/what-scientific-concept-would-improve-everybodys-cognitive-toolkit">WHAT SCIENTIFIC CONCEPT WOULD IMPROVE EVERYBODY&#039;S COGNITIVE TOOLKIT?</a></span>  </span>  </div>
+  <div class="views-row views-row-6 views-row-even clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/06vvlq" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/903_internetcov150_1.jpg" width="87" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2010-01-01T00:00:00-05:00">2010</span> : <a href="/annual-question/how-is-the-internet-changing-the-way-you-think">HOW IS THE INTERNET CHANGING THE WAY YOU THINK?</a></span>  </span>  </div>
+  <div class="views-row views-row-7 views-row-odd clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/i9KYz2" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/201_ThisWillChangeEverything150_1.jpg" width="88" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2009-01-01T00:00:00-05:00">2009</span> : <a href="/annual-question/what-will-change-everything">WHAT WILL CHANGE EVERYTHING?</a></span>  </span>  </div>
+  <div class="views-row views-row-8 views-row-even clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/V5PHnv" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/309_9780061686542_1.jpg" width="86" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2008-01-01T00:00:00-05:00">2008</span> : <a href="/annual-question/what-have-you-changed-your-mind-about-why">WHAT HAVE YOU CHANGED YOUR MIND ABOUT? WHY?</a></span>  </span>  </div>
+  <div class="views-row views-row-9 views-row-odd clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/PetcjC" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/605_Cover_Optimism_US_3.jpg" width="87" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2007-01-01T00:00:00-05:00">2007</span> : <a href="/annual-question/what-are-you-optimistic-about">WHAT ARE YOU OPTIMISTIC ABOUT?</a></span>  </span>  </div>
+  <div class="views-row views-row-10 views-row-even clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/lgOvLg" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/113_Cover_Dangerous_US_3.jpg" width="86" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2006-01-01T00:00:00-05:00">2006</span> : <a href="/annual-question/what-is-your-dangerous-idea">WHAT IS YOUR DANGEROUS IDEA?</a></span>  </span>  </div>
+  <div class="views-row views-row-11 views-row-odd clearfix">
+      
+  <div class="views-field views-field-field-us-book-image">        <div class="field-content"><a href="http://is.gd/HBj8WL" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" class="image-style-none" src="http://edge.org/sites/default/files/annualimage/bookimage/978_Cover_Believe_US_3.jpg" width="87" height="130" alt="" /></a></div>  </div>  
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2005-01-01T00:00:00-05:00">2005</span> : <a href="/annual-question/what-do-you-believe-is-true-even-though-you-cannot-prove-it">WHAT DO YOU BELIEVE IS TRUE EVEN THOUGH YOU CANNOT PROVE IT?</a></span>  </span>  </div>
+  <div class="views-row views-row-12 views-row-even clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2004-01-01T00:00:00-05:00">2004</span> : <a href="/annual-question/whats-your-law">WHAT&#039;S YOUR LAW?</a></span>  </span>  </div>
+  <div class="views-row views-row-13 views-row-odd clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2003-01-01T00:00:00-05:00">2003</span> : <a href="/annual-question/what-are-the-pressing-scientific-issues-for-the-nation-and-the-world-and-what-is">WHAT ARE THE PRESSING SCIENTIFIC ISSUES FOR THE NATION AND THE WORLD, AND WHAT IS YOUR ADVICE ON HOW I CAN BEGIN TO DEAL WITH THEM? - GWB</a></span>  </span>  </div>
+  <div class="views-row views-row-14 views-row-even clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2002-01-01T00:00:00-05:00">2002</span> : <a href="/annual-question/what-is-your-question-why">WHAT IS YOUR QUESTION? ... WHY?</a></span>  </span>  </div>
+  <div class="views-row views-row-15 views-row-odd clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2001-01-01T00:00:00-05:00">2001</span> : <a href="/annual-question/what-now-">WHAT NOW?</a></span>  </span>  </div>
+  <div class="views-row views-row-16 views-row-even clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2001-01-01T00:00:00-05:00">2001</span> : <a href="/annual-question/what-questions-have-disappeared">WHAT QUESTIONS HAVE DISAPPEARED?</a></span>  </span>  </div>
+  <div class="views-row views-row-17 views-row-odd clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2000-01-01T00:00:00-05:00">2000</span> : <a href="/annual-question/what-is-todays-most-important-unreported-story">WHAT IS TODAY&#039;S MOST IMPORTANT UNREPORTED STORY?</a></span>  </span>  </div>
+  <div class="views-row views-row-18 views-row-even clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1999-01-01T00:00:00-05:00">1999</span> : <a href="/annual-question/what-is-the-most-important-invention-in-the-past-two-thousand-years">WHAT IS THE MOST IMPORTANT INVENTION IN THE PAST TWO THOUSAND YEA</a></span>  </span>  </div>
+  <div class="views-row views-row-19 views-row-odd clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1998-01-01T00:00:00-05:00">1998</span> : <a href="/annual-question/what-questions-are-you-asking-yourself">WHAT QUESTIONS ARE YOU ASKING YOURSELF?</a></span>  </span>  </div>
+  <div class="views-row views-row-20 views-row-even views-row-last clearfix">
+      
+  <span class="views-field views-field-nothing book-title">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1982-01-01T00:00:00-05:00">1982</span> : <a href="/annual-question/draft">draft</a></span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div></div></div>    
+  </div><!-- /end #columns -->
+
+  <!-- region: Tertiary Content -->
+  
+  <!-- region: Footer -->
+      <footer id="footer" class="clearfix" role="contentinfo">
+      <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-3" class="block block-block edge-footer no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div>
+	<div id="Footer1">
+		<ul>
+			<li class="dot">
+				<a href="/memberbio/john_brockman">John Brockman</a>, Editor and Publisher</li>
+			<li>
+				<a href="/memberbio/russell_weinberger">Russell Weinberger</a>, Associate Publisher</li>
+			<li>
+				Nina Stegeman, Editorial Assistant</li>
+		</ul>
+	</div>
+	<div class="clearfix">
+		&nbsp;</div>
+	<div id="Footer2">
+		<ul>
+			<li>
+				Contact Info:<a href="mailto:editor@edge.org">editor@edge.org</a></li>
+			<li>
+				<a href="/edgenews">In the News</a></li>
+			<li>
+				<a href="/subscribe">Manage Email Subscription</a></li>
+			<li>
+				<a class="contact simple-dialog" href="/subscribe" name="subscription-form" rel="width:380px;modal:true;top left" title="Subscribe to Edge">Get Edge.org by email</a></li>
+		</ul>
+	</div>
+	<div class="clearfix">
+		&nbsp;</div>
+	<div id="Footer3">
+		Edge.org is a nonprofit private operating foundation under Section 501(c)(3) of the Internal Revenue Code.<br />
+		Copyright &copy; 2015 By Edge Foundation, Inc All Rights Reserved.</div>
+</div>
+<p>&nbsp;</p>
+</div>
+  </div></div></div></div>    </footer>
+  
+</div>
+  
+  <script src="http://edge.org/sites/default/files/js/js_zzcIWOou_jnX0ZWAIA4sb6Xy_p5a8FZNA0GySvuWjPU.js"></script>
+<script src="http://edge.org/sites/default/files/js/js_jqLTwUtOsaYuJlQsWXmHqxs6ddOKnkiL_b8iR3uy3Wg.js"></script>
+<script src="http://edge.org/sites/default/files/js/js_ZcW7GPj-lBTdq14HzozaLfWfYQFXoVKaLwt0BJOAoQw.js"></script>
+<script src="http://edge.org/sites/default/files/js/js_0QZ-iwOvE9_nv9WR4yzSEBl2oUCrSLGvAiXphJ9oZR0.js"></script>
+<script src="http://edge.org/sites/all/modules/lightbox2/js/lightbox.js?1425442520"></script>
+<script src="http://edge.org/sites/default/files/js/js_SCGABTZo55S6QF5MdETuFH93OQl9AJymsUCw4W844CI.js"></script>
+<script src="http://platform.linkedin.com/in.js?async=true"></script>
+<script src="http://edge.org/sites/default/files/js/js_wi2bZltE3jk__na9wt1-MzG1XeW2K-2o_65p5lkxKTg.js"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-283521-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://edge.org/sites/default/files/js/js_7zrOJTQuVzTn1PSe-FtWntq3Q6LxCqUY0ALgVDHU-X0.js"></script>
+<script src="http://edge.org/sites/default/files/js/js_LNcInGcDtcKzM4lG5ccX4EgA7KCvQqIAksrfR9Kw7t8.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"edge_adaptive","theme_token":"YkySDz5129FMlee8sQ17y2trLsAVUIsODuceTIF6rVw","js":{"sites\/all\/themes\/edge_adaptive\/scripts\/media_queries.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.5\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/accordion_blocks\/accordion_init.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/lightbox2\/js\/auto_image_handling.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/shorten\/shortener\/shortener.js":1,"sites\/all\/modules\/simple_dialog\/js\/simple_dialog.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/service_links\/js\/facebook_share.js":1,"sites\/all\/modules\/service_links\/js\/twitter_button.js":1,"sites\/all\/modules\/service_links\/js\/facebook_like.js":1,"sites\/all\/modules\/service_links\/js\/google_plus_one.js":1,"http:\/\/platform.linkedin.com\/in.js?async=true":1,"sites\/all\/modules\/service_links\/js\/linkedin_share_button.js":1,"sites\/all\/modules\/service_links\/js\/pinterest_button.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"misc\/collapse.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/adaptivetheme\/at_core\/scripts\/scalefix.js":1,"sites\/all\/themes\/adaptivetheme\/at_core\/scripts\/onmediaquery.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/accordion_blocks\/accordion_init.css":1,"sites\/all\/modules\/amazon\/amazon.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/shorten\/shortener\/shortener.css":1,"sites\/all\/modules\/simple_dialog\/css\/simple_dialog.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/edge_adaptive\/css\/global.base.css":1,"sites\/all\/themes\/edge_adaptive\/css\/global.styles.css":1,"sites\/all\/themes\/edge_adaptive\/css\/edge.views.css":1,"sites\/all\/themes\/edge_adaptive\/css\/edge.modules.custom.css":1,"sites\/all\/themes\/edge_adaptive\/css\/edge.custom.css":1,"sites\/all\/themes\/edge_adaptive\/css\/edge.jquery.css":1,"sites\/all\/themes\/edge_adaptive\/css\/print.css":1,"public:\/\/adaptivetheme\/edge_adaptive_files\/edge_adaptive.responsive.layout.css":1,"public:\/\/adaptivetheme\/edge_adaptive_files\/edge_adaptive.responsive.styles.css":1,"public:\/\/adaptivetheme\/edge_adaptive_files\/edge_adaptive.lt-ie9.layout.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":"lightbox_ungrouped","custom_trigger_classes":"img.lightbox","disable_for_gallery_lists":1,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"simpleDialog":{"classes":"","defaults":"width:300;height:auto;position:[center,60]","selector":"content","title":""},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:4ff51aa890e77d573137407b541e39b7":{"view_name":"annual_question","view_display_id":"block_annual_question_books","view_args":"","view_path":"response-detail\/sites\/all\/modules\/service_links\/js\/misc\/jquery.once.js","view_base_path":"annual-question","view_dom_id":"4ff51aa890e77d573137407b541e39b7","pager_element":0}}},"ws_fs":{"type":"button","app_id":"150123828484431","css":"vertical-align:top;"},"ws_fl":{"width":80,"height":21},"ws_gpo":{"size":"medium","annotation":"none","lang":"","callback":"","width":120},"ws_lsb":{"countmode":""},"ws_pb":{"countlayout":"none"},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+  <script src="http://edge.org/sites/default/files/js/js_qCMW45HxWMrbBblGBPTepC-Yn8CfjsqkwFgCithhGlc.js"></script>
+</body>
+</html>
