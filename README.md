@@ -16,11 +16,3 @@ Workflow:
 
 7. `git add dupespotter.py tests`
 8. `git commit`
-9. Copy dupespotter.py to ludios/wpull:wpull/dupespotter.py
-
-
-TODO
-====
-
-- Send a proper User Agent so that we get real pages from CloudFlare, not "you are banned" pages
-- Switch to requests to help accomplish the above
