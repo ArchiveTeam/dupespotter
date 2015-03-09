@@ -1,0 +1,1664 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://developers.facebook.com/schema/" version="XHTML+RDFa 1.0" xml:lang="en">
+<head><title>
+	Mega HITS
+</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="id" content="mega.fm" /><meta name="author" content="Grupo Renascença" /><meta http-equiv="content-language" content="pt-pt" /><meta name="robots" content="index,follow" /><meta name="revisit-after" content="1 days" /><meta name="keywords" content="Lisboa, Porto, Coimbra, Braga, Aveiro, Portugal, rádio, FM, MP3, SMS, GSM, Logos, ringtones, Mega, Grupo Renascença, Rádio Renascença, RFM, Karas, Jogo da Mula" /><meta id="ctl00_description" name="description" content="MEGA HITS Lisboa 92.4, Porto 90.6, Coimbra 90.0, Sintra 88.0, Aveiro 96.5, Braga 92.9! MEGA HITS! Entra no site da Tua Rádio! " /><meta name="description" content="Site Oficial da MEGA HITS!!! " /><link rel="shortcut icon" href="images/favicon_new.ico" type="image/x-icon" />
+    
+    <!-- JS's -->
+    <script type="text/javascript" src="js/mouse.js"></script>
+    <!--player-->
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script src="js/AC_RunActiveContent.js" type="text/javascript"></script>
+    <script src="js/jquery-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/megavip/login_megavip.js" type="text/javascript"></script>
+    <!-- tolltip -->
+    <script type="text/javascript" src="js/unitip.js"></script>
+    <!-- Fim JS's -->
+    <script type="text/javascript" src="js/thickbox.js"></script>
+    <link href="css/thickbox.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/unitip.css" rel="stylesheet" type="text/css" /> 
+    <!--[if IE 5]>
+    <style type="text/css"> 
+    /* place css box model fixes for IE 5* in this conditional comment */
+    .main #colEsq { width: 180px; }
+    .main #colDta { width: 190px; }
+    </style>
+    <![endif]--><!--[if IE]>
+    <style type="text/css"> 
+    /* place css fixes for all versions of IE in this conditional comment */
+    .main #colDta, .main #colEsq { padding-top: 30px; }
+    .main #mainContent { zoom: 1; }
+    /* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+    </style>
+    <![endif]-->
+    
+    <!-- BARRA SAPO -->
+    <style type="text/css">
+        .bsu_almofada,.subbsu_almofada{
+            overflow:hidden; 
+            min-height: 36px;
+            background-color:#222;
+        }
+        .subbsu_almofada {
+            background-color:#fafafa;
+
+        }
+    </style>
+    <!-- Fim BARRA SAPO -->
+<link href="App_Themes/NewThemeMegaHits/NewThemeMegaHits.css" type="text/css" rel="stylesheet" /><meta content="Mega Hits" property="og:title" /><meta content="Site Oficial da MEGA HITS!!!" property="og:description" /><meta content="http://megahits.sapo.pt/images/logoLaranja.png" property="og:image" /><link rel="image_src" href="http://megahits.sapo.pt/images/logoLaranja.png" /></head>
+<body class="main">
+<!-- Elemento BARRA SAPO -->
+<div id="bsu_root">
+    <div class="bsu_almofada"></div>
+</div>
+<!-- Fim Elemento BARRA SAPO -->
+    
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            type: "POST",
+            cache: false,
+            url: "ajax/cookies/avisoCookies.aspx",
+            success: function (html) {
+                if (html == "mostra") {
+                    $("#avisoCookies").show();
+                }
+            }
+        });
+        $("#btnClose").click(function () {
+            $("#avisoCookies").hide();
+            $.ajax({
+                type: "POST",
+                cache: false,
+                url: "ajax/cookies/avisoCookies.aspx?close=1",
+                success: function (html) {}
+            });
+        });
+    });
+</script>
+<style type="text/css">
+#avisoCookies {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #CCC;
+	height: 50px;
+	width: 100%;
+	font-size: 14px;
+	color: #000;
+	font-style: normal;
+	text-align: center;
+    line-height: 1.5;
+    display:none;
+}
+#btnClose{
+    padding-top: 0.5%;
+    padding-left: 0.25%;
+    margin-top: 0.25%;
+}
+</style>
+<div id="avisoCookies">  
+O site da Mega usa cookies. Ao prosseguir, concorda com o seu uso. Leia mais <a href="http://megahits.sapo.pt/detalhe.aspx?did=5460">aqui</a>.
+<img id="btnClose" style="cursor:pointer;" src="images/fechar.jpg" width="50" height="21" />
+</div> 
+    <form name="aspnetForm" method="post" action="default.aspx?404%3bhttp%3a%2f%2fmegahits.sapo.pt%3a80%2fjs%2fimages%2fApp_Themes%2fNewThemeMegaHits%2fjs%2fcss%2fcss%2ffeatureCarousel.css" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjA5OTc1ODM2D2QWAmYPZBYCAgIPZBYCAgEPFgIeBXN0eWxlBfgBcG9zaXRpb246cmVsYXRpdmU7IHotaW5kZXg6MTsgYmFja2dyb3VuZC1pbWFnZTp1cmwoJ2h0dHA6Ly9tZWRpYXNlcnZlcjMucnIucHQvbWVnYTIwMTAvQkdhcnRpc3Rhc18wMjkzMThhMzI3LmpwZycpOyBiYWNrZ3JvdW5kLXBvc2l0aW9uOnRvcDsgYmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0OyBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6Zml4ZWQ7IHdpZHRoOjEwMCU7IGhlaWdodDoxMDAlOyBtYXJnaW46MCBhdXRvOyBwYWRkaW5nOjAWBAIBD2QWBAIDDxYCHgNzcmMFRGh0dHA6Ly9tZWRpYXNlcnZlcjMucnIucHQvbWVnYTIwMTAvbG9jX3BsYXllcl9tZWdhTWFuaGFzODQyNjFiNzUucG5nZAIHD2QWAgIBDxYCHgRUZXh0BTkmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDtUSU1NWSBUUlVNUEVUICYgU0FWQUdFICAtICBGUkVBS1NkAgUPZBYIAgIPZBYCAgEPFgIeB1Zpc2libGVoZAIDD2QWAgIBDxYEHgRocmVmBWRodHRwOi8vbWVnYWZtLm1lZGlhc2NvcmVpbmMuY29tL3N1cnZleS9sb2dpbi5hc3A/c25pPWRISjFaUSZjaT1NelV4JmZzaT1NQSZwbmk9TWpFMCZlcWFpPU1BJnVzPTQ0Mzg1HgZ0YXJnZXQFBl9ibGFuaxYCAgEPFgIfAQVDaHR0cDovL21lZGlhc2VydmVyMy5yci5wdC9tZWdhMjAxMC9iYW5uZXJfbXltZWdhX25ld2pwZzE4MDBhODg2LmpwZ2QCBg9kFgICAQ8WBB8EBSxodHRwOi8vd3d3Lm1lZ2FoaXRzLmZtL2RldGFsaGUuYXNweD9kaWQ9MzMwOB4FdGl0bGUFEWhwX01lZ2FNYW5oYXMyMDE1FgJmDxYEHwEFQGh0dHA6Ly9tZWRpYXNlcnZlcjMucnIucHQvbWVnYTIwMTAvaHBfTWVnYU1hbmhhczIwMTUxODQ1ZTA4MS5qcGceA2FsdAURaHBfTWVnYU1hbmhhczIwMTVkAgcPZBYCAgEPFgQfBAUsaHR0cDovL3d3dy5tZWdhaGl0cy5mbS9kZXRhbGhlLmFzcHg/ZGlkPTM5NDgfBgUNaHBfYVRhcmRlMjAxNRYCZg8WBB8BBTxodHRwOi8vbWVkaWFzZXJ2ZXIzLnJyLnB0L21lZ2EyMDEwL2hwX2FUYXJkZTIwMTUyODI1ZDU3Mi5qcGcfBwUNaHBfYVRhcmRlMjAxNWRkCWtqu75HXwZggFQVZSgIKuOIgfY=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+        <div id="ctl00_backgroundMain" style="position:relative; z-index:1; background-image:url('http://mediaserver3.rr.pt/mega2010/BGartistas_029318a327.jpg'); background-position:top; background-repeat:no-repeat; background-attachment:fixed; width:100%; height:100%; margin:0 auto; padding:0">
+            <div id="container">
+                <div id="topo">
+                    
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<script>
+//Refrescamento do animador de 2 em 2 minutos
+ $(document).ready(function() {
+    var refreshId = setInterval(function() {
+        $.ajax({
+                type: "GET",
+                url: "ajax/noar/noar.aspx?randval="+ Math.random(),
+                success: function(html){
+                $("#locutor").hide()
+                    $("#locutor").fadeIn('normal',function(){
+                        $("#locutor").html(html);
+                    });
+                }
+             });
+   }, 120000);
+});
+</script>
+
+<!-- Logo -->
+<div class="fltlft" id="megaLogo">
+    <a href="default.aspx"><img src="images/logoLaranja.png" width="160" height="192" alt="Mega Hits" title="Mega Hits" style="border:0" /></a>
+    
+</div> 
+<!-- Logo NATAL -->
+<!--<div class="fltlft" id="megaLogo"><a href="default.aspx"><img src="images/logo_natal2011.png" width="160" height="192" alt="Mega Hits" title="Mega Hits" style="border:0" /></a></div>-->
+<!-- Fim Logo -->
+<div class="fltrgt" id="topoRgtContent" style="width:650px; position:relative">
+    <!-- Locutor -->
+	<div id="locutor" style="position:absolute; left:365px; top:43px"><img src="http://mediaserver3.rr.pt/mega2010/loc_player_megaManhas84261b75.png" id="ctl00_uc_top1_imgdest" width="249" height="150" style="cursor:pointer" onclick="javascript:window.open(&quot;playerstreampub.aspx&quot;,&quot;player&quot;,&quot;toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420&quot;)" /></div>
+	<!-- Fim Locutor -->
+	<!-- Login Mega Vip -->
+	<div id="toprgtLoginSection">
+        
+<link href="css/megavip.css" rel="stylesheet" type="text/css" />
+
+<div id="loginMessage" style="background-position:center top; height:44px; width:376px; position:absolute; display:none; text-align:center;">
+    <div style="float:left; width:330px; height:33px; padding-top:10px;"><span id="validateTips" class="spanMegavip" >Nome e Email Obrigatórios</span></div>  
+    <div style="float:right; padding:5px 12px 0 0;"><a style="cursor:pointer" id="aErrorOk" ><img align="absbottom" src="images/but_ok.png" width="25px" height="25px" style="border:0" alt="Sair" title="Sair"/></a></div>
+</div>
+<div id="loginMessagePass" style="background-position:center top; height:44px; width:376px; position:absolute; display:none; text-align:center;">
+    <div style="float:left; width:330px; height:33px; padding-top:5px;" ><span id="validateTipsPass" class="spanMegavip" >Password Incorrecta, tente fazer a recuperação da password</span></div> 
+    <div style="float:right; padding:5px 12px 0 0;"><a style="cursor:pointer" id="aErrorOkPass" ><img align="absbottom" src="images/but_ok.png" width="25px" height="25px" style="border:0" alt="Sair" title="Sair"/></a></div>
+</div>
+
+<div id="login"  style="visibility:Visible; width:376px; position:absolute;">
+    <div id="toprgtLogin">
+        <div style="float:right;  ">
+            <div class="fltlft"><input id="txtusername" type="text" value="E-Mail" class="emailField" onclick="cleanTextUser()" onfocus="cleanTextUser()" /></div>
+            <div class="fltlft"><input id="txtpassword"  type="password" value="Palavra-Passe" class="passwordField" onclick="cleanTextPass()" onfocus="cleanTextPass()" /></div>
+            <div class="fltlft"><a href="#"><img src="images/but_ok.png" id="OKSubmit" width="25" height="25" style="border:0" /></a></div>
+        </div> 
+    </div>
+    <div style="height:17px; margin:0 auto; text-align:center"><a href="registo.aspx"><img src="images/but_novoregisto_off.png" alt="Novo registo" title="Novo registo" style="border:0" /></a>&nbsp;<a href="passwordrecovery.aspx?height=447&width=625&modal=true" class="thickbox_atocar" ><img src="images/but_password.png" alt="Esqueci-me da password" title="Esqueci-me da password" style="border:0"  /></a></div>
+</div>
+
+<div id="logged" style="visibility:Hidden; position:absolute;   width:376px; height:44px;">
+    <div id="toprgtLogged">
+    	<div id="userData">
+            <div id="inseridoImg"><img id="ctl00_uc_top1_uc_megavip1_imgmegavip" width="30" height="30" style="border:0; padding:2px 0 0 2px; margin:0" /></div>
+            <div id="userInfo" style="font-size: 12px;" >Olá,<br /><span class="userName">&nbsp;</span></div>
+            <br class="clearfloat" />
+        </div>
+        <div id="userActions">
+        	<div class="fltlft"><a href="editarregisto.aspx"><img src="images/but_editar.png" alt="Editar Registo" title="Editar Registo" style="border:0" /></a></div>
+            <div class="fltlft"><img src="images/1x1.gif" width="2" height="25" /></div>
+        	<div class="fltlft"><img src="images/but_sair.png" alt="Sair" title="Sair" style="border:0; cursor:pointer " id="OkExit" onclick="logOff()" /></div>
+        </div>
+        <br class="clearfloat" />
+    </div>
+</div>
+    </div>
+    <!-- Fim Login Mega Vip -->
+    <!-- Acabou de Tocar -->
+    <div id="toprgtTickerSection">
+        
+<link href="css/thickbox.css" rel="stylesheet" type="text/css"  media="screen"/>
+<script>
+//Refrescamento do acabou de tocar de 27 em 27 segundos
+ $(document).ready(function() {
+    var refreshId = setInterval(function() {
+        $.ajax({
+                type: "GET",
+                url: "ajax/acaboudetocar/atocar.aspx?randval="+ Math.random(),
+                success: function(html){
+                $("#marquee").hide()
+                    $("#marquee").fadeIn('normal',function(){
+                        $("#marquee").html(html);
+                    });
+                }
+             });
+   }, 27000);
+});
+</script>
+
+<div class="fltlft" style="width:135px"><img src="images/speaker_anim.gif" width="135" height="86" alt="Ouvir a Emissão Online" title="Ouvir a Emissão Online" style="border:0; cursor:pointer" onclick='javascript:window.open("playerstreampub.aspx","player","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420")'/></div>
+<div class="fltrgt" style="width:515px; padding-top:39px">
+	<div><a href="acaboudetocar.aspx?height=447&width=625&modal=true" onclick="pp_gemius_event('p9.gIrrdY1BRiL2dKDmnNMcP.Mg8m_RtTDPZ0vuKafv.P7', 'gA=Home/AcabouDeTocar');" class="thickbox_atocar" title="Acabou de Tocar" ><img src="images/but_acaboudetocar.png" width="145" height="20" alt="Acabou de Tocar" style="border:0" /></a></div>
+    <div id="toprgtTicker">
+	    <div class="fltlft" style="width:18px; height:22px; padding-top:5px"><img src="images/ico_emissao_anim.gif" width="18" height="18" alt="Ouvir a Emissão Online" title="Ouvir a Emissão Online" style="border:0; cursor:pointer"  onclick='javascript:window.open("playerstreampub.aspx","player","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420")'/></div>
+        <div class="fltlft" style="width:497px; height:27px">
+            <div id="marquee" class="ticker"><marquee behavior="scroll" scrolldelay="150">&nbsp;&nbsp;&nbsp;&nbsp;TIMMY TRUMPET & SAVAGE  -  FREAKS</marquee></div>
+        </div>
+    </div>
+</div>
+<br class="clearfloat" />                    
+    </div>
+    <!-- Fim Acabou de Tocar -->
+</div>
+<br class="clearfloat" />
+                </div>
+                <div id="menuMain" style="width:996px; height:45px">
+                    
+
+<link href="css/jmenu.css" rel="stylesheet" type="text/css" />
+
+<div class="wrapper_menu">
+		<ul class="mainMenu cssonly" id="menu1" style="width:996px">
+		<li><img src="images/mn_begins.png" width="12" height="45" class="valignMenu" /></li>
+        
+		<li><a href="#" class="raiz"><img src="images/mn_main_off_emissao.jpg" title="Emissão" alt="Emissão" class="valignMenu" id="Img1"  onmouseover="MM_swapImage('Img1','Emissão','images/mn_main_on_emissao.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+				<ul class="barra">
+			        <li>
+                        <!-- Subnav Emissão Begins-->
+                        <div id="subnavEmissao">
+                            <ul class="items">
+                                <li>
+                                    <div class="subItemImg"><a style="cursor:pointer" title="Emissão Online" onclick='javascript:window.open("playerstreampub.aspx","player","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420")'><img src="images/subnav_img_online.jpg" width="125" height="70" alt="Emissão Online" title="Emissão Online" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a style="cursor:pointer" title="Emissão Online" onclick='javascript:window.open("playerstreampub.aspx","player","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420")' class="lnkTitle">EMISSÃO ONLINE</a><br />Ouve aqui a MEGA HITS</div>
+                                    <br class="clearfloat" />
+                                </li>
+                                <li>
+                                    <div class="subItemImg"><a href="podcastweb10.aspx" target="_blank" title="Web10 Podcast"><img src="images/subnav_img_newweb10_stream.jpg" width="125" height="70" alt="Web10 Podcast" title="Web10 Podcast" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="podcastweb10.aspx" target="_blank" title="Web10 Podcast" class="lnkTitle">WEB10 PODCAST</a><br />Relembra a contagem das tuas preferidas.</div>
+                                    <br class="clearfloat" />
+                                </li>
+
+                                <li style="width:390px">
+                                	<div class="subItemImg"><a href="podcastgroovebox.aspx" title="Groove Box" target="_blank"  ><img src="images/subnav_img_groovebox_streamNew.jpg" width="125" height="70" alt="Groove Box" title="Groove Box" /></a></div>
+                                    <div style="float:left; width:140px; height:70px"><img src="images/menu_grovebox_txt.png" width="140" height="70" alt="" title="" /></div>
+                                   <div class="subItemImg"><a href="podcastgrooveboxespecial.aspx" title="Groove Box Special Edition" target="_blank"><img src="images/thum_menu_GSE.jpg" width="125" height="70" alt="Groove Box Special Edition" title="Groove Box Special Edition" /></a></div>
+                                    <br class="clearfloat" />
+<!--                                    <div class="subItemImg"><a href="groovebox.aspx" title="Groove Box"><img src="images/subnav_img_groovebox.jpg" width="125" height="70" alt="Groove Box" title="Groove Box" /></a></div>
+                                    <div class="fltrgt"><img src="images/1x1.gif" width="10" height="70" /></div>
+                                    <div id="subnavGroovebox">
+                                        <ul class="items">
+                                            <li><a href="groovebox_especial.aspx?did=2619" class="lnkTitleList" title="Groove Box Special Edition">Special Edition</a></li>
+                                         </ul>
+                                    </div>
+
+                                    <div class="subItemTitle"><a href="groovebox.aspx" title="Groove Box" class="lnkTitle">GROOVE BOX</a><br />Quinta para sexta à meia noite. Com FUNKYOU2 - The Party Rockers.</div>
+                                    <br class="clearfloat" />-->
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Subnav Emissão Ends-->
+			        </li>
+
+				</ul>
+
+			</li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_programas.jpg" title="Programas" alt="Programas" class="valignMenu" id="Img2"  onmouseover="MM_swapImage('Img2','Programas','images/mn_main_on_programas.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+			    <ul class="barra">
+			        <li>
+                        <!-- Subnav Programas Begins-->
+                        <div id="subnavProgramas">
+                            <ul class="items">
+
+                                <li >
+                                    <div class="subItemImg"><a href="detalhe.aspx?did=3308" title="Mega Manhãs"><img src="images/menu_manhas2015.jpg" width="125" height="70" alt="Mega Manhãs" title="Mega Manhãs" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="detalhe.aspx?did=3308" title="Mega Manhãs" class="lnkTitle">MEGA MANHÃS</a><br />Segunda a sexta – 7-11 com o Daniel e a Catarina.</div>
+                                    <br class="clearfloat" />
+                                </li>
+                                <li>
+                                    <div class="subItemImg"><a href="detalhe.aspx?did=3948" title="A Tarde"><img src="images/menu_aTarde2015.jpg" width="125" height="70" alt="A Tarde" title="A Tarde" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="detalhe.aspx?did=3948" title="A Tarde" class="lnkTitle">A Tarde</a><br />Das 4-8 com a Filipa, o Rui e o Paulo.</div>
+                                    <br class="clearfloat" />
+                                </li>
+                                <li style="width:390px">
+                                    <div class="subItemImg"><a href="web10.aspx" title="Web 10"><img src="images/subnav_img_newweb10.jpg" width="125" height="70" alt="Web 10" title="Web 10" /></a></div>
+                                	<div style="float:left; width:140px; height:70px"><img src="images/mn_thumb_web10_hor_new3.png" width="140" height="70" alt="" title="" /></div>
+                                   
+                                   <div class="subItemImg"><a href="groovebox_especial.aspx" title="Groove Box Special Edition"><img src="images/thum_menu_GSE.jpg" width="125" height="70" alt="Groove Box Special Edition" title="Groove Box Special Edition" /></a></div>
+                                    <br class="clearfloat" />
+<!--                                    <div class="subItemImg"><a href="groovebox.aspx" title="Groove Box"><img src="images/subnav_img_groovebox.jpg" width="125" height="70" alt="Groove Box" title="Groove Box" /></a></div>
+                                    <div class="fltrgt"><img src="images/1x1.gif" width="10" height="70" /></div>
+                                    <div id="subnavGroovebox">
+                                        <ul class="items">
+                                            <li><a href="groovebox_especial.aspx?did=2619" class="lnkTitleList" title="Groove Box Special Edition">Special Edition</a></li>
+                                         </ul>
+                                    </div>
+
+                                    <div class="subItemTitle"><a href="groovebox.aspx" title="Groove Box" class="lnkTitle">GROOVE BOX</a><br />Quinta para sexta à meia noite. Com FUNKYOU2 - The Party Rockers.</div>
+                                    <br class="clearfloat" />-->
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Subnav Programas Ends-->
+			        </li>
+				</ul>
+			</li>
+			<li><a href="http://www.facebook.com/pages/MEGA-FM/223032225340" target="_blank" class="raiz" ><img src="images/mn_main_off_facebook.jpg" title="Facebook" alt="Facebook" class="valignMenu" id="Img3"  onmouseover="MM_swapImage('Img3','Facebook','images/mn_main_on_facebook.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a></li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_passatempos.jpg" title="Passatempos" alt="Passatempos" class="valignMenu" id="Img4"  onmouseover="MM_swapImage('Img4','Passatempos','images/mn_main_on_passatempos.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+			    <ul class="barra">
+			        <li>
+                        <!-- Subnav Passatempos Begins-->
+                        <div id="subnavPassatempos">
+                                <div id="ctl00_uc_menu1_PassatemposDestaque" class="subnavPassatemposDestaque">
+                                    <div class="subItemImg"><a href="detalhe.aspx?fid=11&did=6267" id="ctl00_uc_menu1_adestpassimg" title="Calpe Festival Village"><img src="http://mediaserver3.rr.pt/mega2010/medio_calpe95670796_120x68.jpg" id="ctl00_uc_menu1_imgdestpass" width="125" height="70" alt="Calpe Festival Village" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="detalhe.aspx?fid=11&did=6267" id="ctl00_uc_menu1_adestpass" class="lnkTitle" title="Calpe Festival Village">Calpe Festival Village</a><br /><STRONG>Os últimos lugares são para... </STRONG></div>
+                                    <br class="clearfloat" />
+                                </div>
+                                <div id="subnavPassatemposList">
+                                     
+                                </div>
+                                <div id="subnavPassatemposExtra">
+                                    <ul class="items">
+                                        <li>
+                                            <div class="subItemBull"><img src="images/bull_sectionlnk.png" /></div>
+                                            <div class="subItemTitle"><a href="passatempos.aspx" title="Ver todos os passatempos" class="lnkTitle">PASSATEMPOS</a><br />Descobre aqui o que podes ganhar com a MEGA HITS.</div>
+                                            <br class="clearfloat" />
+                                        </li>
+                                     </ul>
+                                </div>        
+                        </div>
+                        <!-- Subnav Passatempos Ends-->
+
+			        </li>
+				</ul>
+			</li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_videos.jpg" title="Videos" alt="Videos" class="valignMenu" id="Img5"  onmouseover="MM_swapImage('Img5','Videos','images/mn_main_on_videos.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+			    <ul class="barra">
+					<li >
+                        <!-- Subnav Videos Begins-->
+                        <div id="subnavVideos">
+                            <ul class="items">
+                                <li>
+                                    <div class="subItemImg"><a href="videos.aspx?fid=23" title="VÍDEOS"><img src="images/subnav_img_wtv.jpg" width="125" height="70" alt="WTV" title="WTV" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="videos.aspx?fid=23" title="VÍDEOS" class="lnkTitle">VÍDEOS</a><br />Vídeos MEGA HITS.</div>
+                                    <br class="clearfloat" />
+                                </li>
+                                <li>
+                                    <div class="subItemImg"><a href="videos.aspx?fid=67" title="Oh Tu Queres Ver"><img src="images/subnav_img_ohTuQueresVer.jpg" width="125" height="70" alt="Oh Tu Queres Ver" title="Oh Tu Queres Ver" /></a></div>
+                                    <div class="fltrgt"><img src="images/1x1.gif" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="videos.aspx?fid=67" title="Oh Tu Queres Ver" class="lnkTitle">Oh Tu Queres Ver</a><br />Vê aqui os vídeos do "Oh Tu Queres Ver"</div>
+                                    <br class="clearfloat" />
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Subnav Videos Ends-->
+                    </li>
+				</ul> 
+			</li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_karas.jpg" title="Karas" alt="Karas" class="valignMenu" id="Img6"  onmouseover="MM_swapImage('Img6','Karas','images/mn_main_on_karas.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+			    <ul class="barra">
+					<li >
+                        <!-- Subnav Karas Begins-->
+                        <div id="subnavKaras">
+    	                        <div id="subnavKarasDestaque">
+        	                        <div class="subItemImg"><a href="#" title="Karas"><img src="images/subnav_img_karas.jpg" width="125" height="70" alt="Karas" title="Karas" /></a></div>
+                                    <div class="subItemTitle"><a href="#" title="Karas" class="lnkTitle">MEGA ANIMADORES</a></div>
+                                    <br class="clearfloat" />
+                                </div>
+                                <div id="subnavKarasList">
+                                    <ul class="items">                                   
+                                        
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=42" id="ctl00_uc_menu1_rptAnimadores_ctl00_adestanim" class="lnkLocList" title="Catarina Figueiredo">Catarina Figueiredo</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=37" id="ctl00_uc_menu1_rptAnimadores_ctl01_adestanim" class="lnkLocList" title="Daniel Fontoura">Daniel Fontoura</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=38" id="ctl00_uc_menu1_rptAnimadores_ctl02_adestanim" class="lnkLocList" title="David Carronha">David Carronha</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=41" id="ctl00_uc_menu1_rptAnimadores_ctl03_adestanim" class="lnkLocList" title="Filipa Galrão">Filipa Galrão</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=39" id="ctl00_uc_menu1_rptAnimadores_ctl04_adestanim" class="lnkLocList" title="Joana Gama">Joana Gama</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=36" id="ctl00_uc_menu1_rptAnimadores_ctl05_adestanim" class="lnkLocList" title="Letícia Pinheiro">Letícia Pinheiro</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=5299" id="ctl00_uc_menu1_rptAnimadores_ctl06_adestanim" class="lnkLocList" title="Maria Correia">Maria Correia</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=34" id="ctl00_uc_menu1_rptAnimadores_ctl07_adestanim" class="lnkLocList" title="Nelson Cunha">Nelson Cunha</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=3930" id="ctl00_uc_menu1_rptAnimadores_ctl08_adestanim" class="lnkLocList" title="Rui Maria Pêgo">Rui Maria Pêgo</a></li>         
+                                            
+                                                <li><a href="karasdetalhe.aspx?fid=12&did=40" id="ctl00_uc_menu1_rptAnimadores_ctl09_adestanim" class="lnkLocList" title="Teresa Alves">Teresa Alves</a></li>         
+                                             
+                                    </ul>
+                                </div>
+                                <div style="float:left; padding:8px 0 8px 0"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                <div id="subnavKarasArea">
+                                    <ul class="items">
+                                        <li><img src="../images/bull_sectionlnk2.png" /><a href="karassuporte.aspx" class="lnkTitleArea">PRODUÇÃO</a></li>
+                                     </ul>
+                                </div>
+                                <br class="clearfloat" />
+                        </div>
+                        <!-- Subnav Karas Ends--> 
+                    </li>
+				</ul> 
+			</li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_meganews.jpg" title="Mega News" alt="Mega News" class="valignMenu" id="Img7"  onmouseover="MM_swapImage('Img7','Mega News','images/mn_main_on_meganews.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+			    <ul class="barra">
+					<li>
+                        <!-- Subnav MegaInfo Begins-->
+                        <div id="subnavMegainfo">
+    	                        <div id="subnavMegainfoDestaque">
+        	                        <div class="subItemImg"><a href="detalhenews.aspx?fid=13&did=6321" id="ctl00_uc_menu1_adestnewsimg" title="Hardwell convida..."><img src="http://mediaserver3.rr.pt/mega2010/15470b111205x683.jpg" id="ctl00_uc_menu1_imgdestnews" width="125" height="70" alt="Hardwell convida..." /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="detalhenews.aspx?fid=13&did=6321" id="ctl00_uc_menu1_adestnews" class="lnkTitle" title="Hardwell convida...">Hardwell convida...</a><br />.... Kill The Buzz!</div>
+                                    <br class="clearfloat" />
+                                </div>
+                                <div id="subnavMegainfoList">
+                                    <ul class="items">
+                                        <li><a href="meganews.aspx" title="Mega News" class="lnkTitleList">Mega News</a></li>
+                                        <li><a href="tempo.aspx" title="Tempo" class="lnkTitleList">TEMPO</a></li>
+                                        <li><a href="artistasmega.aspx" title="Artistas/Bandas" class="lnkTitleList">ARTISTAS/BANDAS</a></li>
+                                        <li><a href="transito.aspx" title="Trânsito" class="lnkTitleList">TRÂNSITO</a></li>
+                                     </ul>
+                                </div>
+                        </div>
+                        <!-- Subnav MegaInfo Ends-->
+					</li>
+				</ul> 
+			</li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_checkin.jpg" title="Chekin" alt="Chekin" class="valignMenu" id="Img8"  onmouseover="MM_swapImage('Img8','Chekin','images/mn_main_on_checkin.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a>
+			    <ul class="barra">
+					<li>
+                        <!-- Subnav Checkin Begins-->
+                        <div id="subnavCheckin">
+    	                        <div id="ctl00_uc_menu1_CheckinDestaque" class="subnavCheckinDestaque">
+        	                        <div class="subItemImg"><a href="detalhe.aspx?fid=14&did=6083" id="ctl00_uc_menu1_adestchekimg" title="12º Moche Festival Secundário"><img src="http://mediaserver3.rr.pt/mega2010/medio_644x354_FestivalSecundario14845a79_120x68.jpg" id="ctl00_uc_menu1_imgdestchek" width="125" height="70" alt="12º Moche Festival Secundário" /></a></div>
+                                    <div class="fltrgt"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                    <div class="subItemTitle"><a href="detalhe.aspx?fid=14&did=6083" id="ctl00_uc_menu1_adestchek" class="lnkTitle" title="12º Moche Festival Secundário">12º Moche Festival Secundário</a><br /><STRONG>Gouveia volta a ser MEGA!</STRONG></div>
+                                    <br class="clearfloat" />
+                                </div>
+                                <div id="subnavCheckinList">
+                                    <ul class="items">
+                                        <li><a href="categoria.aspx?fid=31" title="Eventos" class="lnkTitleList">EVENTOS</a></li>
+                                        <li><a href="categoria.aspx?fid=25" title="Cinema" class="lnkTitleList">CINEMA</a></li>
+                                        <li><a href="categoria.aspx?fid=28" title="Teatro" class="lnkTitleList">TEATRO</a></li>
+                                        <li><a href="categoria.aspx?fid=26" title="Festas" class="lnkTitleList">FESTAS</a></li>
+                                        <li><a href="categoria.aspx?fid=29" title="DVD's" class="lnkTitleList">DVD'S</a></li>
+                                        <li><a href="categoria.aspx?fid=27" title="Concertos" class="lnkTitleList">CONCERTOS</a></li>
+                                     </ul>
+                                </div>
+                                <div id="subnavCheckinTodos">
+                                    <div class="subItemBull"><img src="images/bull_sectionlnk.png" /></div>
+                                    <div class="subItemTitle"><a href="chekin.aspx" title="Todos os eventos" class="lnkTitle">TODOS OS EVENTOS</a><br />Não sabes o que fazer nos tempos livres? Clica aqui.</div>
+                                    <br class="clearfloat" />
+                                </div>                                   
+                        </div>
+                        <!-- Subnav Checkin Ends-->
+					</li>
+				</ul> 
+			</li>
+			<li><a href="#" class="raiz" ><img src="images/mn_main_off_megavip.jpg" title="MyMEGA" alt="Mega Vip" class="valignMenu" id="Img9"  onmouseover="MM_swapImage('Img9','Mega Vip','images/mn_main_on_megavip.jpg',1);" onMouseOut="MM_swapImgRestore();" /></a> 
+			    <ul class="barra">
+				    <li>
+                        <!-- Subnav Mymega Begins-->
+                        <div id="subnavMymega">
+	                            <div id="subnavMymegaDestaque">
+    	                            <div class="subItemImg"><a href="megavip.aspx" title="Torna-te Mega Vip"><img src="images/subnav_img_megavip.jpg" width="125" height="70" alt="" title="" /></a></div>
+                                    <div class="subItemTitle"><a href='megavip.aspx' title='Torna-te Mega Vip' class='lnkTitle'>MEGA VIP</a><br />Regista-te <a href='registo.aspx' class='lnkWhiteSmall'>aqui</a> e torna-te um MEGA VIP. Partilha, comenta, convida os teus amigos!.</div>
+                                    <br class="clearfloat" />
+                                </div>
+                                <div style="float:left; padding:8px 0 8px 0"><img src="images/sep_subnavmenu.png" width="10" height="70" /></div>
+                                <div id="subnavMymegaArea">
+                                    <ul class="items">                                   
+                                        <li><img src="../images/bull_sectionlnk2.png" /><a href="karassuporte.aspx" class="lnkTitleArea"><a onclick="javascript:window.open('http://megafm.mediascoreinc.com', 'MediaScore2', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=800,height=750')" style='cursor:pointer' class='lnkTitleArea'>My Mega</a></a></li>
+                                     </ul>
+                                </div>
+                                <br class="clearfloat" />
+                        </div>
+                        <!-- Subnav Mymega Ends-->
+				    </li>
+				</ul>
+			</li>
+
+			<li><img id="menuRight" src="images/mn_ends.png" title="" alt="" width="11" height="45"  class="valignMenu"/></li>
+		</ul>
+	</div>
+
+
+                </div>
+                <div id="mainContent">
+                    
+
+<script type="text/javascript" src="js/sendFeedback.js"></script>
+
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+
+
+
+<!--Script Abertura do player atraves da NW -->
+<script language="JavaScript">
+var openstream='';
+if (openstream=='popup')
+    {
+        window.open('playerstreampub.aspx','player','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420');
+    }
+</script>
+<!--Fim do Script Abertura do player atraves da NW -->
+    <script type="text/javascript">
+        /* Refresh da página de 3 em 3 minutos*/
+        function reFresh() {
+            location.reload(true);
+        }
+        var paused = false,
+        auto_refresh = setInterval(function () {
+            if (paused) return false;
+            reFresh();
+        }, 180000);
+    </script>
+<style type="text/css"> 
+<!-- 
+.lnkRotator {
+	line-height:1.35em
+}
+.rotatorMaintxtXS {
+	line-height:0.5em
+}
+
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.lnkRotator {
+	line-height:21px
+}
+.rotatorMaintxtXS {
+	line-height:20px
+}
+</style>
+<![endif]-->
+
+
+<!-- ******************************  LINE 00 BEGINS *******************************  -->
+    <div id="line00">
+        <!-- Redes Sociais -->
+        
+
+
+<div id="navRedes">
+    <ul class="items">
+        <li><img src="images/navRedes_seguenos.png" width="92" height="21" style="border:0" /></li>
+    	
+        <li><a href="http://www.facebook.com/pages/MEGA-FM/223032225340" target="_blank" title="Facebook"><img src="images/navRedes_facebook.png" width="36" alt="Facebook" title="Facebook" height="21" style="border:0" /></a></li>
+        
+        <li><img src="images/navRedes_sep.png" width="4" height="21" style="border:0" /></li>
+    	
+        <li><a href="http://www.youtube.com/megahitswtv" target="_blank" title="Youtube"><img src="images/navRedes_youtube.png" width="36" height="21" alt="Youtube" title="Youtube" style="border:0" /></a></li>
+        
+        <li><img src="images/navRedes_sep.png" width="4" height="21" style="border:0" /></li>
+    	
+        <li><a href="http://instagram.com/megahitstagram "><img src="images/instagram.png" width="36" height="21" alt="Instagram" style="border:0" /></a></li>
+   
+        <li><img src="images/navRedes_sep.png" width="4" height="21" style="border:0" /></li>
+    	
+        <li><a href="http://twitter.com/megafmhits" target="_blank" title="Twitter"><img src="images/navRedes_twitter.png" width="36" height="21" alt="Twitter" title="Twitter" style="border:0" /></a></li>
+        
+        <li><img src="images/navRedes_sep.png" width="4" height="21" style="border:0" /></li>
+    	
+        <li><a href="http://www.vimeo.com/megahits" title="Vimeo" target="_blank"><img src="images/navRedes_vimeo.png" alt="Vimeo" title="Vimeo" width="36" height="21" style="border:0" /></a></li>
+        
+        <li><img src="images/navRedes_end.png" width="8" height="21" style="border:0" /></li>
+    </ul>
+</div>
+        <!-- Fim Redes Sociais -->
+    </div>
+<!-- ******************************  LINE 00 ENDS *******************************  -->
+        
+<!-- ******************************  LINE 01 BEGINS *******************************  -->
+    <div id="line01">
+	    <!-- Em Destaque -->
+        
+
+<!--JS Rotator Main Begins -->
+	<script type="text/javascript" src="js/rotator_main/jquery-easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/rotator_main/jquery-easing-compatibility.1.2.pack.js"></script>
+	<script type="text/javascript" src="js/rotator_main/coda-slider.1.1.1.pack.js"></script>
+    <script type="text/javascript" src="js/rotator_main/rotator.js"></script>
+<!--JS Rotator Main Ends-->
+
+<div id="rotatorMain">
+	<div class="fltlft">
+        <div class="slider-wrap">
+            <div id="hpRotatorList">
+                <ul class="items">
+                    
+                            <li class='margin1px'><a href='#1' class='cross-link active-thumb'>#1 Hardwell em Portugal</a></li>
+                            
+                            
+                        
+                            
+                            <li class='margin1px'><a href='#2' class='cross-link'>Caparica Primavera Surf Fest</a></li>
+                            
+                        
+                            
+                            <li class='margin1px'><a href='#3' class='cross-link'>Mar Negro</a></li>
+                            
+                        
+                            
+                            <li class='margin1px'><a href='#4' class='cross-link'>Pentatonix em Portugal</a></li>
+                            
+                        
+                            
+                            
+                            <li class='nomargin'><a href='#5' class='cross-link'>Sumol Summer Fest</a></li>
+                          
+                </ul>
+            </div>                            
+            <div id="main-photo-slider" class="csw">
+                <div class="panelContainer">
+                    
+                            <div class='panel' title='Panel 1'><div class='wrapper'><div class='panelLnkArea'><a href='http://www.megahits.fm/detalhe.aspx?fid=27&did=6161' class='lnkRotator' title='#1 Hardwell em Portugal' target='_self'><span class='rotatorMaintxtXL'>&nbsp;#1 Hardwell em Portugal&nbsp;</span><br /><span class='rotatorMaintxtXS'>&nbsp;ISTO É MEGA!&nbsp;</span></a></div><a href='http://www.megahits.fm/detalhe.aspx?fid=27&did=6161' title='#1 Hardwell em Portugal' target='_self'><img src='http://mediaserver3.rr.pt/mega2010/medio_644x354_Hardwell2015_new232607e7_644x354.jpg' alt='#1 Hardwell em Portugal' style='border:0' /></a></div></div>
+                        
+                            <div class='panel' title='Panel 2'><div class='wrapper'><div class='panelLnkArea'><a href='http://www.megahits.fm/detalhe.aspx?fid=31&did=6227' class='lnkRotator' title='Caparica Primavera Surf Fest' target='_self'><span class='rotatorMaintxtXL'>&nbsp;Caparica Primavera Surf Fest&nbsp;</span><br /><span class='rotatorMaintxtXS'>&nbsp;ISTO É MEGA!&nbsp;</span></a></div><a href='http://www.megahits.fm/detalhe.aspx?fid=31&did=6227' title='Caparica Primavera Surf Fest' target='_self'><img src='http://mediaserver3.rr.pt/mega2010/medio_644x354_CaparicaSF6607eacc_644x354.jpg' alt='Caparica Primavera Surf Fest' style='border:0' /></a></div></div>
+                        
+                            <div class='panel' title='Panel 3'><div class='wrapper'><div class='panelLnkArea'><a href='http://www.megahits.fm/detalhe.aspx?fid=25&did=6300' class='lnkRotator' title='Mar Negro' target='_self'><span class='rotatorMaintxtXL'>&nbsp;Mar Negro&nbsp;</span><br /><span class='rotatorMaintxtXS'>&nbsp;Nos cinemas com a&nbsp;MEGA HITS&nbsp;</span></a></div><a href='http://www.megahits.fm/detalhe.aspx?fid=25&did=6300' title='Mar Negro' target='_self'><img src='http://mediaserver3.rr.pt/mega2010/medio_644x354_marNegro2752a804_644x354.jpg' alt='Mar Negro' style='border:0' /></a></div></div>
+                        
+                            <div class='panel' title='Panel 4'><div class='wrapper'><div class='panelLnkArea'><a href='http://www.megahits.fm/detalhe.aspx?fid=27&did=6167' class='lnkRotator' title='Pentatonix em Portugal' target='_self'><span class='rotatorMaintxtXL'>&nbsp;Pentatonix em Portugal&nbsp;</span><br /><span class='rotatorMaintxtXS'>&nbsp;ISTO É MEGA!&nbsp;</span></a></div><a href='http://www.megahits.fm/detalhe.aspx?fid=27&did=6167' title='Pentatonix em Portugal' target='_self'><img src='http://mediaserver3.rr.pt/mega2010/medio_pentatonix7750aec5_644x354.jpg' alt='Pentatonix em Portugal' style='border:0' /></a></div></div>
+                        
+                            <div class='panel' title='Panel 5'><div class='wrapper'><div class='panelLnkArea'><a href='http://www.megahits.fm/detalhe.aspx?fid=27&did=6235' class='lnkRotator' title='Sumol Summer Fest' target='_self'><span class='rotatorMaintxtXL'>&nbsp;Sumol Summer Fest&nbsp;</span><br /><span class='rotatorMaintxtXS'>&nbsp;ISTO É&nbsp;MEGA!&nbsp;</span></a></div><a href='http://www.megahits.fm/detalhe.aspx?fid=27&did=6235' title='Sumol Summer Fest' target='_self'><img src='http://mediaserver3.rr.pt/mega2010/MH_644x354_v1_SSF156125b125_644x354.png' alt='Sumol Summer Fest' style='border:0' /></a></div></div>
+                          
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fltrgt"><img src="images/butVert_blu_emdestaque.png" /></div>
+	<br class="clearfloat" />
+</div>
+        <!-- Fim Em Destaque -->
+
+        <div id="pubArea">
+            <div class="fltlft">
+                <!-- MREC -->
+                
+
+
+<div id="pub_mrec">
+     
+
+    <div id="ctl00_ContentPlaceHolderMegaHits_uc_mrec1_mrec_hp">
+        <!-- SAPO - MEGA HITS - MREC -  (300x250) --> 
+        <div class="wsz" data-pid="5691">
+            <!--/* OpenDisplay Javascript Tag v2.8.5 */--> 
+            <script type='text/javascript'>
+            <!--//<![CDATA[
+            var m3_u = (location.protocol == 'https:' ? 'https://pub.sapo.pt/ajs.php' : 'http://pub.sapo.pt/ajs.php');
+            var m3_r = Math.floor(Math.random() * 99999999999);
+            if (!document.MAX_used) document.MAX_used = ',';
+            document.write("<scr" + "ipt type='text/javascript' src='" + m3_u);
+            document.write("?zoneid=1132&kw=no_iframe");
+            document.write('&cb=' + m3_r);
+            if (document.MAX_used != ',') document.write("&exclude=" + document.MAX_used);
+            document.write(document.charset ? '&charset=' + document.charset : (document.characterSet ? '&charset=' + document.characterSet : ''));
+            document.write("&loc=" + escape(window.location));
+            if (document.referrer) document.write("&referer=" + escape(document.referrer));
+            if (document.context) document.write("&context=" + escape(document.context));
+            if (document.mmm_fo) document.write("&;mmm_fo=1");
+            document.write("'><\/scr" + "ipt>");
+            //]]>--></script><noscript><a href='http://pub.sapo.pt/ck.php?n=a34d1b1f&cb=932015126' target='_blank'><img src='http://pub.sapo.pt/avw.php?zoneid=1132&cb=932015126&n=a34d1b1f' border='0' alt='' /></a></noscript> 
+        </div>
+    </div>  
+</div>
+                <!-- Fim MREC -->
+                <!-- Banner -->
+                
+
+<div>
+    <a href="http://megafm.mediascoreinc.com/survey/login.asp?sni=dHJ1ZQ&ci=MzUx&fsi=MA&pni=MjE0&eqai=MA&us=44385" id="ctl00_ContentPlaceHolderMegaHits_uc_banner1_adest" target="_blank">
+        <img src="http://mediaserver3.rr.pt/mega2010/banner_mymega_newjpg1800a886.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_banner1_imgdest" width="300" height="96" style="border:0; cursor:pointer " />
+    </a>
+</div>
+                <!-- Fim Banner -->
+            </div>
+            
+            <br class="clearfloat" />
+      </div>
+        <br class="clearfloat" />
+    </div>
+<!-- ******************************  LINE 01 ENDS *******************************  -->
+        
+<!-- ******************************  LINE 02 BEGINS *******************************  -->
+    <div id="line02">
+        <!-- New banner centro -->
+        
+
+<style type="text/css">
+#megaLeaderboard {
+	width:996px;
+	height:100px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+	#megaLeaderboard ul.items {
+		margin:0;
+		padding:0;
+	}
+	#megaLeaderboard ul.items li{
+		list-style-type:none;
+		list-style:none;
+		width:332px;
+		height:100px;
+		margin:0;
+		padding:0;
+		float:left;
+	}		
+</style>  
+
+
+
+<div id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_activebannercentertres">
+    <div id="megaLeaderboard">
+        <ul class="items">
+            <li >
+                <div style="width:332px; height:100px">
+                    <a href="http://megahits.sapo.pt/detalhe.aspx?fid=31&did=6083" id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_adestimg1" target="_blank">
+                        <img src="http://mediaserver3.rr.pt/mega2010/banner_gouveia1540df13.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_imgdest1" style="border:0px; width:328px; height:100px; cursor:pointer;" />
+                    </a>
+                </div> 
+            </li>
+             <li >
+                 <div style="width:332px; height:100px; text-align:center"> 
+                    <a href="http://megahits.sapo.pt/detalhe.aspx?fid=31&did=6287" id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_adestimg2" target="_blank">
+                        <img src="http://mediaserver3.rr.pt/mega2010/banner_jimmy1017d57c.png" id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_imgdest2" style="border:0px; width:328px; height:100px; cursor:pointer;" />
+                    </a>
+                </div> 
+            </li>
+             <li>
+                <div style="width:332px; height:100px; text-align:right"> 
+                    <a href="http://megahits.sapo.pt/videos.aspx?fid=67" id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_adestimg3" target="_blank">
+                        <img src="http://mediaserver3.rr.pt/mega2010/banner_oh14430450.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_newbannercenter1_imgdest3" style="border:0px; width:328px; height:100px; cursor:pointer;" />
+                    </a>
+                </div> 
+            </li>
+        </ul>
+    </div>
+</div>    
+	    <!-- Fim New banner centro -->
+
+    	<!-- Mega Upper Leaderboard -->
+        
+
+<style type="text/css">
+#megaLeaderboard {
+	width:996px;
+	height:100px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+	#megaLeaderboard ul.items {
+		margin:0;
+		padding:0;
+	}
+	#megaLeaderboard ul.items li{
+		list-style-type:none;
+		list-style:none;
+		width:332px;
+		height:100px;
+		margin:0;
+		padding:0;
+		float:left;
+	}		
+</style>  
+
+
+
+  
+
+  
+	    <!-- Fim Mega Upper Leaderboard -->
+    
+        <!-- Mega Manhas -->
+        
+
+<div id="hpMegamanhas">
+    <a href="http://www.megahits.fm/detalhe.aspx?did=3308" id="ctl00_ContentPlaceHolderMegaHits_uc_megamanhas1_adest" title="hp_MegaManhas2015"><img src="http://mediaserver3.rr.pt/mega2010/hp_MegaManhas20151845e081.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_megamanhas1_imgdest" width="484" height="252" style="border:0" alt="hp_MegaManhas2015" /></a>
+</div>
+	    <!-- Fim Mega Manhas -->
+
+        <!-- Auto Promo -->
+        
+
+
+<div style="float:right;">
+    <a href="http://www.megahits.fm/detalhe.aspx?did=3948" id="ctl00_ContentPlaceHolderMegaHits_uc_autopromo1_adest" title="hp_aTarde2015"><img src="http://mediaserver3.rr.pt/mega2010/hp_aTarde20152825d572.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_autopromo1_imgdest" width="484" height="252" style="border:0" alt="hp_aTarde2015" /></a>
+</div>
+	    <!-- Fim Auto Promo -->
+       	   
+        <!-- Barra Promo Locutores -->
+		<div id="locPromo">
+            
+
+    <ul class="items">
+       
+       <li style='width:484px'><a href='karasdetalhe.aspx?fid=12&did=5299'><img src='http://mediaserver3.rr.pt/mega2010/hp_animador_maria111110b1e9.jpg' alt='hp_animador_maria11' title='hp_animador_maria11' width='484' height='100' style='border:0'/></a></li><li style='width:484px; margin-left:28px'><a href=''><img src='http://mediaserver3.rr.pt/mega2010/hp_animador_catarinapalma21721de70.jpg' alt='hp_animador_catarinapalma2' title='hp_animador_catarinapalma2' width='484' height='100' style='border:0'/></a></li>
+
+    </ul>
+        </div>
+	  <!-- Fim Barra Promo Locutores -->
+
+        <!-- Banner Central 2 -->
+        
+
+<style type="text/css">
+#megaLeaderboard2 {
+	width:996px;
+	/*height:100px;*/
+	margin:0;
+	/*padding:0 0 28px 0;*/
+	float:left;
+}
+	#megaLeaderboard2 ul.items {
+		margin:0;
+		padding:0;
+	}
+	#megaLeaderboard2 ul.items li{
+		list-style-type:none;
+		list-style:none;
+		width:484px;
+		height:100px;
+		margin:0;
+		padding:0px 0px 28px 0px;
+		float:left;
+	}		
+</style>  
+
+
+<div id="ctl00_ContentPlaceHolderMegaHits_uc_bannercenter21_activebannercentertres">
+    <div id="megaLeaderboard2">
+        <ul class="items">
+            <li style='margin-right:28px'> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/hardwellonair.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_hardwell_new4127aba3.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/groovebox.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_Groove_FY215612d3d.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li style='margin-right:28px'> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/Mastiksoul_Boom_Box.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_Mastiksou_new12519ab5.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/spinnin_sessions.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_Spinnin5020fffd.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li style='margin-right:28px'> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/SmashtheHouse.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_smash685689f3.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/groovebox_especial.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_GBSE_kura_aoki8587a611.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li style='margin-right:28px'> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/dyro.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_banner_dyro1131e824.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/WolfpackMidnightHour.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_wolpack1450e0ea.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li style='margin-right:28px'> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/RockitSessions.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_rockitsessions7392799a.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li><li> <div style='width:484px; height:100px'> <a href='http://megahits.sapo.pt/djacademy.aspx' target='_blank' ><img src='http://mediaserver3.rr.pt/mega2010/hp_deepblue1830b3de.jpg' style='border:0px; width:484px; height:100px; cursor:pointer;' /></a></div></li>
+        </ul>
+    </div>
+</div>    
+	    <!-- Fim Banner Central 2 -->
+
+        <!-- BannerBackNews -->
+        
+
+<style type="text/css">
+#megaLeaderboard3 {
+	width:996px;
+	height:100px;
+	margin:0;
+	padding:0 0 28px 0 ;
+	float:left;
+}
+	#megaLeaderboard3 ul.items {
+		margin:0;
+		padding:0;
+	}
+	#megaLeaderboard3 ul.items li{
+		list-style-type:none;
+		list-style:none;
+		width:332px;
+		height:100px;
+		margin:0;
+		padding:0;
+		float:left;
+	}		
+</style>  
+
+
+
+    
+	    <!-- Fim BannerBackNews -->
+        <br class="clearfloat" />
+    </div>               
+<!-- ******************************  LINE 02 ENDS *******************************  -->    
+
+<!-- ******************************  LINE 03 BEGINS *******************************  -->  
+    <div id="line03">
+        <!-- Mega News -->
+        
+
+<div id="megaNews">
+
+    <ul class="items">
+
+        
+	            <li>
+    	            <div class="newsImage"><a href="detalhenews.aspx?fid=13&did=6321" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl00_adest" title="Hardwell convida..."><img src="http://mediaserver3.rr.pt/mega2010/139277bd1002x719.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl00_imgdest" width="195" height="140" style="border:0" alt="Hardwell convida..." /></a></div>
+                    <div class="newsTitle">
+                        <a href="detalhenews.aspx?fid=13&did=6321" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl00_adestTitle" class="lnkNews" title="Hardwell convida...">
+                            <span class='setBlack'>Hardwell convida...</span>
+                        </a>
+                    </div>
+                </li> 
+            
+	            <li>
+    	            <div class="newsImage"><a href="detalhenews.aspx?fid=13&did=6326" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl01_adest" title="Chris Brown 'abandonado'"><img src="http://mediaserver3.rr.pt/mega2010/18006968252x181.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl01_imgdest" width="195" height="140" style="border:0" alt="Chris Brown 'abandonado'" /></a></div>
+                    <div class="newsTitle">
+                        <a href="detalhenews.aspx?fid=13&did=6326" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl01_adestTitle" class="lnkNews" title="Chris Brown 'abandonado'">
+                            <span class='setWhite'>Chris Brown 'abandonado'</span>
+                        </a>
+                    </div>
+                </li> 
+            
+	            <li>
+    	            <div class="newsImage"><a href="detalhenews.aspx?fid=13&did=6325" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl02_adest" title="RIR USA: cartaz fechado"><img src="http://mediaserver3.rr.pt/mega2010/Logo-USA57681aa7_195x140.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl02_imgdest" width="195" height="140" style="border:0" alt="RIR USA: cartaz fechado" /></a></div>
+                    <div class="newsTitle">
+                        <a href="detalhenews.aspx?fid=13&did=6325" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl02_adestTitle" class="lnkNews" title="RIR USA: cartaz fechado">
+                            <span class='setBlack'>RIR USA: cartaz fechado</span>
+                        </a>
+                    </div>
+                </li> 
+            
+	            <li>
+    	            <div class="newsImage"><a href="detalhenews.aspx?fid=13&did=6327" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl03_adest" title="Taylor Swift surpreende fã"><img src="http://mediaserver3.rr.pt/mega2010/16362a63690x495.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl03_imgdest" width="195" height="140" style="border:0" alt="Taylor Swift surpreende fã" /></a></div>
+                    <div class="newsTitle">
+                        <a href="detalhenews.aspx?fid=13&did=6327" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl03_adestTitle" class="lnkNews" title="Taylor Swift surpreende fã">
+                            <span class='setWhite'>Taylor Swift surpreende fã</span>
+                        </a>
+                    </div>
+                </li> 
+            
+	            <li>
+    	            <div class="newsImage"><a href="detalhenews.aspx?fid=13&did=6322" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl04_adest" title="Os maiores do Youtube!"><img src="http://mediaserver3.rr.pt/mega2010/11700189772x554.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl04_imgdest" width="195" height="140" style="border:0" alt="Os maiores do Youtube!" /></a></div>
+                    <div class="newsTitle">
+                        <a href="detalhenews.aspx?fid=13&did=6322" id="ctl00_ContentPlaceHolderMegaHits_uc_meganews1_rptNews_ctl04_adestTitle" class="lnkNews" title="Os maiores do Youtube!">
+                            <span class='setBlack'>Os maiores do Youtube!</span>
+                        </a>
+                    </div>
+                </li> 
+                                                                    
+    </ul>
+
+</div>
+<div class="fltrgt"><img src="images/butVert_blu_meganews.png" width="21" height="130" /></div>
+<br class="clearfloat" />
+<div class="fltrgt"><a href="meganews.aspx"><img src="images/hp_noticias_pointer_01.png" alt="ver mais notícias"  title="ver mais notícias" style="border:0" /></a></div>
+<br class="clearfloat" />
+        <!-- Fim Mega News -->
+    </div>                
+<!-- ******************************  LINE 03 ENDS *******************************  -->       
+        
+<!-- ******************************  LINE 04 BEGINS *******************************  -->
+    <div id="line04">
+	    <div class="fltlft" style="width:609px;" >
+    	    <!-- Mega Videos -->
+            
+
+<script src="js/createplayer.js" type="text/javascript"></script> 
+<script src="js/jwplayer.js" type="text/javascript"></script>
+<script src="js/IncrementFileHit.js" type="text/javascript"></script>
+
+
+<div id="videosNav" style="position:relative;">
+
+	    <ul class="items">
+    	    <li>
+    	        <a id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl00_adest" style="cursor:pointer" class="tip" onclick="javascript:createPlayerHP('http://mediaserver3.rr.pt/mega2010/TRAILER_HARDWELL11112792_H264_HQ.mp4','http://mediaserver3.rr.pt/mega2010/TRAILER_HARDWELL11112792.flv','9','195119', 'http://mediaserver3.rr.pt/mega2010/IMG_53584484e6d8_586x329.jpg');" title="I AM HARDWELL | UNITED WE ARE - Trailer ">
+    	            <img src="http://mediaserver3.rr.pt/mega2010/IMG_53584484e6d8_86x48.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl00_imgdest" class="borderOrange" width="85" height="48" />
+    	        </a>
+    	    </li>
+        </ul>
+    
+	    <ul class="items">
+    	    <li>
+    	        <a id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl01_adest" style="cursor:pointer" class="tip" onclick="javascript:createPlayerHP('http://mediaserver3.rr.pt/mega2010/HARDWELL_SITE_PROMOS6892af0f_H264_HQ.mp4','http://mediaserver3.rr.pt/mega2010/HARDWELL_SITE_PROMOS6892af0f.flv','9','191919', 'http://mediaserver3.rr.pt/mega2010/HARDWELL1568f283_586x329.jpg');" title="I Am Hardwell | United We Are">
+    	            <img src="http://mediaserver3.rr.pt/mega2010/HARDWELL1568f283_86x48.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl01_imgdest" class="borderOrange" width="85" height="48" />
+    	        </a>
+    	    </li>
+        </ul>
+    
+	    <ul class="items">
+    	    <li>
+    	        <a id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl02_adest" style="cursor:pointer" class="tip" onclick="javascript:createPlayerHP('http://mediaserver3.rr.pt/mega2010/SPOT____SSF1513928cdc_H264_HQ.mp4','http://mediaserver3.rr.pt/mega2010/SPOT____SSF1513928cdc.flv','9','194653', 'http://mediaserver3.rr.pt/mega2010/spot100842fc_586x329.jpg');" title="Sumol Summer Fest 2015">
+    	            <img src="http://mediaserver3.rr.pt/mega2010/spot100842fc_86x48.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl02_imgdest" class="borderOrange" width="85" height="48" />
+    	        </a>
+    	    </li>
+        </ul>
+    
+	    <ul class="items">
+    	    <li>
+    	        <a id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl03_adest" style="cursor:pointer" class="tip" onclick="javascript:createPlayerHP('http://mediaserver3.rr.pt/mega2010/OPEN_DAY161346de_H264_HQ.mp4','http://mediaserver3.rr.pt/mega2010/OPEN_DAY161346de.flv','9','194760', 'http://mediaserver3.rr.pt/mega2010/open18218b67_586x329.jpg');" title="Open Day 2015 ">
+    	            <img src="http://mediaserver3.rr.pt/mega2010/open18218b67_86x48.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl03_imgdest" class="borderOrange" width="85" height="48" />
+    	        </a>
+    	    </li>
+        </ul>
+    
+	    <ul class="items">
+    	    <li>
+    	        <a id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl04_adest" style="cursor:pointer" class="tip" onclick="javascript:createPlayerHP('http://mediaserver3.rr.pt/mega2010/capitulo532250e2_H264_HQ.mp4','http://mediaserver3.rr.pt/mega2010/capitulo532250e2.flv','9','194775', 'http://mediaserver3.rr.pt/mega2010/Sequence_011648e70c_586x329.jpg');" title="Allianz Capítulo Perfeito powered by Billabong 2015">
+    	            <img src="http://mediaserver3.rr.pt/mega2010/Sequence_011648e70c_86x48.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_videos1_rptVideos_ctl04_imgdest" class="borderOrange" width="85" height="48" />
+    	        </a>
+    	    </li>
+        </ul>
+     
+    <div style="position:absolute; left:420px"><a href="videos.aspx?fid=23"><img src="images/hp_videos_pointer.png" width="191" height="47" alt="Ver mais videos" title="Ver mais videos" style="border:0" /></a></div>
+</div>
+
+<div>
+	<div class="fltlft">
+	    <div id="player" style="width:586px; height:329px;"> 
+
+            <div id='mediaplayer'></div>
+        
+            <script type="text/javascript">
+            var clicked = 0; 
+                  jwplayer('mediaplayer').setup({
+                      plugins: {
+                          "swf/ova_rr.swf": {
+                              "delayAdRequestUntilPlay": true,
+                              "debug": {
+                                  "levels": "fatal, config, vast_template, vpaid, http_calls, tracking_events, playlist"
+                              },
+                              "overlays": {
+                                  "regions": [
+                                      {
+                                          "id": "my-ad-notice",
+                                          "verticalAlign": "top",
+                                          "horizontalAlign": "right",
+                                          "backgroundColor": "transparent",
+                                          "width": "100pct",
+                                          "height": 40,
+                                          "style": ".smalltext { font-style: italic; font-size:10; }"
+                                      }
+                                  ]
+                              },
+                              "ads": {
+                                  "pauseOnClickThrough": false,
+                                  "notice": {
+                                      "type": "countdown"
+                                  },
+                                  "clickSign": {
+                                      "enabled": true,
+                                      "verticalAlign": "center",
+                                      "horizontalAlign": "center",
+                                      "width": 42,
+                                      "height": 32,
+                                      "opacity": 0.5,
+                                      "borderRadius": 20,
+                                      "backgroundColor": "#000000",
+                                      "style": ".smalltext { font-size:12; }",
+                                      "html": "<p align='center'>Clica</p>",
+                                      "scaleRate": 0.75
+                                  },
+                                  //"playOnce": true,
+                                  "servers": [
+                                     {
+                                         "type": "DART",
+                                         'apiAddress': 'http://pub.sapo.pt/vast.php?zoneid=1134&cb=932015526&charset=UTF-8',
+                                         "allowAdRepetition": "false",
+                                         "playOnce": true
+
+                                     }
+                                 ],
+                                  "schedule": [
+                                     {
+                                         "zone": "0/player_video/@x30",
+                                         "position": "pre-roll",
+                                         "loadOnDemand": true,
+                                         "notice": {
+                                             "show": true,
+                                             "region": "my-ad-notice",
+                                             "message": "O vídeo termina dentro de _countdown_ segundos"
+                                         }
+                                     }
+                                 ]
+                              }
+                          }
+                      },
+                    //PLUGIN
+                    'id': 'playerVideoID',
+                    'events':{            
+                        'onPlay': function(evt){
+                            paused = true;
+                            //alert('não refescar: ' + paused);;
+                            clicked = clicked + 1;
+                                if(clicked==1){
+                                //Incrementa
+                                IncrementFileHits(195119,9);
+                                }                                
+                        },
+                        'onPause':function (evt){
+                            paused = !paused;
+                            //alert('refescar: ' + paused);
+                        },
+                        'onComplete': function () {
+                            paused = !paused;
+                            //alert('refescar: ' + paused);
+                        }
+                    },
+                    'backcolor': '000000',
+                    'allowscriptaccess':'always', 
+                    'allowfullscreen':'true',
+                    'width': '586',
+                    'height': '329',
+                    'logo.file': 'http://www.mega.fm/images/logomega_mosca.png',
+                    'logo.position': 'top-right',
+                    'logo.out': '1',
+                    'logo.hide': 'false',
+                    'skin': 'skin/mega10.zip',
+                    'file': 'http://mediaserver3.rr.pt/mega2010/TRAILER_HARDWELL11112792.flv',
+                    'image': 'http://mediaserver3.rr.pt/mega2010/IMG_53584484e6d8_586x329.jpg',
+                    'abouttext': 'MEGA HITS - Site Oficial da MEGA HITS!!!',        
+                    'aboutlink': 'http://megahits.sapo.pt/',
+                    'modes': [
+                        { type: 'flash', src: 'jwplayer/player.swf?preventCache=' + new Date().valueOf() + '' },          
+                        {type: 'html5',
+                          config: {
+                           'file': 'http://mediaserver3.rr.pt/mega2010/TRAILER_HARDWELL11112792_H264_HQ.mp4',
+                           'image': 'http://mediaserver3.rr.pt/mega2010/IMG_53584484e6d8_586x329.jpg',
+                           'provider': 'video'
+                            }
+                        },
+                        {type: 'download',
+                          config: {
+                           'file': 'http://mediaserver3.rr.pt/mega2010/TRAILER_HARDWELL11112792_H264_HQ.mp4',
+                           'image': 'http://mediaserver3.rr.pt/mega2010/IMG_53584484e6d8_586x329.jpg',
+                           'provider': 'video'
+                            }
+                        }
+                    ]
+                  });
+      
+                </script>
+
+            </div>
+	</div>
+    <div class="fltlft"><img src="images/butVert_blu_videosdestaque.png" /></div>
+    <br class="clearfloat" />
+</div>
+            <!-- Fim Mega Videos -->
+        </div>
+	    <div class="fltrgt" style="width:381px; height:385px; padding:0; margin:0;">
+            <div>
+                <a href="meganews.aspx">
+                    <img width="360" height="55" src="images/hp_noticias_pointer_01_01.png" style="border:0" /><img width="21" height="55" src="images/hp_noticias_pointer_01_02.png" style="border:0" />
+                </a>
+            </div>
+            <!-- Web 10 -->
+                
+<!-- Carousel Begins -->
+        <link rel="stylesheet" href="css/featureCarousel.css" charset="utf-8" />
+		<script src="js/jquery.featureCarousel.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#featureCarousel").featureCarousel({
+                });
+            });
+        </script>
+<!-- Carousel Ends -->
+
+<div style="background-image: url(images/bg_hpNewWeb10.jpg); background-position: top; background-repeat: no-repeat; width:381px; height:330px; padding-top:2px;">
+    <div id="hpWeb10rotator">
+	    <div id="web10rotator">
+    	    <div id="web10rotatorNav">
+                <div id="featureCarousel">
+                    
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6232&top=1" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl00_adest" title="HOZIER"><img src="http://mediaserver3.rr.pt/mega2010/Take_Me_To_Church1324fabe_140x140.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl00_imgdest" width="113" height="113" alt="HOZIER" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_1.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl00_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6232&top=1" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl00_adestTitle" class="web10desc_lnk" title="HOZIER">
+                                            HOZIER
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6139&top=2" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl01_adest" title="ECHOSMITH"><img src="http://mediaserver3.rr.pt/mega2010/untitled1880b991_140x140.png" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl01_imgdest" width="113" height="113" alt="ECHOSMITH" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_2.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl01_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6139&top=2" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl01_adestTitle" class="web10desc_lnk" title="ECHOSMITH">
+                                            ECHOSMITH
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6248&top=3" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl02_adest" title="SAM SMITH"><img src="http://mediaserver3.rr.pt/mega2010/Sam-Smith-Like-a-Can-2014-1200x120013130719_140x140.png" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl02_imgdest" width="113" height="113" alt="SAM SMITH" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_3.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl02_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6248&top=3" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl02_adestTitle" class="web10desc_lnk" title="SAM SMITH">
+                                            SAM SMITH
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6245&top=4" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl03_adest" title="ELLIE GOULDING"><img src="http://mediaserver3.rr.pt/mega2010/ellie12218fa3_140x140.png" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl03_imgdest" width="113" height="113" alt="ELLIE GOULDING" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_4.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl03_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6245&top=4" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl03_adestTitle" class="web10desc_lnk" title="ELLIE GOULDING">
+                                            ELLIE GOULDING
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6098&top=5" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl04_adest" title="TAYLOR SWIFT"><img src="http://mediaserver3.rr.pt/mega2010/1989_Taylor_Swift13887aa8_140x140.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl04_imgdest" width="113" height="113" alt="TAYLOR SWIFT" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_5.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl04_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6098&top=5" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl04_adestTitle" class="web10desc_lnk" title="TAYLOR SWIFT">
+                                            TAYLOR SWIFT
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6099&top=6" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl05_adest" title="ARIANA GRANDE ft. THE WEEKND"><img src="http://mediaserver3.rr.pt/mega2010/Ariana-Grande-Love-Me-Harder46816d22_140x140.png" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl05_imgdest" width="113" height="113" alt="ARIANA GRANDE ft. THE WEEKND" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_6.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl05_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6099&top=6" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl05_adestTitle" class="web10desc_lnk" title="ARIANA GRANDE ft. THE WEEKND">
+                                            ARIANA GRANDE ft. THE WEEKND
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6212&top=7" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl06_adest" title="MARLON ROUDETTE"><img src="http://mediaserver3.rr.pt/mega2010/marlon-video1267ba8d_140x140.png" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl06_imgdest" width="113" height="113" alt="MARLON ROUDETTE" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_7.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl06_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6212&top=7" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl06_adestTitle" class="web10desc_lnk" title="MARLON ROUDETTE">
+                                            MARLON ROUDETTE
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6207&top=8" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl07_adest" title="BEYONCÉ"><img src="http://mediaserver3.rr.pt/mega2010/Final_711_SingleCover6215cee7_140x140.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl07_imgdest" width="113" height="113" alt="BEYONCÉ" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_8.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl07_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6207&top=8" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl07_adestTitle" class="web10desc_lnk" title="BEYONCÉ">
+                                            BEYONCÉ
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6208&top=9" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl08_adest" title="MARK RONSON feat. BRUNO MARS"><img src="http://mediaserver3.rr.pt/mega2010/Mark_Ronson_-_Uptown_Funk1383c007_140x140.png" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl08_imgdest" width="113" height="113" alt="MARK RONSON feat. BRUNO MARS" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_9.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl08_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6208&top=9" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl08_adestTitle" class="web10desc_lnk" title="MARK RONSON feat. BRUNO MARS">
+                                            MARK RONSON feat. BRUNO MARS
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                        
+                            <div class="feature">
+                                <a href="web10.aspx?fid=17&did=6170&top=10" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl09_adest" title="CALVIN HARRIS &amp; R3HAB"><img src="http://mediaserver3.rr.pt/mega2010/calvin_harris_rehab11584232_140x140.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl09_imgdest" width="113" height="113" alt="CALVIN HARRIS &amp; R3HAB" /></a>
+                                <div class="web10Cover">
+                                    <div class="web10Order"><img src="http://www.megahits.fm/images/web10_ico_10.jpg" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl09_imgPosition" /></div>
+                                    <div class="web10DescHolder">
+                                        <a href="web10.aspx?fid=17&did=6170&top=10" id="ctl00_ContentPlaceHolderMegaHits_uc_web101_rptTopTen_ctl09_adestTitle" class="web10desc_lnk" title="CALVIN HARRIS &amp; R3HAB">
+                                            CALVIN HARRIS & R3HAB
+                                        </a>
+                                    </div>
+                                    <br class="clearfloat" />
+                                </div>
+                            </div>
+                                    
+                </div>
+            </div>
+    	    <div class="fltrgt"><img src="images/butVert_blu_web10.png" width="21" height="100" /></div>
+            <br class="clearfloat" />
+        </div>
+    </div>
+    <br class="clearfloat" />
+    <div id="web10pointer"><a href="web10.aspx"><img src="images/hp_web10rotator_pointer2.png" width="381" height="27" alt="Web 10" title="Web 10" style="border:0" /></a></div>
+</div>
+             <!-- Fim Web10 -->
+
+			<!-- Auto Promo 2 -->
+                
+	        <!-- Fim Auto Promo 2 -->
+             
+        </div>
+        <br class="clearfloat" />
+    </div>                   
+<!-- ******************************  LINE 04 ENDS *******************************  -->
+
+    <!-- Frequencias -->
+        
+
+
+<div style="width:996px; height:50px; margin:0 0 20px 0; float:left; ">
+    <img src="images/bgFrequencias.gif" width="996" height="50" />
+</div>
+
+
+    <!-- Fim Frequencias -->
+
+<!-- ******************************  LINE 05 BEGINS *******************************  -->
+    <div id="line05" style=" float:left;">
+        <!-- Redes e Outros -->
+			
+
+<script type="text/javascript" src="js/sendFeedback.js"></script>
+
+<div id="speedNav">
+    <ul class="items">
+        <li><a href="http://www.facebook.com/pages/MEGA-FM/223032225340" target="_blank" title="Facebook" ><img src="images/sn_nbut_off_facebook.png" width="60" height="80" alt="Facebook" title="Facebook" style="border:0" /></a></li>
+        <li><a href="http://www.youtube.com/megahitswtv" target="_blank" title="Youtube"><img src="images/sn_nbut_off_youtube.png" width="60" height="80" alt="You Tube" title="You Tube" style="border:0" /></a></li>
+        <li><a href="http://instagram.com/megahitstagram " target="_blank" title="Instagram"><img src="images/sn_nbut_off_instagram2.png" width="60" height="80" alt="Instagram" title="Instagram" style="border:0" /></a></li>
+        <li><a href="http://twitter.com/megafmhits" target="_blank" title="Twitter"><img src="images/sn_nbut_off_twitter.png" width="60" height="80" alt="Twitter" title="Twitter" style="border:0" /></a></li>
+        <li><a href="http://www.vimeo.com/megahits" title="Vimeo" target="_blank"><img src="images/sn_nbut_off_vimeo.png" width="60" height="80" alt="Vimeo" title="Vimeo" style="border:0" /></a></li>
+        <li><a href="megavip.aspx"><img src="images/sn_nbut_off_megavip.png" width="60" height="80" alt="Megavip" title="Megavip" style="border:0" /></a></li>
+        <li><a href="feedback.aspx?height=447&width=625&modal=true" onclick="pp_gemius_event('p9.gIrrdY1BRiL2dKDmnNMcP.Mg8m_RtTDPZ0vuKafv.P7', 'gA=Home/Feedback');"  class="thickbox_feedback" title="Feedback" ><img src="images/sn_nbut_off_feedback.png" width="60" height="80" alt="Feedback" title="Feedback" style="border:0" /></a></li>
+        <li><a href="contactos.aspx?height=447&width=625&modal=true" onclick="pp_gemius_event('p9.gIrrdY1BRiL2dKDmnNMcP.Mg8m_RtTDPZ0vuKafv.P7', 'gA=Home/Contactos');" class="thickbox_contactos" title="Contactos" ><img src="images/sn_nbut_off_contactos.png" width="60" height="80" alt="Contactos" title="Contactos" style="border:0" /></a></li>
+        <li><a href="acaboudetocar.aspx?height=447&width=625&modal=true" onclick="pp_gemius_event('p9.gIrrdY1BRiL2dKDmnNMcP.Mg8m_RtTDPZ0vuKafv.P7', 'gA=Home/AcabouDeTocar');" class="thickbox_atocar" title="Acabou de Tocar" ><img src="images/sn_nbut_off_acaboudetocar.png" width="60" height="80" alt="Acabou de Tocar" title="Acabou de Tocar" style="border:0" /></a></li>
+        <li><a href="podcast.aspx" title="PodCast" target="_blank"><img src="images/sn_nbut_off_podcast.png" width="60" height="80" alt="Podcast" title="Podcast" style="border:0" /></a></li>
+        <li><a href="radioblog.aspx" title="Radio Blog" ><img src="images/sn_nbut_off_radioblog.png" width="60" height="80" alt="Radio Blog" title="Radio Blog" style="border:0" /></a></li>
+        <li><a href="http://www.soundcloud.com/megahits" target="_blank" title="SoundCloud"><img src="images/sn_nbut_off_soundcloud.png" width="60" height="80" alt="SoundCloud" title="SoundCloud" style="border:0" /></a></li>
+        
+		<li><a href="pesquisa.aspx?height=447&width=625&modal=true" onclick="pp_gemius_event('p9.gIrrdY1BRiL2dKDmnNMcP.Mg8m_RtTDPZ0vuKafv.P7', 'gA=Home/Pesquisa');" class="thickbox_pesquisa" title="Pesquisa" ><img src="images/sn_nbut_off_pesquisa.png" width="60" height="80" alt="Pesquisa" title="Pesquisa" style="border:0" /></a></li>
+    </ul>
+</div>
+        <!-- Redes e Outros -->
+    </div>
+<!-- ******************************  LINE 05 ENDS *******************************  -->
+
+
+<!-- Inicio de TAG Netscope v2 MEGAFM-->
+<script language="javascript">
+var WRP_ID= 301363;
+var WRP_SECTION='Home';
+var WRP_SUBSECTION='Home MegaFM';
+        var WRP_SECTION_GRP= WRP_ID;
+        var WRP_SUBSECTION_GRP= WRP_SECTION;
+var WRP_CONTENT;
+var WRP_CHANNEL;
+wreport_ok=0;
+
+/* Frame depth */
+var WRP_ACC;
+
+</script>
+<!-- Fim TAG Netscope v2 - www.netscope.marktest.pt - (C)Weborama/Marktest --> 
+
+<!-- netScope v3 – Begin of gPrism tag  - mega_hits - 3376997 -->
+<script type="text/javascript">
+<!--    //--><![CDATA[//><!—
+    var pp_gemius_identifier = 'p9.gIrrdY1BRiL2dKDmnNMcP.Mg8m_RtTDPZ0vuKafv.P7';
+    var pp_gemius_extraparameters = new Array('gA=Homepage_do_site');
+    var pp_gemius_event = pp_gemius_event || function () { var x = window.gemius_sevents = window.gemius_sevents || []; x[x.length] = arguments; };
+    (function (d, t) { var ex; try { var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's://secure' : '://data'); gt.async = 'true'; gt.src = l + '.netscope.marktest.pt/netscope-gemius.js'; s.parentNode.appendChild(gt); } catch (ex) { } } (document, 'script'));
+    //--><!]]>
+</script>
+<!--End netScope v3 / www.net.marktest.pt / (C) Gemius/Marktest 2013 -->
+
+
+                </div>
+                <div id="footer">
+                    
+
+<!-- Banner Footer -->
+    
+
+<style type="text/css">
+#megaLeaderboard {
+	width:996px;
+	height:100px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+	#megaLeaderboard ul.items {
+		margin:0;
+		padding:0;
+	}
+	#megaLeaderboard ul.items li{
+		list-style-type:none;
+		list-style:none;
+		width:332px;
+		height:100px;
+		margin:0;
+		padding:0;
+		float:left;
+	}		
+</style>  
+
+
+
+ 
+<!-- Fim Banner Footer -->
+
+<!-- MREC Footer -->
+    
+
+
+<div style="float:left; padding:0 0 28px 134px; width:862px; height:auto; ">   
+    <div style=" float:left; width:728px; ">
+
+    <script type="text/javascript">
+        var sas_affiliate_id = '105';
+        var sas_site_id = '652';
+        var sas_position_id = '1218';
+        var sas_cluster = '1';
+        var sas_ad_width = '728';
+        var sas_ad_height = '90';
+        var sas_ad_format = '728x90_3';
+        var sas_c = '3';
+        var sas_ad_type = 'text';
+        var sas_location_id = '0';
+        var sas_color_border = '737373';
+        var sas_color_link = 'CC0000';
+        var sas_color_bg = '737373';
+        var sas_color_text = '000000';
+        var sas_color_url = '000000';
+        var sas_ic = '88265725308d4851703b2e8dd34d1d37';
+        var sas_medium = '0';
+    </script><script type="text/javascript" src="http://js.sl.pt/Snippets/SAS.js"></script>
+
+    <br class="clearfloat" />
+    </div>
+<br class="clearfloat" />
+</div> 
+<!-- Fim MREC Footer -->
+
+<!-- Menu Footer -->
+    <br class="clearfloat" />
+    
+
+<div id="siteMap">
+    <ul class="items">
+        <li>
+            <div class="siteMapContentsTitle">Emissão</div>
+            <div class="siteMapContentsItem">
+                <a onclick='javascript:window.open("playerstreampub.aspx","player","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=850, height=420")' style="cursor:pointer" class="siteMap_lnk">Emissão Online</a><br />
+                <a href="podcastweb10.aspx" target="_blank" title="Web10 Podcast" class="siteMap_lnk">Web 10 Podcast</a><br />
+                <a href="podcastgroovebox.aspx" target="_blank" title="Groove Box Podcast" class="siteMap_lnk">GROOVE BOX PODCAST</a><br />
+            </div>
+        </li>
+        <li>
+            <div class="siteMapContentsTitle">Programas</div>
+            <div class="siteMapContentsItem">
+                <a href="detalhe.aspx?did=3308" class="siteMap_lnk">MEGA MANHÃS</a><br />
+                <a href="web10.aspx" class="siteMap_lnk">Web 10</a><br />
+                <a href="groovebox.aspx" title="Groove Box" class="siteMap_lnk">Groovebox</a><br />
+                <a href="groovebox_especial.aspx" title="Groove Box Special Edition" class="siteMap_lnk">Groovebox SE</a><br />
+            </div>
+        </li>                            
+        <li>
+            <div class="siteMapContentsTitle">Facebook</div>
+            <div class="siteMapContentsItem">
+            	<a href="http://www.facebook.com/pages/MEGA-FM/223032225340" target="_blank" title="Facebook" class="siteMap_lnk">Facebook</a><br />
+            </div>
+        </li>  
+        <li>
+            <div class="siteMapContentsTitle">Passatempos</div>
+            <a href="detalhe.aspx?fid=11&did=6267" id="ctl00_uc_footer1_uc_footermenu1_adestpasspr" class="siteMap_lnk" title="Calpe Festival Village">Calpe Festival Village<br /></a>
+            <div class="siteMapContentsItem">
+                 
+            </div>
+        </li>  
+        <li>
+            <div class="siteMapContentsTitle">VÍDEOS</div>
+            <div class="siteMapContentsItem">
+                <a href="videos.aspx?fid=23" title="VÍDEOS" class="siteMap_lnk">VÍDEOS</a><br />
+
+            </div>
+        </li>  
+        <li>
+            <div class="siteMapContentsTitle">Karas</div>
+            <div class="siteMapContentsItem">
+                <a href="karasdetalhe.aspx?fid=12&did=34" title="Animadores" class="siteMap_lnk">ANIMADORES</a><br />
+                <a href="karassuporte.aspx" class="siteMap_lnk">PRODUÇÃO</a><br />
+            </div>
+        </li>  
+        <li>
+            <div class="siteMapContentsTitle">Meganews</div>
+            <div class="siteMapContentsItem">
+                <a href="meganews.aspx" class="siteMap_lnk">MUSIC NEWS</a><br />
+                <a href="meganews.aspx" class="siteMap_lnk">ACTUALIDADE</a><br />
+                <a href="artistasmega.aspx" class="siteMap_lnk">ARTISTAS / BANDAS</a><br />
+                <a href="tempo.aspx" class="siteMap_lnk">TEMPO</a><br />
+                <a href="transito.aspx" class="siteMap_lnk">TRÂNSITO</a><br />
+            </div>
+        </li>  
+        <li>
+            <div class="siteMapContentsTitle">Checkin</div>
+            <div class="siteMapContentsItem">
+                <a href="categoria.aspx?fid=31" title="Eventos" class="siteMap_lnk">EVENTOS</a><br />
+                <a href="categoria.aspx?fid=25" title="Cinema" class="siteMap_lnk">CINEMA</a><br />
+                <a href="categoria.aspx?fid=28" title="Festas" class="siteMap_lnk">FESTAS</a><br />
+                <a href="categoria.aspx?fid=26" title="Concertos" class="siteMap_lnk">CONCERTOS</a><br />
+                <a href="categoria.aspx?fid=29" title="Teatro" class="siteMap_lnk">TEATRO</a><br />
+                <a href="categoria.aspx?fid=27" title="DVD's" class="siteMap_lnk">DVD’S</a><br />
+            </div>
+        </li>    
+        <li>
+            <div class="siteMapContentsTitle">MEGA VIP</div>
+            <div class="siteMapContentsItem">
+                <a href="megavip.aspx" title="Mega Vip" class="siteMap_lnk">MEGA VIP</a><br />
+                <a onclick="javascript:window.open('http://megafm.mediascoreinc.com', 'MediaScore2', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=800,height=750')" style='cursor:pointer' class='siteMap_lnk'>My Mega</a>
+            </div>
+        </li>  
+    </ul>
+    <div id="notloggedComment"></div>
+    <div id="loggedComment"></div>  
+</div>
+<!-- Fim Menu Footer -->
+
+<!-- Grupo R/COM Logos -->
+    
+
+<div id="grupoRcom">
+	<div id="groupLogos">
+        <ul class="items">
+            <li><img src="images/lg_grupo.gif" alt="Grupo r/com" title="Grupo r/com" style="border:0" /></li>
+            <li><a href="http://www.rr.pt/" target="_blank"><img src="images/lg_rr.gif" alt="Renascença - Música e informação dia a dia" title="Renascença - Música e informação dia a dia" style="border:0" /></a></li>
+            <li><a href="http://www.rfm.pt/" target="_blank"><img src="images/lg_rfm.gif" alt="RFM - Só grandes músicas" title="RFM - Só grandes músicas" style="border:0" /></a></li>
+            <li><a href="http://www.radiosim.pt/" target="_blank"><img src="images/lg_sim.gif" alt="Rádio Sim - Assim sim. AM/FM" title="Rádio Sim - Assim sim. AM/FM" style="border:0" /></a></li>
+            <li><a href="http://www.intervoz.pt/" target="_blank"><img src="images/lg_intervoz.gif" alt="Intervoz - Publicidade S.A." title="Intervoz - Publicidade S.A." style="border:0" /></a></li>
+            <li><a href="http://www.geniusymeios.pt/" target="_blank"><img src="images/lg_genius.gif" alt="Genius y Meios - Entretimento y Formação" title="Genius y Meios - Entretimento y Formação" style="border:0" /></a></li>
+            
+        </ul>
+    </div>
+</div>
+<div id="dadosGerais">
+    Rua Ivens, 14 - 1249-108 LISBOA Telef.: 213 239 200 <a href="mailto:mail@megahits.fm" class="dadosGerais_lnk">mail@megahits.fm</a><br />
+    Site optimizado para as versões do Internet Explorer 7 e 8 e Firefox 3.6<br /><br />
+    <a href="detalhe.aspx?did=5210" class="dadosGerais_lnk" target="_blank" title="Publicidade" >Publicidade</a>
+    <br /><br />
+</div>
+
+<!-- Fim Grupo R/COM Logos -->
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </form>
+
+<!-- RICHMEDIA -->
+
+<script type='text/javascript'><!--    //<![CDATA[
+    var m3_u = (location.protocol == 'https:' ? 'https://pub.sapo.pt/ajs.php' : 'http://pub.sapo.pt/ajs.php');
+    var m3_r = Math.floor(Math.random() * 99999999999);
+    if (!document.MAX_used) document.MAX_used = ',';
+    document.write("<scr" + "ipt type='text/javascript' src='" + m3_u);
+    document.write("?zoneid=1133");
+    document.write('&cb=' + m3_r);
+    if (document.MAX_used != ',') document.write("&exclude=" + document.MAX_used);
+    document.write(document.charset ? '&charset=' + document.charset : (document.characterSet ? '&charset=' + document.characterSet : ''));
+    document.write("&loc=" + escape(window.location));
+    if (document.referrer) document.write("&referer=" + escape(document.referrer));
+    if (document.context) document.write("&context=" + escape(document.context));
+    if (document.mmm_fo) document.write("&;mmm_fo=1");
+    document.write("'><\/scr" + "ipt>");
+//]]>--></script><noscript><a href='http://pub.sapo.pt/ck.php?n=ab624ea9&cb=932015126' target='_blank'><img src='http://pub.sapo.pt/avw.php?zoneid=1133&cb=932015126&n=ab624ea9' border='0' alt='' /></a></noscript>
+
+<!-- FIM RICHMEDIA -->
+
+<!-- BILLBOARD MEGA -->
+<script type="text/javascript">
+    SAPO_Project_TakeOver = {
+        zoneId: 2966
+    };
+</script>
+<script type="text/javascript" src="http://js.sapo.pt/Snippets/TakeOver-v1.js"></script>
+<!-- BILLBOARD MEGA -->
+
+
+<!-- Inicio de TAG Netscope v2 MEGA FM-->
+<script language="javascript" src="/js/netscope2.js"></SCRIPT>
+<SCRIPT>
+if(wreport_ok==1){ var w_counter = new wreport_counter(WRP_SECTION, WRP_SUBSECTION, WRP_ID, WRP_ACC, WRP_CHANNEL, WRP_SECTION_GRP, WRP_SUBSECTION_GRP);
+w_counter.add_content(WRP_CONTENT);
+w_counter.count();}
+</script>
+<!-- Fim TAG Netscope v2 - www.netscope.marktest.pt - (C)Weborama/Marktest -->
+<script type="text/javascript" src="http://js.sapo.pt/SAPOWebAnalytics/"></script>
+<script>
+    SAPO.WebAnalytics.track({
+        swakt: "a1a425c9-dc6d-42dd-9424-a5760b76117c"
+, swasection: WRP_SECTION
+, swasubsection: WRP_SUBSECTION
+, swasectiongrp: WRP_SECTION_GRP
+, swasubsectiongrp: WRP_SUBSECTION_GRP
+, swacontent: WRP_CONTENT
+, swachannel: WRP_CHANNEL
+    });
+</script>
+
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-41843212-1', 'sapo.pt');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+
+</script>
+
+
+<!-- Webspectator -->
+
+<script type="text/javascript" src="http://scripts.webspectator.com/ws-4455CDF3.js" ></script>
+
+
+<!-- SCRIPT BARRA SAPO -->
+<script type="text/javascript" id="bsu-v2-sapo" src="http://bars.sapo.pt/bsu_v2.0/barra.js" data-partner="rcom" data-country="pt"></script>
+<!-- Fim SCRIPT BARRA SAPO --> 
+</body>
+</html>

@@ -103,7 +103,7 @@ def process_body(body, url):
 
 	# Handle any 10-256 characters of hex or decimal
 	# Minimum of 10 to handle UNIX timestamps
-	body = re.sub(br'\b[A-Fa-f0-9\.]{10,256}', b"", body)
+	body = re.sub(br'[A-Fa-f0-9\.]{10,256}', b"", body)
 
 	# Randomized anti-spam mailto: lines
 	body = re.sub(br'<a href="mailto:[^"@]{1,100}@[^"]{2,100}">(&#[0-9a-fA-Fx]{2,4};){3,100}</a>', b"", body)
@@ -123,7 +123,7 @@ def process_body(body, url):
 	# <input type="hidden" name="form_build_id" value="form-ddmhsyCMnpZsHKCQN-l6R1j9EwMT3lHKDI4xXcyFcBA" />
 	# Spotted on http://2045.com/
 	# <input type="hidden" name="file_uploadToken" value="\d+"
-	body = re.sub(br'<input type="hidden"[^>]{1,1000}?>', b"", body)
+	body = re.sub(br'<input type="hidden"[^>]{1,16384}?>', b"", body)
 
 	# Spotted on http://www.communauteanimalcrossing.fr/
 	body = re.sub(br'<param name="flashvars" value="servannee=\d{4}&amp;servmois=\d{1,2}&amp;servjour=\d{1,2}&amp;servheure=\d{1,2}&amp;servminute=\d{1,2}&amp;servseconde=\d{1,2}" />', b"", body)
@@ -132,8 +132,9 @@ def process_body(body, url):
 	body = re.sub(br'\(\d+ Viewing\)', b"", body)
 	body = re.sub(br'Currently Active Users</a>: \d+ \(\d+ members and \d+ guests\)', b"", body)
 
-	# Spotted on http://vstreamers.com/v/images/css/p/videos
-	body = re.sub(br'[&\?]v=\d+', b"", body)
+	# v= on http://vstreamers.com/v/images/css/p/videos
+	# cb= on megahits.sapo.pt
+	body = re.sub(br'[&\?](v|cb)=\d+', b"", body)
 
 	# Kill newrelic inline script
 	body = re.sub(br'window\.NREUM\|\|\(NREUM=\{\}\);NREUM\.info=\{.{1,3000}?\}', b"", body)
