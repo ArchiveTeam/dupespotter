@@ -4,10 +4,16 @@ import sys
 import os
 import json
 import time
+import re2
 
-from dupespotter import process_body, compare_unprocessed_bodies
+from dupespotter import process_body, compare_unprocessed_bodies, null_out_matches
 
 def main():
+	regexp = re2.compile(r'hello|test')
+	assert null_out_matches(regexp, b"hello world testtestone test")   == b"\x00\x00\x00\x00\x00 world \x00\x00\x00\x00\x00\x00\x00\x00one \x00\x00\x00\x00"
+	assert null_out_matches(regexp, b"hello world testtestone testx")  == b"\x00\x00\x00\x00\x00 world \x00\x00\x00\x00\x00\x00\x00\x00one \x00\x00\x00\x00x"
+	assert null_out_matches(regexp, b"_hello world testtestone testx") == b"_\x00\x00\x00\x00\x00 world \x00\x00\x00\x00\x00\x00\x00\x00one \x00\x00\x00\x00x"
+
 	start = time.time()
 	for test_name in os.listdir("tests"):
 		body_fnames = list(os.path.join("tests", test_name, f) for f in os.listdir(os.path.join("tests", test_name)) if not f.endswith(".info.json"))
