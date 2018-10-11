@@ -14,8 +14,8 @@ def main():
 		assert len(body_fnames) == 2, body_fnames
 		body1 = open(body_fnames[0], "rb").read()
 		body2 = open(body_fnames[1], "rb").read()
-		url1 = json.loads(open(body_fnames[0] + ".info.json", "r").read())["url"]
-		url2 = json.loads(open(body_fnames[1] + ".info.json", "r").read())["url"]
+		url1  = json.loads(open(body_fnames[0] + ".info.json", "r").read())["url"]
+		url2  = json.loads(open(body_fnames[1] + ".info.json", "r").read())["url"]
 		print(test_name)
 		compare_unprocessed_bodies(body1, body2, url1, url2)
 		print()
