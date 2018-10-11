@@ -131,9 +131,6 @@ drupal_nuke_regexps = [
 	# Drupal sites have randomized sidebar content with these IDs
 	br'<div class="views-field views-field-[-a-z]+">.*',
 
-	# nsslabs.com has this
-	br'<div class="breadcrumb">.{1,4000}?    </div>',
-
 	# sbs.com.au has generated /css_ filenames
 	br'/css_[-_A-Za-z0-9]{10,100}\.css',
 
