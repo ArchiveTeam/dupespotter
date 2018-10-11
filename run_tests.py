@@ -17,7 +17,7 @@ def main():
 		url1  = json.loads(open(body_fnames[0] + ".info.json", "r").read())["url"]
 		url2  = json.loads(open(body_fnames[1] + ".info.json", "r").read())["url"]
 		print(test_name)
-		compare_unprocessed_bodies(body1, body2, url1, url2)
+		assert compare_unprocessed_bodies(body1, body2, url1, url2)
 		print()
 	print("Done in %f seconds" % (time.time() - start,))
 
