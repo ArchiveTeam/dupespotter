@@ -21,7 +21,7 @@ def get_cache_filename(url):
 	return os.path.join(cache_dir, md5_url(url))
 
 
-UA = "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36"
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3452.0 Safari/537.36"
 
 def get_body(url):
 	fname = get_cache_filename(url)
